@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block header %}
+<div class="top-info">
+  <p class="breadcrums"><a href="{{ current_path }}..">..</a>{{ current_path }}</p>
+</div>
+
+<h1 class="category-title">{{ taxonomy.name }}</h1>
+{% endblock header %}
+
+{% block content %}
+<div class="categories-list">
+  {% for term in terms %}
+  <div class="item">
+    [{{ term.pages | length }}] <a href="{{ term.permalink | safe }}">{{ term.name }}</a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}
