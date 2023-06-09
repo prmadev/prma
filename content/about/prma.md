@@ -2,6 +2,7 @@
 title="about_prma"
 date = 2023-06-09
 slug = "prma"
+description = "Explaining the blog, the name and the idea behind it."
 +++
 
 {{ rez_img(path="/img/prma.png", width=600, op="fill", height=600) }}

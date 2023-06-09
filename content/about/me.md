@@ -2,6 +2,7 @@
 title="about_me"
 date = 2023-06-08
 slug = "me"
+description = "Explaining myself."
 +++
 
 {{ rez_img(path="/img/avatar.png", width=600, op="fill", height=600) }}
@@ -38,7 +39,7 @@ I am probably falling very harshly on the far-left of political stereotypes.
 I'm a feminist, vegan, animal rights advocate. I have been envolved with envrionmentalism. 
 There are other things (like [rationalism](https://www.lesswrong.com/tag/rationalist-movement) and utilitarianism and consciousness idealism) but I won't bore you with that.
 
-## I, in the wild
+## Me, in the wild
 
 <div style="display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; ">
   <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a rel="me" href="https://fosstodon.org/@Amirography"> Fosstodon </a> </div>
