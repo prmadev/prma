@@ -9,9 +9,9 @@ slug = "prma"
 ## The Name
 
 "prma" is derived from "perma,"
-which refers to concepts such as permaculture,
-permacomputing, and permanence.
-However, it lacks the letter "e" due to the unavailability of perma.dev.
+which refers to concepts such as [permaculture](https://en.wikipedia.org/wiki/Permaculture),
+[permacomputing](https://permacomputing.net/), and permanence.
+However, it lacks the letter "e" due to the unavailability of `perma.dev`.
 Nevertheless, it still serves its purpose effectively, which is worth noting.
 A permanent thing does not necessarily have to be perfect;
 however, its imperfections should be transparent and acknowledged.
