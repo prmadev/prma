@@ -1,7 +1,7 @@
 +++
 title = "Enums are awesome"
-date = 2023-01-04
 draft = true
+date = 2023-01-04
 slug = "enums_are_awesome"
 insert_anchor_links = "heading"
 

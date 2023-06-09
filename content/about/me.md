@@ -1,5 +1,7 @@
 +++
 title="about_me"
+date = 2023-06-08
+slug = "me"
 +++
 
 {{ rez_img(path="/img/avatar.png", width=600, op="fill", height=600) }}
