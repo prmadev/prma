@@ -7,7 +7,7 @@ insert_anchor_links = "heading"
 description= "Why do some nations fail and rise so quickly? The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon."
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["option"]
 tags = ["fediverse"]
 
 +++

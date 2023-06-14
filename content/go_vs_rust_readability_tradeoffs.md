@@ -7,7 +7,7 @@ slug = "readability_tradeoffs"
 insert_anchor_links = "heading"
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["opinion"]
 tags = ["rust", "programming", "go"]
 
 [extra]

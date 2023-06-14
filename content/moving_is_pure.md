@@ -7,7 +7,7 @@ insert_anchor_links = "heading"
 description= "I argue that moved arguments inside Rust's functions preserves the purity of the function."
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["opinion"]
 tags = ["programming", "rust", "functional-programming"]
 +++
 

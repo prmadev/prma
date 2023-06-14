@@ -7,7 +7,7 @@ slug = "hashyderm_more_ops_than_fosstodon"
 insert_anchor_links = "heading"
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["opinion"]
 tags = ["fediverse"]
 
 +++

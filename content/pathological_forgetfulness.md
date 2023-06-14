@@ -6,7 +6,7 @@ slug = "pathological_forgetfulness"
 insert_anchor_links = "heading"
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["opinion"]
 tags = ["personal", "ADHD"]
 
 [extra]

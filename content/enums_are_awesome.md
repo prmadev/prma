@@ -6,7 +6,7 @@ slug = "enums_are_awesome"
 insert_anchor_links = "heading"
 
 [taxonomies]
-categories = ["thoughts"]
+categories = ["opinion"]
 tags = ["programming", "type-system"]
 +++
 

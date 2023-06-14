@@ -11,7 +11,7 @@
 {% set pages = section.pages %}
 {% endif %}
 <ul>
-  {% for page in pages %}
+  {% for page in pages | sort(attribute="date") | reverse %}
   <li class="post-item">
     <a class="post-time">{% if page.date %}{{ page.date }}{% endif %}</a>
     <br />
