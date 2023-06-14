@@ -1,6 +1,6 @@
 +++
 title = "FLOSS and Longevity sitting in a tree"
-description = "Yes, FLOSS is more friendly with making longevity a priority"   
+description = "FLOSS is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability."   
 date = 2023-06-14
 draft = false
 slug = "floss_is_friendly_towards_longivity"
@@ -8,63 +8,69 @@ insert_anchor_links = "heading"
 
 [taxonomies]
 categories = ["opinion"]
-tags = ["permaculture", "longevity", "FLOSS"]
+tags = ["permaculture", "longevity", "FLOSS", "permacomputing"]
 +++
 
 Free/Libre and Open Source Software (FlOSS) is a captivating realm within software development.
-What makes FOSS particularly intriguing is its deviation from conventional business goals,
+What makes FLOSS particularly intriguing is its deviation from conventional business goals,
 leading to planned longevity and a distinct approach to sustainability.
-Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.
 
 ## Reasons
 
-### FLOSS business model is better served by longevity  
+Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.
+
+### The longevity of the FLOSS business model serves it well  
 
 The common business models are better suited for short-term goals.
 There are two major approaches: selling or renting.
 
-Most small to mid-sized software companies are primarily focused on selling products.
-The longevity of these products is an afterthought, a necessity rather than the main objective.
-It serves to establish consumer trust.
-Once the initial excitement of selling a new and shiny product fades, the company moves on to the next one.
-The success of selling these new products relies on users' fear of missing out and the perceived loss of functionality in the previous product.
-This often leads to the inclusion of unnecessary features, planned obsolescence, and resistance against the right to repair.
-Longevity is disregarded as endless cycles of replacing one product with another take precedence.
+Small to mid-sized software companies predominantly prioritize the sale of their products.
+The concept of product longevity, while acknowledged as necessary,
+assumes a secondary role rather than being a central objective.
+Its primary function lies in establishing trust among consumers.
+Once the initial excitement surrounding the launch of a new and captivating product subsides,
+these companies swiftly shift their attention to the next innovation.
+The success of marketing these novel products heavily relies on users' fear of missing out
+and the perceived loss of functionality associated with the previous iteration.
+Unfortunately, this often leads to the inclusion of unnecessary features,
+deliberate planning for obsolescence, and resistance against the right to repair.
+In this cycle, longevity takes a backseat as the perpetual replacement of one product with another takes precedence.
 
-On the other hand, large companies prioritize renting software.
-Instead of owning the software, users pay subscription fees for continued use.
-One might assume that these companies would prioritize stability in order to retain their subscribers.
-However, in practice, they often choose a different path.
-They rely on monopolistic practices, such as acquiring competitors or launching massive marketing campaigns to crush newcomers.
-When they fail to eliminate competition, they resort to exclusivity of content,
-forcing users to purchase their product along with their competitors'.
-Users end up using these products for extended periods not because of their superior quality,
-but because they feel they have no other viable options.
-
+Conversely, larger companies place a premium on the rental model for software.
+Instead of users owning the software outright,
+they opt for subscription-based payment models for continuous usage.
+One might assume that these companies would prioritize stability to retain their subscribers.
+However, practical implementation often takes a different route.
+These companies rely on monopolistic tactics,
+such as acquiring competitors or launching extensive marketing campaigns to stifle new entrants.
+In cases where competition persists, they resort to content exclusivity,
+coercing users to purchase their product alongside competitors' offerings.
+Consequently, users find themselves utilizing these products for prolonged periods not due to their exceptional quality,
+but rather because they perceive limited alternative options.
 The subscription model may make sense when paying for a service,
 but it doesn't align with current software development.
 Paying subscription for developing and bug-fix of a product is simply paying for the privilege of using an incomplete version of a product.
 
-On the other hand, companies that employ a pay-for-enterprise-support model for open-source products,
-like Canonical and Red Hat, tend to have more responsible practices.
-Longevity is their main focus.
-If the software is not broken, their work is straightforward; they don't need to fix the same issue multiple times for each individual client.
-Longevity is both their proof and their means of operation.
-They support software that has already withstood numerous instabilities.
-They use various stages of development,
-such as alpha, unstable, stable, and long-term releases.
-These features may then be passed on to other distributions with more resilient goals, such as REHL.
+In contrast, companies adopting a pay-for-enterprise-support model for open-source products,
+such as Canonical and Red Hat, exhibit commendable practices.
+Their primary emphasis lies on longevity.
+If the software is functioning adequately, their tasks are straightforward,
+eliminating the need to address the same issue repeatedly for each client.
+Longevity serves as both their evidence and modus operandi.
+They provide support for software that has already weathered numerous instabilities.
+They employ different development stages, such as alpha, unstable, stable, and long-term releases.
+These features can subsequently be passed on to other distributions with more robust objectives, such as REHL.
 
-While they may charge for bug fixes,
-they are essentially selling stability and longevity (think Ubuntu Pro).
-This is not merely because these companies are inherently kind but because they have no other option.
-They cannot monopolize a product that anyone can clone, fork, learn from, and start a business supporting.
-They cannot sell software that others can fork, enhance, and sell at a higher price or for free.
-Their only options are to create a product that is neither too limited to be useless nor too large to be difficult to support.
+Although these companies may impose charges for bug fixes, their underlying offering revolves around selling stability and longevity (think Ubuntu Pro).
+This approach is not driven solely by inherent benevolence but rather stems from a lack of alternatives.
+They are unable to monopolize a product that can be cloned, forked, and utilized to initiate independent ventures.
+Nor can they vend software that others can fork, enhance, and sell at higher prices or even distribute for free.
+Their sole viable course of action entails creating a product that strikes a balance,
+avoiding both excessive limitations that render it futile and excessive complexity that complicates support.
 
 However, business is just one piece of the puzzle.
 
-### FLOSS engineers are more interested in quality than quantity
+### FLOSS engineers prioritize quality over quantity.
 
 As we discussed, most businesses prioritize product quality only until it reaches a level sufficient for selling.
 
@@ -100,11 +106,13 @@ In summary, there are four main reasons:
 4. Embracing transparency
 
 
-### FLOSS is more diverse
+### FLOSS exhibits a greater degree of diversity.
+
 When it comes to a biological ecosystem, its resilience stems from the diversity of its members.
 Let's imagine a scenario involving a moth that feeds on maple tree branches.
 In a jungle filled with maple trees, the moth can feast and reproduce endlessly.
 However, there's a twist.
+
 Around 10% of the maple trees have developed a variation of their membrane that is toxic to the moth, purely by chance.
 Now, if the moth tries to feed on these trees, it has a 1 in 10 chance of being fatally poisoned.
 If there were only a single moth, it would be the end of its lineage.
@@ -128,26 +136,24 @@ preinstalled applications, package managers,
 and even packaging architecture models.
 Additionally, there are kernels compiled with different flags and versions.
 
-Given this diversity,
-it's no surprise that Microsoft's extensive campaign in the 2000s against the relatively young,
-less organized, and less resourceful Linux failed so miserably.
-In fact, Microsoft has recently released its own Linux distribution and has spent years developing the Windows Subsystem for Linux.
+Given this remarkable diversity,
+it comes as little astonishment that Microsoft's ardent campaign during the 2000s against the comparably youthful,
+less cohesive, and resource-limited Linux met with abysmal failure.
+Strikingly, in a twist of events,
+Microsoft has lately unveiled its very own Linux distribution and dedicated years to crafting the Windows Subsystem for Linux.
 
-An ecosystem where people develop, redesign, and fork different products,
-introducing various solutions, may seem inefficient to the proprietary scene.
-However, from a permaculture and permacomputing standpoint, such an ecosystem is utopia.
+To the proprietary realm, an ecosystem characterized by the development,
+redesign, and forking of diverse products, yielding a multitude of solutions, may appear inherently inefficient.
+Yet, from the perspective of permaculture and permacomputing, such an ecosystem manifests as nothing short of utopia.
 
-### FLOSS is more robust
+### FLOSS demonstrates a higher level of robustness.
 
-FLOSS  is not merely a generator of variations that start from scratch every time.
-It is a system where things are built upon one another,
-and as each layer is added,
-the lower layers become increasingly critical.
-No matter how many stories above ground you are, the ground level becomes a significant concern if something threatens it.
-Notable examples of this phenomenon include curl, the kernel, and OpenSSL.
-While these projects were initially started by individuals,
-they have become integral parts of numerous other projects.
-Many people are driven to contribute to these projects because the cost of not doing so would be much higher.
+FLOSS transcends being a mere generator of independent variations that begin anew each time.
+It represents a system where progress builds upon existing foundations, with each subsequent layer amplifying the importance of the underlying ones.
+Irrespective of how many stories above the ground one ascends, the ground level remains a paramount concern if its integrity is jeopardized.
+Prominent examples of this phenomenon can be observed in projects like curl, the kernel, and OpenSSL.
+Although these initiatives were initially initiated by individuals, they have evolved into integral components of numerous other undertakings.
+The driving force compelling many individuals to contribute to these projects stems from the realization that the cost of abstaining from participation would be significantly greater.
 
 However, it is important to recognize that this process is not always pleasant.
 Consider the immense pressure on OpenSSL developers.
@@ -161,7 +167,8 @@ Until a replacement is found, users are left unaware and vulnerable to potential
 Thanks to this collective effort and attention to robustness,
 many foundational open-source software programs have remained the best tools for the job even after decades of use.
 
-## Fin 
+## Dear reader... 
 
-Now, dear reader,
-I hope you grasp why someone with an interest in enduring solutions finds the FLOSS world far more fertile than the alternatives.
+Now, esteemed reader,
+I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions
+find the realm of FLOSS far more fertile than its alternatives.
