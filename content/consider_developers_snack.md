@@ -1,5 +1,5 @@
 +++
-title = "When Assessing Software Sustaiability, Consider Developer's Snack"
+title = "When Assessing Software's Sustaiability, Consider Developer's Snack"
 description = "I try to stress on the complexities of sustainable computing."   
 date = 2023-06-21
 draft = false
