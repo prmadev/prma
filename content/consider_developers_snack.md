@@ -1,6 +1,6 @@
 +++
 title = "When Assessing Software's Sustainability, Consider Developer's Snack"
-description = "I try to stress on the complexities of sustainable computing."   
+description = " I argue that sustainable computing is a complex field, encompassing various dimensions and posing intricate challenges."   
 date = 2023-06-21
 draft = false
 slug = "consider_developers_snack"
