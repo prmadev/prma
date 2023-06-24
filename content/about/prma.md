@@ -9,46 +9,42 @@ description = "Explaining the blog, the name and the idea behind it."
 
 ## The Name
 
-"prma" is derived from "perma,"
-which refers to concepts such as [permaculture](https://en.wikipedia.org/wiki/Permaculture),
-[permacomputing](https://permacomputing.net/), and permanence.
-However, it lacks the letter "e" due to the unavailability of `perma.dev`.
-Nevertheless, it still serves its purpose effectively, which is worth noting.
-A permanent thing does not necessarily have to be perfect;
-however, its imperfections should be transparent and acknowledged.
+"Prma," derived from the term "perma," draws inspiration from concepts like
+[permaculture](https://en.wikipedia.org/wiki/Permaculture), [permacomputing](https://permacomputing.net/), and permanence.
+Although it lacks the letter "e" due to the unavailability of `perma.dev`, it admirably fulfills its purpose.
+It's important to recognize that permanence does not equate to perfection;
+rather, it entails acknowledging and embracing the inherent imperfections transparently.
+
 
 ## The Scope
 
-This blog extends beyond the realm of perma-computing.
-Its title symbolizes my personal perspective and endorsement of the concept.
-The fascination lies in tools and practices that lend themselves to the creation of long-lasting software.
+This blog transcends the boundaries of perma-computing, as its title serves as a testament to my own viewpoint and endorsement of the concept.
+What truly captivates me is the exploration of tools and methodologies that facilitate the development of enduring software solutions.
 
 ## The Need: The Pitfalls of Disposable Culture and the Quest for Quality 
 
-It is crucial to recognize that everything in life is impermanent.
-However, if we continue to base our lives,
-civilization, and humanity on embracing impermanence,
-it will ultimately lead to our downfall.
+It is of utmost importance to acknowledge the inherent impermanence that permeates every aspect of life.
+However, if we continue down the path of wholeheartedly embracing impermanence,
+we will inevitably face our own downfall, as individuals, as a civilization, and as a species.
 
-Unfortunately, this has become the prevailing norm.
-The tools and products we utilize have become increasingly disposable and inexpensive.
-Yet, the trade-off for this convenience is that
-we accumulate a plethora of substandard items that inevitably break within a matter of two years or less.
-Consequently, our only concern for the following two-year period becomes,
-"What will be my next disposable possession?"
+Regrettably, this notion has become deeply ingrained in our society,
+where the tools and products we rely upon have become increasingly disposable and cheaply made.
+We find ourselves amassing a staggering array of subpar possessions
+that succumb to inevitable breakage within a mere couple of years, if not less.
+Consequently, our primary concern shifts to the constant pursuit of the next disposable acquisition.
 
-This lack of agency results in
-a never-ending cycle of wasting time and resources on constantly replacing broken items.
-It's akin to living in a rental property compared to owning a home—when you know you won't be there for more than a year or two,
-you become less invested in improving your living environment.
+This lack of agency perpetuates a ceaseless cycle of squandering time and resources on the perpetual replacement of broken items.
+It is akin to inhabiting a rental property rather than owning a home—when
+we know we won't be there for more than a brief stint,
+our motivation to improve our living environment dwindles.
 
-Consequently, our overall quality of life suffers.
-Our surroundings are composed of low-quality disposable items,
-and we refrain from investing in superior alternatives due to the constant need
-to consider the next disposable set that will arrive in a couple of years,
-perpetuating this cycle.
+As a result, our overall quality of life suffers immensely.
+Our surroundings are dominated by a sea of low-quality, disposable commodities,
+and we hesitate to invest in superior alternatives due to the ever-looming thought of the next disposable wave
+that will inevitably crash upon us in a couple of years, thus perpetuating this vicious cycle.
 
-Ultimately, this mindset contributes to environmental disasters,
-much like the detrimental impact of using plastic cups instead of reusable ones.
-
-We simply cannot afford to settle for low quality.
+Inevitably, this mindset contributes to environmental catastrophes,
+akin to the detrimental impact of choosing plastic cups over reusable ones.
+We simply cannot afford to settle for mediocrity and substandard quality in all aspects of our existence.
+It is imperative that we rise above this prevailing norm and strive for excellence,
+for the sake of our own well-being and that of our planet.
