@@ -4,7 +4,7 @@ date = 2023-04-09
 draft = false
 slug = "moving_is_pure"
 insert_anchor_links = "heading"
-description= "I argue that moved arguments inside Rust's functions preserves the purity of the function."
+description= "The act of moving arguments within Rust's functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming."
 
 [taxonomies]
 categories = ["opinion"]

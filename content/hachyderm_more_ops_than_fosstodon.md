@@ -1,6 +1,6 @@
 +++
 title = "Hachyderm's community is more ops-oriented than Fosstodon's"
-description = "I explore using some data, the ways that Hachyderm and Fosstodon may be different, community-wise."
+description = "By delving into the data, let us embark on an exploration of the contrasting community dynamics between Hachyderm and Fosstodon. With a keen focus on their distinct characteristics, we can unravel the intricate tapestry of their respective social structures and discern the factors that set them apart."
 date = 2022-11-25
 draft = false
 slug = "hashyderm_more_ops_than_fosstodon"

@@ -4,7 +4,7 @@ date = 2022-11-16
 draft = false
 slug = "power-structure-of-social-networks"
 insert_anchor_links = "heading"
-description= "Why do some nations fail and rise so quickly? The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon."
+description= "The swift ascent and decline of nations bear striking resemblance to the recent migration from Twitter to Mastodon, presenting an unexpected but relevant correlation. Unraveling the underlying reasons behind these phenomena necessitates a profound examination of intricate social, political, and economic factors."
 
 [taxonomies]
 categories = ["option"]
