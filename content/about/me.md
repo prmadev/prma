@@ -9,35 +9,40 @@ description = "Explaining myself."
 
 <p>
 
-There are around 8 billion humans on earth.
-I'm one of them.
+In this vast world,
+teeming with approximately 8 billion human beings,
+I, too, find myself among their ranks, a singular entity in the tapestry of humanity.
 </p>
 
-I have studied architecture, cognitive science
-But I always was fascinated with computing, and finally found my place as a developer.
+Through my intellectual journey,
+I have delved into the realms of architecture and cognitive science,
+exploring the intricate connections between our built environment and the workings of the human mind.
+However, amidst this exploration,
+my fascination with computing remained unwavering, beckoning me towards a path where I finally discovered my true calling as a developer.
 
 ## Job-wise
 
-I'm a back-end developer.
-Go and Rust are the langauges that I use.
-Most of the systems I work with are back-end of back-ends.
+As a back-end developer, my expertise lies in utilizing languages like Go and Rust to build the foundational components of software systems.
+I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
+Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.
 
 ## Tech-wise
 
-I have been staring at computer screens
-(even when they were off)
-since I was 5.
-I have been spending more time behind desktop computers than I spent sleeping.
-I have been a text-book nerd all my life.
-
-Trivia Fact: My favorite genre of books is text-books. 
+Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant.
+The hours I've devoted to sitting behind desktop computers far exceed the time I've dedicated to restful slumber.
+Throughout my life, I proudly embrace the label of a bona fide textbook nerd,
+finding immense joy and fascination in the pages of educational literature.
+In fact, my favorite genre of books happens to be none other than textbooks themselves.
 
 ## Advocacy
 
-I have been involved in free-software advocacy over +15 years.
-I am probably falling very harshly on the far-left of political stereotypes. 
-I'm a feminist, vegan, animal rights advocate. I have been envolved with envrionmentalism. 
-There are other things (like [rationalism](https://www.lesswrong.com/tag/rationalist-movement) and utilitarianism and consciousness idealism) but I won't bore you with that.
+For over 15 years, I have actively engaged in the realm of free software advocacy,
+passionately advocating for the principles of openness and accessibility.
+It's safe to say that I find myself firmly planted in the far-left corner of political stereotypes,
+unapologetically embracing a feminist perspective, advocating for veganism and animal rights, and actively participating in environmentalism.
+While there are other aspects of my beliefs,
+such as my alignment with [rationalism](https://www.lesswrong.com/tag/rationalist-movement), utilitarianism,
+and consciousness idealism, I won't delve into those topics and burden you with excessive details.
 
 ## Me, in the wild
 
