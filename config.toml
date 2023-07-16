@@ -37,7 +37,7 @@ anchors = "safe"
 [extra]
 name = "Amir Alesheikh"                    # Your name
 id = "amirography"                      # Your id/username/handle
-bio = "back-end developer / rustacean / gopher / previous cognitive science student / rationalist"                     # Your bio
+bio = "Back-End Developer / Rustacean / Gopher / Previous Cognitive-Science Student / Rationalist"                     # Your bio
 logo = "img/avatar.png"       # Your avatar
 
 header_nav = [
