@@ -46,7 +46,7 @@ header_nav = [
     { name = "+ categories", url = "/categories" },
     { name = "> about/me", url = "/about/me" },
     { name = "> about/prma", url = "/about/prma" },
-    { name = "= feed", url = "/atom.rss" },
+    { name = "= feed", url = "/atom.xml" },
     # { name = "@contexts", url = "/contexts" },
     # { name = "example", url = "http://example.com", new_tab=true },
 ]
