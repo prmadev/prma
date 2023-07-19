@@ -76,6 +76,7 @@ body {
       justify-content: space-between;
       flex-basis: 600px;
       flex-flow: wrap;
+      max-width: 67rem;
 
       p.breadcrums {
         display: block;
@@ -124,6 +125,8 @@ body {
   main {
     padding: 2rem;
     line-height: 2rem;
+
+    max-width: 70rem;
 
     a {
       text-underline-offset: 30%;
@@ -262,6 +265,7 @@ body {
 
     .post-item {
       margin-bottom: 3rem;
+
 
       .post-time {
         font-weight: normal;
