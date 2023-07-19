@@ -1,6 +1,6 @@
 +++
 title = "Giving my experience of web a makeover"
-description = ""   
+description = "Exploring the allure of the early internet, the disillusionment with social media, finding solace in independent blogging, and embracing better alternatives for a calmer and more rewarding online existence."   
 date = 2023-07-19
 draft = false
 slug = "web-exprience-makeover"
@@ -78,8 +78,6 @@ However, I realize that this post has already grown quite lengthy, and the crite
 Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
 
 ## Dear reader...
-
-
 
 At present, I find immense joy in my renewed online experience—a sense of tranquility and refuge washes over me whenever I delve into the internet.
 I wholeheartedly urge you, dear reader, who may be experiencing similar frustrations to those of my past self, to take a moment and reevaluate your internet usage.
