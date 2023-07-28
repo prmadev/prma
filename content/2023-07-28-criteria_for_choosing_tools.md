@@ -8,7 +8,7 @@ insert_anchor_links = "heading"
 
 [taxonomies]
 categories = ["opinion"]
-tags = ["tools" "tools"]
+tags = ["tools", "tools"]
 
 [extra]
 +++
