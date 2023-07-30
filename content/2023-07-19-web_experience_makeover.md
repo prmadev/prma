@@ -7,7 +7,7 @@ slug = "web-exprience-makeover"
 insert_anchor_links = "heading"
 
 [taxonomies]
-categories = ["personal"]
+categories = ["opinion"]
 tags = ["rss", "feedbin", "kagi","search-engine"]
 
 [extra]

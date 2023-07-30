@@ -7,7 +7,7 @@ insert_anchor_links = "heading"
 description= "The swift ascent and decline of nations bear striking resemblance to the recent migration from Twitter to Mastodon, presenting an unexpected but relevant correlation. Unraveling the underlying reasons behind these phenomena necessitates a profound examination of intricate social, political, and economic factors."
 
 [taxonomies]
-categories = ["option"]
+categories = ["opinion"]
 tags = ["fediverse"]
 
 +++

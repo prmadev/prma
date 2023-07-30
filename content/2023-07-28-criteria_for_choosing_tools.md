@@ -1,102 +1,134 @@
 +++
-title = "Criteria For Choosing Tools"
-description = ""   
-date = 2023-07-28
+title = "When Choosing Tools, Measure Twice, Cut Once"
+description = "The web is problematic, but intentional tool selection empowers a better experience. Look for transparency, avoid lock-ins, and prioritize what matters most. You can do it, and it'll make your life easier. Believe in yourself!"   
+date = 2023-07-29
 draft = true
 slug = "criteria_for_choosing_tools"
 insert_anchor_links = "heading"
 
 [taxonomies]
 categories = ["opinion"]
-tags = ["tools", "tools"]
+tags = ["tools", "web"]
 
 [extra]
 +++
 
-Web is fucked.
-But we any person with some resources at hand and a curiousity at heart and willingness to be intentional with their choice of tools can have nice experience.
 
+The web is utterly fucked.
+But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
 
 ## The Reasons
 
-There are some reasons for why web is fucked. I will just mention them by name so we are on the same page. 
-- It is bloated
-- Full of add
-- Features come first, bugfixes if they are cornerd.
-- It is optimized for journalists and advertisers. Not you. 
-- You are locked in and silod. 
-- They don't empower you. 
 
-### A short side-track
+The web's lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:
 
-The last item may need a little expanding.
-Believe it or not, internet is a tool.
-it is *something* created to fascilitate *some action*.
-Which means that it is there to empower *someone(S)*.
+- Bloated beyond reason.
+- Plagued with incessant ads.
+- Prioritizing feature over bug fixes, if addressed at all.
+- Designed to cater to journalists and advertisers, neglecting your needs.
+- Imposing confinement and isolation upon you.
+- Failing to empower users like yourself.
 
-The *Web 2.0* and *Social Media* (the somethings) promised us to be empowering people (the someones) to have better social connections (the some actions).
-At first they seemed to somewhat deliver on that promise. For many they had a pleasent experience at the beginning of web 2.0.
-In time the incentives of these Social media companies took them to another path, one different from their stated mission. 
-Now, the Web 2.0 is there to fascilitate jorunalists and celebrities (the actual someones) to more fame and recognition (the some action).
-The incentive for these companies? Money from advertisers. The more engaging, the better.
-The dooms day, super political reporter,
-The enraging, populist racist politician,
-the trolling impulsive ceo and
-the stupid drama driven celebrity
-are the four horsemen of reactionary engagement.
+### A Brief Digression
 
-To sum it up, you have been made for a fool, social media is not to empower you.
+The final point warrants further elaboration.
+
+The internet is, in fact, a tool.
+It is *something* that is made to help *someone* achieve *some goal*.
+
+The captivating world of *Web 2.0* and *Social Media* (the somethings) - initially promising to empower people (the someones),
+granting them enriched social connections (the some goal).
+A promising start, indeed, leaving many with pleasant experiences during the inception of Web 2.0.
+
+
+But, alas, as time went by,
+the very incentives that drove these Social Media companies veered them off
+their intended course.
+They embarked on a divergent path, straying from their professed mission, and now,
+Web 2.0 primarily serves as a platform to amplify the voices of journalists and celebrities (the actual someones),
+propelling them towards greater fame and recognition (the actual some goals).
+
+The driving force behind these shifts?
+The ever-persistent quest for revenue from advertisers,
+pushing them to create content that captures maximum engagement.
+The more captivating, the more lucrative.
+
+
+Regrettably,
+the landscape has birthed what I would call the "four horsemen of reactionary engagement":
+the doomsday, super political reporter;
+the enraging, populist racist politician;
+the trolling, impulsive CEO;
+and the drama-driven, vacuous celebrity.
+
+
+In a nutshell, it appears you've been played for a fool.
+Social media's purported aim of empowering you is nothing but a delusion.
 
 ## Go Empower yourself
 
-There is a small prerequisite, before you move along:
-You should already have overcame your fear of missing out. 
-I cannot tell you how.
-But I can help you see why your fears are missplaced.
-You should ask yourself. Do i really miss out on anything important?
-Does the last shitty thing that Donald Trump said, actually made me do anything different with my life?
-If so, was twitter (or whatever the fuck that they call it these days) the only or the best platform to hear about it?
 
-To me, even in Iran, where the official channels are the guranteeed ways of hearing lies, twitter is an over kill.
-Friends and private messages relay the important things to me anyways.
-And sure, they might spend time on twitter, isn't that relay of information the actual promise of social media?
-when that need is being fullfilled anyways, what need is there for twitter then?
+Before you proceed, there's a prerequisite to address:
+overcoming the fear of missing out.
+Now, how one achieves this is not within my scope to divulge,
+but I can assist you in understanding why these fears are unfounded.
 
-If you are privilaged enough to live in a country where official channels are ok,
-and your life depends on some important information, say hurricane allerts, I'm sure there are services dedicated for just that.
-If you enjoy reading articles from news, find out who is the author and follow them directly. Otherwise, you actually don't need this shit.
+Consider this:
+Have you truly missed out on anything of genuine importance?
+Reflect on whether the latest controversial statement from Donald Trump has genuinely altered the course of your life.
+And if it did, was Twitter (or whatever they dub it these days) truly the sole or optimal medium for receiving such information?
 
-You are lead to believe so, because these companies, are like an emotionally abusive partner.
-They tell you that you are too stupid,
-and you cannot manage your life without them.
-You have it nice, they say,
-and you have all your friends because of them.
-They disfigure your interactions, shove ads and bullshit down your trought, and then tell you that they do it because they love you so much. 
-And when they fuck up and you standup to them, they make a show of appologies and promises of change, only to hit you back stronger, later on. 
 
-Don't belive them. I know its hard. But leave them. It might be scarry and hard at first. But you will find yourself to have much better life, afterwards.
-You deserve more, my friend.
+Even in Iran, where official channels are notorious for propagating falsehoods, Twitter appears to be excessive.
+For me, friends and private messages reliably convey essential information.
+And indeed, individuals might spend considerable time on Twitter, but isn't the fundamental pledge of social media the relay of information? If that need is already being fulfilled through other means, what purpose does Twitter truly serve?
+
+
+If you find yourself fortunate enough to reside in a country with trustworthy official channels,
+and your well-being hinges on crucial information like hurricane alerts,
+rest assured that dedicated services cater specifically to such needs.
+Similarly, if you derive pleasure from reading news articles,
+I suggest identifying the authors whose work you value and following them directly.
+However, if these activities do not align with your interests, then quite frankly,
+you have no real necessity for engaging with this "stuff."
+
+
+Oh, my friend, let me share with you a sobering truth about these companies - they're akin to emotionally abusive partners,
+manipulating you into believing you're nothing without them.
+They demean you, calling you stupid and incapable of managing your life without their presence.
+They cunningly weave a narrative of how your life is all thanks to them, that your friendships exist solely because of their benevolence.
+
+But don't be fooled by their deceiving ways.
+They mangle your interactions, force-feeding you ads and utter nonsense, all while claiming it's an act of love.
+And when their misdeeds come to light, they stage a grand spectacle of apologies and vows to change, only to strike back even harder later on.
+
+It's time to break free from this toxic cycle.
+I know it's daunting, and fear may grip your heart initially, but liberate yourself from their clutches.
+You will discover a life far better than you ever imagined.
+You deserve more than this relentless manipulation.
+Embrace the freedom that awaits, my dear friend.
 
 ## How to find a good tool
 
 ### Step One: Find The Low Hanging Fruits
 
-You are here and ready to change your life.
-Will need to recognise the areas of need in your life.
-What needs are your trying to satisfy? On which shitty services are you relying right now?
-Find the most common denominators and start from there.
+You stand at the precipice of transformation,
+ready to change your life for the better.
+The first step is to identify the areas in your life that require attention.
+What needs are you seeking to fulfill?
+And upon which inadequate services are you currently relying?
 
-For me I needed:
-1. a some steady stream of lightweight information.
-2. a daily dose of interaction with new nerds like myself.
-3. a way to discover specific data.
-4. a way to send email.
+In my case, I sought:
 
-For each of these I was relient on some shitty means of getting information.
-For the first two, I was relient on twitter, instagram and reddit and google news.. 
-For the third and the fourth one I used google's services. 
-All under-delivered and caused me a lot of stress.
- 
+1. A steady flow of lightweight information.
+2. Daily interactions with fellow enthusiasts akin to myself.
+3. A means to uncover specific data.
+4. A reliable way to send emails.
+
+For too long, I depended on subpar sources to meet these needs.
+For the first two, I found myself reliant on Twitter, Instagram, Reddit, and Google News.
+As for the third and fourth requirements, I resorted to Google's services.
+However, all of these platforms consistently fell short and inflicted undue stress upon me. 
 
 
 ### Step Two: Find Effective Replacements
@@ -104,56 +136,66 @@ All under-delivered and caused me a lot of stress.
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. 
 But I have not mentioned what constitutes an effective solution.
 
-Here are some of the criterias and rules of thumbs for an empowering tool:
+In my previous post, I alluded to having replaced many of these services with superior alternatives.
+However, I haven't delved into what exactly makes a solution effective.
+
+
+Allow me to outline the criteria and guiding principles for an empowering tool:
 
 1. It should not cause you any harm. 
 2. It should not lock you in.
 3. It should not feel frugal. 
 
-Let me explain: 
+Now, let me delve into the rationale behind these criteria:
 
 #### 1. It should not cause you more harm than good
 
-If the tool cause you more harm than good, why are you using it at all? 
+If a tool causes more harm than good, why persist in using it at all?
 
-Ensure that the tool is transparent about how it works.
-Tools that knowingly hurt you are less incentivized to open up about their inner working.
-Open source and audited (if you trust the incentives and capabilities of the auditer) softwares are a good way doing that. 
+To safeguard your interests, ensure that the tool operates with transparency.
+Platforms that intentionally harm users are less inclined to be forthcoming about their inner workings.
+Opt for open-source and audited software, provided you trust the incentives and capabilities of the auditors, as this fosters transparency.
 
-Make sure the incentives of the creators of the tool are aligned with yours. There are always misalignments in incentives.
-But the degree to which that happens are not always the same. The selling or renting of software may incentivize the developers to plan for obsolecense or sell incomplete products or lock you in.
-However, that miss-alignment pales in comparison to ad-driven models.
+Moreover, it is crucial to align the incentives of the tool's creators with your own.
+While there will always be some degree of misalignment, not all cases are equal.
+Selling or renting software may incentivize developers to plan for obsolescence, sell incomplete products, or enforce lock-ins.
+Yet, these misalignments are overshadowed by the egregious discrepancies inherent in ad-driven models.
 
 #### 2. It should not lock you in
 
-If the tool you are using, cause you to be locked in, when the incentives of the company starts to change, you are fucked. 
-in 2015 I used to be a premium evernote user. I put everything in it.
-Then they droped right-to-left support (which is necessary for some languages in middle-east).
-They didn't deem the middle east to be a good market, so they just ignored every request.
-The pain came when I could not use the exported information from evernote to do anything with it.
-That was the lock in. I had to go through a world of pain to manually export my information.
 
-One question that can help you to find out how much something can lock you in, is to ask this question:
-"Will it be harder for me to move to a competitor from this service, after I have started using it, than it is now before I started to do so?"
-If the service keeps your notes and only gives them back in a non-standard way through xml or json files,
-it would be much harder for you to move to a competitor, after your have poured your notes in the first service, than now that you have not. 
+Indeed, the peril of being locked into a tool becomes evident when the company's incentives undergo a shift.
+I experienced this firsthand in 2015 when I was a loyal Evernote user with a premium subscription, trusting it with all my valuable information.
+However, when Evernote decided to drop right-to-left language support crucial for the Middle Eastern languages, my pleas for assistance fell on deaf ears.
+They deemed the region unworthy of attention, leaving me stranded and unable to utilize my data effectively.
 
+The true pain emerged when I attempted to export my information and realized I was trapped in their ecosystem.
+They held my notes hostage, providing them back only in a non-standard format through XML or JSON files.
+This, my friends, was the dreaded lock-in, and I had to endure a labyrinthine journey of manual extraction to break free.
 
- 
+To avoid such a predicament, one essential question should be posed:
+> "Will it be more difficult for me to switch to a competitor once I've fully adopted this service compared to my current situation before using it?"
+
+If the service retains your data and only offers it back in a non-standard format,
+it becomes significantly more challenging to transition to a competitor after investing your notes into the first service.
+Be vigilant and consider the implications before getting entangled in such situations.
 
 #### 3. It should not feel frugal.
 
-Remember the point of this exercise. It is to make your life easier.
-There are absolutely good reasons and causes that may want to pursue that may need for you to be frugal in someway or the other.  
-For me, it was animal rights and the frugality was (funnily enough) veganism.
+Let us keep in mind the essence of this endeavor: to enhance the quality of our lives.
+Undoubtedly, there are noble causes that may necessitate adopting a certain level of frugality, as was the case for me with animal rights, which amusingly led me to embrace veganism.
 
-But that takes energy. And it could isolate you. Not everything can or should be a fight.
-Especially here, using the thing should actuall make you feel better and your life easier, not to make your life harder.
+However, advocating for these causes demands energy, and it might inadvertently lead to isolation.
+We must acknowledge that not everything can or should be a constant battle.
+The purpose of utilizing these tools is to improve our lives, not to make them more arduous.
 
-If you are trying to fight for your privacy to an extreme end, that is fine, use a complex password for each site, and memorize them all.
-But remember, that you only have limited fighting energy. So prioritize your limited energy on the most pressing issue.
-
+If safeguarding your privacy to the utmost extreme is your goal, then by all means, employ complex passwords for each site and commit them to memory.
+Nevertheless, we must be mindful that our fighting energy is finite.
+Thus, it becomes essential to prioritize and channel our limited energy toward the most urgent and meaningful issues that truly resonate with our hearts.
 
 ## Dear reader...
 
-You are doing great! And you can do it. I have, and it was nice and easy. You can too.
+You are on the right path, and I believe in you wholeheartedly!
+Trust me, I've been through this journey myself, and it turned out to be a delightful and straightforward experience.
+Take heart, for you can certainly achieve it too! Keep going, and you'll soon realize how much better and easier life becomes.
+You've got this!
