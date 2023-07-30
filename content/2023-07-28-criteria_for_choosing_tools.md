@@ -2,7 +2,7 @@
 title = "When Choosing Tools, Measure Twice, Cut Once"
 description = "The web is problematic, but intentional tool selection empowers a better experience. Look for transparency, avoid lock-ins, and prioritize what matters most. You can do it, and it'll make your life easier. Believe in yourself!"   
 date = 2023-07-29
-draft = true
+draft = false
 slug = "criteria-for-choosing-tools"
 insert_anchor_links = "heading"
 
