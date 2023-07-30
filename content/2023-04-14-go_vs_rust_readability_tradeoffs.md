@@ -101,3 +101,5 @@ Now, I know that many people consider Go to be excellent at making web servers.
 As a back-end developer who has chosen Go to be my main language for business, I agree with you. Go is splendid for web servers.
 But I strongly suggest that you give Rust a try if back-end development in Go is your thing.
 You would be extremely surprised at how exceptionally well Rust is at this task.
+
+{{ discussion() }}

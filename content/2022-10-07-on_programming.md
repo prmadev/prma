@@ -36,3 +36,5 @@ impl SelfDestroyer for Programmer {
 I joined this collective effort last year.
 
 
+
+{{ discussion() }}

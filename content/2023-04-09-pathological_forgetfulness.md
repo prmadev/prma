@@ -11,3 +11,6 @@ tags = ["personal", "ADHD"]
 
 [extra]
 +++
+
+
+{{ discussion() }}

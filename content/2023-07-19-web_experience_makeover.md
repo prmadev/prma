@@ -30,7 +30,6 @@ Each passing day brought forth an ever-increasing deluge of hyper-SEO-optimized,
 
 As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.
 
-
 The sense of desperation that had gripped me started to crumble when Elon Musk's actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon—an open-source social platform.
 And oh, what a fortuitous decision that turned out to be.
 It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
@@ -41,13 +40,11 @@ Could it merely be a chance occurrence, a fluke in the otherwise distorted realm
 Then, as if destiny had a hand in it, the second revelation struck—a website called Kagi, delivering yet another blow to the illusion I had held onto.
 The cracks in my previous beliefs widened, challenging me to confront the harsh realities of the digital landscape.
 
-
 Kagi, an unconventional paid search engine, piqued my curiosity, prompting me to give it a try.
 What unfolded before my eyes left me astounded—a screen brimming with blog posts dedicated to the concept of "permacomputing" occupied the very first page of results.
 In that moment, it dawned on me that the beloved world of independent blogging, which I had presumed to be on life support, had not faded away as I had believed.
 Instead, it thrived, resilient and as potent as ever.
 It was the so-called social media platforms and search engines, the very entities I had placed my trust in, that had ultimately let me down, betraying the internet I held dear.
-
 
 The illusion that once clouded my perception had dissipated into thin air.
 
@@ -74,7 +71,7 @@ Additionally, two of them are closed-sourced, while one—the email service—po
 Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established.
 In the end, these choices emerged as the better alternatives, despite their limitations.
 
-However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a more thorough elaboration.
+However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [more thorough elaboration](../criteria-for-choosing-tools).
 Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
 
 ## Dear reader...
@@ -85,4 +82,4 @@ There is a strong possibility that the internet can be a much more pleasant and 
 I know this to be true because I am living it right now.
 Embrace the journey of exploring better alternatives and reclaim the joy in your online interactions.
 
-[prma.dev@protonmail.com](mailto:prma.dev@protonmail.com)
+{{ discussion() }}

@@ -76,3 +76,5 @@ This, in turn, contributes to the sorry state of the web—bloated and dishearte
 Let us cherish our roles as creators and refrain from placing undue emphasis on the definition of our jobs,
 but rather, let us focus on the outcomes we produce.
 After all, we are all creators and problem-solvers at heart.
+
+{{ discussion() }}

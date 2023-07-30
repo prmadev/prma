@@ -37,3 +37,6 @@ tags = ["society"]
 
 no clever person will even reads this, they are not self-aware.
 yet we have to stop incentivising them
+
+
+{{ discussion() }}

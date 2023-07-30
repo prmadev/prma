@@ -181,3 +181,5 @@ And I like to think of people moving from Twitter to Mastodon as realizing that 
 This work is highly inspired and heavily reliant on Daron Acemoglu's fantastic book, *Why Nations Fail*.
 A must read.
 
+
+{{ discussion() }}

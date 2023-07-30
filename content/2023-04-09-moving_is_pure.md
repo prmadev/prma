@@ -101,3 +101,5 @@ Well, Honestly, it doesn't.
 I just had to decide if in a pure function I can consume a `self`, if I want to make it a pure function, considering that I cannot make it `const`.   
 This was my thinking output. Now you are the outer function. 
 
+
+{{ discussion() }}

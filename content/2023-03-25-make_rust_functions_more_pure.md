@@ -366,3 +366,6 @@ We only need to know what it's intention is.
 In this post, I just preferred to focus on the heart of functional programming: pure declarative functions.
 However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are iterators, maps, folds, filters and....
 Honestly, they are well explained in other resources. My only suggestion would be to check out [`itertools`](https://docs.rs/itertools/latest/itertools/) crate.
+
+
+{{ discussion() }}

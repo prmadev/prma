@@ -76,3 +76,5 @@ In one of three State for example: ``Status::Place``.
 ## Event types
 
 let us make a list of events  
+
+{{ discussion() }}

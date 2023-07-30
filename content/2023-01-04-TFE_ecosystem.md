@@ -83,3 +83,5 @@ fn caclulate_my_lateness(status: &mut bool) {
 
 ### and of course, Rust programming language
 
+
+{{ discussion() }}

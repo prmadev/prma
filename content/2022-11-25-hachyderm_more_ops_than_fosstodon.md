@@ -156,3 +156,6 @@ That seems like an staggering differece.
 I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.
 
 
+
+
+{{ discussion() }}

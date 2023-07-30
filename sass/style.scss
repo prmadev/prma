@@ -371,3 +371,20 @@ nav,
 .taxonomies {
   text-align: left;
 }
+
+.discussion-info {
+  display: block;
+  color: black;
+  background: white;
+  filter: invert(1);
+
+  padding: 1rem;
+
+  .email-box {
+    filter: invert(1);
+    color: black;
+    background: white;
+
+  }
+
+}

@@ -3,7 +3,7 @@ title = "When Choosing Tools, Measure Twice, Cut Once"
 description = "The web is problematic, but intentional tool selection empowers a better experience. Look for transparency, avoid lock-ins, and prioritize what matters most. You can do it, and it'll make your life easier. Believe in yourself!"   
 date = 2023-07-29
 draft = true
-slug = "criteria_for_choosing_tools"
+slug = "criteria-for-choosing-tools"
 insert_anchor_links = "heading"
 
 [taxonomies]
@@ -136,7 +136,7 @@ However, all of these platforms consistently fell short and inflicted undue stre
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. 
 But I have not mentioned what constitutes an effective solution.
 
-In my previous post, I alluded to having replaced many of these services with superior alternatives.
+In [my previous post](../web-exprience-makeover), I alluded to having replaced many of these services with superior alternatives.
 However, I haven't delved into what exactly makes a solution effective.
 
 
@@ -199,3 +199,5 @@ You are on the right path, and I believe in you wholeheartedly!
 Trust me, I've been through this journey myself, and it turned out to be a delightful and straightforward experience.
 Take heart, for you can certainly achieve it too! Keep going, and you'll soon realize how much better and easier life becomes.
 You've got this!
+
+{{ discussion() }}

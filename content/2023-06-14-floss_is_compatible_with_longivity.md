@@ -172,3 +172,5 @@ many foundational open-source software programs have remained the best tools for
 Now, esteemed reader,
 I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions
 find the realm of FLOSS far more fertile than its alternatives.
+
+{{ discussion() }}

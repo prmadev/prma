@@ -140,3 +140,5 @@ It is important to note that I have deliberately omitted discussions about post-
 Our focus has been on reducing harm itself.
 Exploring the costs associated with bootstrapping and averting catastrophic scenarios
 would expand beyond the scope of this essay.
+
+{{ discussion() }}
