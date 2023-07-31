@@ -36,8 +36,8 @@ taxonomies = "safe"
 anchors = "safe"
 
 [extra]
-name = "Amir Alesheikh"                    # Your name
-id = "amirography"                      # Your id/username/handle
+name = "Perma"                    # Your name
+id = "prma"                      # Your id/username/handle
 bio = "Back-End Developer / Rustacean / Gopher / Previous Cognitive-Science Student / Rationalist"                     # Your bio
 logo = "img/avatar.png"       # Your avatar
 
