@@ -57,7 +57,7 @@ and consciousness idealism, I won't delve into those topics and burden you with 
 <div style="display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; ">
   <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a rel="me" href="https://fosstodon.org/@Amirography"> Fosstodon </a> </div>
   <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a rel="me" href="https://hachyderm.io/@Amirography"> Hachyderm </a> </div>
-  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a  href="https://github.com/amirography"> Github </a></div>
+  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a  href="https://github.com/prmadev"> Github </a></div>
   <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a  href="https://linkedin.com/in/amirography"> Linkedin </a></div>
 </div>
 
