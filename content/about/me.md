@@ -24,6 +24,7 @@ my fascination with computing remained unwavering, beckoning me towards a path w
 ## Name-wise
 
 You can call me Perma. My legal name is AmirHossein Alesheikh. I don't mind either, but I prefer Perma.
+Read [Call Me Perma](../../call-me-perma) for more information.
 
 You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways.
 But it will be nice if you could make it clear to me which one you have chosen.
