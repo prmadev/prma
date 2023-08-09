@@ -1,6 +1,6 @@
 +++
 title = "Call Me Perma"
-description = "I delve into the significance of changing my name, sharing how life's challenges shaped this decision. I discuss the evolution of my identity, the introduction of Perma as a new name, and invite you to embrace this change with me."
+description = "I discuss the reasons for changing my name, reflecting on how life's challenges played a role. I talk about how my identity has evolved and introduce my new name, Perma, inviting you to share in this change with me."
 date = 2023-08-09
 draft = false
 slug = "call-me-perma"
