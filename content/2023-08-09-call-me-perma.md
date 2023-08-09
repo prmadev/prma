@@ -50,7 +50,7 @@ The name Amirhossein is a composite of two Arabic names, Amir and Hossein, both 
 
 However, I find myself at a loss when attempting to establish a personal connection with any aspect of this interpretation of this name. This brings us to its secondary and perhaps more intended connotation.
 
-This brings us to the second, and possibly the intended, connotation. In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "Imam." However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "Amir-al-momenin," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named Hossein. Both individuals deviate significantly from pacifism.
+In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "Imam." However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "Amir-al-momenin," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named Hossein. Both individuals deviate significantly from pacifism.
 
 While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.
 
