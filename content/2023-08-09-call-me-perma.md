@@ -2,7 +2,7 @@
 title = "Call Me Perma"
 description = "I delve into the significance of changing my name, sharing how life's challenges shaped this decision. I discuss the evolution of my identity, the introduction of Perma as a new name, and invite you to embrace this change with me."
 date = 2023-08-09
-draft = true
+draft = false
 slug = "call-me-perma"
 insert_anchor_links = "heading"
 
