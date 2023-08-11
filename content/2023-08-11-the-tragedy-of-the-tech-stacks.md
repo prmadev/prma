@@ -2,7 +2,7 @@
 title = "The Tragedy of The Tech-Stacks"
 description = "In this article, I delve into the reasons behind the stagnation of our tech stacks and explain how this issue isn't isolated; instead, we encounter a similar category of challenges akin to those posed by the nuclear arms race and climate change."
 date = 2023-08-11
-draft = true
+draft = false
 slug = "the-tragedy-of-the-tech-stacks"
 insert_anchor_links = "heading"
 
