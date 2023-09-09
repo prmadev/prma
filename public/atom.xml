@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>prma</title>
+    <subtitle>Permanent things do not need to be perfect.</subtitle>
+    <link href="https://prma.dev/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://prma.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-08-28T00:00:00+00:00</updated>
+    <id>https://prma.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>uses</title>
+        <published>2023-08-28T00:00:00+00:00</published>
+        <updated>2023-08-28T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/about/uses/" type="text/html"/>
+        <id>https://prma.dev/about/uses/</id>
+        
+        <content type="html">&lt;p&gt;There is inherent value in documenting the tools one employs:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Documenting your tools encourages you to be more mindful and deliberate in your tool selection.&lt;&#x2F;li&gt;
+&lt;li&gt;Sharing them publicly serves as a reminder to actively utilize and endorse what you recommend to others, embodying the practice of &amp;quot;preaching what you practice.&amp;quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Naturally, this notion did not emerge from the depths of my own ruminations. Rather, I observed that the immensely more prominent &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;manuelmoreale.com&#x2F;uses&quot;&gt;Manuel Moreale&lt;&#x2F;a&gt; has embraced it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Hardware&quot;&gt;Hardware&lt;&#x2F;h2&gt;
+&lt;p&gt;My laptop, a second-hand &lt;code&gt;Dell XPS-13 7390&lt;&#x2F;code&gt;, boasts 8GB of RAM but lacks a dedicated graphics card. I&#x27;ve upgraded its SSD to a capacious 2TB m.2 NVME. My affection for this compact laptop knows no bounds. It exudes efficiency, running on minimal power, and boasts a delightful full-HD monitor. The keyboard, in particular, provides a tactile experience reminiscent of a mechanical one. In terms of navigation, I rely solely on the laptop&#x27;s trackpad; no external mouse is required.&lt;&#x2F;p&gt;
+&lt;p&gt;My phone, a &lt;code&gt;Redmi Note 10 Pro Max&lt;&#x2F;code&gt;, leaves me thoroughly dissatisfied. I hold no love for either Android or iOS, as both dictate the software on my hardware, leaving me with no control. I carry a miniature surveillance device in my pocket wherever I roam. Rest assured, I plan to replace it as soon as I stumble upon a viable alternative. Should you possess any suggestions, kindly reach out via email; my address resides at the conclusion of this post.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Software&quot;&gt;Software&lt;&#x2F;h2&gt;
+&lt;div style=&quot;display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; &quot;&gt;
+
+  &lt;div
+    style=&quot;display: grid; justify-content: space-between;  grid-template-columns: 1fr 4fr;gap: 10px; grid-auto-rows: minmax(100px, auto); justify-items: stretch; justify-content: stretch; align-content: space-evenly;&quot;&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 1; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;nixos.org&quot;&gt;
+    NixOS
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 1; place-self:stretch;&quot;&gt;
+  I identify as a Linux enthusiast, though I belong to a considerably less mainstream category. My fervor extends even further towards NixOS, where my fanaticism knows no bounds.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 2; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;helix-editor.com&quot;&gt;
+    Helix
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 2; place-self:stretch;&quot;&gt;
+  Helix has been a welcomed solution for me, providing an excellent out-of-the-box experience without being resource-intensive. I find myself using it more often, gradually replacing my reliance on NeoVim.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 3; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&quot;&gt;
+    Codeberg
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 3; place-self:stretch;&quot;&gt;
+  I&amp;#x27;m in the process of reducing my reliance on GitHub. While I may need it for work-related matters, I&amp;#x27;m striving to prevent my personal projects from being solely within Microsoft&amp;#x27;s control.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 4; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;github.com&amp;#x2F;riverwm&amp;#x2F;river&quot;&gt;
+    RiverWM
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 4; place-self:stretch;&quot;&gt;
+  I prefer to customize my environment by utilizing RiverWM as my compositor on the Wayland platform.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 5; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;github.com&amp;#x2F;Alexays&amp;#x2F;Waybar&quot;&gt;
+    Waybar
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 5; place-self:stretch;&quot;&gt;
+  I employ a highly customized Waybar as my top-screen status bar.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 6; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&amp;#x2F;dnkl&amp;#x2F;fuzzel&quot;&gt;
+    Fuzzel
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 6; place-self:stretch;&quot;&gt;
+  Fuzzel is an excellent minimal launcher that excels at launching applications and seamlessly integrating with various scripts.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 7; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&amp;#x2F;dnkl&amp;#x2F;foot&quot;&gt;
+    Foot
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 7; place-self:stretch;&quot;&gt;
+  Foot is a terminal manager created by the same developer as Fuzzel. Their talent for crafting minimal and high-performing applications is truly remarkable.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 8; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;kagi.com&quot;&gt;
+    Kagi
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 8; place-self:stretch;&quot;&gt;
+  I&amp;#x27;ve fully switched to using Kagi as my search engine, and I couldn&amp;#x27;t be happier with it. I highly recommend it because it not only meets my needs but also pays off in terms of value for money.
+&lt;&#x2F;div&gt;&lt;div
+  style=&quot;display: block; padding-right: 1em; grid-column: 1&#x2F;2; grid-row: 9; justify-self: stretch; align-self:stretch; place-self: center;&quot;&gt;
+  &lt;a style=&quot;font-weight: 900; &quot; href=&quot;https:&#x2F;&#x2F;proton.me&quot;&gt;
+    Proton Mail
+  &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;div
+  style=&quot;display: block; border-left: 0.5em solid black; padding-left: 2em; grid-column-starts: 2&#x2F;2; grid-row: 9; place-self:stretch;&quot;&gt;
+  As part of my journey to reduce reliance on Google, I was introduced to ProtonMail. Since then, my experience with it has been flawless. However, when my budget allows, I plan to upgrade to use my own domain name, ensuring my email is fully independent of the provider.
+&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;
+
+
+&lt;&#x2F;div&gt;&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Tragedy of The Tech-Stacks</title>
+        <published>2023-08-11T00:00:00+00:00</published>
+        <updated>2023-08-11T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/the-tragedy-of-the-tech-stacks/" type="text/html"/>
+        <id>https://prma.dev/the-tragedy-of-the-tech-stacks/</id>
+        
+        <content type="html">&lt;p&gt;Back in 1958, there was this thinker named Garrett Hardin who kicked off his well-known piece titled &amp;quot;The Tragedy of the Commons&amp;quot; in the following way: &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that &amp;quot;Both sides of the arms race are ... confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution. If the great powers continue to look for solutions in the area of science and technology only, the result will be to worsen the situation.&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Then, Hardin goes on to rattle the foundations by delving into a colossal issue – the challenge of population expansion. He breaks it down by saying that when you have a shared resource, and each individual aims to squeeze out the most benefit for themselves, the result is a harm inflicted upon everyone, even the very ones taking those actions.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, picture this famous analogy. Imagine a stretch of grassland, claimed by three farmers. Each of them brings their cow out to graze on it daily. Sounds reasonable, right? But then, one fortunate farmer&#x27;s cow becomes pregnant. This stroke of luck leaves him with two cows, effectively doubling his profits. Observing this triumph, the other farmers follow suit, diving into a spree of buying and breeding cows, aiming to maximize their individual gains. However, this frenzy leads to a rampant grazing that leaves the grassland bare and barren. Ultimately, the once lush grass disappears, and the insatiable appetite of the voracious cows brings about their own starvation. In the end, all the farmers are left with no cows, their initial wealth transformed into a state even worse than before.&lt;&#x2F;p&gt;
+&lt;p&gt;He coins it as the &amp;quot;tragedy of the commons.&amp;quot; I prefer to see it as a powerful representation of what often dampens the enjoyment across the software terrain for every key player involved: the user, the developer, the CEO, and the investor.&lt;&#x2F;p&gt;
+&lt;p&gt;How meta!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Clever_One,_The_Frustrated_One_and_The_Scared_One&quot;&gt;The Clever One, The Frustrated One and The Scared One&lt;&#x2F;h2&gt;
+&lt;p&gt;Now, let&#x27;s meet a familiar figure, the one we often encounter, the embodiment of many developers out there. We&#x27;ll give her a name: Sarah. Sarah&#x27;s eager to dive into a fresh technology – one that could potentially elevate her current position. So, how does she tackle this? She begins by exploring a domain, and within that, she sets her sights on a specific technology. Let&#x27;s designate this domain as something imaginary, to prevent any inadvertent offense. How about we refer to it as &amp;quot;front-end development&amp;quot;?&lt;&#x2F;p&gt;
+&lt;p&gt;For fron-end Sarah finds out a few different contenders in the field. She asks herself, what could the industry be thirsty for? The naive answer she arrives at, is &amp;quot;the most reliable one, the one that is the pleasure to develop and the one that has the most advantages&amp;quot;. Oh, Sarah, you impractical idealistic perfectionist, you! &lt;&#x2F;p&gt;
+&lt;p&gt;Now, delving into the realm of front-end, Sarah stumbles upon a handful of potential contenders. She ponders, what might the industry truly crave? Her initial, somewhat naive response is, &amp;quot;The most dependable option, the one that brings joy to the development process, and the one that boasts numerous advantages.&amp;quot; Oh Sarah, you, impractical, idealistic, perfectionist you!&lt;&#x2F;p&gt;
+&lt;p&gt;Armed with these benchmarks, she opts for the Elm language (yet another mythical being). She proceeds to dive into Elm, driven by her enthusiasm. However, curiosity gets the better of her, and she sneakily glances at the job listings on LinkedIn. To her astonishment, she discovers a mere trio of job opportunities for Elm. This baffles her, leading her to question the accuracy of her initial language assessment.&lt;&#x2F;p&gt;
+&lt;p&gt;Seeking insight, she turns to Tom, an exceptional CTO she&#x27;s acquainted with, to discuss whether Elm lives up to its hype. Much to Sarah&#x27;s astonishment, Tom echoes her initial convictions regarding Elm. He affirms that, indeed, Elm proves to be an exceptional language, boasting enduring dependability, a well-established ecosystem, and a delightful development journey.&lt;&#x2F;p&gt;
+&lt;p&gt;Sarah, now even more puzzled than before, directs her confusion towards Tom, questioning whether he&#x27;s in the process of recruiting Elm developers. Once again, Tom&#x27;s response is resolute: &amp;quot;Absolutely not! Where could I possibly locate a pool of Elm-savvy developers? However, we&#x27;re actively seeking out JavaScript experts!&amp;quot; (once more, a language name sufficiently distanced from any existing real-world instances).&lt;&#x2F;p&gt;
+&lt;p&gt;After a brief moment of contemplation, Sarah bursts out, &amp;quot;Well, what about me?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Tom responds with a shake of his head, stating, &amp;quot;Oh, that wouldn&#x27;t work. You see, for any given application, we require a team of 20 individuals to consistently handle maintenance and bug fixes. Where on earth would we come across 20 Elm developers?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Well, shouldn&#x27;t Elm apps theoretically require significantly less maintenance, given the multitude of bugs that are caught during the initial development stages?&amp;quot; Sarah counters silently within her mind. An idea begins to form, one she opts to keep to herself, &amp;quot;Ah, so maintaining a delicate codebase might indicate a higher demand for fresh JavaScript developers – implying enhanced job security!&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Feeling rather clever, she decides to validate her hunch by perusing the (imaginary) yellow pages, named Glassdoor. And lo and behold, an endless scroll unveils a plethora of distinct job listings, all centered around JavaScript.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, Sarah learns javascript and all her beliefs gets validated, she becomes a very wealthy engineer, with a great job security, with each company she enters trying to keep her, year-after-yer, while other companies trying to persuade her by higher and higher offers. Or at least that was the boring version of this post that did not start with the word &amp;quot;tragedy&amp;quot;. &lt;&#x2F;p&gt;
+&lt;p&gt;Instead, she uncovers that her counterparts, much like herself, had also been quite &lt;em&gt;clever&lt;&#x2F;em&gt;. A multitude of newcomers gravitated towards the language flaunting the highest job listings. Each job opening faced a surplus of around a hundred contenders. The &amp;quot;victor,&amp;quot; so to speak, emerges as the individual boasting the most qualifications and the most modest salary expectation. Or should we even label them as victors, considering that the instant they dare to dream a little bigger, a fresh job listing crops up, promptly displacing them with the next eager contender.&lt;&#x2F;p&gt;
+&lt;p&gt;Tom, our trusty CTO, worn out from the cycle of on-boarding one low-budget, novice developer after another, vents his frustrations to the CEO. The CEO engages in discussions with the investors, who share the same dissatisfaction due to their profits being eroded by an inefficient workforce. They call upon the CEO to devise a remedy for this predicament.&lt;&#x2F;p&gt;
+&lt;p&gt;The CEO returns with a strategy to shift from JavaScript to Elm technology. The investors, content with the proposal, take a brief pause to deliberate. A few days later, they rejoin the conversation, expressing a notable apprehension. &amp;quot;Elm is practically unheard of! None of our rivals employ this language. That&#x27;s a substantial gamble we&#x27;re not prepared to take!&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Arash, the CEO, CTO, CFO, Product Manager, and the visionary founder of a fledgling startup, confronts the very same imaginative quandary of selecting a technology stack.
+Given the inherent high-stakes nature of startups, Arash adopts a prudent approach by examining the practices of more established corporations, such as those overseen by individuals like Tom in his role as CTO, in order to identify a tried-and-true trajectory.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Lose-Lose-Lose_situation&quot;&gt;The Lose-Lose-Lose situation&lt;&#x2F;h2&gt;
+&lt;p&gt;At every juncture, every individual optimized their decisions for personal gain. At each instance, a superior option was presented, and they acknowledged the benefits it offered. Nevertheless, they settled for the inferior alternative (for the sake of avoiding any unnecessary debate, let&#x27;s refrain from mentioning that the hypothetical lesser choice was JavaScript, naturally). As a result, each person finds themselves in a less advantageous position than if they had collectively embraced the superior alternative. This impact ripples beyond individuals, extending to the entire ecosystem, hindered by the precarious edifice of abstractions left behind by the swiftly growing number of predecessors.&lt;&#x2F;p&gt;
+&lt;p&gt;So, why did they all fall short of enhancing their own lives and the lives of others? Was it the technology&#x27;s flaw? Or did the ecosystem falter? You&#x27;re astute enough to deduce the answer; after all, you had the wit to discern the languages I implicitly referred to in my hypothetical scenarios.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Solution&quot;&gt;The Solution&lt;&#x2F;h2&gt;
+&lt;p&gt;I must admit, I&#x27;m uncertain. The nuclear arsenal continues to expand, even though the era of the Cold War has long passed. Thankfully, our world hasn&#x27;t been ravaged by nuclear conflict. Rather, it&#x27;s the interplay of mutually assured destruction and the realization by the leaders of those two nations that not embracing an alternative risk could lead to dire consequences. This, at least, has placed us in a relatively improved state.&lt;&#x2F;p&gt;
+&lt;p&gt;Simultaneously, we find ourselves grappling with Garrett Hardin&#x27;s preoccupation – the persistent challenges of overpopulation and looming environmental catastrophes. Evidently, the far-reaching peril of not embracing an alternative is of such extended duration that it transcends the immediate concerns of the very generation opting against alternatives. The burden of their choices is instead borne by their descendants: &amp;quot;Fuck those brats.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;In the world of software, the tempo is notably faster, the stakes less dire compared to earlier circumstances, and the individuals engaged are often more honest than politicians and notably smarter than the average voter.&lt;&#x2F;p&gt;
+&lt;p&gt;However, the remedy doesn&#x27;t entail adhering to an oddly precise series of ritualistic maneuvers. It&#x27;s a more daunting challenge. Just as Garrett Hardin titled his article, the solution remains much the same:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The population problem has no technical solution; it requires a fundamental extension of in morality.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;Dear_Readers...&quot;&gt;Dear Readers...&lt;&#x2F;h1&gt;
+&lt;p&gt;I know! The gastly claim of &amp;quot;to improve developer experience we first should grow an ethical sense&amp;quot;, seems absurd. 
+Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it. &lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Call Me Perma</title>
+        <published>2023-08-09T00:00:00+00:00</published>
+        <updated>2023-08-09T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/call-me-perma/" type="text/html"/>
+        <id>https://prma.dev/call-me-perma/</id>
+        
+        <content type="html">&lt;p&gt;I find myself seated in the passenger&#x27;s seat of my mother&#x27;s car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother&#x27;s sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist&#x27;s office without exchanging a word, leaving me still uncertain about the purpose of our visit.&lt;&#x2F;p&gt;
+&lt;p&gt;The psychologist initiates our session by administering a series of aptitude and intelligence tests appropriate for my age. Throughout the process, my mother&#x27;s keen gaze remains fixed on me, intensifying my nerves. Eventually, the psychologist validates my mother&#x27;s suspicions, revealing that my intellectual capabilities far exceed those of my peers. This revelation prompts my mother to shed light on the purpose of our enigmatic expedition: “You see, you are not stupid, you are actually very smart, you just lack self-esteem!” Was that truly the root of the issue? While self-esteem was a factor in my unhappniess, I couldn&#x27;t help but feel that my lack of effort had deeper origins.&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, but this wasn&#x27;t the first round of this comical saga. You see, on previous occasions, my dear mother would strategically place a glass of water right between us, like a cosmic prop. And what was the grand purpose behind this visual spectacle, you might ask? Well, it was her way of nudging me into a philosophical monologue about that very glass. In simple terms: &amp;quot;Hey, kiddo, you&#x27;ve got a shortage of optimism; you&#x27;re the sort who tends to spot the half-empty glass in life.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;And then we have my dear old dad, the master of responsibility training. He had this grand plan to shape my character, using internships as his secret weapon. &amp;quot;Off you go, my young apprentice!&amp;quot; he&#x27;d exclaim, nudging me into one vocational adventure after another. His hidden message? &amp;quot;Kid, I&#x27;m passing down the sacred skill of handling responsibilities!&amp;quot; Ah, the age-old dance of parental strategy.&lt;&#x2F;p&gt;
+&lt;p&gt;And there you have it, my childhood summed up, right from the time those kindergarten teachers began their chorus of complaints about my apparent &amp;quot;refusal&amp;quot; to embrace the songs that my peers had effortlessly committed to memory months before.&lt;&#x2F;p&gt;
+&lt;p&gt;As the days went by, I began to adopt a personal mantra: &amp;quot;I&#x27;m the poster child for laziness, the embodiment of irresponsibility, with motivation and vision nowhere to be found.&amp;quot; Oddly enough, despite knowing full well the significance of education and being genuinely captivated by the realms of science and math, my actions seemed to tell a different story altogether. It&#x27;s as if I was presenting evidence that contradicted my own beliefs. Perhaps deep down, I questioned my care for my parents, struggled to find motivation, or maybe I secretly aspired to master the art of freeloadery.&lt;&#x2F;p&gt;
+&lt;p&gt;The haze of doubt began to lift when I embarked on an ADHD medication journey, and lo and behold, I experienced the novel sensation of being able to sit down and read a paragraph without my mind spiraling into chaos. It was like finally playing a video game where you no longer wonder if you&#x27;re in control of that character&#x27;s movements or not. My epiphany was quite the reverse: &amp;quot;Oh, wait a minute, I can indeed make decisions and stick with them?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Let me tell you, this realization was liberating, to put it mildly. Suddenly, I had the capacity to invest time in the very things that had ignited my curiosity.&lt;&#x2F;p&gt;
+&lt;p&gt;ADHD has had a profound impact on my life since childhood. One revelation that became clear after seeking medication was the extent to which I had surrendered agency and intentionality.&lt;&#x2F;p&gt;
+&lt;p&gt;My existence had been defined by reactivity, with a noticeable absence of honed decision-making skills. I found myself in a state of passivity, or even worse, mere reactivity.
+Nonetheless, I consistently strived to reclaim it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Recent_Victories&quot;&gt;Recent Victories&lt;&#x2F;h2&gt;
+&lt;p&gt;Over the past few years, I&#x27;ve encountered an almost comically disproportionate share of misfortune and have found myself under substantial duress. Yet, I&#x27;ve navigated my way through these challenges.&lt;&#x2F;p&gt;
+&lt;p&gt;I won&#x27;t delve into the specifics of these misfortunes, although those in my social circles can attest to their unusual frequency.&lt;&#x2F;p&gt;
+&lt;p&gt;However, I can share that I&#x27;ve achieved several noteworthy milestones during this time span: acquiring programming skills, entering the workforce, entering marriage, and most recently, opting to unofficially change my name.&lt;&#x2F;p&gt;
+&lt;p&gt;Formally, I remain Amirhossein, and I&#x27;m content should anyone choose to continue addressing me as such—I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Amirhossein_and_Perma&quot;&gt;Amirhossein and Perma&lt;&#x2F;h2&gt;
+&lt;p&gt;The name Amirhossein is a composite of two Arabic names, Amir and Hossein, both of which carry two meanings. As for the firsts  of these meanings, Amir translates to &amp;quot;prince,&amp;quot; while Hossein signifies &amp;quot;Good-junior.&amp;quot; The amalgamation results in the interpretation of &amp;quot;Junior Good Prince.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;However, I find myself at a loss when attempting to establish a personal connection with any aspect of this interpretation of this name. This brings us to its secondary and perhaps more intended connotation.&lt;&#x2F;p&gt;
+&lt;p&gt;In Shia Islam, there exists a concept akin to Christianity&#x27;s sainthood, known as &amp;quot;Imam.&amp;quot; However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title &amp;quot;Amir-al-momenin,&amp;quot; or the &amp;quot;prince of the faithful,&amp;quot; commonly abbreviated as Amir. The third Imam, the second son of the first, was named Hossein. Both individuals deviate significantly from pacifism.&lt;&#x2F;p&gt;
+&lt;p&gt;While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.&lt;&#x2F;p&gt;
+&lt;p&gt;I find &amp;quot;Perma&amp;quot; to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life.
+It closely aligns with the ethos underpinning this blog. I&#x27;m captivated by the philosophy of the Permaculture and Permacomputing movements—albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence.
+Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in utilitarian aspirations.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;If you&#x27;ve known me previously, you might have observed my recent shifts in usernames, emails, and name. Across the internet, I&#x27;ve opted for &lt;code&gt;Prma&lt;&#x2F;code&gt; instead of the more direct &lt;code&gt;Perma&lt;&#x2F;code&gt;, as the latter is frequently claimed or could serve other entities more fittingly.&lt;&#x2F;p&gt;
+&lt;p&gt;However, this change isn&#x27;t indicative of a complete unveiling of my authentic self. Thus, referring to me by my previous name isn&#x27;t as insensitive as the act of deadnaming. Rather, this transition signifies the inception of a renewed chapter, one marked by heightened purpose and intention.&lt;&#x2F;p&gt;
+&lt;p&gt;While I do prefer and hope for the usage of &amp;quot;Perma&amp;quot; moving forward, I&#x27;m entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dishonesty of Optimizing for Developer Time</title>
+        <published>2023-07-31T00:00:00+00:00</published>
+        <updated>2023-07-31T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/dishonesty-of-optimizing-for-developer-time/" type="text/html"/>
+        <id>https://prma.dev/dishonesty-of-optimizing-for-developer-time/</id>
+        
+        <content type="html">&lt;p&gt;Based on some individuals&#x27; viewpoints,
+they emphasize optimizing for developer time or productivity as their main priority,
+rather than giving top precedence to aspects such as performance, robustness, or correctness.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Thesis&quot;&gt;The Thesis&lt;&#x2F;h2&gt;
+&lt;p&gt;Their argument revolves around the idea that developers&#x27; time is more valuable and expensive than server resources.
+They often use phrases like &amp;quot;You can always refactor,&amp;quot; &amp;quot;You can always optimize for performance,&amp;quot; or &amp;quot;We will fix bugs later on&amp;quot; to support their viewpoint.
+While this perspective may be considered ingenious, it is contingent on proper planning, weighing the trade-offs, and actually acting upon those decisions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;My_Antithesis&quot;&gt;My Antithesis&lt;&#x2F;h2&gt;
+&lt;p&gt;However, if this were genuinely the case,
+more substantial effort would have been invested in refactoring or choosing a more rigorous language than JavaScript,
+for example, a language that can significantly boost performance in the long run.&lt;&#x2F;p&gt;
+&lt;p&gt;Fixing bugs in backends written in JavaScript, PHP, or Python is certainly feasible,
+but adding performance improvements can become challenging, if not improbable.
+More meticulous programming tools automate the process of finding and fixing even the most elusive bugs and come with significant performance optimizations.
+The ability to make well-founded assumptions about the program allows for better optimization.&lt;&#x2F;p&gt;
+&lt;p&gt;This approach often leads to a situation where future engineers,
+tasked with rewriting the &amp;quot;MVP&amp;quot; program in a more scalable language,
+face an archeological rediscovery process.&lt;&#x2F;p&gt;
+&lt;p&gt;So, if they are not genuinely optimizing for shorter development time, what are they doing?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Lifting_The_Veil:_The_Actual_Thesis&quot;&gt;Lifting The Veil: The Actual Thesis&lt;&#x2F;h2&gt;
+&lt;p&gt;It appears that they prioritize short-term gains over achieving greater long-term goals.&lt;&#x2F;p&gt;
+&lt;p&gt;A language like Rust, while providing benefits like enhanced safety and reliability, requires significantly more time to produce a binary or APIs.
+The manual labor of finding bugs is taken over by the compiler and the language&#x27;s semantics.
+If the focus is on developer productivity, then this automation is naturally desirable.
+However, what one truly desires to convey is &amp;quot;I have this feature, even though it may have some bugs and performance issues, I have it nonetheless.&amp;quot;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Synthesis&quot;&gt;The Synthesis&lt;&#x2F;h2&gt;
+&lt;p&gt;That may be a positively good idea for trying the market to see if there is any for that specific idea,
+for most software developements though, the actual intention is not experimentation, as the novelty of product and bussiness plan do not warrant a need for experimentaion.
+rather, having something to sell, as fast as possible.
+That&#x27;s for start ups. Where there is both legitimate and illegitimate short-termism.
+But more established enterprises may have this pairing as well.
+While there are A&#x2F;B experimentaions going on, trying different approaches to see which works,
+middle management might also like the addition of another achievement in their yearly reports. &lt;&#x2F;p&gt;
+&lt;p&gt;A rapid way to discern whether it falls under the category of experimentation&#x2F;prototyping or an MVP&#x2F;achievement-oriented project is
+to examine whether there is a notably extended period allocated for the program&#x27;s rewrite compared to its initial development phase.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;Similar to many phenomena, short-termism can indeed have legitimate applications.
+The reluctance of many to embrace this term is rooted in its improper and illegitimate uses.&lt;&#x2F;p&gt;
+&lt;p&gt;Certainly, there are well-intentioned individuals who advocate for developer productivity.
+However, those with ample experience will acknowledge that long-term developer productivity is not synonymous with low-overhead development,
+and, more often than not,
+these two objectives are incompatible.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>When Choosing Tools, Measure Twice, Cut Once</title>
+        <published>2023-07-29T00:00:00+00:00</published>
+        <updated>2023-07-29T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/criteria-for-choosing-tools/" type="text/html"/>
+        <id>https://prma.dev/criteria-for-choosing-tools/</id>
+        
+        <content type="html">&lt;p&gt;The web is utterly fucked.
+But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Reasons&quot;&gt;The Reasons&lt;&#x2F;h2&gt;
+&lt;p&gt;The web&#x27;s lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bloated beyond reason.&lt;&#x2F;li&gt;
+&lt;li&gt;Plagued with incessant ads.&lt;&#x2F;li&gt;
+&lt;li&gt;Prioritizing feature over bug fixes, if addressed at all.&lt;&#x2F;li&gt;
+&lt;li&gt;Designed to cater to journalists and advertisers, neglecting your needs.&lt;&#x2F;li&gt;
+&lt;li&gt;Imposing confinement and isolation upon you.&lt;&#x2F;li&gt;
+&lt;li&gt;Failing to empower users like yourself.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;A_Brief_Digression&quot;&gt;A Brief Digression&lt;&#x2F;h3&gt;
+&lt;p&gt;The final point warrants further elaboration.&lt;&#x2F;p&gt;
+&lt;p&gt;The internet is, in fact, a tool.
+It is &lt;em&gt;something&lt;&#x2F;em&gt; that is made to help &lt;em&gt;someone&lt;&#x2F;em&gt; achieve &lt;em&gt;some goal&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The captivating world of &lt;em&gt;Web 2.0&lt;&#x2F;em&gt; and &lt;em&gt;Social Media&lt;&#x2F;em&gt; (the somethings) - initially promising to empower people (the someones),
+granting them enriched social connections (the some goal).
+A promising start, indeed, leaving many with pleasant experiences during the inception of Web 2.0.&lt;&#x2F;p&gt;
+&lt;p&gt;But, alas, as time went by,
+the very incentives that drove these Social Media companies veered them off
+their intended course.
+They embarked on a divergent path, straying from their professed mission, and now,
+Web 2.0 primarily serves as a platform to amplify the voices of journalists and celebrities (the actual someones),
+propelling them towards greater fame and recognition (the actual some goals).&lt;&#x2F;p&gt;
+&lt;p&gt;The driving force behind these shifts?
+The ever-persistent quest for revenue from advertisers,
+pushing them to create content that captures maximum engagement.
+The more captivating, the more lucrative.&lt;&#x2F;p&gt;
+&lt;p&gt;Regrettably,
+the landscape has birthed what I would call the &amp;quot;four horsemen of reactionary engagement&amp;quot;:
+the doomsday, super political reporter;
+the enraging, populist racist politician;
+the trolling, impulsive CEO;
+and the drama-driven, vacuous celebrity.&lt;&#x2F;p&gt;
+&lt;p&gt;In a nutshell, it appears you&#x27;ve been played for a fool.
+Social media&#x27;s purported aim of empowering you is nothing but a delusion.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Go_Empower_yourself&quot;&gt;Go Empower yourself&lt;&#x2F;h2&gt;
+&lt;p&gt;Before you proceed, there&#x27;s a prerequisite to address:
+overcoming the fear of missing out.
+Now, how one achieves this is not within my scope to divulge,
+but I can assist you in understanding why these fears are unfounded.&lt;&#x2F;p&gt;
+&lt;p&gt;Consider this:
+Have you truly missed out on anything of genuine importance?
+Reflect on whether the latest controversial statement from Donald Trump has genuinely altered the course of your life.
+And if it did, was Twitter (or whatever they dub it these days) truly the sole or optimal medium for receiving such information?&lt;&#x2F;p&gt;
+&lt;p&gt;Even in Iran, where official channels are notorious for propagating falsehoods, Twitter appears to be excessive.
+For me, friends and private messages reliably convey essential information.
+And indeed, individuals might spend considerable time on Twitter, but isn&#x27;t the fundamental pledge of social media the relay of information? If that need is already being fulfilled through other means, what purpose does Twitter truly serve?&lt;&#x2F;p&gt;
+&lt;p&gt;If you find yourself fortunate enough to reside in a country with trustworthy official channels,
+and your well-being hinges on crucial information like hurricane alerts,
+rest assured that dedicated services cater specifically to such needs.
+Similarly, if you derive pleasure from reading news articles,
+I suggest identifying the authors whose work you value and following them directly.
+However, if these activities do not align with your interests, then quite frankly,
+you have no real necessity for engaging with this &amp;quot;stuff.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, my friend, let me share with you a sobering truth about these companies - they&#x27;re akin to emotionally abusive partners,
+manipulating you into believing you&#x27;re nothing without them.
+They demean you, calling you stupid and incapable of managing your life without their presence.
+They cunningly weave a narrative of how your life is all thanks to them, that your friendships exist solely because of their benevolence.&lt;&#x2F;p&gt;
+&lt;p&gt;But don&#x27;t be fooled by their deceiving ways.
+They mangle your interactions, force-feeding you ads and utter nonsense, all while claiming it&#x27;s an act of love.
+And when their misdeeds come to light, they stage a grand spectacle of apologies and vows to change, only to strike back even harder later on.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s time to break free from this toxic cycle.
+I know it&#x27;s daunting, and fear may grip your heart initially, but liberate yourself from their clutches.
+You will discover a life far better than you ever imagined.
+You deserve more than this relentless manipulation.
+Embrace the freedom that awaits, my dear friend.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;How_to_find_a_good_tool&quot;&gt;How to find a good tool&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;Step_One:_Find_The_Low_Hanging_Fruits&quot;&gt;Step One: Find The Low Hanging Fruits&lt;&#x2F;h3&gt;
+&lt;p&gt;You stand at the precipice of transformation,
+ready to change your life for the better.
+The first step is to identify the areas in your life that require attention.
+What needs are you seeking to fulfill?
+And upon which inadequate services are you currently relying?&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I sought:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;A steady flow of lightweight information.&lt;&#x2F;li&gt;
+&lt;li&gt;Daily interactions with fellow enthusiasts akin to myself.&lt;&#x2F;li&gt;
+&lt;li&gt;A means to uncover specific data.&lt;&#x2F;li&gt;
+&lt;li&gt;A reliable way to send emails.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;For too long, I depended on subpar sources to meet these needs.
+For the first two, I found myself reliant on Twitter, Instagram, Reddit, and Google News.
+As for the third and fourth requirements, I resorted to Google&#x27;s services.
+However, all of these platforms consistently fell short and inflicted undue stress upon me. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Step_Two:_Find_Effective_Replacements&quot;&gt;Step Two: Find Effective Replacements&lt;&#x2F;h3&gt;
+&lt;p&gt;In my earlier post I have mentioned that I already have replaced most of these services with better ones. 
+But I have not mentioned what constitutes an effective solution.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;..&#x2F;web-exprience-makeover&quot;&gt;my previous post&lt;&#x2F;a&gt;, I alluded to having replaced many of these services with superior alternatives.
+However, I haven&#x27;t delved into what exactly makes a solution effective.&lt;&#x2F;p&gt;
+&lt;p&gt;Allow me to outline the criteria and guiding principles for an empowering tool:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;It should not cause you any harm. &lt;&#x2F;li&gt;
+&lt;li&gt;It should not lock you in.&lt;&#x2F;li&gt;
+&lt;li&gt;It should not feel frugal. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Now, let me delve into the rationale behind these criteria:&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;1._It_should_not_cause_you_more_harm_than_good&quot;&gt;1. It should not cause you more harm than good&lt;&#x2F;h4&gt;
+&lt;p&gt;If a tool causes more harm than good, why persist in using it at all?&lt;&#x2F;p&gt;
+&lt;p&gt;To safeguard your interests, ensure that the tool operates with transparency.
+Platforms that intentionally harm users are less inclined to be forthcoming about their inner workings.
+Opt for open-source and audited software, provided you trust the incentives and capabilities of the auditors, as this fosters transparency.&lt;&#x2F;p&gt;
+&lt;p&gt;Moreover, it is crucial to align the incentives of the tool&#x27;s creators with your own.
+While there will always be some degree of misalignment, not all cases are equal.
+Selling or renting software may incentivize developers to plan for obsolescence, sell incomplete products, or enforce lock-ins.
+Yet, these misalignments are overshadowed by the egregious discrepancies inherent in ad-driven models.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;2._It_should_not_lock_you_in&quot;&gt;2. It should not lock you in&lt;&#x2F;h4&gt;
+&lt;p&gt;Indeed, the peril of being locked into a tool becomes evident when the company&#x27;s incentives undergo a shift.
+I experienced this firsthand in 2015 when I was a loyal Evernote user with a premium subscription, trusting it with all my valuable information.
+However, when Evernote decided to drop right-to-left language support crucial for the Middle Eastern languages, my pleas for assistance fell on deaf ears.
+They deemed the region unworthy of attention, leaving me stranded and unable to utilize my data effectively.&lt;&#x2F;p&gt;
+&lt;p&gt;The true pain emerged when I attempted to export my information and realized I was trapped in their ecosystem.
+They held my notes hostage, providing them back only in a non-standard format through XML or JSON files.
+This, my friends, was the dreaded lock-in, and I had to endure a labyrinthine journey of manual extraction to break free.&lt;&#x2F;p&gt;
+&lt;p&gt;To avoid such a predicament, one essential question should be posed:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Will it be more difficult for me to switch to a competitor once I&#x27;ve fully adopted this service compared to my current situation before using it?&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If the service retains your data and only offers it back in a non-standard format,
+it becomes significantly more challenging to transition to a competitor after investing your notes into the first service.
+Be vigilant and consider the implications before getting entangled in such situations.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;3._It_should_not_feel_frugal.&quot;&gt;3. It should not feel frugal.&lt;&#x2F;h4&gt;
+&lt;p&gt;Let us keep in mind the essence of this endeavor: to enhance the quality of our lives.
+Undoubtedly, there are noble causes that may necessitate adopting a certain level of frugality, as was the case for me with animal rights, which amusingly led me to embrace veganism.&lt;&#x2F;p&gt;
+&lt;p&gt;However, advocating for these causes demands energy, and it might inadvertently lead to isolation.
+We must acknowledge that not everything can or should be a constant battle.
+The purpose of utilizing these tools is to improve our lives, not to make them more arduous.&lt;&#x2F;p&gt;
+&lt;p&gt;If safeguarding your privacy to the utmost extreme is your goal, then by all means, employ complex passwords for each site and commit them to memory.
+Nevertheless, we must be mindful that our fighting energy is finite.
+Thus, it becomes essential to prioritize and channel our limited energy toward the most urgent and meaningful issues that truly resonate with our hearts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;You are on the right path, and I believe in you wholeheartedly!
+Trust me, I&#x27;ve been through this journey myself, and it turned out to be a delightful and straightforward experience.
+Take heart, for you can certainly achieve it too! Keep going, and you&#x27;ll soon realize how much better and easier life becomes.
+You&#x27;ve got this!&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Giving my experience of web a makeover</title>
+        <published>2023-07-19T00:00:00+00:00</published>
+        <updated>2023-07-19T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/web-exprience-makeover/" type="text/html"/>
+        <id>https://prma.dev/web-exprience-makeover/</id>
+        
+        <content type="html">&lt;p&gt;Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me—people I admired, or at least aspired to emulate.
+The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.&lt;&#x2F;p&gt;
+&lt;p&gt;In those youthful days, I&#x27;d eagerly scour the web for words that piqued the interests of my teenage self, and with a simple search, Google would present me with a treasure trove of blogs authored by kindred spirits.
+I&#x27;d venture into the realms of Twitter, FriendFeed, Facebook, Orkut, and the myriad other social platforms, spending precious moments escaping the painful realities of feeling marginalized by my parents, teachers, and peers at school.&lt;&#x2F;p&gt;
+&lt;p&gt;The internet of that era held a special place in my heart; it offered solace and kinship.
+Even though I may not have been as popular as some within those social circles, I cherished engaging in conversations within a vibrant crowd of amazing individuals, the very ones I admired deeply.&lt;&#x2F;p&gt;
+&lt;p&gt;As time marched on, many of the cherished online spaces I once loved fell by the wayside, while others morphed into monstrous entities, becoming tools of ostracization.
+Although I personally may not have been the target of such mistreatment, I could discern the toxic environment that fostered and emboldened bullies.&lt;&#x2F;p&gt;
+&lt;p&gt;Even the search engines, once a source of discovery and connection, began to falter.
+Each passing day brought forth an ever-increasing deluge of hyper-SEO-optimized, meaningless content and tech-centric sites merely driven by profit, overtaking the slots that were once reserved for passionate individuals with independent blogs.&lt;&#x2F;p&gt;
+&lt;p&gt;As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.&lt;&#x2F;p&gt;
+&lt;p&gt;The sense of desperation that had gripped me started to crumble when Elon Musk&#x27;s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon—an open-source social platform.
+And oh, what a fortuitous decision that turned out to be.
+It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.&lt;&#x2F;p&gt;
+&lt;p&gt;But a part of me questioned this fortunate discovery.
+Could it merely be a chance occurrence, a fluke in the otherwise distorted realm of human-generated nonsense? I grappled with doubts.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, as if destiny had a hand in it, the second revelation struck—a website called Kagi, delivering yet another blow to the illusion I had held onto.
+The cracks in my previous beliefs widened, challenging me to confront the harsh realities of the digital landscape.&lt;&#x2F;p&gt;
+&lt;p&gt;Kagi, an unconventional paid search engine, piqued my curiosity, prompting me to give it a try.
+What unfolded before my eyes left me astounded—a screen brimming with blog posts dedicated to the concept of &amp;quot;permacomputing&amp;quot; occupied the very first page of results.
+In that moment, it dawned on me that the beloved world of independent blogging, which I had presumed to be on life support, had not faded away as I had believed.
+Instead, it thrived, resilient and as potent as ever.
+It was the so-called social media platforms and search engines, the very entities I had placed my trust in, that had ultimately let me down, betraying the internet I held dear.&lt;&#x2F;p&gt;
+&lt;p&gt;The illusion that once clouded my perception had dissipated into thin air.&lt;&#x2F;p&gt;
+&lt;p&gt;Determined to instigate a change, I embarked on a journey of transformation.
+I am currently in the midst of that process, but I have successfully identified the type of experience I desire.
+I have pinpointed a few readily available opportunities and have taken proactive measures to secure them for myself.&lt;&#x2F;p&gt;
+&lt;p&gt;Foremost, I yearn for an authentic perspective of the internet—a genuine representation of the collective human experience rather than a mere showcase of the glossiest and most superficial elements.
+To fulfill this aspiration, I sought out a suitable search engine, and as I mentioned earlier, I found my answer in Kagi—it aligns perfectly with my vision.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, I crave a steady stream of thoughtful and sincere content.
+To achieve this, I turned to an RSS aggregator to curate and deliver such material to me consistently.
+Feedbin emerged as the ideal choice, serving as the conduit for fulfilling my appetite for meaningful discourse.&lt;&#x2F;p&gt;
+&lt;p&gt;I discovered another low-hanging fruit on my path towards a more fulfilling online experience—a social website optimized for community rather than being driven solely by journalists.
+This gem came in the form of Mastodon.&lt;&#x2F;p&gt;
+&lt;p&gt;In my quest for a trustworthy email service that respects my privacy and shields me from the relentless influx of spammers, I received a recommendation for ProtonMail.
+Taking heed of the suggestion, I made the switch and, so far, I find it to be a satisfactory choice.&lt;&#x2F;p&gt;
+&lt;p&gt;You may have noticed that out of the four aforementioned solutions, three are paid services.
+Additionally, two of them are closed-sourced, while one—the email service—poses the risk of vendor lock-in.
+Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established.
+In the end, these choices emerged as the better alternatives, despite their limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a &lt;a href=&quot;..&#x2F;criteria-for-choosing-tools&quot;&gt;more thorough elaboration&lt;&#x2F;a&gt;.
+Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;At present, I find immense joy in my renewed online experience—a sense of tranquility and refuge washes over me whenever I delve into the internet.
+I wholeheartedly urge you, dear reader, who may be experiencing similar frustrations to those of my past self, to take a moment and reevaluate your internet usage.
+There is a strong possibility that the internet can be a much more pleasant and gratifying space than what you might be feeling at this moment.
+I know this to be true because I am living it right now.
+Embrace the journey of exploring better alternatives and reclaim the joy in your online interactions.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HTML, Unraveling the Quirks and Charms of Non-Programming Programming</title>
+        <published>2023-06-24T00:00:00+00:00</published>
+        <updated>2023-06-24T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/html_the_programming_language/" type="text/html"/>
+        <id>https://prma.dev/html_the_programming_language/</id>
+        
+        <content type="html">&lt;p&gt;Ah yes, the eternal dispute over whether HTML counts as a proper programming language
+seems to bring out the best and worst of our community&#x27;s collective rational faculties.
+A veritable feast of half-baked attempts to define away the problem by appealing
+to whatever convenient characteristics the speaker happens upon,
+combined with a sprinkling of more serious thinkers seeking some grand philosophical theory to explain it all.
+But don&#x27;t get your hopes up - you won&#x27;t find any silver bullet solutions here folks.
+Just a parade of armchair theoreticians grasping blindly for some sense of clarity amidst the fog of poorly thought out positions.
+So gather &#x27;round, listen up, and prepare yourself for another round of pointless squabbling.
+The fun is just beginning!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Loops_And_The_Features&quot;&gt;The Loops And The Features&lt;&#x2F;h2&gt;
+&lt;p&gt;Individuals frequently endeavor to delineate programming languages by differentiating them from HTML, contending that a programming language possesses specified traits.
+Traits that might encompass looping structures, conditional statements, or even compilations.
+Alas, these efforts are founded upon retrospective comprehension - reliant on past personal observations of what constitutes a programming language.
+This flawed methodology, inherently, undermines the legitimacy of their claims inasmuch as they concurrently explore discrepancies between what is deemed not to be a programming language.
+A circular argument ensues, lacking genuineness, and thus futile in supporting the allegation that HTML lacks programming language attributes.&lt;&#x2F;p&gt;
+&lt;p&gt;Alright, listen up! Let&#x27;s say I&#x27;m dead set on accusing Tom of being a thieving scoundrel
+while vehemently asserting that Amanda is as innocent as can be.
+To make my case, I start off by drawing a sharp contrast between Tom and Amanda.
+Then, after much contemplation, I concoct a ridiculously specific definition of a thief:
+&amp;quot;Anyone who happens to be a man in his sixties with an academic background in History.&amp;quot; Can you believe that? Now, picture this - imagine we go ahead and convict every poor soul who fits this outrageous description.
+Well, I&#x27;ll tell you right now, that&#x27;s a load of nonsense! It simply won&#x27;t fly, and anyone with half a brain can see how utterly flawed and impractical that notion is.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Turing_Completeness&quot;&gt;The Turing Completeness&lt;&#x2F;h2&gt;
+&lt;p&gt;Now, let me tell you about those folks who prefer a more unified approach when it comes to defining something, like a programming language.
+They often rely on axioms, you know, those fundamental principles that serve as the bedrock of reasoning.
+One of the most famous examples is the notion of Turing completeness being the ultimate defining factor.
+At first glance, it may not seem problematic.
+But here&#x27;s the burning question: Why on earth would we go down that route?&lt;&#x2F;p&gt;
+&lt;p&gt;Think about it.
+We create distinctions in definitions to aid us in effectively communicating a concept amongst ourselves.
+As far as I know, most programmers couldn&#x27;t care less about whether a
+programming language can perform every single computation imaginable in theory.
+No, sir! Instead, they value the practical aspects like ease of use and reliability when it comes to solving a specific set of problems.
+So, how in the world would that earlier theoretical claim serve us in our day-to-day tasks?
+It&#x27;s a real head-scratcher,
+especially when you consider that such a filter would let languages like brainfuck and whitespace pass through,
+while disregarding &amp;quot;total&amp;quot; programming languages that could actually lead to more robust and dependable software.&lt;&#x2F;p&gt;
+&lt;p&gt;But here&#x27;s the kicker - some people actually advocate for this madness.
+They&#x27;ve come up with a seemingly cohesive definition of a programming language,
+but their motivations for choosing that definition are nothing more than an afterthought.
+As a result, their definitions are utterly useless, or at the very least, useless to those who couldn&#x27;t care less about denigrating a language.
+Can you believe it? What a ridiculous state of affairs!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;Now, let me be clear, my intention here is not to rally behind HTML and extol its virtues.
+Instead, I aim to shed light on our incessant desire to bestow added significance upon the definition of our work.
+And, quite frankly, I implore you to put an end to it.
+You see, a programming language can possess capabilities or be lacking in them,
+and a programmer may be focused on orchestrating the flow of information or on its presentation.
+We come in all shapes and forms, each with our unique approaches.
+Attempting to establish some sort of gatekeeping mechanism in this endeavor will only result
+in programmers overlooking the fact that they may just require HTML and CSS to fulfill their job requirements.
+This, in turn, contributes to the sorry state of the web—bloated and disheartening.&lt;&#x2F;p&gt;
+&lt;p&gt;Let us cherish our roles as creators and refrain from placing undue emphasis on the definition of our jobs,
+but rather, let us focus on the outcomes we produce.
+After all, we are all creators and problem-solvers at heart.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>When Assessing Software&#x27;s Sustainability, Consider Developer&#x27;s Snack</title>
+        <published>2023-06-21T00:00:00+00:00</published>
+        <updated>2023-06-21T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/consider_developers_snack/" type="text/html"/>
+        <id>https://prma.dev/consider_developers_snack/</id>
+        
+        <content type="html">&lt;p&gt;During my early 20s, I found myself immersed in the world of sustainable architecture as an architecture student.
+Engaging in various workshops centered around this field, one particular experience stands out as a monumental turning point in my life.
+It was a workshop conducted by a renowned professor in Iran, where I gained valuable insights.&lt;&#x2F;p&gt;
+&lt;p&gt;Within this workshop, we collectively brainstormed strategies to harness heat sources for a four-member family&#x27;s house,
+aiming to optimize its thermal efficiency.
+We considered a range of possibilities, including solar and geothermal heat, as well as the heat generated by the kitchen oven.
+However, there was one significant heat source that eluded our attention, as pointed out persistently by the professor.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, he provided us with a clue: &amp;quot;You seem to have overlooked four 37-degree Celsius heaters.&amp;quot;
+It dawned on us that we had forgotten to factor in the heat generated by the family members themselves.
+Their body heat, a natural source of warmth, had slipped our minds entirely.&lt;&#x2F;p&gt;
+&lt;p&gt;Reflecting on a more recent occurrence, a certain paper began circulating, comparing the energy usage footprint of different programming languages.
+Yet,
+I couldn&#x27;t help but notice that the discussions surrounding this paper overlooked
+a crucial aspect—it solely measured the energy footprint at one specific point in the application&#x27;s lifecycle.&lt;&#x2F;p&gt;
+&lt;p&gt;It is essential to recognize that the energy usage of a programming language extends beyond a mere snapshot analysis.
+To truly grasp the overall impact,
+we must consider the entire lifecycle of the application,
+accounting for factors such as development, deployment, maintenance, and eventual retirement.
+Only then can we gain a comprehensive understanding of the energy implications associated with different programming languages.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Paper,_As_The_Thread_We_Pull&quot;&gt;The Paper, As The Thread We Pull&lt;&#x2F;h2&gt;
+&lt;p&gt;The paper,
+titled &amp;quot;Energy Efficiency Across Programming Languages,&amp;quot;
+delves into the exploration of various problems and their corresponding solutions,
+which are implemented across multiple programming languages.
+The researchers conducted an analysis of the electricity consumption associated with each implementation.
+In essence, the primary focus of the study revolves around determining the relative energy efficiency of different programming languages,
+with C emerging as the most efficient and serving as the benchmark for measurement.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;C      | 01.00 | ▓ 
+&lt;&#x2F;span&gt;&lt;span&gt;Rust   | 01.03 | ▓
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;Java   | 01.98 | ▓▓
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;. 
+&lt;&#x2F;span&gt;&lt;span&gt;Python | 75.88 | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  
+&lt;&#x2F;span&gt;&lt;span&gt;Perl   | 79.58 | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;These results carry considerable weight,
+although it is essential to address a common misconception surrounding their implications.
+Contrary to popular belief,
+these findings do not unequivocally assert that a C program is
+inherently more environmentally sustainable than its Java counterpart.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Consider_The_Snack&quot;&gt;Consider The Snack&lt;&#x2F;h2&gt;
+&lt;p&gt;In the field of sustainability literature, there exists a concept known as Life-Cycle Assessment (LCA).
+LCA involves evaluating the environmental impact of a product throughout its entire life cycle,
+encompassing aspects such as raw material extraction, manufacturing, and disposal or recycling.&lt;&#x2F;p&gt;
+&lt;p&gt;When applying this concept to the assessment of software life cycles,
+we realize that there are several significant factors that have been overlooked.
+Allow me to provide some insights on these important considerations.&lt;&#x2F;p&gt;
+&lt;p&gt;Firstly, the authors of the paper have primarily focused on the runtime of a specific set of problems.
+This means that their applications follow a sequence of starting up, solving the given problem, and then exiting.
+Consequently, the results obtained are biased towards programming languages that excel at efficient startup and shutdown processes.
+However, this perspective fails to account for the behavior of servers and long-running processes.
+Servers, for instance, typically start up once per day or even less frequently and spend extended periods in the computational phase.
+If a programming language is efficient during the initial startup but requires frequent restarts during runtime, this crucial aspect is overlooked.&lt;&#x2F;p&gt;
+&lt;p&gt;But we shouldn&#x27;t stop there.
+Another aspect to consider is compilation.
+While Rust is indeed an impressive language, its compilation process is significantly more resource-intensive compared to Go.
+Rust yields highly efficient binaries, but the energy expended during the compilation process is also considerably higher.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, the improved quality of Rust&#x27;s compiled binaries becomes relevant when
+we consider the potential presence of bugs and the subsequent need for recompilation.
+More permissive compilers may result in programs with a higher likelihood of bugs,
+necessitating additional rounds of debugging, fixing, and retesting.
+It&#x27;s important to acknowledge that this discussion goes beyond the developer&#x27;s running computer
+and includes factors such as sustenance needs,
+energy consumption to support their biological functioning during the process of bug fixing,
+and the overall impact on the environment.&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally, the continuous deployment or release cycles, repackaging efforts,
+and the use of CI&#x2F;CD practices all contribute to the ecological footprint.
+Recompilation for each platform targeted,
+as well as the network costs associated with distributing binaries or source code to different endpoints,
+also significantly impact the environment.&lt;&#x2F;p&gt;
+&lt;p&gt;The problem of compatibility further compounds the issue.
+Programming languages with runtimes shipped separately from the package,
+such as Python, Lua, and other scripting or JIT languages, as well as those based on virtual machines like JVM,
+often require reprogramming or the inclusion of older runtime versions when breaking changes occur.
+This adds to the complexity and environmental impact of software development and packaging.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, poorly designed programs can accumulate significant technical debt over time, resulting in rewriting.
+Although the language and toolchain themselves may not directly cause this,
+the ecosystem surrounding languages like JavaScript, PHP, and Python tends to encourage short-term thinking.
+In contrast, languages like Rust, C, Fortran, and others that focus on system-level development promote long-term support
+and are home to projects that have thrived for several decades.&lt;&#x2F;p&gt;
+&lt;p&gt;Moreover, the variability in usage patterns must be taken into account.
+While languages like C and C++ require substantial energy for compilation across different platforms,
+languages such as Rust, Go, and Java mitigate the duplication of energy required to support multiple platforms within a single application.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, we must consider the energy expended in the development, maintenance, and support of programming languages.
+Languages like Rust offer remarkable expressive capabilities,
+not merely due to better timing or superior thinking but also as a result of extensive collaborative efforts.
+Conversely, languages like Elm undergo minimal changes over time.&lt;&#x2F;p&gt;
+&lt;p&gt;It is worth emphasizing that the energy required to learn a language,
+the environmental consequences of mistakes made during coding
+(e.g., unintentionally sending a million requests to thousands of different servers),
+variations in energy usage among developers from different countries,
+and the decreasing lifespan of hardware are all factors that contribute to the overall consideration&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_Reader...&quot;&gt;Dear Reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;The crux of the matter is that complexity pervades these considerations,
+demanding our thoughtful attention and appropriate mitigation for each aspect.
+Failing to acknowledge and address each facet places us at risk of optimizing solely for one element
+while sacrificing the other to the extent of rendering our efforts absurd.&lt;&#x2F;p&gt;
+&lt;p&gt;It is important to note that I have deliberately omitted discussions about post-harm mitigation.
+Our focus has been on reducing harm itself.
+Exploring the costs associated with bootstrapping and averting catastrophic scenarios
+would expand beyond the scope of this essay.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FLOSS and Longevity sitting in a tree</title>
+        <published>2023-06-14T00:00:00+00:00</published>
+        <updated>2023-06-14T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/floss_is_friendly_towards_longivity/" type="text/html"/>
+        <id>https://prma.dev/floss_is_friendly_towards_longivity/</id>
+        
+        <content type="html">&lt;p&gt;Free&#x2F;Libre and Open Source Software (FlOSS) is a captivating realm within software development.
+What makes FLOSS particularly intriguing is its deviation from conventional business goals,
+leading to planned longevity and a distinct approach to sustainability.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Reasons&quot;&gt;Reasons&lt;&#x2F;h2&gt;
+&lt;p&gt;Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;The_longevity_of_the_FLOSS_business_model_serves_it_well&quot;&gt;The longevity of the FLOSS business model serves it well&lt;&#x2F;h3&gt;
+&lt;p&gt;The common business models are better suited for short-term goals.
+There are two major approaches: selling or renting.&lt;&#x2F;p&gt;
+&lt;p&gt;Small to mid-sized software companies predominantly prioritize the sale of their products.
+The concept of product longevity, while acknowledged as necessary,
+assumes a secondary role rather than being a central objective.
+Its primary function lies in establishing trust among consumers.
+Once the initial excitement surrounding the launch of a new and captivating product subsides,
+these companies swiftly shift their attention to the next innovation.
+The success of marketing these novel products heavily relies on users&#x27; fear of missing out
+and the perceived loss of functionality associated with the previous iteration.
+Unfortunately, this often leads to the inclusion of unnecessary features,
+deliberate planning for obsolescence, and resistance against the right to repair.
+In this cycle, longevity takes a backseat as the perpetual replacement of one product with another takes precedence.&lt;&#x2F;p&gt;
+&lt;p&gt;Conversely, larger companies place a premium on the rental model for software.
+Instead of users owning the software outright,
+they opt for subscription-based payment models for continuous usage.
+One might assume that these companies would prioritize stability to retain their subscribers.
+However, practical implementation often takes a different route.
+These companies rely on monopolistic tactics,
+such as acquiring competitors or launching extensive marketing campaigns to stifle new entrants.
+In cases where competition persists, they resort to content exclusivity,
+coercing users to purchase their product alongside competitors&#x27; offerings.
+Consequently, users find themselves utilizing these products for prolonged periods not due to their exceptional quality,
+but rather because they perceive limited alternative options.
+The subscription model may make sense when paying for a service,
+but it doesn&#x27;t align with current software development.
+Paying subscription for developing and bug-fix of a product is simply paying for the privilege of using an incomplete version of a product.&lt;&#x2F;p&gt;
+&lt;p&gt;In contrast, companies adopting a pay-for-enterprise-support model for open-source products,
+such as Canonical and Red Hat, exhibit commendable practices.
+Their primary emphasis lies on longevity.
+If the software is functioning adequately, their tasks are straightforward,
+eliminating the need to address the same issue repeatedly for each client.
+Longevity serves as both their evidence and modus operandi.
+They provide support for software that has already weathered numerous instabilities.
+They employ different development stages, such as alpha, unstable, stable, and long-term releases.
+These features can subsequently be passed on to other distributions with more robust objectives, such as REHL.&lt;&#x2F;p&gt;
+&lt;p&gt;Although these companies may impose charges for bug fixes, their underlying offering revolves around selling stability and longevity (think Ubuntu Pro).
+This approach is not driven solely by inherent benevolence but rather stems from a lack of alternatives.
+They are unable to monopolize a product that can be cloned, forked, and utilized to initiate independent ventures.
+Nor can they vend software that others can fork, enhance, and sell at higher prices or even distribute for free.
+Their sole viable course of action entails creating a product that strikes a balance,
+avoiding both excessive limitations that render it futile and excessive complexity that complicates support.&lt;&#x2F;p&gt;
+&lt;p&gt;However, business is just one piece of the puzzle.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;FLOSS_engineers_prioritize_quality_over_quantity.&quot;&gt;FLOSS engineers prioritize quality over quantity.&lt;&#x2F;h3&gt;
+&lt;p&gt;As we discussed, most businesses prioritize product quality only until it reaches a level sufficient for selling.&lt;&#x2F;p&gt;
+&lt;p&gt;This often leads to engineers being pushed and encouraged to develop faster,
+sacrificing quality and stability when it hinders &amp;quot;beating the competition to market.&amp;quot;
+I&#x27;m sure I&#x27;m not alone in feeling dissatisfied with creating instant legacy products and leaving behind a trail of subpar,
+useless software. It leaves no room for pride in one&#x27;s work.&lt;&#x2F;p&gt;
+&lt;p&gt;As a result, engineers who value quality find satisfaction in other avenues,
+such as personal projects or contributing to libraries and tools they use themselves.&lt;&#x2F;p&gt;
+&lt;p&gt;The dynamics of development in these situations differ.
+Open-source software often lacks the same level of resources,
+making maintainability a crucial concern.
+Allowing technical debt to accumulate in a project one maintains can result in paying a hefty price, even in a short period.
+The more users a project has,
+the more the burden of technical debt becomes apparent—quite the opposite of the industry&#x27;s &amp;quot;move broken things, fast&amp;quot; mentality.&lt;&#x2F;p&gt;
+&lt;p&gt;Consequently, successful open-source products tend to have meticulous and uncompromising maintainers.&lt;&#x2F;p&gt;
+&lt;p&gt;Another important aspect to consider is that open-source software greatly enhances one&#x27;s resume.
+Similar to a resume, open-source projects showcase an individual&#x27;s best work.
+They are like first dates, where you present yourself at your best.
+Consequently, open-source projects motivate developers to create their finest code and documentation.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, transparency is a vital aspect of open-source projects.
+Engaging in dubious practices, such as intrusive telemetry, can agitate the surrounding community.&lt;&#x2F;p&gt;
+&lt;p&gt;In summary, there are four main reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The cost of maintainability&lt;&#x2F;li&gt;
+&lt;li&gt;The positive impact on one&#x27;s resume&lt;&#x2F;li&gt;
+&lt;li&gt;Counteracting the lack of satisfaction caused by lower quality software in daily work&lt;&#x2F;li&gt;
+&lt;li&gt;Embracing transparency&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;FLOSS_exhibits_a_greater_degree_of_diversity.&quot;&gt;FLOSS exhibits a greater degree of diversity.&lt;&#x2F;h3&gt;
+&lt;p&gt;When it comes to a biological ecosystem, its resilience stems from the diversity of its members.
+Let&#x27;s imagine a scenario involving a moth that feeds on maple tree branches.
+In a jungle filled with maple trees, the moth can feast and reproduce endlessly.
+However, there&#x27;s a twist.&lt;&#x2F;p&gt;
+&lt;p&gt;Around 10% of the maple trees have developed a variation of their membrane that is toxic to the moth, purely by chance.
+Now, if the moth tries to feed on these trees, it has a 1 in 10 chance of being fatally poisoned.
+If there were only a single moth, it would be the end of its lineage.
+However, imagine a population of 100 moths, and 10% of them have accidentally developed immunity.
+These &amp;quot;super moths&amp;quot; may be larger and more resistant to the trees,
+but they are also more visible to predators like birds.
+And so, the cycle continues.&lt;&#x2F;p&gt;
+&lt;p&gt;The diversity of approaches within a biological ecosystem is crucial.
+In the context of biological beings,
+the exchange of random sets of genes through sexual reproduction likely emerged as a means to enhance resilience.
+Microbes that prey on others, on the other hand, face a more challenging situation, as the result.&lt;&#x2F;p&gt;
+&lt;p&gt;These advantageous mechanisms resulting from diversity are also present in the software ecosystem.&lt;&#x2F;p&gt;
+&lt;p&gt;The needs and threats faced by a server differ from those faced by a German student&#x27;s laptop.
+While Linux is ubiquitous in the open-source desktop realm,
+there are numerous slightly different Linux distributions available.
+These variations encompass different themes,
+preinstalled applications, package managers,
+and even packaging architecture models.
+Additionally, there are kernels compiled with different flags and versions.&lt;&#x2F;p&gt;
+&lt;p&gt;Given this remarkable diversity,
+it comes as little astonishment that Microsoft&#x27;s ardent campaign during the 2000s against the comparably youthful,
+less cohesive, and resource-limited Linux met with abysmal failure.
+Strikingly, in a twist of events,
+Microsoft has lately unveiled its very own Linux distribution and dedicated years to crafting the Windows Subsystem for Linux.&lt;&#x2F;p&gt;
+&lt;p&gt;To the proprietary realm, an ecosystem characterized by the development,
+redesign, and forking of diverse products, yielding a multitude of solutions, may appear inherently inefficient.
+Yet, from the perspective of permaculture and permacomputing, such an ecosystem manifests as nothing short of utopia.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;FLOSS_demonstrates_a_higher_level_of_robustness.&quot;&gt;FLOSS demonstrates a higher level of robustness.&lt;&#x2F;h3&gt;
+&lt;p&gt;FLOSS transcends being a mere generator of independent variations that begin anew each time.
+It represents a system where progress builds upon existing foundations, with each subsequent layer amplifying the importance of the underlying ones.
+Irrespective of how many stories above the ground one ascends, the ground level remains a paramount concern if its integrity is jeopardized.
+Prominent examples of this phenomenon can be observed in projects like curl, the kernel, and OpenSSL.
+Although these initiatives were initially initiated by individuals, they have evolved into integral components of numerous other undertakings.
+The driving force compelling many individuals to contribute to these projects stems from the realization that the cost of abstaining from participation would be significantly greater.&lt;&#x2F;p&gt;
+&lt;p&gt;However, it is important to recognize that this process is not always pleasant.
+Consider the immense pressure on OpenSSL developers.
+If they were to become overwhelmed and exhausted like many other open-source maintainers, the consequences could be significant.&lt;&#x2F;p&gt;
+&lt;p&gt;Yet, when such challenges arise (and they do), we all become aware of them.
+We sense the danger and collectively strive to find solutions.
+This is in stark contrast to the situation when a proprietary software developer abandons a company.
+Until a replacement is found, users are left unaware and vulnerable to potential security threats posed by malicious hackers.&lt;&#x2F;p&gt;
+&lt;p&gt;Thanks to this collective effort and attention to robustness,
+many foundational open-source software programs have remained the best tools for the job even after decades of use.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Dear_reader...&quot;&gt;Dear reader...&lt;&#x2F;h2&gt;
+&lt;p&gt;Now, esteemed reader,
+I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions
+find the realm of FLOSS far more fertile than its alternatives.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>about_prma</title>
+        <published>2023-06-09T00:00:00+00:00</published>
+        <updated>2023-06-09T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/about/prma/" type="text/html"/>
+        <id>https://prma.dev/about/prma/</id>
+        
+        <content type="html">
+&lt;img class=&quot;small-image&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;prma.dev&amp;#x2F;processed_images&amp;#x2F;prma.22d45da49252c214.png&quot; &#x2F;&gt;&lt;h2 id=&quot;The_Name&quot;&gt;The Name&lt;&#x2F;h2&gt;
+&lt;p&gt;&amp;quot;Prma,&amp;quot; derived from the term &amp;quot;perma,&amp;quot; draws inspiration from concepts like
+&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Permaculture&quot;&gt;permaculture&lt;&#x2F;a&gt;, &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;permacomputing.net&#x2F;&quot;&gt;permacomputing&lt;&#x2F;a&gt;, and permanence.
+Although it lacks the letter &amp;quot;e&amp;quot; due to the unavailability of &lt;code&gt;perma.dev&lt;&#x2F;code&gt;, it admirably fulfills its purpose.
+It&#x27;s important to recognize that permanence does not equate to perfection;
+rather, it entails acknowledging and embracing the inherent imperfections transparently.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Scope&quot;&gt;The Scope&lt;&#x2F;h2&gt;
+&lt;p&gt;This blog transcends the boundaries of perma-computing, as its title serves as a testament to my own viewpoint and endorsement of the concept.
+What truly captivates me is the exploration of tools and methodologies that facilitate the development of enduring software solutions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;The_Need:_The_Pitfalls_of_Disposable_Culture_and_the_Quest_for_Quality&quot;&gt;The Need: The Pitfalls of Disposable Culture and the Quest for Quality&lt;&#x2F;h2&gt;
+&lt;p&gt;It is of utmost importance to acknowledge the inherent impermanence that permeates every aspect of life.
+However, if we continue down the path of wholeheartedly embracing impermanence,
+we will inevitably face our own downfall, as individuals, as a civilization, and as a species.&lt;&#x2F;p&gt;
+&lt;p&gt;Regrettably, this notion has become deeply ingrained in our society,
+where the tools and products we rely upon have become increasingly disposable and cheaply made.
+We find ourselves amassing a staggering array of subpar possessions
+that succumb to inevitable breakage within a mere couple of years, if not less.
+Consequently, our primary concern shifts to the constant pursuit of the next disposable acquisition.&lt;&#x2F;p&gt;
+&lt;p&gt;This lack of agency perpetuates a ceaseless cycle of squandering time and resources on the perpetual replacement of broken items.
+It is akin to inhabiting a rental property rather than owning a home—when
+we know we won&#x27;t be there for more than a brief stint,
+our motivation to improve our living environment dwindles.&lt;&#x2F;p&gt;
+&lt;p&gt;As a result, our overall quality of life suffers immensely.
+Our surroundings are dominated by a sea of low-quality, disposable commodities,
+and we hesitate to invest in superior alternatives due to the ever-looming thought of the next disposable wave
+that will inevitably crash upon us in a couple of years, thus perpetuating this vicious cycle.&lt;&#x2F;p&gt;
+&lt;p&gt;Inevitably, this mindset contributes to environmental catastrophes,
+akin to the detrimental impact of choosing plastic cups over reusable ones.
+We simply cannot afford to settle for mediocrity and substandard quality in all aspects of our existence.
+It is imperative that we rise above this prevailing norm and strive for excellence,
+for the sake of our own well-being and that of our planet.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>about_me</title>
+        <published>2023-06-08T00:00:00+00:00</published>
+        <updated>2023-06-08T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/about/me/" type="text/html"/>
+        <id>https://prma.dev/about/me/</id>
+        
+        <content type="html">
+&lt;img class=&quot;small-image&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;prma.dev&amp;#x2F;processed_images&amp;#x2F;avatar.cb345241a61fdc03.png&quot; &#x2F;&gt;&lt;p&gt;
+&lt;p&gt;In this vast world,
+teeming with approximately 8 billion human beings,
+I, too, find myself among their ranks, a singular entity in the tapestry of humanity.&lt;&#x2F;p&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Through my intellectual journey,
+I have delved into the realms of architecture and cognitive science,
+exploring the intricate connections between our built environment and the workings of the human mind.
+However, amidst this exploration,
+my fascination with computing remained unwavering, beckoning me towards a path where I finally discovered my true calling as a developer.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Name-wise&quot;&gt;Name-wise&lt;&#x2F;h2&gt;
+&lt;p&gt;You can call me Perma. My legal name is AmirHossein Alesheikh. I don&#x27;t mind either, but I prefer Perma.
+Read &lt;a href=&quot;..&#x2F;..&#x2F;call-me-perma&quot;&gt;Call Me Perma&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
+&lt;p&gt;You can use any pronouns, I don&#x27;t mind any of them, I don&#x27;t identify with any of genders, anyways.
+But it will be nice if you could make it clear to me which one you have chosen.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Job-wise&quot;&gt;Job-wise&lt;&#x2F;h2&gt;
+&lt;p&gt;As a back-end developer, my expertise lies in utilizing languages like Go and Rust to build the foundational components of software systems.
+I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
+Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Tech-wise&quot;&gt;Tech-wise&lt;&#x2F;h2&gt;
+&lt;p&gt;Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant.
+The hours I&#x27;ve devoted to sitting behind desktop computers far exceed the time I&#x27;ve dedicated to restful slumber.
+Throughout my life, I proudly embrace the label of a bona fide textbook nerd,
+finding immense joy and fascination in the pages of educational literature.
+In fact, my favorite genre of books happens to be none other than textbooks themselves.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Advocacy&quot;&gt;Advocacy&lt;&#x2F;h2&gt;
+&lt;p&gt;For over 15 years, I have actively engaged in the realm of free software advocacy,
+passionately advocating for the principles of openness and accessibility.
+It&#x27;s safe to say that I find myself firmly planted in the far-left corner of political stereotypes,
+unapologetically embracing a feminist perspective, advocating for veganism and animal rights, and actively participating in environmentalism.
+While there are other aspects of my beliefs,
+such as my alignment with &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;tag&#x2F;rationalist-movement&quot;&gt;rationalism&lt;&#x2F;a&gt;, utilitarianism,
+and consciousness idealism, I won&#x27;t delve into those topics and burden you with excessive details.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Me,_in_the_wild&quot;&gt;Me, in the wild&lt;&#x2F;h2&gt;
+&lt;div style=&quot;display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; &quot;&gt;
+  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;fosstodon.org&#x2F;@Amirography&quot;&gt; Fosstodon &lt;&#x2F;a&gt; &lt;&#x2F;div&gt;
+  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;hachyderm.io&#x2F;@Amirography&quot;&gt; Hachyderm &lt;&#x2F;a&gt; &lt;&#x2F;div&gt;
+  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a  href=&quot;https:&#x2F;&#x2F;github.com&#x2F;prmadev&quot;&gt; Github &lt;&#x2F;a&gt;&lt;&#x2F;div&gt;
+  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a  href=&quot;https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prmadev&quot;&gt; Linkedin &lt;&#x2F;a&gt;&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;FAQ&quot;&gt;FAQ&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Q: What time is it?&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Q: What&#x27;s your dogs name?&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Q: Is your dog friendly?&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Q: Is it your turn to cook lunch or mine?&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Yeah, I hear these questions quite frequently!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Go vs. Rust&#x27;s Readability Trade-offs: Better Safe Than Sorry</title>
+        <published>2023-04-14T00:00:00+00:00</published>
+        <updated>2023-04-14T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/readability_tradeoffs/" type="text/html"/>
+        <id>https://prma.dev/readability_tradeoffs/</id>
+        
+        <content type="html">&lt;p&gt;Traditionally speaking, Go and Rust are not direct competitors on many fronts.
+Each take different trade-offs. But more often than not, you might need to choose one over the other.
+It is compared in the niche the other fails. Like low-level system development, which Rust easily rules. 
+Or maybe dev-ops tooling which Go is easily good at it. &lt;&#x2F;p&gt;
+&lt;p&gt;However, there are many overlaps in their use case.
+Think high-performance web-servers.
+In those spaces, we should compare other things. Like readability and maintainability of language.
+In this post, I want to share my thoughts on readability.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;TL;DR&quot;&gt;TL;DR&lt;&#x2F;h2&gt;
+&lt;p&gt;Rust is not less maintainable than Go because Go is less readable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;What_I_do_not_disagree_with&quot;&gt;What I do not disagree with&lt;&#x2F;h2&gt;
+&lt;p&gt;Just to be clear, although I&#x27;m making a case for Rust and arguing that readability should not be as much concern,
+I would like to make clear that I&#x27;m not arguing against these common-sense statements: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go is more readable.&lt;&#x2F;li&gt;
+&lt;li&gt;Go has less overhead for people with no previous experience with language.&lt;&#x2F;li&gt;
+&lt;li&gt;Readability is generally what you want.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;Why_readability_is_good&quot;&gt;Why readability is good&lt;&#x2F;h2&gt;
+&lt;p&gt;English is more readable than any programming language. However, readability is not the only measure that we are using for chosing a language.
+Readability and clearity are not inherently good, rather it is a proxy for something else we value: 
+A readable code helps us understand the flow of information in order to &lt;strong&gt;understand its logic&lt;&#x2F;strong&gt;, &lt;strong&gt;capture its bugs&lt;&#x2F;strong&gt; and &lt;strong&gt;extend it&lt;&#x2F;strong&gt;, easier.
+A line of code is read in many situations: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;I want to find out how a piece of code can give rise to a specific runtime bug. &lt;&#x2F;li&gt;
+&lt;li&gt;I want to audit it to see if it exposes any specific vulnerability, data-race, etc.&lt;&#x2F;li&gt;
+&lt;li&gt;I want to add features to it, and I want to know where and how I should plug the new functionality to.&lt;&#x2F;li&gt;
+&lt;li&gt;I want to make a code more robust, document it and make it more available for other people by refactoring it.&lt;&#x2F;li&gt;
+&lt;li&gt;I want to review the code of my colleague to see if a set of fresh eyes could capture a new bug, or an inconsistent styling with the rest of the codebase.&lt;&#x2F;li&gt;
+&lt;li&gt;I want to understand what a code base does. Maybe I&#x27;m trying to see if a software is spying on me, or maybe I&#x27;m trying to understand the way it calculated my taxes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;These are all noble pursuits. And in all these cases, readability is vital in preventing disasters and better experience in onboarding others.
+Go&#x27;s readability is probably one of its best features. At my current and previous jobs,
+I have had to jump into different code bases with different levels of legacy and problematic codebases where junior developers with no-idea of idiomatic ways of coding Go left their projects without any context for the next developer.
+Such low quality codes should take forever for one to decode. However, because of the beautifully simple syntax of Go, I could start to be productive and sending PRs in less than a day.
+Have you seen a codebase where all the back-end code was coded by a narcissistic lone-wolf meth-addict? Well, I have, and it&#x27;s an absolute shit-show. Yet, I committed my first edits in 3 hours.
+Go is excellent at that. And I can understand how a huge tech company with very quick employee turn-over can give rise to such language.
+Kudos to the Go team.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Rust_does_not_need_readability&quot;&gt;Rust does not need readability&lt;&#x2F;h2&gt;
+&lt;p&gt;Not As much, anyway. 
+Unlike its name, Rust usually finds a third way.
+For example, if you have thought a language should either be performant yet unsafe, or be less-performant and have a mark-and-sweep garbage-collector,
+Rust will defy your limits by using a new semantic approach to manage memory which while possesses the speed of manual memory management,
+it is yet much more memory safe than most garbage collected languages.&lt;&#x2F;p&gt;
+&lt;p&gt;When it comes to readability, Rust is vastly less readable than go, on the other hand, it handles many of the core reasons we need readability using compile-time checks.
+Let us consider the situations we have mentioned before.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Rust has a very strong emphasis on handling errors and panicking, and exceptions are heavily discouraged. You can use things such as &lt;code&gt;clippy::expect_used&lt;&#x2F;code&gt; and &lt;code&gt;clippy::expect_used&lt;&#x2F;code&gt; and &lt;code&gt;clippy::panic&lt;&#x2F;code&gt; linters to prevent the code from compiling if at any point you have used them. Basically, you can write a total program. &lt;&#x2F;li&gt;
+&lt;li&gt;Rust uses many linters and is heavily protected by its compiler against many security bugs. It has a semantic way of preventing memory leaks and data-races. Many of the common audits are not necessary when language itself makes the vulnerability impossible to happen. &lt;&#x2F;li&gt;
+&lt;li&gt;Rust has a very extensive and strong type-system. This means that you can be very explicit about the APIs of each package and each crate. This means that the language-server and IDE can easily help you with using those APIs in such a way that, for example, Go with a type-system much smaller, could not.&lt;&#x2F;li&gt;
+&lt;li&gt;Rust&#x27;s compiler allows for explicitly making policy about documentation and styling. For example, you can make it impossible for a code to compile if every public API is not documented, or if the document doesn&#x27;t cover errors. The test runner also checks if the example&#x27;s in the documentation are not running. This helps in enforcing good documentation practices for the engineering team.&lt;&#x2F;li&gt;
+&lt;li&gt;Rust&#x27;s compiler is very hard to convince of compiling. Every line of code should work perfectly. If a code can compile and pass Clippy lints and test runner, there is little left for the reviewer of the code. The reviewer should only concern themselves with the business-logic of the code.&lt;&#x2F;li&gt;
+&lt;li&gt;The expressiveness of the type system allows for functions that enforce business logic, in their function signature and type constructors. Rust also adopts a declarative naming convention, which helps with communicating intentions. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;All these points mean that most of the needs of readability are either covered by the compiler or the idioms are well enough that you don&#x27;t have to worry about the complexity of syntax.&lt;&#x2F;p&gt;
+&lt;p&gt;Rust&#x27;s compiler does most of the reading for you, you do the writing, my friend. &lt;&#x2F;p&gt;
+&lt;p&gt;You can compare this approach by saying that rust allows for a compile-time robustness, while Go helps with runtime-maturing.
+And hence, Rust is optimized for the time of the writing. Not ad-hoc corrections, which is what Go is excels at.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;How_should_it_affect_your_decisions&quot;&gt;How should it affect your decisions&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;Where_Go&#x27;s_approach_excels_at&quot;&gt;Where Go&#x27;s approach excels at&lt;&#x2F;h3&gt;
+&lt;p&gt;I consider Kubernetes to be the perfect example of a project that Go is perfect for.
+A super readable language is great for when massive amounts of unfamiliar engineers need to change the code base constantly, and their changes are examined by themselves.
+Such situations come up with projects that are usually providing a thin layer of API over different platforms, and when you expect the project to be truly forked, constantly. 
+In such platforms, you expect, and welcome a lot of hit-and-run contributions and you expect the code to be easily changeable.
+The code does not need to be perfect at all times, as the users are expected to be perfectly capable of patching the codebase, at least for their own use-case.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Where_Rust&#x27;s_approach_excels_at&quot;&gt;Where Rust&#x27;s approach excels at&lt;&#x2F;h3&gt;
+&lt;p&gt;Although I expect it to be controversial, I find web-servers to be the epitome of what Rust is good for. 
+I consider Rust to be perfect for a software where you want each deploy to be perfect.
+Each commit with Rust can be double-checked by the compiler, Clippy, cargo-audit cargo-deny and many other tools.
+Using its expressive type-system you can make functions pure, ensure totality and model data in a way that most other languages can only dream of. &lt;&#x2F;p&gt;
+&lt;p&gt;Now, I know that many people consider Go to be excellent at making web servers.
+As a back-end developer who has chosen Go to be my main language for business, I agree with you. Go is splendid for web servers.
+But I strongly suggest that you give Rust a try if back-end development in Go is your thing.
+You would be extremely surprised at how exceptionally well Rust is at this task.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>19% of Rustaceans Need To Know This!</title>
+        <published>2023-04-09T00:00:00+00:00</published>
+        <updated>2023-04-09T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/moving_is_pure/" type="text/html"/>
+        <id>https://prma.dev/moving_is_pure/</id>
+        
+        <content type="html">&lt;p&gt;Or you can also read the title as: I made a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;fosstodon.org&#x2F;@Amirography&#x2F;110152228540156245&quot;&gt;poll&lt;&#x2F;a&gt; and 81% agreed with me. So you probably don&#x27;t need to read on. 
+I know, I hate the title as well. But I couldn&#x27;t resist. 
+So here is another, better title:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Moving_a_Variable_to_a_Function_in_Rust_Doesn&#x27;t_Make_It_Impure&quot;&gt;Moving a Variable to a Function in Rust Doesn&#x27;t Make It Impure&lt;&#x2F;h2&gt;
+&lt;p&gt;So as an introduction, if you don&#x27;t know Rust: 
+In Rust, we have this concept of moving variables.
+It is like this: &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;  A variable is made. 
+&lt;&#x2F;span&gt;&lt;span&gt;let a_variable = some_value; 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; It moves into this function.
+&lt;&#x2F;span&gt;&lt;span&gt;_ = a_function_that_takes_ownership(a_variable);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; We cannot use a_variable anymore! So, we cannot do this!
+&lt;&#x2F;span&gt;&lt;span&gt;let b_variable = a_variable; 
+&lt;&#x2F;span&gt;&lt;span&gt;  
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now I consider &lt;code&gt;a_function_that_takes_ownership&lt;&#x2F;code&gt; to be a pure function.
+However, it raises a possible confusion:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Doesn&#x27;t &lt;code&gt;a_function_that_takes_ownership&lt;&#x2F;code&gt; change the state of the outer function?
+Isn&#x27;t that a side effect?&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I argue that it doesn&#x27;t. Here is why: a function is not a function call. Ok. let&#x27;s visualize it. &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      ________outer_function_______
+&lt;&#x2F;span&gt;&lt;span&gt;--in-&amp;gt;|       __inner_f___        |-out-&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      | -in-&amp;gt; |          | -out-&amp;gt; |
+&lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
+&lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;So we have two functions. One outer, and one inner.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each function should have inputs and an output.&lt;&#x2F;li&gt;
+&lt;li&gt;Other than their outputs, they should not change anything outside their function space. &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If these conditions are not met, our function is not pure.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;&#x2F;strong&gt; Now consider a variable &lt;code&gt;[V]&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
+&lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;| [v]   ____________        |-----&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      | ----&amp;gt; |          | -----&amp;gt; |
+&lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
+&lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;&#x2F;strong&gt; With our outer function, we create a function call for the inner function. &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
+&lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;|       ____________        |-----&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      | [v]-&amp;gt; |          | -----&amp;gt; |
+&lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
+&lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;&#x2F;strong&gt; It is no longer in the state space of the outer function. The inner function takes ownership of it.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
+&lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;|       ____________        |-----&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      | ----&amp;gt; |   [v]    | -----&amp;gt; |
+&lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
+&lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Semantically, for the outer function &lt;code&gt;[v]&lt;&#x2F;code&gt; was used in the function call and then dropped. Which does not violate our rules.
+For the inner function, it just got an input and returns an output. 
+So it makes sematic sense. 
+In practice, it also makes the same guarantees as any other pure function:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;No null pointers. &lt;&#x2F;li&gt;
+&lt;li&gt;No mutable state. &lt;&#x2F;li&gt;
+&lt;li&gt;No side effects. &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If the caller &lt;code&gt;.clone()&lt;&#x2F;code&gt; our value and make a copy of it and pass that to the inner function,
+it provides us with no other guarantees, other than more memory usage and slightly longer code.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Why_does_it_matter?&quot;&gt;Why does it matter?&lt;&#x2F;h2&gt;
+&lt;p&gt;Well, Honestly, it doesn&#x27;t.
+I just had to decide if in a pure function I can consume a &lt;code&gt;self&lt;&#x2F;code&gt;, if I want to make it a pure function, considering that I cannot make it &lt;code&gt;const&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
+This was my thinking output. Now you are the outer function. &lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pure Rust: How to apply Functional Programming Principles To Your Rust Functions</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/pure-rust-pure-functions/" type="text/html"/>
+        <id>https://prma.dev/pure-rust-pure-functions/</id>
+        
+        <content type="html">&lt;p&gt;If you are not familiar with Functional Programming(FP), you are in for a ride.
+I will try to explain Functional Programming(FP) in more practical terms.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;A_definition_to_work_with&quot;&gt;A definition to work with&lt;&#x2F;h2&gt;
+&lt;p&gt;FP is a &lt;strong&gt;declarative&lt;&#x2F;strong&gt; way of writing a program that consists mostly of &lt;strong&gt;pure functions&lt;&#x2F;strong&gt; that operate on and produce &lt;strong&gt;immutable data&lt;&#x2F;strong&gt;.
+That was many other unfamiliar words. Let&#x27;s make it concrete.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Making_it_more_concrete&quot;&gt;Making it more concrete&lt;&#x2F;h2&gt;
+&lt;p&gt;Here is a function in Rust that we will work on:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; Calling `calculate_my_lateness` seems like magic.
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; We don&amp;#39;t know how it calculates it, and why it is doing that.
+&lt;&#x2F;span&gt;&lt;span&gt;  let mut status: bool;
+&lt;&#x2F;span&gt;&lt;span&gt;  calculate_my_lateness(&amp;amp;mut status);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; This sometimes crashes and sometimes, it does not.
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(status, true);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; The point of this function is to tell us if we are late
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; Ask yourself, how would you write a test for such a function?
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness(status: &amp;amp;mut bool) {
+&lt;&#x2F;span&gt;&lt;span&gt;    let current_time = std::time::SystemTime::now();
+&lt;&#x2F;span&gt;&lt;span&gt;    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    status = current_time &amp;lt;= date_time;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now, let&#x27;s make it &lt;em&gt;pure&lt;&#x2F;em&gt; and while we are at it, we introduce pure functions and some principles as well.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Pure_functions_return_at_least_one_output&quot;&gt;Pure functions return at least one output&lt;&#x2F;h3&gt;
+&lt;p&gt;That means that if you have a function named &lt;code&gt;some_function&lt;&#x2F;code&gt;, you will have at least one argument &lt;code&gt;some_input&lt;&#x2F;code&gt; and it will return at least one output &lt;code&gt;some_output&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn some_function(some_input) -&amp;gt; some_output
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Why do we do this? When we are calling a function, we are expecting &lt;em&gt;something&lt;&#x2F;em&gt; to happen.
+In FP world, the only acceptable &lt;em&gt;something&lt;&#x2F;em&gt; is an output argument.
+A lack of output is &lt;em&gt;symptomatic&lt;&#x2F;em&gt; of one of these two unacceptable situations:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Our function does nothing&lt;&#x2F;strong&gt;. In which case, why are we even bothering to write it at all?&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Our function is doing a side effect&lt;&#x2F;strong&gt;. Which means that it is changing something other than what is inside the function.
+These functions don&#x27;t let us know or control what they are doing inside, without making us look at the source code.
+We will get back to this throughout this post.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Please note the emphasis on &lt;em&gt;symptomatic&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;So let&#x27;s make it return the output:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  let mut status: bool;
+&lt;&#x2F;span&gt;&lt;span&gt;  let output = calculate_my_lateness(&amp;amp;mut status);
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;--^^^^^^------------ we have an output now
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(output, true);
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;---------^^^^^^----- which we use here
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness(status: &amp;amp;mut bool) -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;-notice that we are returning something--^^^^--
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    let current_time = std::time::SystemTime::now();
+&lt;&#x2F;span&gt;&lt;span&gt;    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    status = current_time &amp;lt;= date_time;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    status &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; &amp;lt;- what we are returning
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;Pure_functions_don&#x27;t_mutate_state&quot;&gt;Pure functions don&#x27;t mutate state&lt;&#x2F;h3&gt;
+&lt;p&gt;As I mentioned before, a function does something when it returns something and changes the state of something outside itself.
+We call that &lt;em&gt;a side effect&lt;&#x2F;em&gt;.
+You may have noticed that our function takes a mutable variable of type &lt;code&gt;bool&lt;&#x2F;code&gt; and changes it.
+In our first iteration of the function, we needed it. But now, we grew out of it. So let&#x27;s just delete it.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; let mut status: bool;  &amp;lt;- we don&amp;#39;t need this
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  let output = calculate_my_lateness();
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;--------------------------------^ we don&amp;#39;t need to take status any more
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(output, true);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness() -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;------------------^^- we don&amp;#39;t need to take a mutable variable
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    let current_time = std::time::SystemTime::now();
+&lt;&#x2F;span&gt;&lt;span&gt;    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    current_time &amp;lt;= date_time &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;  &amp;lt;- what we are returning
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now isn&#x27;t this better? When I call &lt;code&gt;calculate_my_lateness()&lt;&#x2F;code&gt;
+I&#x27;m not worried about the function changing anything it&#x27;s not supposed to anymore.
+Let&#x27;s move on.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Pure_functions_return_output_only_based_on_their_argument&quot;&gt;Pure functions return output only based on their argument&lt;&#x2F;h3&gt;
+&lt;p&gt;Which means that when I call &lt;code&gt;calculate_my_lateness()&lt;&#x2F;code&gt;, I should not expect it to do something different each time I run it.
+Why is that? There are two reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Transparency&lt;&#x2F;strong&gt;: You should know what parameters change the output of a function, without needing to reading the function body.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;&#x2F;strong&gt;: It is hell of a lot easier to test a function that you can just control without needing to change the time of your computer. Won&#x27;t you say?&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Let&#x27;s do it in two steps this time.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;Step_one:_Don&#x27;t_use_global_variables&quot;&gt;Step one: Don&#x27;t use global variables&lt;&#x2F;h4&gt;
+&lt;p&gt;you may have noticed &lt;code&gt;SOME_SPECIFIED_TIME&lt;&#x2F;code&gt;.
+This is a variable we use to make a &lt;code&gt;SystemTime&lt;&#x2F;code&gt; which we compare current time with to know if we are late or not.
+The problem here is these two:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;We need to write a new function, each time we have a new meeting.&lt;&#x2F;li&gt;
+&lt;li&gt;We also don&#x27;t know what time current time is being compared to, unless we first read the function, and then find out what it uses as &lt;code&gt;SOME_SPECIFIED_TIME&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  let output = calculate_my_lateness(SystemTime::from(SOME_SPECIFIED_TIME));
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;---------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; now the caller is supposed to provide the time
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(output, true);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness(late_as_of: SystemTime) -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;-------------------^^^^^^^^^^^^^^^^^^^^^^-----------
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    let current_time = std::time::SystemTime::now();
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    current_time &amp;lt;= late_as_of
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;Step_Two:_don&#x27;t_use_functions_with_side_effects_inside_your_function&quot;&gt;Step Two: don&#x27;t use functions with side effects inside your function&lt;&#x2F;h4&gt;
+&lt;p&gt;Imagine that you have a non-alcoholic drink, if you add another non-alcoholic drink to it, it is still non-alcoholic.
+But if you add an alcoholic drink to it, it will not remain non-alcoholic anymore.
+A pure function is only pure, if all the functions that are being called in it, are pure.
+And &lt;code&gt;std::time:SystemTime::now()&lt;&#x2F;code&gt; is definitely not pure.
+Now, at some point we need to get the current time, but we don&#x27;t need to do that where it is hidden from the caller.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  let output = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;                   SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;                   SystemTime::now(),&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;&amp;lt;------ we provide the time
+&lt;&#x2F;span&gt;&lt;span&gt;  );
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(output, true);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness(late_as_of: SystemTime, target_time: SystemTime ) -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;-------------------------------------------^^^^^^^^^^^^^^^^^^^^^^^-----------
+&lt;&#x2F;span&gt;&lt;span&gt;    target_time &amp;lt;= late_as_of
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now the nice thing here is that we can easily test this function now!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; main and calculate_my_lateness are not shown here. Don&amp;#39;t be alarmed.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;#[cfg(test)]
+&lt;&#x2F;span&gt;&lt;span&gt;mod tests {
+&lt;&#x2F;span&gt;&lt;span&gt;    use super::calculate_my_lateness;
+&lt;&#x2F;span&gt;&lt;span&gt;    use std::time::SystemTime;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    #[test]
+&lt;&#x2F;span&gt;&lt;span&gt;    fn being_late_works() {
+&lt;&#x2F;span&gt;&lt;span&gt;        let res = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;            SystemTime::from(A_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;            SystemTime::from(A_TIME_THAT_IS_AFTER_LATE_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;        );
+&lt;&#x2F;span&gt;&lt;span&gt;        assert_eq!(res, true)
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    #[test]
+&lt;&#x2F;span&gt;&lt;span&gt;    fn being_early_works() {
+&lt;&#x2F;span&gt;&lt;span&gt;        let res = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;            SystemTime::from(A_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;            SystemTime::from(A_TIME_THAT_IS_BEFORE_LATE_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;        );
+&lt;&#x2F;span&gt;&lt;span&gt;        assert_eq!(res, false)
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Imagine doing this with the first function!&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;One_more_step&quot;&gt;One more step&lt;&#x2F;h4&gt;
+&lt;p&gt;OK, I lied... Somewhat. Have you noticed the one glaring, lack of transparency and control here?
+It&#x27;s the &lt;code&gt;&amp;lt;=&lt;&#x2F;code&gt;. You may need to read the function here, if you have this simple question:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If I call the function exactly, at the precise moment that I specified to be &lt;code&gt;late_as_of&lt;&#x2F;code&gt;, will return true, or false?&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Now, not answering this question using the function signature,
+won&#x27;t make my function less pure,
+but still, it is a much nicer experience for the caller to be able to rely on their IDE&#x27;s autocomplete to tell them what happens.
+But how the hell should we do that? Easy! We take a comparator function as input!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn main() {
+&lt;&#x2F;span&gt;&lt;span&gt;  let output = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;                   SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;                   SystemTime::now(),
+&lt;&#x2F;span&gt;&lt;span&gt;                   |late, target| target &amp;gt; late, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; here the caller passes the function
+&lt;&#x2F;span&gt;&lt;span&gt;                                                 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; you can also provide a few different functions yourself to make it easier for the caller
+&lt;&#x2F;span&gt;&lt;span&gt;  );
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  assert_eq!(output, true);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;fn calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    late_as_of: SystemTime,
+&lt;&#x2F;span&gt;&lt;span&gt;    target_time: SystemTime,
+&lt;&#x2F;span&gt;&lt;span&gt;    comparer: fn(SystemTime, SystemTime) -&amp;gt; bool, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; magic happens here
+&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;    comparer(late_as_of, target_time)
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Now the caller is providing us we have everything we need. We did not hide one single thing.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Isn&#x27;t_this_just_more_work_for_caller?&quot;&gt;Isn&#x27;t this just more work for caller?&lt;&#x2F;h3&gt;
+&lt;p&gt;Well, yes. Yes, it is... if calling functions without understanding them is the only work that the caller of our function is doing.
+Otherwise, our caller knows everything they need using their language server, can change everything they need, have the assurance of our tests and don&#x27;t need to crawl through our source code, and they will face much fewer bugs where they don&#x27;t know where it came from.
+It may seem unnecessary for this simple function, but imagine much more complex functions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Making_things_nicer:_A_spicy_problem&quot;&gt;Making things nicer: A spicy problem&lt;&#x2F;h2&gt;
+&lt;p&gt;So we have all this power and transparency.
+But the elephant is in it room: We have a very shitty API.
+Let&#x27;s make it nicer using a technique called currying (hence the &amp;quot;spicy&amp;quot; pun).
+What it means is: as well as taking functions as argument, we can return functions.
+That way, our &lt;code&gt;calculate_my_lateness&lt;&#x2F;code&gt; function can become a function-maker.
+Let me make it more concrete.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Consider_the_use_case&quot;&gt;Consider the use case&lt;&#x2F;h3&gt;
+&lt;p&gt;Let us suppose that we want to find time in our list of times that is not late.
+Currently, we have to call the whole function, repeatedly, and include every argument.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; we are in main, don&amp;#39;t be alarmed
+&lt;&#x2F;span&gt;&lt;span&gt;let output_time1 = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(FIRST_TIME), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;&amp;lt;------ we provide the time
+&lt;&#x2F;span&gt;&lt;span&gt;    |late, target| target &amp;gt; late,
+&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;let output_time2 = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(SECOND_TIME), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;&amp;lt;------ we provide the time
+&lt;&#x2F;span&gt;&lt;span&gt;    |late, target| target &amp;gt; late,
+&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;let output_time3 = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(THIRD_TIME), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;&amp;lt;------ we provide the time
+&lt;&#x2F;span&gt;&lt;span&gt;    |late, target| target &amp;gt; late,
+&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; etc...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This is not great.
+Here, We can just make a function that only takes our target time.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;fn calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    late_as_of: SystemTime,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; target_time: SystemTime &amp;lt;------------ we don&amp;#39;t need to take this argument anymore
+&lt;&#x2F;span&gt;&lt;span&gt;    comparer: fn(late_as_of: SystemTime, target_time: SystemTime) -&amp;gt; bool,
+&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; fn(target_time: SystemTime) -&amp;gt; bool {
+&lt;&#x2F;span&gt;&lt;span&gt;     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^---- notice that we are now returning a function
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    |target_time: SystemTime| -&amp;gt; bool { comparer(target_time, late_as_of) }
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;^^^^^^^^^^^^^^^^^^^^^^           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;         |                this is where the calculation of lateness happens
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; we are taking target time here
+&lt;&#x2F;span&gt;&lt;span&gt; }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;You might ask, &amp;quot;well, how does this help?&amp;quot;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; we are in  main
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; now our late_before_time_x is not of type bool,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; rather it is of type Fn(SystemTime) -&amp;gt; bool
+&lt;&#x2F;span&gt;&lt;span&gt;let late_before_time_x = calculate_my_lateness(
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemTime::from(SOME_SPECIFIED_TIME),
+&lt;&#x2F;span&gt;&lt;span&gt;    |late, target| target &amp;gt; late,
+&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; So we can just:
+&lt;&#x2F;span&gt;&lt;span&gt;let first_result = late_before_time_x(FIRST_TIME);
+&lt;&#x2F;span&gt;&lt;span&gt;let second_result = late_before_time_x(SECOND_TIME);
+&lt;&#x2F;span&gt;&lt;span&gt;let third_result = late_before_time_x(THIRD_TIME);
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F; ...much less boilerplate
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;Why_const_just_won&#x27;t_do&quot;&gt;Why &lt;code&gt;const&lt;&#x2F;code&gt; just won&#x27;t do&lt;&#x2F;h3&gt;
+&lt;p&gt;Veteran rustaceans among the readers of this blog might ask: &amp;quot;why not just use &lt;code&gt;const&lt;&#x2F;code&gt; to mark that functions are pure?&amp;quot;
+Well dear veteran, if you can make a function &lt;code&gt;const&lt;&#x2F;code&gt;, do every one a favor and actually do it.
+In fact, I regularly use &lt;code&gt;clippy::missing_const_for_fn&lt;&#x2F;code&gt; lint and suggest you to use it as well.
+But that does not guarantee that our functions are pure, or that every pure function can be &lt;code&gt;const&lt;&#x2F;code&gt;.
+Here are my reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;const&lt;&#x2F;code&gt; functions can take &lt;code&gt;&amp;amp;mut something&lt;&#x2F;code&gt; as their arguments. Taking mutable references is definitely not very pure-function-y.&lt;&#x2F;li&gt;
+&lt;li&gt;You cannot &lt;code&gt;const&lt;&#x2F;code&gt; trait methods in stable rust, as of now. And considering that every function call inside a &lt;code&gt;const&lt;&#x2F;code&gt; function should be &lt;code&gt;const&lt;&#x2F;code&gt; as well, you are extremely limited, without any reasons that have to do with pure functions.&lt;&#x2F;li&gt;
+&lt;li&gt;Many libraries don&#x27;t to use &lt;code&gt;const&lt;&#x2F;code&gt; on the functions that are &lt;code&gt;const&lt;&#x2F;code&gt;. Again, limitation without pureness reasons.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;Making_things_declarative&quot;&gt;Making things declarative&lt;&#x2F;h2&gt;
+&lt;p&gt;There is this often repeated old joke from Phil Karlton that says:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There two hard problems in programming&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cache invalidation&lt;&#x2F;li&gt;
+&lt;li&gt;Naming things
+And here we are concerned with the second one.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;In the &lt;strong&gt;imperative&lt;&#x2F;strong&gt; universe, we usually name our functions using &lt;em&gt;verbs&lt;&#x2F;em&gt;. Think &lt;code&gt;calculate_my_lateness&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;In the &lt;strong&gt;declarative&lt;&#x2F;strong&gt; universe we are concerned with our output, we use &lt;em&gt;nouns&lt;&#x2F;em&gt;. Think &lt;code&gt;lateness_calculator&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This makes the intent of our function clear.
+How it is implemented under-the-hood is not what matters to the caller.
+They only care about what they get out of it.
+If you now are thinking that you cared about that part before, consider the things that we just can answer by seeing the arguments that our function takes.
+We don&#x27;t need to rely on our function name anymore to tell use how the function is calculating lateness.
+We only need to know what it&#x27;s intention is.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Bye_without_iterators?&quot;&gt;Bye without iterators?&lt;&#x2F;h2&gt;
+&lt;p&gt;In this post, I just preferred to focus on the heart of functional programming: pure declarative functions.
+However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are iterators, maps, folds, filters and....
+Honestly, they are well explained in other resources. My only suggestion would be to check out &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.rs&#x2F;itertools&#x2F;latest&#x2F;itertools&#x2F;&quot;&gt;&lt;code&gt;itertools&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; crate.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hachyderm&#x27;s community is more ops-oriented than Fosstodon&#x27;s</title>
+        <published>2022-11-25T00:00:00+00:00</published>
+        <updated>2022-11-25T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/hashyderm_more_ops_than_fosstodon/" type="text/html"/>
+        <id>https://prma.dev/hashyderm_more_ops_than_fosstodon/</id>
+        
+        <content type="html">&lt;p&gt;Ever since I have moved to the mastodon platform after &amp;quot;the great twitter migration&amp;quot;. I was curious about two main instances. 
+One being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;Fosstodon.org&quot;&gt;Fosstodon&lt;&#x2F;a&gt;, an instance oriented around Free and Open-Source Software(FOSS), another being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;hachyderm.io&quot;&gt;Hachyderm&lt;&#x2F;a&gt;, an instance that introduces itself as &amp;quot;social media for technical professionals&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
+But I couldn&#x27;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Initial_Theories&quot;&gt;Initial Theories&lt;&#x2F;h2&gt;
+&lt;p&gt;Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like kubernetes and docker, while at the same time there was a lot of talk about codes and programming practices.
+I thought maybe all the programmers on Hachyderm are working with more proprietory and enterprise solutions and as such they were less likely to share details of their daily programming.
+But that theory didn&#x27;t hold true, as there was as much toots in my timeline on Fosstodon about bussiness related stuff as there was on Hachyderm.&lt;&#x2F;p&gt;
+&lt;p&gt;Until last night that I realized that maybe what I was seeing was the difference of ideas between Operations interested people vs people involved in developing software. And as a backend-developer, I could see more relevant content from the development side.&lt;&#x2F;p&gt;
+&lt;p&gt;So I set to examine my assumptions.
+Like a good &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;tag&#x2F;bayes-theorem&quot;&gt;Baysian&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;APIs,_Searches_and_Methods&quot;&gt;APIs, Searches and Methods&lt;&#x2F;h2&gt;
+&lt;p&gt;to start with, I looked into different websites that could help me search per-instance results.
+That way I could search differnet keywords in each instance and compare the results.&lt;br &#x2F;&gt;
+However I could not find such a thing. Every search engine I tried lacked the ability of filtering by instance.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, I looked into the Mastodon APIs myself.&lt;br &#x2F;&gt;
+Long-story short, I found &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.joinmastodon.org&#x2F;methods&#x2F;timelines&#x2F;#tag&quot;&gt;timeline API&lt;&#x2F;a&gt; to be particularly useful: &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span&gt;GET &#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;:hashtag HTTP&#x2F;1.1
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Using this I could get a list of toots in &lt;code&gt;json&lt;&#x2F;code&gt; format that had specific hashtags.
+And then filter those results to only get the actual url.
+I used &lt;code&gt;curl&lt;&#x2F;code&gt; to make API requests and &lt;code&gt;jq&lt;&#x2F;code&gt; to filter-out the keys I was not interested in.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;container?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And then, I had to filter out results that were not from Hachyderm or Fosstodon. And Sort each
+For filtering &lt;code&gt;awk&lt;&#x2F;code&gt; was perfect, and then for sorting the &lt;code&gt;sort&lt;&#x2F;code&gt; command is good enough. &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;awk &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;&#x2F;fosstodon|hachyderm&#x2F; {print $0}&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt; hash.json | sort &amp;gt; res-ops  
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I just had to come up with a few keywords that I could associate more with operations and a few for development. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As you may have noticed, my methodoloy is hardly scientific and and extremly relient on subjective definitions.
+My goal was to find a good-enough-for-my-decision result. Not anything more. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I ended up with these words on differnt sides:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;operations&lt;&#x2F;th&gt;&lt;th&gt;development&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;operations&lt;&#x2F;td&gt;&lt;td&gt;development&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;kubernetes&lt;&#x2F;td&gt;&lt;td&gt;refactor&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;montioring&lt;&#x2F;td&gt;&lt;td&gt;debugging&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;docker&lt;&#x2F;td&gt;&lt;td&gt;greenfield&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;container&lt;&#x2F;td&gt;&lt;td&gt;framework&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;terraform&lt;&#x2F;td&gt;&lt;td&gt;compiler&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;deploy&lt;&#x2F;td&gt;&lt;td&gt;interpreter&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;baremetal&lt;&#x2F;td&gt;&lt;td&gt;testing&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;vm&lt;&#x2F;td&gt;&lt;td&gt;ide&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;admin&lt;&#x2F;td&gt;&lt;td&gt;library&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;server&lt;&#x2F;td&gt;&lt;td&gt;designpatterns&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;_&lt;&#x2F;td&gt;&lt;td&gt;lsp&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;_&lt;&#x2F;td&gt;&lt;td&gt;nodejs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;_&lt;&#x2F;td&gt;&lt;td&gt;rust&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;_&lt;&#x2F;td&gt;&lt;td&gt;auth&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;The differnece in their numbers are not important to us, only the proportions of the results of each may be relevant.&lt;&#x2F;p&gt;
+&lt;p&gt;The eventual code looks like this: &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;#! &#x2F;usr&#x2F;bin&#x2F;env bash
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;# this part gives us a file with results of the OPs-related keywords
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;kubernetes?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;docker?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;container?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;operations?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;terraform?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;deploy?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;baremetal?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;vm?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;monitoring?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;admin?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;server?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;awk &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;&#x2F;fosstodon|hachyderm&#x2F; {print $0}&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt; hash.json | sort &amp;gt; res-ops &amp;amp;&amp;amp; 
+&lt;&#x2F;span&gt;&lt;span&gt;rm hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;# this part gives us a file with results of the Devs-related keywords
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;develop?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;refactor?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;greenfield?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;framework?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;compiler?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;interpreter?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;testing?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;ide?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;library?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;development?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;designpatterns?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;lsp?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;nodejs?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;rust?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;auth?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;curl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;https:&#x2F;&#x2F;hachyderm.io&#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;debuggin?&amp;amp;limit=1000&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;| jq &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;.[].url&amp;#39; &lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&amp;gt; hash.json &amp;amp;&amp;amp;
+&lt;&#x2F;span&gt;&lt;span&gt;awk &lt;&#x2F;span&gt;&lt;span style=&quot;color:#707070;&quot;&gt;&amp;#39;&#x2F;fosstodon|hachyderm&#x2F; {print $0}&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt; hash.json | sort &amp;gt; res-develop &amp;amp;&amp;amp; 
+&lt;&#x2F;span&gt;&lt;span&gt;rm hash.json
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;The_Result&quot;&gt;The Result&lt;&#x2F;h2&gt;
+&lt;p&gt;On the ops query we have &lt;code&gt;32&lt;&#x2F;code&gt; results from Fosstodon and &lt;code&gt;44&lt;&#x2F;code&gt; results from Hachyderm.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+&lt;&#x2F;span&gt;&lt;span&gt;Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;So far Hachyderm seems to have more activity with OPs related hashtags.
+On the other hand it could be that people on Hachyderm are generally more talkative than Fosstodon about every part of the stack.
+So let&#x27;s hold development as the control.&lt;&#x2F;p&gt;
+&lt;p&gt;On the development queries we have &lt;code&gt;49&lt;&#x2F;code&gt; results from Fosstodon and &lt;code&gt;24&lt;&#x2F;code&gt; results from Hachyderm.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+&lt;&#x2F;span&gt;&lt;span&gt;Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;That seems like an staggering differece.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Decision&quot;&gt;Decision&lt;&#x2F;h2&gt;
+&lt;p&gt;I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Power Structure of Social Networks</title>
+        <published>2022-11-16T00:00:00+00:00</published>
+        <updated>2022-11-16T00:00:00+00:00</updated>
+        <author>
+          <name>Perma</name>
+        </author>
+        <link rel="alternate" href="https://prma.dev/power-structure-of-social-networks/" type="text/html"/>
+        <id>https://prma.dev/power-structure-of-social-networks/</id>
+        
+        <content type="html">&lt;p&gt;Why do some nations fail and rise so quickly?
+The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Power_Centrality&quot;&gt;Power Centrality&lt;&#x2F;h2&gt;
+&lt;p&gt;Basically the idea is that:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;In any system of governance the authority is constrained to the resources it has available.&lt;&#x2F;li&gt;
+&lt;li&gt;And for the authority to make a change, it has to answer to the resource providers. &lt;&#x2F;li&gt;
+&lt;li&gt;Given a set interdependent institutions one could form check-and-balance system.&lt;&#x2F;li&gt;
+&lt;li&gt;If the dependence is not formed in a way that is biased towards zero-sum relationships the authority thrives.&lt;&#x2F;li&gt;
+&lt;li&gt;For the society to thrive it should be considered an institution on it&#x27;s own.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Let&#x27;s make a few different forms of government considering the rule&#x27;s I just discussed. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, 
+High Natural-Resources and High People-involvement tend to be mutually. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;High_Centrality,_High_Natural-Resources,_Low_People-involvement&quot;&gt;High Centrality, High Natural-Resources, Low People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s imagine a dictatorship on a land with rich natural resources. 
+Dictatorship is an strongly centralized form of government.
+As such, the dictator does not have any dependencies.
+You might think that the government does need its people.
+But most of the time, such dictatorship has all that it needs from the naturally available resources. &lt;&#x2F;p&gt;
+&lt;p&gt;The dictator does not have to answer to anyone, and they have all the means necessary to make rapid changes, good or bad.
+The whole of the nation rise and fall quickly.
+The civic progression does not accumulate in time and only will be there while the dictator let it to be.&lt;&#x2F;p&gt;
+&lt;p&gt;The government does not need people uniting, form a danger to the government.
+Such authorities are highly motivated to bring social conflict, such as racism.
+Which may even lead to genocide by members of the society.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: Middle-east with it&#x27;s rich natural oil. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;High_Centrality,_Low_Natural-Resources,_Low_People-involvement&quot;&gt;High Centrality, Low Natural-Resources, Low People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;Now, let&#x27;s imagine a dictatorship on a land with no natural resources, and no inclination to involve people. &lt;&#x2F;p&gt;
+&lt;p&gt;Such a nation will not flourish.
+The dictator is extremely constrained in its power.&lt;&#x2F;p&gt;
+&lt;p&gt;It has no validity among its people.
+As such it is unsuccessful in enforcing any law, good or bad.
+Such a nation sees lots and lots of &lt;em&gt;coup d&#x27;états&lt;&#x2F;em&gt;.
+The authority is more alike a warlord. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: Central African nations.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;High_centrality,_Low_Natural-Resources,_High_People-involvement&quot;&gt;High centrality, Low Natural-Resources, High People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;Such a dictatorship, is a highly populist government.
+The dictator threats people as the main form of resource.
+Such nations can rise quickly.
+But before too long, the authority will figure out that he only needs society&#x27;s approval, but not its growth. 
+And if you need approval, there is no quicker and better way than a common enemy.
+As such, such nations become too hostile to other nations.
+And may end-up using genocide as a means of keeping the country united. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: Germany during the Hitler era. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;Low_Centrality,_High_Natural-Resources,_Low_People-involvement&quot;&gt;Low Centrality, High Natural-Resources, Low People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;Such a nation looks great from the outside, but inside?
+It is polarized to say the least. 
+These nations, just like any other nation with Low-Centrality is stable.
+The is formed by a group of institutions which keep each other in check. 
+But alas, what good is it, if it is not for people? &lt;&#x2F;p&gt;
+&lt;p&gt;Such governments end up becoming extremely rich.
+But because people are not required for the government to perform, 
+most of what the government is doing is providing value for the few that can provide them the resources they need.&lt;&#x2F;p&gt;
+&lt;p&gt;Such governments nations are subject to low progression in the civic laws,
+are extremely hard to change, and form strong bonds with few entities.
+As people are seen as a barrier,
+government&#x27;s like this tend to have a lot of controversial and theatrical surfaces,
+but end-up deciding things behind closed doors.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: USA during recent years, as it managed to put a huge people&#x27;s involvement. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;Low_Centrality,_Low_Natural-Resources,_Low_People-involvement&quot;&gt;Low Centrality, Low Natural-Resources, Low People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;These governments are stable, but irrelevant.
+They fail to bring order, or protection for their people.
+And they don&#x27;t provide any infrastructural benefits the society.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: Afghanistan Right after USA army left it.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;Low_Centrality,_Low_Natural-Resource,_High_People-involvement&quot;&gt;Low Centrality, Low Natural-Resource, High People-involvement&lt;&#x2F;h2&gt;
+&lt;p&gt;This, at least for now, seems to be some what the better of them all, but with some caveats.
+These governments are highly stable, and highly motivated by providing value to the people.
+They accumulate wealth and culture overtime.
+They are, also, resilient to hostile neighbours and bad actors.
+These societies tend to look good on the outside, but much better on the inside.&lt;&#x2F;p&gt;
+&lt;p&gt;However, such governments are only weak to adapt to any radical changes, as the changes only happen when the people will it to happen.
+That means that these societies tend not to be the leaders or experimenters of different sorts of progress.
+However, they may end up reaching the top of the leader board in time. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think of: Germany, today. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;How_does_it_relate_to_the_Twitter_and_Fediverse_and_...?&quot;&gt;How does it relate to the Twitter and Fediverse and ...?&lt;&#x2F;h2&gt;
+&lt;p&gt;Well, there is a analogy to be made here. &lt;&#x2F;p&gt;
+&lt;p&gt;We can see the body(s) that runs, maintains, develop and moderate a social network as a form of a government.
+The users as the people and society.&lt;br &#x2F;&gt;
+And the way that the proverbial social-network governments are being funded as the determining factor of people&#x27;s involvement in governance.&lt;&#x2F;p&gt;
+&lt;p&gt;In that regard we can think of Twitter, Facebook as highly concentrated.
+Considering that their power is immensely related to the number of users they have,
+we may be tempted to see them as somewhat of high in involvement of people.&lt;br &#x2F;&gt;
+but in actuality, people do not need to be actually participating in governing such a system.
+As they are the product, and the value comes from external means. 
+That means that the users ended up being the natural resource of the land that is being sold for resources to the external actors.&lt;&#x2F;p&gt;
+&lt;p&gt;As such we end up with both exploitation of the users and their lack of ownership of their own data.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;So,_what_can_be_the_solution?&quot;&gt;So, what can be the solution?&lt;&#x2F;h2&gt;
+&lt;p&gt;Considering how unfortunate this situation is, there has always been a few different alternatives. 
+Let&#x27;s just review them.&lt;&#x2F;p&gt;
+&lt;p&gt;There are systems that don&#x27;t count users as product, but as the customer.
+Such services, though small have a better record of listening to users. &lt;&#x2F;p&gt;
+&lt;p&gt;However, as any centralized system, they are unstable, they remain small, and to keep users, they resort to vendor lock-ins. 
+They also resort advertisement instead of increasing real value.
+Think of apple with its anti-advertisement campaigns against Microsoft.&lt;&#x2F;p&gt;
+&lt;p&gt;Another solution might be highly centralized systems without any sort of resources.
+These tend to be highly volatile and fast to disappear.&lt;&#x2F;p&gt;
+&lt;p&gt;So, decentralization might be the way to go.&lt;&#x2F;p&gt;
+&lt;p&gt;As low-centrality but highly-resourcefulness goes, I can only think of mailing groups.
+Mailing groups stand on the shoulders of mail providers.&lt;&#x2F;p&gt;
+&lt;p&gt;Decentralized as mailing is, the ecosystem overwhelmingly is provided by a few company that their main products are again, people.&lt;br &#x2F;&gt;
+As discussed earlier, such systems tend to not have much progress. At least, not for the non-governing bodies.
+And indeed, that has been true.
+Mailing and mailing groups is as user friendly and featureful as they have been 15 years ago. &lt;&#x2F;p&gt;
+&lt;p&gt;Which makes us resort to our last option.
+Low centrality and High involvement of people.
+Such a system has been the model for open-source development.
+Where the governance is highly motivated to help the people the same time as the people are highly motivated to help the governance.
+Such a model has ended up being extended into forms of social governance.
+Where users fund their instances, help development and do volunteer moderations. 
+And indeed, again, the parallel is not surprising:
+These systems tend not to have the greatest of the starts, but they end up enduring, and becoming more resilient. &lt;&#x2F;p&gt;
+&lt;p&gt;Mastodon, Pixelfed and other federated, open-sourced social networks, operate in such a model.
+And I like to think of people moving from Twitter to Mastodon as realizing that they matter and can should be more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Credit&quot;&gt;Credit&lt;&#x2F;h2&gt;
+&lt;p&gt;This work is highly inspired and heavily reliant on Daron Acemoglu&#x27;s fantastic book, &lt;em&gt;Why Nations Fail&lt;&#x2F;em&gt;.
+A must read.&lt;&#x2F;p&gt;
+&lt;!-- zola shortcode: discussion-info --&gt;
+&lt;div class=&quot;discussion-info&quot;&gt;
+  Comment section? I have none.
+  But feel free to email me at: &lt;a class=&quot;email-box&quot; href=&quot;mailto:prma.dev@protonmail.com&quot;&gt;prma.dev@protonmail.com&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+</feed>
