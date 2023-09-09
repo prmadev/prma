@@ -1,6 +1,7 @@
 +++
 title="uses"
 date = 2023-08-28
+draft = true
 slug = "uses"
 description = "The things I use on a daily basis."
 +++
