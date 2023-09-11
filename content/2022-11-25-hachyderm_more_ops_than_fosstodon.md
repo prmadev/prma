@@ -12,11 +12,18 @@ tags = ["fediverse"]
 
 +++
 
+<section class="intro">
+
 Ever since I have moved to the mastodon platform after "the great twitter migration". I was curious about two main instances. 
 One being [Fosstodon](https://Fosstodon.org), an instance oriented around Free and Open-Source Software(FOSS), another being [Hachyderm](https://hachyderm.io), an instance that introduces itself as "social media for technical professionals".
 
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
 But I couldn't put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.  
+
+</section>
+
+<section class="2H">
+
 
 ## Initial Theories
 
@@ -28,6 +35,10 @@ Until last night that I realized that maybe what I was seeing was the difference
 
 So I set to examine my assumptions.
 Like a good [Baysian](https://www.lesswrong.com/tag/bayes-theorem).
+
+</section>
+
+<section class="2H">
 
 ## APIs, Searches and Methods
 
@@ -129,6 +140,11 @@ rm hash.json
 
 ```  
 
+
+</section>
+
+<section class="2H">
+
 ## The Result 
 
 On the ops query we have ``32`` results from Fosstodon and ``44`` results from Hachyderm.   
@@ -151,9 +167,18 @@ Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 That seems like an staggering differece.
 
+</section>
+
+<section class="2H">
+
+
 ## Decision
 
 I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.
+
+
+</section>
+
 
 
 

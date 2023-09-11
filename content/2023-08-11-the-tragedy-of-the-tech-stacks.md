@@ -13,6 +13,8 @@ tags  = ["software"]
 [extra]
 +++
 
+<section class="intro">
+
 Back in 1958, there was this thinker named Garrett Hardin who kicked off his well-known piece titled "The Tragedy of the Commons" in the following way: 
 > At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that "Both sides of the arms race are ... confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution. If the great powers continue to look for solutions in the area of science and technology only, the result will be to worsen the situation."
 
@@ -25,6 +27,7 @@ He coins it as the "tragedy of the commons." I prefer to see it as a powerful re
 
 How meta!
 
+</section>
 
 ## The Clever One, The Frustrated One and The Scared One 
 

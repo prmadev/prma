@@ -12,9 +12,13 @@ tags = ["programming", "future", "personal"]
 [extra]
 +++
 
+<section class="intro">
+
 Software developers are authors of their own death.
 And in that, they are similar to doctors.
 We actively try to make software that abstracts away what we are paid to do. 
+
+</section>
 
 
 ```rust 

@@ -13,16 +13,25 @@ tags = ["software-development", "longivity", "permacomputing"]
 [extra]
 +++
 
+<section class= "intoduction">
+
 Based on some individuals' viewpoints,
 they emphasize optimizing for developer time or productivity as their main priority,
 rather than giving top precedence to aspects such as performance, robustness, or correctness.
 
+</section>
+
+<section>
 
 ## The Thesis
 
 Their argument revolves around the idea that developers' time is more valuable and expensive than server resources.
 They often use phrases like "You can always refactor," "You can always optimize for performance," or "We will fix bugs later on" to support their viewpoint.
 While this perspective may be considered ingenious, it is contingent on proper planning, weighing the trade-offs, and actually acting upon those decisions.
+
+</section>
+
+<section>
 
 ## My Antithesis
 
@@ -41,6 +50,10 @@ face an archeological rediscovery process.
 
 So, if they are not genuinely optimizing for shorter development time, what are they doing?
 
+</section>
+
+<section>
+
 ## Lifting The Veil: The Actual Thesis
 
 It appears that they prioritize short-term gains over achieving greater long-term goals.
@@ -50,6 +63,9 @@ The manual labor of finding bugs is taken over by the compiler and the language'
 If the focus is on developer productivity, then this automation is naturally desirable.
 However, what one truly desires to convey is "I have this feature, even though it may have some bugs and performance issues, I have it nonetheless."
 
+</section>
+
+<section>
 
 ## The Synthesis
 
@@ -64,6 +80,10 @@ middle management might also like the addition of another achievement in their y
 A rapid way to discern whether it falls under the category of experimentation/prototyping or an MVP/achievement-oriented project is
 to examine whether there is a notably extended period allocated for the program's rewrite compared to its initial development phase.
 
+</section>
+
+<section>
+
 ## Dear reader...
 
 Similar to many phenomena, short-termism can indeed have legitimate applications.
@@ -73,5 +93,7 @@ Certainly, there are well-intentioned individuals who advocate for developer pro
 However, those with ample experience will acknowledge that long-term developer productivity is not synonymous with low-overhead development,
 and, more often than not,
 these two objectives are incompatible.
+
+</section>
 
 {{ discussion() }}

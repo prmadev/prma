@@ -13,6 +13,8 @@ tags  = ["perma", "names" ]
 [extra]
 +++
 
+<section class="intro">
+
 I find myself seated in the passenger's seat of my mother's car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother's sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist's office without exchanging a word, leaving me still uncertain about the purpose of our visit.
 
 The psychologist initiates our session by administering a series of aptitude and intelligence tests appropriate for my age. Throughout the process, my mother's keen gaze remains fixed on me, intensifying my nerves. Eventually, the psychologist validates my mother's suspicions, revealing that my intellectual capabilities far exceed those of my peers. This revelation prompts my mother to shed light on the purpose of our enigmatic expedition: “You see, you are not stupid, you are actually very smart, you just lack self-esteem!” Was that truly the root of the issue? While self-esteem was a factor in my unhappniess, I couldn't help but feel that my lack of effort had deeper origins.
@@ -33,6 +35,8 @@ ADHD has had a profound impact on my life since childhood. One revelation that b
 
 My existence had been defined by reactivity, with a noticeable absence of honed decision-making skills. I found myself in a state of passivity, or even worse, mere reactivity.
 Nonetheless, I consistently strived to reclaim it.
+
+</section>
 
 ## Recent Victories
 

@@ -13,8 +13,14 @@ tags = ["rss", "feedbin", "kagi","search-engine"]
 [extra]
 +++
 
+
+<section class="intro">
+
 Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me—people I admired, or at least aspired to emulate.
 The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.
+
+</section>
+
 
 In those youthful days, I'd eagerly scour the web for words that piqued the interests of my teenage self, and with a simple search, Google would present me with a treasure trove of blogs authored by kindred spirits.
 I'd venture into the realms of Twitter, FriendFeed, Facebook, Orkut, and the myriad other social platforms, spending precious moments escaping the painful realities of feeling marginalized by my parents, teachers, and peers at school.

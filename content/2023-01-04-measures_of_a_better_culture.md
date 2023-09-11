@@ -12,6 +12,10 @@ tags = ["society"]
 [extra]
 +++
 
+<section class="intro">
+
+</section>
+
 ## Incentivising clever people, over smart people
 
 ### Making value as the main driver

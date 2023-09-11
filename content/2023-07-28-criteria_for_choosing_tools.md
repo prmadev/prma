@@ -14,8 +14,13 @@ tags = ["tools", "web"]
 +++
 
 
+<section class="intro">
+
 The web is utterly fucked.
 But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
+
+</section>
+
 
 ## The Reasons
 

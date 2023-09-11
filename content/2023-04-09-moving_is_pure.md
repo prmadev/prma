@@ -11,9 +11,13 @@ categories = ["opinion"]
 tags = ["programming", "rust", "functional-programming"]
 +++
 
-Or you can also read the title as: I made a [poll](https://fosstodon.org/@Amirography/110152228540156245) and 81% agreed with me. So you probably don't need to read on. 
+<section class="intro">
+
+Or you can also read the title as: I made a poll and 81% agreed with me. So you probably don't need to read on. 
 I know, I hate the title as well. But I couldn't resist. 
 So here is another, better title:
+
+</section>
 
 ## Moving a Variable to a Function in Rust Doesn't Make It Impure
 

@@ -12,8 +12,12 @@ tags = ["programming", "type-system", "functional-programming", "rust"]
 
 +++
 
+<section class="intro">
+
 If you are not familiar with Functional Programming(FP), you are in for a ride.
 I will try to explain Functional Programming(FP) in more practical terms.
+
+</section>
 
 ## A definition to work with
 

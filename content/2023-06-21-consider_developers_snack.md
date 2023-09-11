@@ -11,6 +11,8 @@ categories = ["opinion"]
 tags = ["sustainability", "languages", "permacomputing"]
 +++
 
+<section class="intro">
+
 During my early 20s, I found myself immersed in the world of sustainable architecture as an architecture student.
 Engaging in various workshops centered around this field, one particular experience stands out as a monumental turning point in my life.
 It was a workshop conducted by a renowned professor in Iran, where I gained valuable insights.
@@ -34,6 +36,8 @@ To truly grasp the overall impact,
 we must consider the entire lifecycle of the application,
 accounting for factors such as development, deployment, maintenance, and eventual retirement.
 Only then can we gain a comprehensive understanding of the energy implications associated with different programming languages.
+
+</section>
 
 ## The Paper, As The Thread We Pull
 

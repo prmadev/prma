@@ -11,9 +11,13 @@ categories = ["opinion"]
 tags = ["permaculture", "longevity", "FLOSS", "permacomputing"]
 +++
 
+<section class="intro">
+
 Free/Libre and Open Source Software (FlOSS) is a captivating realm within software development.
 What makes FLOSS particularly intriguing is its deviation from conventional business goals,
 leading to planned longevity and a distinct approach to sustainability.
+
+</section>
 
 ## Reasons
 

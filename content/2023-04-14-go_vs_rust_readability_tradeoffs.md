@@ -13,6 +13,8 @@ tags = ["rust", "programming", "go"]
 [extra]
 +++
 
+<section class="intro">
+
 Traditionally speaking, Go and Rust are not direct competitors on many fronts.
 Each take different trade-offs. But more often than not, you might need to choose one over the other.
 It is compared in the niche the other fails. Like low-level system development, which Rust easily rules. 
@@ -22,6 +24,8 @@ However, there are many overlaps in their use case.
 Think high-performance web-servers.
 In those spaces, we should compare other things. Like readability and maintainability of language.
 In this post, I want to share my thoughts on readability.
+
+</section>
 
 ## TL;DR 
 

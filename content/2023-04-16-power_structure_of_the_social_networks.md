@@ -12,10 +12,12 @@ tags = ["fediverse"]
 
 +++
 
+<section class="intro">
 
 Why do some nations fail and rise so quickly?
 The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon. 
 
+</section>
 
 ## Power Centrality
 

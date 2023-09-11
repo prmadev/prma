@@ -11,6 +11,8 @@ categories = ["opinion"]
 tags = ["languages"]
 +++
 
+<section class="intro">
+
 Ah yes, the eternal dispute over whether HTML counts as a proper programming language
 seems to bring out the best and worst of our community's collective rational faculties.
 A veritable feast of half-baked attempts to define away the problem by appealing
@@ -20,6 +22,8 @@ But don't get your hopes up - you won't find any silver bullet solutions here fo
 Just a parade of armchair theoreticians grasping blindly for some sense of clarity amidst the fog of poorly thought out positions.
 So gather 'round, listen up, and prepare yourself for another round of pointless squabbling.
 The fun is just beginning!
+
+</section>
 
 ##  The Loops And The Features
 

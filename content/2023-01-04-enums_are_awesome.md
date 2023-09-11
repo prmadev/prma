@@ -10,11 +10,15 @@ categories = ["opinion"]
 tags = ["programming", "type-system"]
 +++
 
+<section class="intro">
+
 Let's make an event-sourced mini system in rust and go
 
 order comes in, we confirm it, and the person pays for it.
 
 ``order_placed`` -> ``order_paid`` -> ``order_fullfilled`` 
+
+</section>
 
 ## The Aggregate
 
