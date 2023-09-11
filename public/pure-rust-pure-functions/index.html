@@ -1,0 +1,183 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content=text/html http-equiv=Content-Type><meta content="width=device-width,initial-scale=1" name=viewport><title>Pure Rust: How to apply Functional Programming Principles To Your Rust Functions</title><meta content="Pure Rust: How to apply Functional Programming Principles To Your Rust Functions" name=title><meta content="Brace yourself for a captivating adventure if you're unfamiliar with Functional Programming (FP). In my endeavor, I shall strive to elucidate the prac…" name=description><meta content="Zola v0.16.1" name=generator><meta content=website property=og:type><meta content=https://prma.dev/pure-rust-pure-functions/ property=og:url><meta content=prma property=og:site_name><meta content="Pure Rust: How to apply Functional Programming Principles To Your Rust Functions" property=og:title><meta content="Brace yourself for a captivating adventure if you're unfamiliar with Functional Programming (FP). In my endeavor, I shall strive to elucidate the prac…" property=og:description><meta content=https://prma.dev/img/avatar.png property=og:image><link href=https://prma.dev/pure-rust-pure-functions/ rel=canonical><link rel="shortcut icon" href=https://prma.dev/img/avatar.png type=image/x-icon><script type=application/ld+json>
+            {
+                "description":"Brace yourself for a captivating adventure if you're unfamiliar with Functional Programming (FP). In my endeavor, I shall strive to elucidate the prac…",
+                "url":"https://prma.dev/pure-rust-pure-functions/",
+                "@type":"WebSite",
+                "headline":"Pure Rust: How to apply Functional Programming Principles To Your Rust Functions",
+                "name":"Pure Rust: How to apply Functional Programming Principles To Your Rust Functions",
+                
+                "@context":"https://schema.org"
+            }
+        </script><link href=https://prma.dev/atom.xml rel=alternate title=RSS type=application/atom+xml><link href=https://prma.dev/style.css rel=stylesheet><body><div class=w><header><nav><a href=" /">prma</a><a href=" /tags"># tags</a><a href=" /categories">+ categories</a><a href=" /about/me">> about/me</a><a href=" /about/prma">> about/prma</a><a href=" /atom.xml">= feed</a></nav><div class=top-info><p class=breadcrums><a href=..>..</a>/pure-rust-pure-functions<p class=post-meta><time datetime=2023-03-25>2023-03-25</time></div><h1>Pure Rust: How to apply Functional Programming Principles To Your Rust Functions</h1><div class=page-post-description><p>Brace yourself for a captivating adventure if you're unfamiliar with Functional Programming (FP). In my endeavor, I shall strive to elucidate the practical essence of FP, offering you a deeper understanding of this intriguing paradigm.</div></header><main aria-label=Content class=page-content><section class=intro><p>If you are not familiar with Functional Programming(FP), you are in for a ride. I will try to explain Functional Programming(FP) in more practical terms.</section><h2 id=A_definition_to_work_with>A definition to work with</h2><p>FP is a <strong>declarative</strong> way of writing a program that consists mostly of <strong>pure functions</strong> that operate on and produce <strong>immutable data</strong>. That was many other unfamiliar words. Let's make it concrete.<h2 id=Making_it_more_concrete>Making it more concrete</h2><p>Here is a function in Rust that we will work on:<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  </span><span style=color:#bbb>// Calling `calculate_my_lateness` seems like magic.
+</span><span>  </span><span style=color:#bbb>// We don't know how it calculates it, and why it is doing that.
+</span><span>  let mut status: bool;
+</span><span>  calculate_my_lateness(&mut status);
+</span><span>
+</span><span>  </span><span style=color:#bbb>// This sometimes crashes and sometimes, it does not.
+</span><span>  assert_eq!(status, true);
+</span><span>}
+</span><span>
+</span><span style=color:#bbb>// The point of this function is to tell us if we are late
+</span><span style=color:#bbb>// Ask yourself, how would you write a test for such a function?
+</span><span>fn calculate_my_lateness(status: &mut bool) {
+</span><span>    let current_time = std::time::SystemTime::now();
+</span><span>    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+</span><span>
+</span><span>    status = current_time <= date_time;
+</span><span>}
+</span></code></pre><p>Now, let's make it <em>pure</em> and while we are at it, we introduce pure functions and some principles as well.<h3 id=Pure_functions_return_at_least_one_output>Pure functions return at least one output</h3><p>That means that if you have a function named <code>some_function</code>, you will have at least one argument <code>some_input</code> and it will return at least one output <code>some_output</code>.<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn some_function(some_input) -> some_output
+</span></code></pre><p>Why do we do this? When we are calling a function, we are expecting <em>something</em> to happen. In FP world, the only acceptable <em>something</em> is an output argument. A lack of output is <em>symptomatic</em> of one of these two unacceptable situations:<ol><li><strong>Our function does nothing</strong>. In which case, why are we even bothering to write it at all?<li><strong>Our function is doing a side effect</strong>. Which means that it is changing something other than what is inside the function. These functions don't let us know or control what they are doing inside, without making us look at the source code. We will get back to this throughout this post.</ol><blockquote><p>Please note the emphasis on <em>symptomatic</em>.</blockquote><p>So let's make it return the output:<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  let mut status: bool;
+</span><span>  let output = calculate_my_lateness(&mut status);
+</span><span>  </span><span style=color:#bbb>//--^^^^^^------------ we have an output now
+</span><span>
+</span><span>  assert_eq!(output, true);
+</span><span>  </span><span style=color:#bbb>//---------^^^^^^----- which we use here
+</span><span>}
+</span><span>
+</span><span>fn calculate_my_lateness(status: &mut bool) -> bool {
+</span><span>    </span><span style=color:#bbb>//-notice that we are returning something--^^^^--
+</span><span>
+</span><span>    let current_time = std::time::SystemTime::now();
+</span><span>    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+</span><span>
+</span><span>    status = current_time <= date_time;
+</span><span>
+</span><span>    status </span><span style=color:#bbb>// &LT- what we are returning
+</span><span>}
+</span></code></pre><h3 id="Pure_functions_don't_mutate_state">Pure functions don't mutate state</h3><p>As I mentioned before, a function does something when it returns something and changes the state of something outside itself. We call that <em>a side effect</em>. You may have noticed that our function takes a mutable variable of type <code>bool</code> and changes it. In our first iteration of the function, we needed it. But now, we grew out of it. So let's just delete it.<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  </span><span style=color:#bbb>// let mut status: bool;  &LT- we don't need this
+</span><span>
+</span><span>  let output = calculate_my_lateness();
+</span><span>  </span><span style=color:#bbb>//--------------------------------^ we don't need to take status any more
+</span><span>
+</span><span>  assert_eq!(output, true);
+</span><span>}
+</span><span>
+</span><span>fn calculate_my_lateness() -> bool {
+</span><span>    </span><span style=color:#bbb>//------------------^^- we don't need to take a mutable variable
+</span><span>
+</span><span>    let current_time = std::time::SystemTime::now();
+</span><span>    let expected_time = std::time::SystemTime::from(SOME_SPECIFIED_TIME);
+</span><span>
+</span><span>    current_time <= date_time </span><span style=color:#bbb>//  &LT- what we are returning
+</span><span>}
+</span></code></pre><p>Now isn't this better? When I call <code>calculate_my_lateness()</code> I'm not worried about the function changing anything it's not supposed to anymore. Let's move on.<h3 id=Pure_functions_return_output_only_based_on_their_argument>Pure functions return output only based on their argument</h3><p>Which means that when I call <code>calculate_my_lateness()</code>, I should not expect it to do something different each time I run it. Why is that? There are two reasons:<ol><li><strong>Transparency</strong>: You should know what parameters change the output of a function, without needing to reading the function body.<li><strong>Testing</strong>: It is hell of a lot easier to test a function that you can just control without needing to change the time of your computer. Won't you say?</ol><p>Let's do it in two steps this time.<h4 id="Step_one:_Don't_use_global_variables">Step one: Don't use global variables</h4><p>you may have noticed <code>SOME_SPECIFIED_TIME</code>. This is a variable we use to make a <code>SystemTime</code> which we compare current time with to know if we are late or not. The problem here is these two:<ol><li>We need to write a new function, each time we have a new meeting.<li>We also don't know what time current time is being compared to, unless we first read the function, and then find out what it uses as <code>SOME_SPECIFIED_TIME</code>.</ol><pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  let output = calculate_my_lateness(SystemTime::from(SOME_SPECIFIED_TIME));
+</span><span>  </span><span style=color:#bbb>//---------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-
+</span><span>  </span><span style=color:#bbb>// now the caller is supposed to provide the time
+</span><span>
+</span><span>  assert_eq!(output, true);
+</span><span>}
+</span><span>
+</span><span>fn calculate_my_lateness(late_as_of: SystemTime) -> bool {
+</span><span>    </span><span style=color:#bbb>//-------------------^^^^^^^^^^^^^^^^^^^^^^-----------
+</span><span>
+</span><span>    let current_time = std::time::SystemTime::now();
+</span><span>
+</span><span>    current_time <= late_as_of
+</span><span>}
+</span></code></pre><h4 id="Step_Two:_don't_use_functions_with_side_effects_inside_your_function">Step Two: don't use functions with side effects inside your function</h4><p>Imagine that you have a non-alcoholic drink, if you add another non-alcoholic drink to it, it is still non-alcoholic. But if you add an alcoholic drink to it, it will not remain non-alcoholic anymore. A pure function is only pure, if all the functions that are being called in it, are pure. And <code>std::time:SystemTime::now()</code> is definitely not pure. Now, at some point we need to get the current time, but we don't need to do that where it is hidden from the caller.<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  let output = calculate_my_lateness(
+</span><span>                   SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>                   SystemTime::now(),</span><span style=color:#bbb>//&LT------ we provide the time
+</span><span>  );
+</span><span>
+</span><span>  assert_eq!(output, true);
+</span><span>}
+</span><span>
+</span><span>fn calculate_my_lateness(late_as_of: SystemTime, target_time: SystemTime ) -> bool {
+</span><span>    </span><span style=color:#bbb>//-------------------------------------------^^^^^^^^^^^^^^^^^^^^^^^-----------
+</span><span>    target_time <= late_as_of
+</span><span>}
+</span></code></pre><p>Now the nice thing here is that we can easily test this function now!<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span style=color:#bbb>// main and calculate_my_lateness are not shown here. Don't be alarmed.
+</span><span>
+</span><span>#[cfg(test)]
+</span><span>mod tests {
+</span><span>    use super::calculate_my_lateness;
+</span><span>    use std::time::SystemTime;
+</span><span>
+</span><span>    #[test]
+</span><span>    fn being_late_works() {
+</span><span>        let res = calculate_my_lateness(
+</span><span>            SystemTime::from(A_TIME),
+</span><span>            SystemTime::from(A_TIME_THAT_IS_AFTER_LATE_TIME),
+</span><span>        );
+</span><span>        assert_eq!(res, true)
+</span><span>    }
+</span><span>
+</span><span>    #[test]
+</span><span>    fn being_early_works() {
+</span><span>        let res = calculate_my_lateness(
+</span><span>            SystemTime::from(A_TIME),
+</span><span>            SystemTime::from(A_TIME_THAT_IS_BEFORE_LATE_TIME),
+</span><span>        );
+</span><span>        assert_eq!(res, false)
+</span><span>    }
+</span><span>}
+</span></code></pre><p>Imagine doing this with the first function!<h4 id=One_more_step>One more step</h4><p>OK, I lied... Somewhat. Have you noticed the one glaring, lack of transparency and control here? It's the <code><=</code>. You may need to read the function here, if you have this simple question:<blockquote><p>If I call the function exactly, at the precise moment that I specified to be <code>late_as_of</code>, will return true, or false?</blockquote><p>Now, not answering this question using the function signature, won't make my function less pure, but still, it is a much nicer experience for the caller to be able to rely on their IDE's autocomplete to tell them what happens. But how the hell should we do that? Easy! We take a comparator function as input!<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn main() {
+</span><span>  let output = calculate_my_lateness(
+</span><span>                   SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>                   SystemTime::now(),
+</span><span>                   |late, target| target > late, </span><span style=color:#bbb>// here the caller passes the function
+</span><span>                                                 </span><span style=color:#bbb>// you can also provide a few different functions yourself to make it easier for the caller
+</span><span>  );
+</span><span>
+</span><span>  assert_eq!(output, true);
+</span><span>}
+</span><span>
+</span><span>fn calculate_my_lateness(
+</span><span>    late_as_of: SystemTime,
+</span><span>    target_time: SystemTime,
+</span><span>    comparer: fn(SystemTime, SystemTime) -> bool, </span><span style=color:#bbb>// magic happens here
+</span><span>) -> bool {
+</span><span>    comparer(late_as_of, target_time)
+</span><span>}
+</span></code></pre><p>Now the caller is providing us we have everything we need. We did not hide one single thing.<h3 id="Isn't_this_just_more_work_for_caller?">Isn't this just more work for caller?</h3><p>Well, yes. Yes, it is... if calling functions without understanding them is the only work that the caller of our function is doing. Otherwise, our caller knows everything they need using their language server, can change everything they need, have the assurance of our tests and don't need to crawl through our source code, and they will face much fewer bugs where they don't know where it came from. It may seem unnecessary for this simple function, but imagine much more complex functions.<h2 id=Making_things_nicer:_A_spicy_problem>Making things nicer: A spicy problem</h2><p>So we have all this power and transparency. But the elephant is in it room: We have a very shitty API. Let's make it nicer using a technique called currying (hence the "spicy" pun). What it means is: as well as taking functions as argument, we can return functions. That way, our <code>calculate_my_lateness</code> function can become a function-maker. Let me make it more concrete.<h3 id=Consider_the_use_case>Consider the use case</h3><p>Let us suppose that we want to find time in our list of times that is not late. Currently, we have to call the whole function, repeatedly, and include every argument.<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span style=color:#bbb>// we are in main, don't be alarmed
+</span><span>let output_time1 = calculate_my_lateness(
+</span><span>    SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>    SystemTime::from(FIRST_TIME), </span><span style=color:#bbb>//&LT------ we provide the time
+</span><span>    |late, target| target > late,
+</span><span>);
+</span><span>
+</span><span>let output_time2 = calculate_my_lateness(
+</span><span>    SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>    SystemTime::from(SECOND_TIME), </span><span style=color:#bbb>//&LT------ we provide the time
+</span><span>    |late, target| target > late,
+</span><span>);
+</span><span>
+</span><span>let output_time3 = calculate_my_lateness(
+</span><span>    SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>    SystemTime::from(THIRD_TIME), </span><span style=color:#bbb>//&LT------ we provide the time
+</span><span>    |late, target| target > late,
+</span><span>);
+</span><span>
+</span><span style=color:#bbb>// etc...
+</span></code></pre><p>This is not great. Here, We can just make a function that only takes our target time.<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span>fn calculate_my_lateness(
+</span><span>    late_as_of: SystemTime,
+</span><span>    </span><span style=color:#bbb>// target_time: SystemTime &LT------------ we don't need to take this argument anymore
+</span><span>    comparer: fn(late_as_of: SystemTime, target_time: SystemTime) -> bool,
+</span><span>) -> fn(target_time: SystemTime) -> bool {
+</span><span>     </span><span style=color:#bbb>//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^---- notice that we are now returning a function
+</span><span>
+</span><span>    |target_time: SystemTime| -> bool { comparer(target_time, late_as_of) }
+</span><span>    </span><span style=color:#bbb>//^^^^^^^^^^^^^^^^^^^^^^           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</span><span>    </span><span style=color:#bbb>//         |                this is where the calculation of lateness happens
+</span><span>    </span><span style=color:#bbb>// we are taking target time here
+</span><span> }
+</span></code></pre><p>You might ask, "well, how does this help?"<pre class=language-rust data-lang=rust style=background:#fff;color:#202020><code class=language-rust data-lang=rust><span style=color:#bbb>// we are in  main
+</span><span>
+</span><span style=color:#bbb>// now our late_before_time_x is not of type bool,
+</span><span style=color:#bbb>// rather it is of type Fn(SystemTime) -> bool
+</span><span>let late_before_time_x = calculate_my_lateness(
+</span><span>    SystemTime::from(SOME_SPECIFIED_TIME),
+</span><span>    |late, target| target > late,
+</span><span>);
+</span><span>
+</span><span style=color:#bbb>// So we can just:
+</span><span>let first_result = late_before_time_x(FIRST_TIME);
+</span><span>let second_result = late_before_time_x(SECOND_TIME);
+</span><span>let third_result = late_before_time_x(THIRD_TIME);
+</span><span style=color:#bbb>// ...much less boilerplate
+</span></code></pre><h3 id="Why_const_just_won't_do">Why <code>const</code> just won't do</h3><p>Veteran rustaceans among the readers of this blog might ask: "why not just use <code>const</code> to mark that functions are pure?" Well dear veteran, if you can make a function <code>const</code>, do every one a favor and actually do it. In fact, I regularly use <code>clippy::missing_const_for_fn</code> lint and suggest you to use it as well. But that does not guarantee that our functions are pure, or that every pure function can be <code>const</code>. Here are my reasons:<ol><li><code>const</code> functions can take <code>&mut something</code> as their arguments. Taking mutable references is definitely not very pure-function-y.<li>You cannot <code>const</code> trait methods in stable rust, as of now. And considering that every function call inside a <code>const</code> function should be <code>const</code> as well, you are extremely limited, without any reasons that have to do with pure functions.<li>Many libraries don't to use <code>const</code> on the functions that are <code>const</code>. Again, limitation without pureness reasons.</ol><h2 id=Making_things_declarative>Making things declarative</h2><p>There is this often repeated old joke from Phil Karlton that says:<blockquote><p>There two hard problems in programming<ol><li>Cache invalidation<li>Naming things And here we are concerned with the second one.</ol></blockquote><ul><li>In the <strong>imperative</strong> universe, we usually name our functions using <em>verbs</em>. Think <code>calculate_my_lateness</code>.<li>In the <strong>declarative</strong> universe we are concerned with our output, we use <em>nouns</em>. Think <code>lateness_calculator</code>.</ul><p>This makes the intent of our function clear. How it is implemented under-the-hood is not what matters to the caller. They only care about what they get out of it. If you now are thinking that you cared about that part before, consider the things that we just can answer by seeing the arguments that our function takes. We don't need to rely on our function name anymore to tell use how the function is calculating lateness. We only need to know what it's intention is.<h2 id=Bye_without_iterators?>Bye without iterators?</h2><p>In this post, I just preferred to focus on the heart of functional programming: pure declarative functions. However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are iterators, maps, folds, filters and.... Honestly, they are well explained in other resources. My only suggestion would be to check out <a rel="nofollow noreferrer" href=https://docs.rs/itertools/latest/itertools/><code>itertools</code></a> crate.<aside class=discussion-info>Comment section? I have none. But feel free to email me at: <a class=email-box href=mailto:prma.dev@protonmail.com>prma.dev@protonmail.com</a></aside></main><footer><p class=taxonomies><a href=/tags/programming>#programming</a> <a href=/tags/type-system>#type-system</a> <a href=/tags/functional-programming>#functional-programming</a> <a href=/tags/rust>#rust</a> <a href=/categories/guides>+guides</a></footer></div>

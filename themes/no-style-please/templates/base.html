@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
   {% if page.title %}
@@ -101,7 +101,7 @@
   {% endblock metatags %}
   {% if config.generate_feed %}
   {% block feed %}
-  <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path=" atom.xml", trailing_slash=false)
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path='atom.xml', trailing_slash=false)
     }}">
   {% endblock feed %}
   {% endif %}
@@ -111,12 +111,12 @@
 </head>
 
 <body>
-  <div class="w" theme="auto">
+  <div class="w">
     <header>
       {% if config.extra.header_nav %}
       <nav>
         {% for nav_item in config.extra.header_nav %}
-        <a href="{{ nav_item.url | safe }}" {% if nav_item.new_tab %}target="_blank" rel="noreferrer noopener" {% endif
+        <a href=" {{ nav_item.url | safe }}" {% if nav_item.new_tab %}target="_blank" rel="noreferrer noopener" {% endif
           %}>{{ nav_item.name }}</a>
         {% endfor %}
       </nav>
