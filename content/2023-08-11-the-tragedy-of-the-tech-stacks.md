@@ -85,7 +85,7 @@ However, the remedy doesn't entail adhering to an oddly precise series of ritual
 
 
 
-# Dear Readers...
+## Dear Readers...
 
 I know! The gastly claim of "to improve developer experience we first should grow an ethical sense", seems absurd. 
 Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it. 

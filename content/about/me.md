@@ -23,7 +23,7 @@ my fascination with computing remained unwavering, beckoning me towards a path w
 
 ## Name-wise
 
-You can call me Perma. My legal name is AmirHossein Alesheikh. I don't mind either, but I prefer Perma.
+You can call me <strong>Perma</strong>. My legal name is AmirHossein Alesheikh. I don't mind either, but I prefer Perma.
 Read [Call Me Perma](../../call-me-perma) for more information.
 
 You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways.
@@ -31,8 +31,10 @@ But it will be nice if you could make it clear to me which one you have chosen.
 
 ## Job-wise
 
-As a back-end developer, my expertise lies in utilizing languages like Go and Rust to build the foundational components of software systems.
+As a back-end developer, my expertise lies in utilizing languages like *Go* and *Rust* to build the foundational components of software systems.
+
 I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
+
 Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.
 
 ## Tech-wise
@@ -54,24 +56,37 @@ such as my alignment with [rationalism](https://www.lesswrong.com/tag/rationalis
 and consciousness idealism, I won't delve into those topics and burden you with excessive details.
 
 ## Me, in the wild
+<ul>
+  <li><a rel="me" href="https://fosstodon.org/@prma">Fosstodon</a></li>
+  <li><a rel="me" href="https://codeberg.org/prma">Codeberg</a></li>
+  <li><a rel="me" href="https://github.com/prmadev">Github</a></li>
+  <li><a rel="me" href="https://linkedin.com/in/prmadev">Linkedin</a></li>
+</ul>
 
-<div style="display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; ">
-  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a rel="me" href="https://fosstodon.org/@Amirography"> Fosstodon </a> </div>
-  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a rel="me" href="https://hachyderm.io/@Amirography"> Hachyderm </a> </div>
-  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a  href="https://github.com/prmadev"> Github </a></div>
-  <div style="display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;"> <a  href="https://linkedin.com/in/prmadev"> Linkedin </a></div>
-</div>
 
 
 ## FAQ
+<ul>
+<li>
+<details> <summary> What time is it?</summary>
+</details>
+</li>
 
-- Q: What time is it?
+<li>
+<details> <summary> What's your dogs name?</summary>
+</details>
+</li>
 
-- Q: What's your dogs name?
+<li>
+<details> <summary>Is your dog friendly?</summary>
+</details>
+</li>
 
-- Q: Is your dog friendly?
+<li>
+<details> <summary>Is it your turn to cook lunch or mine?</summary>
+</details>
+</li>
 
-- Q: Is it your turn to cook lunch or mine?
-
+</ul>
 
 Yeah, I hear these questions quite frequently!

@@ -22,7 +22,8 @@ So here is another, better title:
 ## Moving a Variable to a Function in Rust Doesn't Make It Impure
 
 So as an introduction, if you don't know Rust: 
-In Rust, we have this concept of moving variables.
+
+In Rust, we have this concept of <dfn title="moving in rust" id="dfn-moving">moving</dfn> variables.
 It is like this: 
 
 ``` rust
@@ -36,10 +37,11 @@ _ = a_function_that_takes_ownership(a_variable);
 let b_variable = a_variable; 
   
 ```
-Now I consider `a_function_that_takes_ownership` to be a pure function.
+
+Now I consider <var>a_function_that_takes_ownership</var> to be a <a href="#dfn-purefunction">pure function</a>.
 However, it raises a possible confusion:
 
-> Doesn't `a_function_that_takes_ownership` change the state of the outer function?
+> Doesn't <var>a_function_that_takes_ownership</var> change the state of the outer function?
 > Isn't that a side effect?  
 
 I argue that it doesn't. Here is why: a function is not a function call. Ok. let's visualize it. 
@@ -57,9 +59,14 @@ So we have two functions. One outer, and one inner.
 - Each function should have inputs and an output.
 - Other than their outputs, they should not change anything outside their function space. 
 
-If these conditions are not met, our function is not pure.
+If these conditions are not met, our function is not [pure](#dfn-purefunction).
 
-**Step 1.** Now consider a variable `[V]`.
+<dl>
+
+<dt>Step 1</dt>
+
+<dd>
+Now consider a variable <var>[V]</var>.
 
 
 ```
@@ -69,7 +76,12 @@ If these conditions are not met, our function is not pure.
       |       ------------        |
       -----------------------------
 ```
-**Step 2.** With our outer function, we create a function call for the inner function. 
+
+</dd>
+
+<dt> Step 2 </dt>
+<dd>
+With our outer function, we create a function call for the inner function. 
 
 ```
       _____________________________
@@ -78,7 +90,13 @@ If these conditions are not met, our function is not pure.
       |       ------------        |
       -----------------------------
 ```
-**Step 3.** It is no longer in the state space of the outer function. The inner function takes ownership of it.   
+
+</dd>
+
+
+<dt> Step 3</dt>
+<dd>
+It is no longer in the state space of the outer function. The inner function takes ownership of it.   
 
 ```
       _____________________________
@@ -87,22 +105,30 @@ If these conditions are not met, our function is not pure.
       |       ------------        |
       -----------------------------
 ```
+<dd>
 
-Semantically, for the outer function `[v]` was used in the function call and then dropped. Which does not violate our rules.
+</dl>
+
+Semantically, for the outer function <var>[v]</var> was used in the function call and then dropped. Which does not violate our rules.
 For the inner function, it just got an input and returns an output. 
 So it makes sematic sense. 
-In practice, it also makes the same guarantees as any other pure function:
+
+<section>
+
+In practice, it also makes the same guarantees as any other <dfn id="dfn-purefunction">pure function</dfn>:
 - No null pointers. 
 - No mutable state. 
 - No side effects. 
 
-If the caller `.clone()` our value and make a copy of it and pass that to the inner function,
+</section>
+
+If the caller <code>.clone()</code> our value and make a copy of it and pass that to the inner function,
 it provides us with no other guarantees, other than more memory usage and slightly longer code.  
 
 ## Why does it matter? 
 
 Well, Honestly, it doesn't.
-I just had to decide if in a pure function I can consume a `self`, if I want to make it a pure function, considering that I cannot make it `const`.   
+I just had to decide if in a pure function I can consume a <var>self</var>, if I want to make it a pure function, considering that I cannot make it <code>const</code>.   
 This was my thinking output. Now you are the outer function. 
 
 

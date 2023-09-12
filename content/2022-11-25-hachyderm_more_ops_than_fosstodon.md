@@ -15,30 +15,26 @@ tags = ["fediverse"]
 <section class="intro">
 
 Ever since I have moved to the mastodon platform after "the great twitter migration". I was curious about two main instances. 
-One being [Fosstodon](https://Fosstodon.org), an instance oriented around Free and Open-Source Software(FOSS), another being [Hachyderm](https://hachyderm.io), an instance that introduces itself as "social media for technical professionals".
+One being [Fosstodon](https://Fosstodon.org), an instance oriented around <abr title="Free and Open-Source Software">FOSS</abr>, another being [Hachyderm](https://hachyderm.io), an instance that introduces itself as <q cite="https://hachyderm.io/about">social media for technical professionals</q>.
 
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
 But I couldn't put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.  
 
 </section>
 
-<section class="2H">
-
 
 ## Initial Theories
 
-Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like kubernetes and docker, while at the same time there was a lot of talk about codes and programming practices.
+Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like *kubernetes* and *docker*, while at the same time there was a lot of talk about codes and programming practices.
+
 I thought maybe all the programmers on Hachyderm are working with more proprietory and enterprise solutions and as such they were less likely to share details of their daily programming.
+
 But that theory didn't hold true, as there was as much toots in my timeline on Fosstodon about bussiness related stuff as there was on Hachyderm.
 
 Until last night that I realized that maybe what I was seeing was the difference of ideas between Operations interested people vs people involved in developing software. And as a backend-developer, I could see more relevant content from the development side.  
 
 So I set to examine my assumptions.
 Like a good [Baysian](https://www.lesswrong.com/tag/bayes-theorem).
-
-</section>
-
-<section class="2H">
 
 ## APIs, Searches and Methods
 
@@ -47,7 +43,7 @@ That way I could search differnet keywords in each instance and compare the resu
 However I could not find such a thing. Every search engine I tried lacked the ability of filtering by instance.
 
 
-After that, I looked into the Mastodon APIs myself.  
+After that, I looked into the Mastodon <abr title="Application Programming Interface">API</abr>s myself.  
 Long-story short, I found [timeline API](https://docs.joinmastodon.org/methods/timelines/#tag) to be particularly useful: 
 
 
@@ -97,7 +93,9 @@ I ended up with these words on differnt sides:
 
 The differnece in their numbers are not important to us, only the proportions of the results of each may be relevant.
 
-The eventual code looks like this: 
+<details>
+
+<summary>The eventual code looks like this.</summary> 
 
 ```bash
 
@@ -139,20 +137,18 @@ awk '/fosstodon|hachyderm/ {print $0}' hash.json | sort > res-develop &&
 rm hash.json
 
 ```  
+</details>
 
 
-</section>
-
-<section class="2H">
 
 ## The Result 
 
-On the ops query we have ``32`` results from Fosstodon and ``44`` results from Hachyderm.   
+On the ops query we have <data value="32">32 toots</data> from Fosstodon and <data value="44">44 toots</data> from Hachyderm.   
 
-```
-Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
+<pre>
+<label for="foss">Fosstodon</label> <data id="foss" value="32">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+<label for="hachy">Hachyderm</label> <data id="hachy" value="44">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+</pre>
 
 So far Hachyderm seems to have more activity with OPs related hashtags.
 On the other hand it could be that people on Hachyderm are generally more talkative than Fosstodon about every part of the stack.
@@ -160,24 +156,20 @@ So let's hold development as the control.
 
 On the development queries we have ``49`` results from Fosstodon and ``24`` results from Hachyderm.   
 
-```
-Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
+
+<pre>
+<label for="foss">Fosstodon</label> <data id="foss" value="49">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+<label for="hachy">Hachyderm</label> <data id="hachy" value="24">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+</pre>
+
 
 That seems like an staggering differece.
 
-</section>
-
-<section class="2H">
 
 
 ## Decision
 
 I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.
-
-
-</section>
 
 
 

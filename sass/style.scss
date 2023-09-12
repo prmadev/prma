@@ -392,6 +392,39 @@ nav,
 }
 
 .page-post-description {
-
   max-width: 70rem;
+}
+
+var {
+  color: white;
+  background: black;
+  font-style: normal;
+}
+
+var::before,
+var::after {
+  display: contents;
+  content: "░";
+  // filter: invert(1);
+}
+
+dt {
+  font-weight: 900;
+}
+
+dt::after {
+  diplay: content;
+  content: "∷";
+  padding-left: 1rem;
+  font-weight: 900;
+}
+
+data {
+  background: black;
+  color: white;
+}
+
+data:hover::after {
+  content: ' (' attr(value) ')';
+  font-size: 1em;
 }

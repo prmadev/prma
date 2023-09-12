@@ -169,7 +169,7 @@ Given the inherent high-stakes nature of startups, Arash adopts a prudent approa
 &lt;blockquote&gt;
 &lt;p&gt;The population problem has no technical solution; it requires a fundamental extension of in morality.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;h1 id=&quot;Dear_Readers...&quot;&gt;Dear Readers...&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Dear_Readers...&quot;&gt;Dear Readers...&lt;&#x2F;h2&gt;
 &lt;p&gt;I know! The gastly claim of &amp;quot;to improve developer experience we first should grow an ethical sense&amp;quot;, seems absurd. 
 Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it. &lt;&#x2F;p&gt;
 &lt;!-- zola shortcode: discussion-info --&gt;
@@ -931,14 +931,14 @@ exploring the intricate connections between our built environment and the workin
 However, amidst this exploration,
 my fascination with computing remained unwavering, beckoning me towards a path where I finally discovered my true calling as a developer.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;Name-wise&quot;&gt;Name-wise&lt;&#x2F;h2&gt;
-&lt;p&gt;You can call me Perma. My legal name is AmirHossein Alesheikh. I don&#x27;t mind either, but I prefer Perma.
+&lt;p&gt;You can call me &lt;strong&gt;Perma&lt;&#x2F;strong&gt;. My legal name is AmirHossein Alesheikh. I don&#x27;t mind either, but I prefer Perma.
 Read &lt;a href=&quot;..&#x2F;..&#x2F;call-me-perma&quot;&gt;Call Me Perma&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
 &lt;p&gt;You can use any pronouns, I don&#x27;t mind any of them, I don&#x27;t identify with any of genders, anyways.
 But it will be nice if you could make it clear to me which one you have chosen.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;Job-wise&quot;&gt;Job-wise&lt;&#x2F;h2&gt;
-&lt;p&gt;As a back-end developer, my expertise lies in utilizing languages like Go and Rust to build the foundational components of software systems.
-I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
-Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.&lt;&#x2F;p&gt;
+&lt;p&gt;As a back-end developer, my expertise lies in utilizing languages like &lt;em&gt;Go&lt;&#x2F;em&gt; and &lt;em&gt;Rust&lt;&#x2F;em&gt; to build the foundational components of software systems.&lt;&#x2F;p&gt;
+&lt;p&gt;I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;Tech-wise&quot;&gt;Tech-wise&lt;&#x2F;h2&gt;
 &lt;p&gt;Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant.
 The hours I&#x27;ve devoted to sitting behind desktop computers far exceed the time I&#x27;ve dedicated to restful slumber.
@@ -954,25 +954,29 @@ While there are other aspects of my beliefs,
 such as my alignment with &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;tag&#x2F;rationalist-movement&quot;&gt;rationalism&lt;&#x2F;a&gt;, utilitarianism,
 and consciousness idealism, I won&#x27;t delve into those topics and burden you with excessive details.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;Me,_in_the_wild&quot;&gt;Me, in the wild&lt;&#x2F;h2&gt;
-&lt;div style=&quot;display:flex; justify-content: space-between; flex-flow: wrap; flex-basis: 600px; margin-bottom: 1rem; &quot;&gt;
-  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;fosstodon.org&#x2F;@Amirography&quot;&gt; Fosstodon &lt;&#x2F;a&gt; &lt;&#x2F;div&gt;
-  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;hachyderm.io&#x2F;@Amirography&quot;&gt; Hachyderm &lt;&#x2F;a&gt; &lt;&#x2F;div&gt;
-  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a  href=&quot;https:&#x2F;&#x2F;github.com&#x2F;prmadev&quot;&gt; Github &lt;&#x2F;a&gt;&lt;&#x2F;div&gt;
-  &lt;div style=&quot;display:block; padding: 1rem; border: 0.5rem solid black; margin: 1rem;&quot;&gt; &lt;a  href=&quot;https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prmadev&quot;&gt; Linkedin &lt;&#x2F;a&gt;&lt;&#x2F;div&gt;
-&lt;&#x2F;div&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;fosstodon.org&#x2F;@prma&quot;&gt;Fosstodon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+  &lt;li&gt;&lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;prma&quot;&gt;Codeberg&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+  &lt;li&gt;&lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;prmadev&quot;&gt;Github&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+  &lt;li&gt;&lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prmadev&quot;&gt;Linkedin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;FAQ&quot;&gt;FAQ&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Q: What time is it?&lt;&#x2F;p&gt;
+&lt;details&gt; &lt;summary&gt; What time is it?&lt;&#x2F;summary&gt;
+&lt;&#x2F;details&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;Q: What&#x27;s your dogs name?&lt;&#x2F;p&gt;
+&lt;details&gt; &lt;summary&gt; What&#x27;s your dogs name?&lt;&#x2F;summary&gt;
+&lt;&#x2F;details&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;Q: Is your dog friendly?&lt;&#x2F;p&gt;
+&lt;details&gt; &lt;summary&gt;Is your dog friendly?&lt;&#x2F;summary&gt;
+&lt;&#x2F;details&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;Q: Is it your turn to cook lunch or mine?&lt;&#x2F;p&gt;
+&lt;details&gt; &lt;summary&gt;Is it your turn to cook lunch or mine?&lt;&#x2F;summary&gt;
+&lt;&#x2F;details&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Yeah, I hear these questions quite frequently!&lt;&#x2F;p&gt;
@@ -1088,8 +1092,8 @@ I know, I hate the title as well. But I couldn&#x27;t resist.
 So here is another, better title:&lt;&#x2F;p&gt;
 &lt;&#x2F;section&gt;
 &lt;h2 id=&quot;Moving_a_Variable_to_a_Function_in_Rust_Doesn&#x27;t_Make_It_Impure&quot;&gt;Moving a Variable to a Function in Rust Doesn&#x27;t Make It Impure&lt;&#x2F;h2&gt;
-&lt;p&gt;So as an introduction, if you don&#x27;t know Rust: 
-In Rust, we have this concept of moving variables.
+&lt;p&gt;So as an introduction, if you don&#x27;t know Rust: &lt;&#x2F;p&gt;
+&lt;p&gt;In Rust, we have this concept of &lt;dfn title=&quot;moving in rust&quot; id=&quot;dfn-moving&quot;&gt;moving&lt;&#x2F;dfn&gt; variables.
 It is like this: &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;&#x2F;&#x2F;  A variable is made. 
 &lt;&#x2F;span&gt;&lt;span&gt;let a_variable = some_value; 
@@ -1101,10 +1105,10 @@ It is like this: &lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;let b_variable = a_variable; 
 &lt;&#x2F;span&gt;&lt;span&gt;  
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Now I consider &lt;code&gt;a_function_that_takes_ownership&lt;&#x2F;code&gt; to be a pure function.
+&lt;p&gt;Now I consider &lt;var&gt;a_function_that_takes_ownership&lt;&#x2F;var&gt; to be a &lt;a href=&quot;#dfn-purefunction&quot;&gt;pure function&lt;&#x2F;a&gt;.
 However, it raises a possible confusion:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Doesn&#x27;t &lt;code&gt;a_function_that_takes_ownership&lt;&#x2F;code&gt; change the state of the outer function?
+&lt;p&gt;Doesn&#x27;t &lt;var&gt;a_function_that_takes_ownership&lt;&#x2F;var&gt; change the state of the outer function?
 Isn&#x27;t that a side effect?&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;I argue that it doesn&#x27;t. Here is why: a function is not a function call. Ok. let&#x27;s visualize it. &lt;&#x2F;p&gt;
@@ -1119,42 +1123,55 @@ Isn&#x27;t that a side effect?&lt;&#x2F;p&gt;
 &lt;li&gt;Each function should have inputs and an output.&lt;&#x2F;li&gt;
 &lt;li&gt;Other than their outputs, they should not change anything outside their function space. &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;If these conditions are not met, our function is not pure.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Step 1.&lt;&#x2F;strong&gt; Now consider a variable &lt;code&gt;[V]&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If these conditions are not met, our function is not &lt;a href=&quot;https:&#x2F;&#x2F;prma.dev&#x2F;moving_is_pure&#x2F;#dfn-purefunction&quot;&gt;pure&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Step 1&lt;&#x2F;dt&gt;
+&lt;dd&gt;
+Now consider a variable &lt;var&gt;[V]&lt;&#x2F;var&gt;.
 &lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
 &lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;| [v]   ____________        |-----&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;      | ----&amp;gt; |          | -----&amp;gt; |
 &lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
 &lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;&lt;strong&gt;Step 2.&lt;&#x2F;strong&gt; With our outer function, we create a function call for the inner function. &lt;&#x2F;p&gt;
+&lt;&#x2F;dd&gt;
+&lt;dt&gt; Step 2 &lt;&#x2F;dt&gt;
+&lt;dd&gt;
+With our outer function, we create a function call for the inner function. 
 &lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
 &lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;|       ____________        |-----&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;      | [v]-&amp;gt; |          | -----&amp;gt; |
 &lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
 &lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;&lt;strong&gt;Step 3.&lt;&#x2F;strong&gt; It is no longer in the state space of the outer function. The inner function takes ownership of it.&lt;&#x2F;p&gt;
+&lt;&#x2F;dd&gt;
+&lt;dt&gt; Step 3&lt;&#x2F;dt&gt;
+&lt;dd&gt;
+It is no longer in the state space of the outer function. The inner function takes ownership of it.   
 &lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;      _____________________________
 &lt;&#x2F;span&gt;&lt;span&gt;-----&amp;gt;|       ____________        |-----&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;      | ----&amp;gt; |   [v]    | -----&amp;gt; |
 &lt;&#x2F;span&gt;&lt;span&gt;      |       ------------        |
 &lt;&#x2F;span&gt;&lt;span&gt;      -----------------------------
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Semantically, for the outer function &lt;code&gt;[v]&lt;&#x2F;code&gt; was used in the function call and then dropped. Which does not violate our rules.
+&lt;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;p&gt;Semantically, for the outer function &lt;var&gt;[v]&lt;&#x2F;var&gt; was used in the function call and then dropped. Which does not violate our rules.
 For the inner function, it just got an input and returns an output. 
-So it makes sematic sense. 
-In practice, it also makes the same guarantees as any other pure function:&lt;&#x2F;p&gt;
+So it makes sematic sense. &lt;&#x2F;p&gt;
+&lt;section&gt;
+&lt;p&gt;In practice, it also makes the same guarantees as any other &lt;dfn id=&quot;dfn-purefunction&quot;&gt;pure function&lt;&#x2F;dfn&gt;:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;No null pointers. &lt;&#x2F;li&gt;
 &lt;li&gt;No mutable state. &lt;&#x2F;li&gt;
 &lt;li&gt;No side effects. &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;&#x2F;section&gt;
 &lt;p&gt;If the caller &lt;code&gt;.clone()&lt;&#x2F;code&gt; our value and make a copy of it and pass that to the inner function,
 it provides us with no other guarantees, other than more memory usage and slightly longer code.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;Why_does_it_matter?&quot;&gt;Why does it matter?&lt;&#x2F;h2&gt;
 &lt;p&gt;Well, Honestly, it doesn&#x27;t.
-I just had to decide if in a pure function I can consume a &lt;code&gt;self&lt;&#x2F;code&gt;, if I want to make it a pure function, considering that I cannot make it &lt;code&gt;const&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
+I just had to decide if in a pure function I can consume a &lt;var&gt;self&lt;&#x2F;var&gt;, if I want to make it a pure function, considering that I cannot make it &lt;code&gt;const&lt;&#x2F;code&gt;.&lt;br &#x2F;&gt;
 This was my thinking output. Now you are the outer function. &lt;&#x2F;p&gt;
 &lt;!-- zola shortcode: discussion-info --&gt;
 &lt;aside class=&quot;discussion-info&quot;&gt;
@@ -1495,25 +1512,22 @@ Honestly, they are well explained in other resources. My only suggestion would b
         
         <content type="html">&lt;section class=&quot;intro&quot;&gt;
 &lt;p&gt;Ever since I have moved to the mastodon platform after &amp;quot;the great twitter migration&amp;quot;. I was curious about two main instances. 
-One being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;Fosstodon.org&quot;&gt;Fosstodon&lt;&#x2F;a&gt;, an instance oriented around Free and Open-Source Software(FOSS), another being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;hachyderm.io&quot;&gt;Hachyderm&lt;&#x2F;a&gt;, an instance that introduces itself as &amp;quot;social media for technical professionals&amp;quot;.&lt;&#x2F;p&gt;
+One being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;Fosstodon.org&quot;&gt;Fosstodon&lt;&#x2F;a&gt;, an instance oriented around &lt;abr title=&quot;Free and Open-Source Software&quot;&gt;FOSS&lt;&#x2F;abr&gt;, another being &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;hachyderm.io&quot;&gt;Hachyderm&lt;&#x2F;a&gt;, an instance that introduces itself as &lt;q cite=&quot;https:&#x2F;&#x2F;hachyderm.io&#x2F;about&quot;&gt;social media for technical professionals&lt;&#x2F;q&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
 But I couldn&#x27;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.&lt;&#x2F;p&gt;
 &lt;&#x2F;section&gt;
-&lt;section class=&quot;2H&quot;&gt;
 &lt;h2 id=&quot;Initial_Theories&quot;&gt;Initial Theories&lt;&#x2F;h2&gt;
-&lt;p&gt;Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like kubernetes and docker, while at the same time there was a lot of talk about codes and programming practices.
-I thought maybe all the programmers on Hachyderm are working with more proprietory and enterprise solutions and as such they were less likely to share details of their daily programming.
-But that theory didn&#x27;t hold true, as there was as much toots in my timeline on Fosstodon about bussiness related stuff as there was on Hachyderm.&lt;&#x2F;p&gt;
+&lt;p&gt;Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like &lt;em&gt;kubernetes&lt;&#x2F;em&gt; and &lt;em&gt;docker&lt;&#x2F;em&gt;, while at the same time there was a lot of talk about codes and programming practices.&lt;&#x2F;p&gt;
+&lt;p&gt;I thought maybe all the programmers on Hachyderm are working with more proprietory and enterprise solutions and as such they were less likely to share details of their daily programming.&lt;&#x2F;p&gt;
+&lt;p&gt;But that theory didn&#x27;t hold true, as there was as much toots in my timeline on Fosstodon about bussiness related stuff as there was on Hachyderm.&lt;&#x2F;p&gt;
 &lt;p&gt;Until last night that I realized that maybe what I was seeing was the difference of ideas between Operations interested people vs people involved in developing software. And as a backend-developer, I could see more relevant content from the development side.&lt;&#x2F;p&gt;
 &lt;p&gt;So I set to examine my assumptions.
 Like a good &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;tag&#x2F;bayes-theorem&quot;&gt;Baysian&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;&#x2F;section&gt;
-&lt;section class=&quot;2H&quot;&gt;
 &lt;h2 id=&quot;APIs,_Searches_and_Methods&quot;&gt;APIs, Searches and Methods&lt;&#x2F;h2&gt;
 &lt;p&gt;to start with, I looked into different websites that could help me search per-instance results.
 That way I could search differnet keywords in each instance and compare the results.&lt;br &#x2F;&gt;
 However I could not find such a thing. Every search engine I tried lacked the ability of filtering by instance.&lt;&#x2F;p&gt;
-&lt;p&gt;After that, I looked into the Mastodon APIs myself.&lt;br &#x2F;&gt;
+&lt;p&gt;After that, I looked into the Mastodon &lt;abr title=&quot;Application Programming Interface&quot;&gt;API&lt;&#x2F;abr&gt;s myself.&lt;br &#x2F;&gt;
 Long-story short, I found &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;docs.joinmastodon.org&#x2F;methods&#x2F;timelines&#x2F;#tag&quot;&gt;timeline API&lt;&#x2F;a&gt; to be particularly useful: &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span&gt;GET &#x2F;api&#x2F;v1&#x2F;timelines&#x2F;tag&#x2F;:hashtag HTTP&#x2F;1.1
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
@@ -1550,7 +1564,8 @@ My goal was to find a good-enough-for-my-decision result. Not anything more. &lt
 &lt;tr&gt;&lt;td&gt;_&lt;&#x2F;td&gt;&lt;td&gt;auth&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;The differnece in their numbers are not important to us, only the proportions of the results of each may be relevant.&lt;&#x2F;p&gt;
-&lt;p&gt;The eventual code looks like this: &lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;The eventual code looks like this.&lt;&#x2F;summary&gt; 
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#ffffff;color:#202020;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bbbbbb;&quot;&gt;#! &#x2F;usr&#x2F;bin&#x2F;env bash
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -1590,26 +1605,24 @@ My goal was to find a good-enough-for-my-decision result. Not anything more. &lt
 &lt;&#x2F;span&gt;&lt;span&gt;rm hash.json
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;&#x2F;section&gt;
-&lt;section class=&quot;2H&quot;&gt;
+&lt;&#x2F;details&gt;
 &lt;h2 id=&quot;The_Result&quot;&gt;The Result&lt;&#x2F;h2&gt;
-&lt;p&gt;On the ops query we have &lt;code&gt;32&lt;&#x2F;code&gt; results from Fosstodon and &lt;code&gt;44&lt;&#x2F;code&gt; results from Hachyderm.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-&lt;&#x2F;span&gt;&lt;span&gt;Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;On the ops query we have &lt;data value=&quot;32&quot;&gt;32 toots&lt;&#x2F;data&gt; from Fosstodon and &lt;data value=&quot;44&quot;&gt;44 toots&lt;&#x2F;data&gt; from Hachyderm.&lt;&#x2F;p&gt;
+&lt;pre&gt;
+&lt;label for=&quot;foss&quot;&gt;Fosstodon&lt;&#x2F;label&gt; &lt;data id=&quot;foss&quot; value=&quot;32&quot;&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓&lt;&#x2F;data&gt;
+&lt;label for=&quot;hachy&quot;&gt;Hachyderm&lt;&#x2F;label&gt; &lt;data id=&quot;hachy&quot; value=&quot;44&quot;&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓&lt;&#x2F;data&gt;
+&lt;&#x2F;pre&gt;
 &lt;p&gt;So far Hachyderm seems to have more activity with OPs related hashtags.
 On the other hand it could be that people on Hachyderm are generally more talkative than Fosstodon about every part of the stack.
 So let&#x27;s hold development as the control.&lt;&#x2F;p&gt;
 &lt;p&gt;On the development queries we have &lt;code&gt;49&lt;&#x2F;code&gt; results from Fosstodon and &lt;code&gt;24&lt;&#x2F;code&gt; results from Hachyderm.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#ffffff;color:#202020;&quot;&gt;&lt;code&gt;&lt;span&gt;Fosstodon: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-&lt;&#x2F;span&gt;&lt;span&gt;Hachyderm: ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre&gt;
+&lt;label for=&quot;foss&quot;&gt;Fosstodon&lt;&#x2F;label&gt; &lt;data id=&quot;foss&quot; value=&quot;49&quot;&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓&lt;&#x2F;data&gt;
+&lt;label for=&quot;hachy&quot;&gt;Hachyderm&lt;&#x2F;label&gt; &lt;data id=&quot;hachy&quot; value=&quot;24&quot;&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓&lt;&#x2F;data&gt;
+&lt;&#x2F;pre&gt;
 &lt;p&gt;That seems like an staggering differece.&lt;&#x2F;p&gt;
-&lt;&#x2F;section&gt;
-&lt;section class=&quot;2H&quot;&gt;
 &lt;h2 id=&quot;Decision&quot;&gt;Decision&lt;&#x2F;h2&gt;
 &lt;p&gt;I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.&lt;&#x2F;p&gt;
-&lt;&#x2F;section&gt;
 &lt;!-- zola shortcode: discussion-info --&gt;
 &lt;aside class=&quot;discussion-info&quot;&gt;
   Comment section? I have none.
