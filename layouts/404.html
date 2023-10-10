@@ -1,37 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{ partial "head-part" . }}
   <body class="m-1 m-t-3 mw-std">
-    <!-- ------ -->
-    <!-- header -->
-    <!-- ------ -->
-    {{ block "header" . }}
-    {{ end }}
-
-    <!-- ---- -->
-    <!-- body -->
-    <!-- ---- -->
-    <main>
-      <article>
+   <main>
+     <article>
 	<p class="tx-1-5">
 	  I am not the page you are looking for.
 	</p>
 	<p class="tx-1-5">Here is a dot instead:    <abbr id="the-dot" title="(No, it does not do anything special.)">●</abbr></p>
       </article>
     </main>
-
-
-
-
-
-    <!-- ------ -->
-    <!-- footer -->
-    <!-- ------ -->
-    {{ block "footer" . }}
-    
-
-    {{ partial "footer-simple" . }}
-
-    {{end}}
+   {{ block "footer" . }}
+   {{ partial "footer-simple" . }}
+   {{end}}
   </body>
 </html>

@@ -1,9 +1,9 @@
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8"> </meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
   <title>{{ partial "title" . }}</title>
-    {{ with .OutputFormats.Get "rss" -}}
+  {{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
     {{ end }}
 

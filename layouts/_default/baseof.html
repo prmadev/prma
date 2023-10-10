@@ -1,7 +1,6 @@
 <html>
   {{ partial "head-part" . }}
   <body class="m-1 mw-std">
-    <!-- header -->
     {{ block "header" . }}
     <header class="m-1">
       <div class="">
@@ -11,14 +10,9 @@
       </div>
     </header>
     {{ end }}
-
-    <!-- body -->
     {{ block "main" . }} {{ end }}
-
-    <!-- footer -->
     {{ block "footer" . }}
     {{ partial "footer-simple" . }}
-
     {{ end }}
   </body>
 </html>
