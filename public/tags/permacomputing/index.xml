@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>permacomputing on prma</title>
+    <link>https://prma.dev/tags/permacomputing/</link>
+    <description>Recent content in permacomputing on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 31 Jul 2023 12:24:00 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/permacomputing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dishonesty of Optimizing for Developer Time</title>
+      <link>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</link>
+      <pubDate>Mon, 31 Jul 2023 12:24:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</guid>
+      <description>Intro Based on some individuals&amp;rsquo; viewpoints, they emphasize optimizing for developer time or productivity as their main priority, rather than giving top precedence to aspects such as performance, robustness, or correctness.
+The Thesis Their argument revolves around the idea that developers&amp;rsquo; time is more valuable and expensive than server resources. They often use phrases like &amp;ldquo;You can always refactor,&amp;rdquo; &amp;ldquo;You can always optimize for performance,&amp;rdquo; or &amp;ldquo;We will fix bugs later on&amp;rdquo; to support their viewpoint.</description>
+    </item>
+    
+    <item>
+      <title>Consider Developer&#39;s Snack</title>
+      <link>https://prma.dev/posts/consider_developers_snack/</link>
+      <pubDate>Wed, 21 Jun 2023 11:43:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/consider_developers_snack/</guid>
+      <description>Intro During my early 20s, I found myself immersed in the world of sustainable architecture as an architecture student. Engaging in various workshops centered around this field, one particular experience stands out as a monumental turning point in my life. It was a workshop conducted by a renowned professor in Iran, where I gained valuable insights. Within this workshop, we collectively brainstormed strategies to harness heat sources for a four-member family&amp;rsquo;s house, aiming to optimize its thermal efficiency.</description>
+    </item>
+    
+    <item>
+      <title>FLOSS For Software Longevity</title>
+      <link>https://prma.dev/posts/floss_for_longevity/</link>
+      <pubDate>Wed, 14 Jun 2023 11:26:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/floss_for_longevity/</guid>
+      <description>Intro Free/Libre and Open Source Software (FlOSS) is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
+Reasons Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.
+The longevity of the FLOSS business model serves it well The common business models are better suited for short-term goals.</description>
+    </item>
+    
+  </channel>
+</rss>

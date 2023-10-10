@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+  <section class="">
+    <div class="">
+      <ul class="">
+        {{/* categories */}}
+        {{ if eq .Permalink (`categories/` | absLangURL) }}
+          {{ range site.Taxonomies.categories.ByCount }}
+            <li class="m-3 inline-block p-1 ul-preblock">
+              <a
+                href="{{ .Page.Permalink }}"
+                class="fg-black tx-1-5 ntdl">
+                <span class="">
+                  [{{ .Count }}]
+                </span>
+                {{ .Page.Title }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+
+        {{/* tags */}}
+        {{ if eq .Permalink (`tags/` | absLangURL) }}
+          {{ range site.Taxonomies.tags.ByCount }}
+            <li class="m-3 inline-block p-1 ul-preblock">
+              <a
+                href="{{ .Page.Permalink }}"
+                class="fg-black tx-1-5 ntdl">
+                <span class="">
+                  [{{ .Count }}]
+                </span>
+                {{ .Page.Title }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+
+{{ end }}

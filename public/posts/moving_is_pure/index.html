@@ -1,0 +1,208 @@
+<html>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Moving in Rust is Pure - prma
+
+</title>
+    
+
+    
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/style.min.3b0eff8f7982534b472725ee9e77960728e9d06b7f58b0a0d6964df23fff5794.css"
+    integrity="sha256-Ow7/j3mCU0tHJyXunneWByjp0Gt/WLCg1pZN8j//V5Q="
+    crossorigin="anonymous"
+  />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+  <body class="m-1 mw-std">
+    
+    
+    <header class="m-1">
+      <div class="">
+        <h1 class="blocked">
+          <a href="https://prma.dev/posts/moving_is_pure/" class="page-link simple-link">Moving in Rust is Pure</a>
+        </h1>
+      </div>
+    </header>
+    
+
+    
+    
+<article class="m-1 m-b-3">
+  <hr class="hr-bold-black" />
+  <div class="flexer">
+    
+<time>2023-04-09</time>
+
+    <div class="tags flexer m-l-1">
+      
+      <div class="tag blocked m-r-1 ph1">rust</div>
+      
+      <div class="tag blocked m-r-1 ph1">programming</div>
+      
+      <div class="tag blocked m-r-1 ph1">functional-programming</div>
+      
+    </div>
+  </div>
+  <main><h2 id="intro">Intro</h2>
+<p>The act of moving arguments within Rust&rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.</p>
+<h2 id="moving-a-variable-to-a-function-in-rust-doesn-t-make-it-impure">Moving a Variable to a Function in Rust Doesn&rsquo;t Make It Impure</h2>
+<p>So as an introduction, if you don&rsquo;t know Rust.</p>
+<p>In Rust, we have this concept of moving variables. It is like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#888;font-style:italic">//  A variable is made.
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span><span style="font-weight:bold;font-style:italic">let</span> a_variable = some_value;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic">// It moves into this function.
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>_ = a_function_that_takes_ownership(a_variable);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic">// We cannot use a_variable anymore! So, we cannot do this!
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span><span style="font-weight:bold;font-style:italic">let</span> b_variable = a_variable;
+</span></span></code></pre></div><p>Now I consider a_function_that_takes_ownership to be a pure function. However, it raises a possible confusion:</p>
+<blockquote>
+<p>Doesn&rsquo;t a_function_that_takes_ownership change the state of the outer function? Isn&rsquo;t that a side effect?</p>
+</blockquote>
+<p>I argue that it doesn&rsquo;t. Here is why: a function is not a function call. Ok. let&rsquo;s visualize it.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>      ________outer_function_______
+</span></span><span style="display:flex;"><span>--in-&gt;|       __inner_f___        |-out-&gt;
+</span></span><span style="display:flex;"><span>      | -in-&gt; |          | -out-&gt; |
+</span></span><span style="display:flex;"><span>      |       ------------        |
+</span></span><span style="display:flex;"><span>      -----------------------------
+</span></span></code></pre></div><p>So we have two functions. One outer, and one inner.</p>
+<ul>
+<li>Each function should have inputs and an output.</li>
+<li>Other than their outputs, they should not change anything outside their function space.</li>
+</ul>
+<p>If these conditions are not met, our function is not pure.</p>
+<h3 id="step-1">Step 1</h3>
+<p>Now consider a variable [V].</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>      _____________________________
+</span></span><span style="display:flex;"><span>-----&gt;| [v]   ____________        |-----&gt;
+</span></span><span style="display:flex;"><span>      | ----&gt; |          | -----&gt; |
+</span></span><span style="display:flex;"><span>      |       ------------        |
+</span></span><span style="display:flex;"><span>      -----------------------------
+</span></span></code></pre></div><h3 id="step-2">Step 2</h3>
+<p>With our outer function, we create a function call for the inner function.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>      _____________________________
+</span></span><span style="display:flex;"><span>-----&gt;|       ____________        |-----&gt;
+</span></span><span style="display:flex;"><span>      | [v]-&gt; |          | -----&gt; |
+</span></span><span style="display:flex;"><span>      |       ------------        |
+</span></span><span style="display:flex;"><span>      -----------------------------
+</span></span></code></pre></div><h3 id="step-3">Step 3</h3>
+<p>It is no longer in the state space of the outer function. The inner function takes ownership of it.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>      _____________________________
+</span></span><span style="display:flex;"><span>-----&gt;|       ____________        |-----&gt;
+</span></span><span style="display:flex;"><span>      | ----&gt; |   [v]    | -----&gt; |
+</span></span><span style="display:flex;"><span>      |       ------------        |
+</span></span><span style="display:flex;"><span>      -----------------------------
+</span></span></code></pre></div><p>Semantically, for the outer function [v] was used in the function call and then dropped. Which does not violate our rules. For the inner function, it just got an input and returns an output. So it makes sematic sense.</p>
+<p>In practice, it also makes the same guarantees as any other pure function: - No null pointers. - No mutable state. - No side effects.</p>
+<p>If the caller <code>.clone()</code> our value and make a copy of it and pass that to the inner function, it provides us with no other guarantees, other than more memory usage and slightly longer code.</p>
+<h2 id="why-does-it-matter">Why does it matter?</h2>
+<p>Well, Honestly, it doesn&rsquo;t. I just had to decide if in a pure function I can consume a self, if I want to make it a pure function, considering that I cannot make it const. This was my thinking output. Now you are the outer function.</p>
+</main>
+  <aside>
+    <p>
+      Comment section? I Have none! But I like emails: <a href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a>
+    </p>
+  </aside>
+</article>
+
+
+    
+    
+    <footer class="m-1">
+  <div class="blocked centered">
+    <h1 class="site-title blocked p-1">
+      <a href="/" class="ntdl site-link">prma</a>
+    </h1>
+  </div>
+
+  <details class ="centered m-1">
+    <summary> Find me </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="https://fosstodon.org/@prma"
+  
+  rel ="me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Fosstodon
+</a>
+
+	<a
+  href="https://codeberg.org/prma"
+  
+  rel ="me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Codeberg
+</a>
+
+	<a
+  href="https://linkedin.com/in/prmadev"
+  
+  rel ="me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Linkedin
+</a>
+
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> About </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="/about/me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Me
+</a>
+
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> Feed </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="/index.xml"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Atom
+</a>
+
+	<a
+  href="/feed.json"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  JsonFeed
+</a>
+
+    </div>
+  </details>
+</footer>
+
+
+    
+  </body>
+</html>

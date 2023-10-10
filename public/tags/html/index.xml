@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on prma</title>
+    <link>https://prma.dev/tags/html/</link>
+    <description>Recent content in HTML on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Sat, 24 Jun 2023 11:50:00 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML, The Programming Language</title>
+      <link>https://prma.dev/posts/html_the_programming_language/</link>
+      <pubDate>Sat, 24 Jun 2023 11:50:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/html_the_programming_language/</guid>
+      <description>Intro Ah yes, the eternal dispute over whether HTML counts as a proper programming language seems to bring out the best and worst of our community&amp;rsquo;s collective rational faculties. A veritable feast of half-baked attempts to define away the problem by appealing to whatever convenient characteristics the speaker happens upon, combined with a sprinkling of more serious thinkers seeking some grand philosophical theory to explain it all. But don&amp;rsquo;t get your hopes up - you won&amp;rsquo;t find any silver bullet solutions here folks.</description>
+    </item>
+    
+  </channel>
+</rss>

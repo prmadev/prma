@@ -1,0 +1,31 @@
+<footer class="m-1">
+  <div class="blocked centered">
+    <h1 class="site-title blocked p-1">
+      <a href="/" class="ntdl site-link">{{.Site.Title}}</a>
+    </h1>
+  </div>
+
+  <details class ="centered m-1">
+    <summary> Find me </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	{{ partial "link-button" ( dict "url" "https://fosstodon.org/@prma" "text" "Fosstodon" "rel" "me") }}
+	{{ partial "link-button" ( dict "url" "https://codeberg.org/prma" "text" "Codeberg" "rel" "me" ) }}
+	{{ partial "link-button" ( dict "url" "https://linkedin.com/in/prmadev" "text" "Linkedin" "rel" "me" ) }}
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> About </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	{{ partial "link-button" ( dict "url" "/about/me" "text" "Me" ) }}
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> Feed </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	{{ partial "link-button" ( dict "url" "/index.xml" "text" "Atom" ) }}
+	{{ partial "link-button" ( dict "url" "/feed.json" "text" "JsonFeed" ) }}
+    </div>
+  </details>
+</footer>

@@ -1,0 +1,354 @@
+<html>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Hachyderm is More Ops - prma
+
+</title>
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/style.min.c6c4b7d758729bbf49d412e5a988ebe4a9179bae0d0dc76f64d7c9001e28f6be.css"
+    integrity="sha256-xsS311hym79J1BLlqYjr5KkXm64NDcdvZNfJAB4o9r4="
+    crossorigin="anonymous"
+  />
+  
+</head>
+
+  <body class="m-1 mw-std">
+    
+    
+    <header class="m-1">
+      <div class="">
+        <h1 class="blocked">
+          <a href="https://prma.dev/posts/hachyderm-ops-than-fosstodon/" class="page-link simple-link">Hachyderm is More Ops</a>
+        </h1>
+      </div>
+    </header>
+    
+
+    
+    
+<article class="m-1 m-b-3">
+  <hr class="hr-bold-black" />
+  <div class="flexer">
+    
+<time>2022-11-25</time>
+
+    <div class="tags flexer m-l-1">
+      
+      <div class="tag blocked m-r-1 ph1">fediverse</div>
+      
+    </div>
+  </div>
+  <main>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Intro
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+Ever since I have moved to the mastodon platform after &#34;the great twitter migration&#34;. I was curious about two main instances.
+One being <a href="https://Fosstodon.org">Fosstodon</a>, an instance oriented around FOSS <sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup>, another being <a href="https://hachyderm.io">Hachyderm</a>, an instance that introduces itself as social media for technical professionals.</p>
+<p>
+Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
+But I couldn&#39;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+Initial Theories
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<p>
+Initially I thought Hachyderm was more business-oriented. It seemed that people on Hachyderm were more interested about talking about broader technologies like <em>kubernetes</em> and <em>docker</em>, while at the same time there was a lot of talk about codes and programming practices.</p>
+<p>
+I thought maybe all the programmers on Hachyderm are working with more proprietory and enterprise solutions and as such they were less likely to share details of their daily programming.</p>
+<p>
+But that theory didn&#39;t hold true, as there was as much toots in my timeline on Fosstodon about bussiness related stuff as there was on Hachyderm.</p>
+<p>
+Until last night that I realized that maybe what I was seeing was the difference of ideas between Operations interested people vs people involved in developing software. And as a backend-developer, I could see more relevant content from the development side.</p>
+<p>
+So I set to examine my assumptions.
+Like a good <a href="https://www.lesswrong.com/tag/bayes-theorem">Bayesian</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+APIs, Searches and Methods
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<p>
+to start with, I looked into different websites that could help me search per-instance results.
+That way I could search differnet keywords in each instance and compare the results.
+However I could not find such a thing. Every search engine I tried lacked the ability of filtering by instance.</p>
+<p>
+After that, I looked into the Mastodon APIs myself.
+Long-story short, I found <a href="https://docs.joinmastodon.org/methods/timelines/#tag">timeline API</a> to be particularly useful:</p>
+<div class="src src-http">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">GET</span> <span style="color:#666;font-weight:bold;font-style:italic">/api/v1/timelines/tag/:hashtag</span> <span style="font-weight:bold">HTTP</span>/1.1</span></span></code></pre></div>
+</div>
+<p>
+Using this I could get a list of toots in <code class="verbatim">JSON</code> format that had specific hashtags.
+And then filter those results to only get the actual url.
+I used <code class="verbatim">curl</code> to make API requests and <code class="verbatim">jq</code> to filter-out the keys I was not interested in.</p>
+<div class="src src-bash">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/container?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json</span></span></code></pre></div>
+</div>
+<p>
+And then, I had to filter out results that were not from Hachyderm or Fosstodon. And Sort each
+For filtering <code class="verbatim">awk</code> was perfect, and then for sorting the <code class="verbatim">sort</code> command is good enough.</p>
+<div class="src src-shell">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>awk <span style="color:#666;font-style:italic">&#39;/fosstodon|hachyderm/ {print $0}&#39;</span> hash.json | sort &gt; res-ops</span></span></code></pre></div>
+</div>
+<p>
+I just had to come up with a few keywords that I could associate more with operations and a few for development.</p>
+<div class="note-block">
+<p>As you may have noticed, my methodoloy is hardly scientific and and extremly relient on subjective definitions.
+My goal was to find a good-enough-for-my-decision result. Not anything more.</p>
+</div>
+<p>
+I ended up with these words on differnt sides:</p>
+<table>
+<thead>
+<tr>
+<th>Operations</th>
+<th>Development</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kubernetes</td>
+<td>Refactor</td>
+</tr>
+<tr>
+<td>Montioring</td>
+<td>Debugging</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td>Greenfield</td>
+</tr>
+<tr>
+<td>Container</td>
+<td>Framework</td>
+</tr>
+<tr>
+<td>Terraform</td>
+<td>Compiler</td>
+</tr>
+<tr>
+<td>Deploy</td>
+<td>Interpreter</td>
+</tr>
+<tr>
+<td>Baremetal</td>
+<td>Testing</td>
+</tr>
+<tr>
+<td>Vm</td>
+<td>Ide</td>
+</tr>
+<tr>
+<td>Admin</td>
+<td>Library</td>
+</tr>
+<tr>
+<td>Server</td>
+<td>DesignPatterns</td>
+</tr>
+<tr>
+<td>_</td>
+<td>LSP</td>
+</tr>
+<tr>
+<td>_</td>
+<td>Nodejs</td>
+</tr>
+<tr>
+<td>_</td>
+<td>Rust</td>
+</tr>
+<tr>
+<td>_</td>
+<td>Auth</td>
+</tr>
+</tbody>
+</table>
+<p>
+The differnece in their numbers are not important to us, only the proportions of the results of each may be relevant.</p>
+<details>
+<summary> The eventual code looks like this. </summary>
+<div class="src src-shell">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#888;font-weight:bold">#! /usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-weight:bold"></span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># this part gives us a file with results of the OPs-related keywords</span>
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/kubernetes?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/docker?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/container?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/operations?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/terraform?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/deploy?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/baremetal?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/vm?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/monitoring?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/admin?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/server?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>awk <span style="color:#666;font-style:italic">&#39;/fosstodon|hachyderm/ {print $0}&#39;</span> hash.json | sort &gt; res-ops &amp;&amp;
+</span></span><span style="display:flex;"><span>rm hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># this part gives us a file with results of the Devs-related keywords</span>
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/develop?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/refactor?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/greenfield?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/framework?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/compiler?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/interpreter?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/testing?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/ide?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/library?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/development?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/designpatterns?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/lsp?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/nodejs?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/rust?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/auth?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>curl <span style="color:#666;font-style:italic">&#39;https://hachyderm.io/api/v1/timelines/tag/debuggin?&amp;limit=1000&#39;</span> | jq <span style="color:#666;font-style:italic">&#39;.[].url&#39;</span> &gt;&gt; hash.json &amp;&amp;
+</span></span><span style="display:flex;"><span>awk <span style="color:#666;font-style:italic">&#39;/fosstodon|hachyderm/ {print $0}&#39;</span> hash.json | sort &gt; res-develop &amp;&amp;
+</span></span><span style="display:flex;"><span>rm hash.json</span></span></code></pre></div>
+</div>
+</details>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+The Result
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<p>
+On the ops query we have <code class="verbatim">32</code> toots from Fosstodon and <code class="verbatim">44</code> toots from Hachyderm.</p>
+<pre class="example">
+Fosstodon ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+Hachyderm ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+</pre>
+<p>
+So far Hachyderm seems to have more activity with OPs related hashtags.
+On the other hand it could be that people on Hachyderm are generally more talkative than Fosstodon about every part of the stack.
+So let&#39;s hold development as the control.</p>
+<p>
+On the development queries we have <code class="verbatim">49</code> results from Fosstodon and <code class="verbatim">24</code> results from Hachyderm.</p>
+<pre class="example">
+Fosstodon ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+Hachyderm ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+</pre>
+<p>
+That seems like an staggering differece.<sup class="footnote-reference"><a id="footnote-reference-2" href="#footnote-2">2</a></sup></p>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+Dear reader…
+</h2>
+<div id="outline-text-headline-5" class="outline-text-2">
+<p>
+I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr class="footnotes-separatator">
+<div class="footnote-definitions">
+<div class="footnote-definition">
+<sup id="footnote-1"><a href="#footnote-reference-1">1</a></sup>
+<div class="footnote-body">
+<p> Free and Open-Source Software</p>
+</div>
+</div>
+<div class="footnote-definition">
+<sup id="footnote-2"><a href="#footnote-reference-2">2</a></sup>
+<div class="footnote-body">
+<p>Staggering differences are often a sign of a weak research. So take this part with a grain of salt.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</article>
+
+
+    
+    
+    <footer class="m-1">
+  <div class="blocked centered">
+    <h1 class="site-title blocked p-1">
+      <a href="/" class="ntdl site-link">prma</a>
+    </h1>
+  </div>
+
+  <details class ="centered m-1">
+    <summary> Find me </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="https://fosstodon.org/@prma"
+  
+  rel ="me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  Fosstodon
+</a>
+
+	<a
+  href="https://example.com"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  something
+</a>
+
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> About </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="/me"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  About Me
+</a>
+
+    </div>
+  </details>
+
+  <details class ="centered m-1" >
+    <summary> Feed </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+	<a
+  href="/feed.xml"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  feed
+</a>
+
+	<a
+  href="/feed.json"
+  
+  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"
+>
+  josonfeed
+</a>
+
+    </div>
+  </details>
+</footer>
+
+
+    
+  </body>
+</html>

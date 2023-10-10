@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on prma</title>
+    <link>https://prma.dev/tags/programming/</link>
+    <description>Recent content in programming on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Fri, 11 Aug 2023 12:38:00 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Tragedy of The Tech-Stacks</title>
+      <link>https://prma.dev/posts/tragedy_of_the_tech_stacks/</link>
+      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/tragedy_of_the_tech_stacks/</guid>
+      <description>Intro Back in 1958, there was this thinker named Garrett Hardin who kicked off his well-known piece titled &amp;ldquo;The Tragedy of the Commons&amp;rdquo; in the following way:
+At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that &amp;ldquo;Both sides of the arms race are &amp;hellip; confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution.</description>
+    </item>
+    
+    <item>
+      <title>Consider Developer&#39;s Snack</title>
+      <link>https://prma.dev/posts/consider_developers_snack/</link>
+      <pubDate>Wed, 21 Jun 2023 11:43:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/consider_developers_snack/</guid>
+      <description>Intro During my early 20s, I found myself immersed in the world of sustainable architecture as an architecture student. Engaging in various workshops centered around this field, one particular experience stands out as a monumental turning point in my life. It was a workshop conducted by a renowned professor in Iran, where I gained valuable insights. Within this workshop, we collectively brainstormed strategies to harness heat sources for a four-member family&amp;rsquo;s house, aiming to optimize its thermal efficiency.</description>
+    </item>
+    
+    <item>
+      <title>FLOSS For Software Longevity</title>
+      <link>https://prma.dev/posts/floss_for_longevity/</link>
+      <pubDate>Wed, 14 Jun 2023 11:26:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/floss_for_longevity/</guid>
+      <description>Intro Free/Libre and Open Source Software (FlOSS) is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
+Reasons Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.
+The longevity of the FLOSS business model serves it well The common business models are better suited for short-term goals.</description>
+    </item>
+    
+    <item>
+      <title>Go Vs Rust readability</title>
+      <link>https://prma.dev/posts/go_vs_rust_readability/</link>
+      <pubDate>Fri, 14 Apr 2023 23:49:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/go_vs_rust_readability/</guid>
+      <description>Intro Traditionally speaking, Go and Rust are not direct competitors on many fronts. Each take different trade-offs. But more often than not, you might need to choose one over the other. It is compared in the niche the other fails. Like low-level system development, which Rust easily rules. Or maybe dev-ops tooling which Go is easily good at it.
+However, there are many overlaps in their use case. Think high-performance web-servers.</description>
+    </item>
+    
+    <item>
+      <title>Moving in Rust is Pure</title>
+      <link>https://prma.dev/posts/moving_is_pure/</link>
+      <pubDate>Sun, 09 Apr 2023 10:44:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/moving_is_pure/</guid>
+      <description>Intro The act of moving arguments within Rust&amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
+Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust.</description>
+    </item>
+    
+    <item>
+      <title>Pure Rust</title>
+      <link>https://prma.dev/posts/pure_rust/</link>
+      <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/pure_rust/</guid>
+      <description>If you are not familiar with Functional Programming (FP), you are in for a ride. I will try to explain Functional Programming (FP) in more practical terms.
+## A definition to work with
+FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
+Making it more concrete Here is a function in Rust that we will work on:</description>
+    </item>
+    
+  </channel>
+</rss>

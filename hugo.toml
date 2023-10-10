@@ -1,0 +1,68 @@
+baseURL = 'https://prma.dev/'
+languageCode = 'en-us'
+title = 'prma'
+titleCaseStyle = 'none'
+copyright = "CC v.4"
+enableGitInfo = true
+enableInlineShortcodes = true
+enableRobotsTXT = true
+paginate = 30
+timeZone = 'Europe/Berlin'
+[author]
+email = 'prma.dev@protonmail.com'
+name = 'Perma'
+[taxonomies]
+tag = "tags"
+category = "categories"
+audience = "audiences"
+[params]
+AuthorName = 'Perma'
+GitHubUser = 'prmadev'
+Subtitle = 'something good'
+showFullTextinJSONFeed = true
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'posts'
+  pageref = '/posts'
+  weight = 20
+
+
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 0
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'algol_nu'
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[mediaTypes]
+  [mediaTypes.'application/feed+json']
+    suffixes = ['json']
+[outputFormats]
+  [outputFormats.jsonfeed]
+    mediaType = 'application/feed+json'
+    baseName = 'feed'
+    rel= 'alternate'
+    isPlainText= true
+
+[outputs]
+home = ['HTML', 'RSS', 'jsonfeed']
+section = ['HTML', 'RSS', 'jsonfeed']
+

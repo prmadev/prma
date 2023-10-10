@@ -1,9 +1,0 @@
-[submodule "themes/serene"]
-	path = themes/serene
-	url = https://github.com/isunjn/serene.git
-[submodule "no-style-please"]
-	path = no-style-please
-	url = https://gitlab.com/4bcx/no-style-please.git
-[submodule "themes/no-style-please"]
-	path = themes/no-style-please
-	url = https://gitlab.com/4bcx/no-style-please.git

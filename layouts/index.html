@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head-part" . }}
+
+  <body class="m-1 m-t-3 mw-std">
+   <!-- ------ -->
+   <!-- header -->
+   <!-- ------ -->
+    {{ block "header" . }}
+   {{ end }}
+
+   <!-- ---- -->
+   <!-- body -->
+   <!-- ---- -->
+
+   <p>{{.Content}}</p>
+
+
+   <ul class="ul-unbullet m-0 p-0">
+      {{ range $section := .Pages }}
+      {{ if eq $section.Title "Posts" }}
+      <!-- <h2 class="m-l-1 m-0 centered pb">{{ $section.Title }}</h2> -->
+
+      {{ range $page := $section.Pages }}
+      {{ partial "post-listing" . }}
+      {{ end }}
+
+      {{ else }}
+      {{ end }}
+
+      {{ end }}
+    </ul>
+
+   <!-- ------ -->
+   <!-- footer -->
+   <!-- ------ -->
+    {{ block "footer" . }}
+    
+
+    {{ partial "footer-simple" . }}
+
+    {{end}}
+  </body>
+</html>

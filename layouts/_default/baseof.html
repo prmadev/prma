@@ -1,0 +1,24 @@
+<html>
+  {{ partial "head-part" . }}
+  <body class="m-1 mw-std">
+    <!-- header -->
+    {{ block "header" . }}
+    <header class="m-1">
+      <div class="">
+        <h1 class="blocked">
+          <a href="{{.Permalink}}" class="page-link simple-link">{{.Title}}</a>
+        </h1>
+      </div>
+    </header>
+    {{ end }}
+
+    <!-- body -->
+    {{ block "main" . }} {{ end }}
+
+    <!-- footer -->
+    {{ block "footer" . }}
+    {{ partial "footer-simple" . }}
+
+    {{ end }}
+  </body>
+</html>

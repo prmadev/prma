@@ -1,0 +1,28 @@
+<li class="{{ .Params.audience  }} m-0 p-0">
+  <article class=" m-b-3">
+    
+    <details>
+      <summary class="post-list-item blocked tx-1-5 m-l-1 m-r-1">
+        <div class=" item-align-center flexer container">
+          <div class="">
+            <a href="{{ .Permalink }}" class="ntdl">{{.Title}}</a>
+          </div>
+
+            <div class="fl-grow-1 m-r-1 m-l-1 blocked ">
+              <hr class="hr-bold-black" />
+            </div>
+
+          <div class="tx-1 blocked ns-nowrap ">{{ partial "time" .}}</div>
+        </div>
+      </summary>
+      <div class="m-2">
+        <div class="tags flexer">
+          {{ range $tag := .Params.tags }}
+          <div class="tag blocked m-r-1 ph1">{{.}}</div>
+          {{end}}
+        </div>
+        <p class="">{{.Description}}</p>
+      </div>
+    </details>
+  </article>
+</li>
