@@ -79,7 +79,7 @@ For too long, I depended on subpar sources to meet these needs. For the first tw
 
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. But I have not mentioned what constitutes an effective solution.
 
-In [my previous post](../web-exprience-makeover), I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
+In [my previous post](../web_experience_makeover), I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
 
 Allow me to outline the criteria and guiding principles for an empowering tool:
 
@@ -121,6 +121,6 @@ However, advocating for these causes demands energy, and it might inadvertently 
 If safeguarding your privacy to the utmost extreme is your goal, then by all means, employ complex passwords for each site and commit them to memory. Nevertheless, we must be mindful that our fighting energy is finite. Thus, it becomes essential to prioritize and channel our limited energy toward the most urgent and meaningful issues that truly resonate with our hearts.
 
 
-## Dear reader... {#dear-reader-dot-dot-dot}
+## Dear Reader {#dear-reader}
 
 You are on the right path, and I believe in you wholeheartedly! Trust me, I've been through this journey myself, and it turned out to be a delightful and straightforward experience. Take heart, for you can certainly achieve it too! Keep going, and you'll soon realize how much better and easier life becomes. You've got this!

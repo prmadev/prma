@@ -697,7 +697,7 @@ For too long, I depended on subpar sources to meet these needs. For the first tw
 ***** Step Two: Find Effective Replacements
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. But I have not mentioned what constitutes an effective solution.
 
-In [[../web-experience-makeover][my previous post]], I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
+In [[../web_experience_makeover][my previous post]], I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
 
 Allow me to outline the criteria and guiding principles for an empowering tool:
 
