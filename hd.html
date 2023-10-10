@@ -1,0 +1,318 @@
+<p>+++ title = “Hachyderm’s community is more ops-oriented than
+  Fosstodon’s” description = “By delving into the data, let us embark on
+  an exploration of the contrasting community dynamics between Hachyderm
+  and Fosstodon. With a keen focus on their distinct characteristics, we
+  can unravel the intricate tapestry of their respective social structures
+  and discern the factors that set them apart.” date = 2022-11-25 draft =
+  false slug = “hashyderm_more_ops_than_fosstodon” insert_anchor_links =
+  “heading”</p>
+<p>[taxonomies] categories = [“opinion”] tags = [“fediverse”]</p>
+<p>+++</p>
+<section class="intro">
+  <p>Ever since I have moved to the mastodon platform after “the great
+    twitter migration”. I was curious about two main instances. One being <a href="https://Fosstodon.org">Fosstodon</a>,
+    an instance oriented around
+    <abr title="Free and Open-Source Software">FOSS</abr>, another being <a href="https://hachyderm.io">Hachyderm</a>,
+    an instance that introduces
+    itself as <q cite="https://hachyderm.io/about">social media for
+      technical professionals</q>.
+  </p>
+  <p>Eventualy, I decided to go with Fosstodon, as I liked what I was
+    seeing there more. But I couldn’t put my finger on what it was that I
+    liked more about Fosstodon, even though many of my favorite people
+    resided on Hachyderm, the instance owner of the Hachyderm herself, being
+    one examples.</p>
+</section>
+<h2 id="initial-theories">Initial Theories</h2>
+<p>Initially I thought Hachyderm was more business-oriented. It seemed
+  that people on Hachyderm were more interested about talking about
+  broader technologies like <em>kubernetes</em> and <em>docker</em>, while
+  at the same time there was a lot of talk about codes and programming
+  practices.</p>
+<p>I thought maybe all the programmers on Hachyderm are working with
+  more proprietory and enterprise solutions and as such they were less
+  likely to share details of their daily programming.</p>
+<p>But that theory didn’t hold true, as there was as much toots in my
+  timeline on Fosstodon about bussiness related stuff as there was on
+  Hachyderm.</p>
+<p>Until last night that I realized that maybe what I was seeing was the
+  difference of ideas between Operations interested people vs people
+  involved in developing software. And as a backend-developer, I could see
+  more relevant content from the development side.</p>
+<p>So I set to examine my assumptions. Like a good <a href="https://www.lesswrong.com/tag/bayes-theorem">Baysian</a>.
+</p>
+<h2 id="apis-searches-and-methods">APIs, Searches and Methods</h2>
+<p>to start with, I looked into different websites that could help me
+  search per-instance results. That way I could search differnet keywords
+  in each instance and compare the results.<br />
+  However I could not find such a thing. Every search engine I tried
+  lacked the ability of filtering by instance.</p>
+<p>After that, I looked into the Mastodon
+  <abr title="Application Programming Interface">API</abr>s myself.<br />
+  Long-story short, I found <a href="https://docs.joinmastodon.org/methods/timelines/#tag">timeline
+    API</a> to be particularly useful:
+</p>
+<div class="sourceCode" id="cb1">
+  <pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"
+          tabindex="-1"></a><span class="ex">GET</span> /api/v1/timelines/tag/:hashtag HTTP/1.1</span></code></pre>
+</div>
+<p>Using this I could get a list of toots in <code>json</code> format
+  that had specific hashtags. And then filter those results to only get
+  the actual url. I used <code>curl</code> to make API requests and
+  <code>jq</code> to filter-out the keys I was not interested in.
+</p>
+<div class="sourceCode" id="cb2">
+  <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"
+          tabindex="-1"></a><span class="ex">curl</span> <span
+          class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/container?&amp;limit=1000&#39;</span> <span
+          class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+          class="op">&gt;&gt;</span> hash.json</span></code></pre>
+</div>
+<p>And then, I had to filter out results that were not from Hachyderm or
+  Fosstodon. And Sort each For filtering <code>awk</code> was perfect, and
+  then for sorting the <code>sort</code> command is good enough.</p>
+<div class="sourceCode" id="cb3">
+  <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"
+          tabindex="-1"></a><span class="fu">awk</span> <span class="st">&#39;/fosstodon|hachyderm/ {print
+          $0}&#39;</span> hash.json <span class="kw">|</span> <span class="fu">sort</span> <span class="op">&gt;</span>
+        res-ops </span></code></pre>
+</div>
+<p>I just had to come up with a few keywords that I could associate more
+  with operations and a few for development.</p>
+<blockquote>
+  <p>As you may have noticed, my methodoloy is hardly scientific and and
+    extremly relient on subjective definitions. My goal was to find a
+    good-enough-for-my-decision result. Not anything more.</p>
+</blockquote>
+<p>I ended up with these words on differnt sides:</p>
+<table>
+  <thead>
+    <tr class="header">
+      <th>operations</th>
+      <th>development</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>operations</td>
+      <td>development</td>
+    </tr>
+    <tr class="even">
+      <td>kubernetes</td>
+      <td>refactor</td>
+    </tr>
+    <tr class="odd">
+      <td>montioring</td>
+      <td>debugging</td>
+    </tr>
+    <tr class="even">
+      <td>docker</td>
+      <td>greenfield</td>
+    </tr>
+    <tr class="odd">
+      <td>container</td>
+      <td>framework</td>
+    </tr>
+    <tr class="even">
+      <td>terraform</td>
+      <td>compiler</td>
+    </tr>
+    <tr class="odd">
+      <td>deploy</td>
+      <td>interpreter</td>
+    </tr>
+    <tr class="even">
+      <td>baremetal</td>
+      <td>testing</td>
+    </tr>
+    <tr class="odd">
+      <td>vm</td>
+      <td>ide</td>
+    </tr>
+    <tr class="even">
+      <td>admin</td>
+      <td>library</td>
+    </tr>
+    <tr class="odd">
+      <td>server</td>
+      <td>designpatterns</td>
+    </tr>
+    <tr class="even">
+      <td>_</td>
+      <td>lsp</td>
+    </tr>
+    <tr class="odd">
+      <td>_</td>
+      <td>nodejs</td>
+    </tr>
+    <tr class="even">
+      <td>_</td>
+      <td>rust</td>
+    </tr>
+    <tr class="odd">
+      <td>_</td>
+      <td>auth</td>
+    </tr>
+  </tbody>
+</table>
+<p>The differnece in their numbers are not important to us, only the
+  proportions of the results of each may be relevant.</p>
+<details>
+  <summary>
+    The eventual code looks like this.
+  </summary>
+  <div class="sourceCode" id="cb4">
+    <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"
+            tabindex="-1"></a></span>
+        <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#! /usr/bin/env
+            bash</span></span>
+        <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+        <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># this part gives us a
+            file with results of the OPs-related keywords</span></span>
+        <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/kubernetes?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/docker?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/container?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/operations?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/terraform?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/deploy?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/baremetal?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/vm?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/monitoring?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/admin?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/server?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span
+            class="st">&#39;/fosstodon|hachyderm/ {print $0}&#39;</span> hash.json <span class="kw">|</span> <span
+            class="fu">sort</span> <span class="op">&gt;</span> res-ops <span class="kw">&amp;&amp;</span> </span>
+        <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> hash.json
+          <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+        <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="co"># this part gives us a
+            file with results of the Devs-related keywords</span></span>
+        <span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/develop?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/refactor?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/greenfield?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/framework?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/compiler?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/interpreter?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/testing?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/ide?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/library?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/development?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/designpatterns?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/lsp?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/nodejs?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/rust?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/auth?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span
+            class="st">&#39;https://hachyderm.io/api/v1/timelines/tag/debuggin?&amp;limit=1000&#39;</span> <span
+            class="kw">|</span> <span class="ex">jq</span> <span class="st">&#39;.[].url&#39;</span> <span
+            class="op">&gt;&gt;</span> hash.json <span class="kw">&amp;&amp;</span></span>
+        <span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="fu">awk</span> <span
+            class="st">&#39;/fosstodon|hachyderm/ {print $0}&#39;</span> hash.json <span class="kw">|</span> <span
+            class="fu">sort</span> <span class="op">&gt;</span> res-develop <span class="kw">&amp;&amp;</span> </span>
+        <span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>
+          hash.json</span></code></pre>
+  </div>
+</details>
+<h2 id="the-result">The Result</h2>
+<p>On the ops query we have <data value="32">32 toots</data> from
+  Fosstodon and <data value="44">44 toots</data> from Hachyderm.</p>
+<pre>
+  <label for="foss">Fosstodon</label> <data id="foss" value="32">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+  <label for="hachy">Hachyderm</label> <data id="hachy" value="44">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+</pre>
+<p>So far Hachyderm seems to have more activity with OPs related
+  hashtags. On the other hand it could be that people on Hachyderm are
+  generally more talkative than Fosstodon about every part of the stack.
+  So let’s hold development as the control.</p>
+<p>On the development queries we have <code>49</code> results from
+  Fosstodon and <code>24</code> results from Hachyderm.</p>
+<pre>
+  <label for="foss">Fosstodon</label> <data id="foss"
+    value="49">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+  <label for="hachy">Hachyderm</label> <data id="hachy" value="24">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</data>
+</pre>
+<p>That seems like an staggering differece.</p>
+<h2 id="decision">Decision</h2>
+<p>I have no idea why this difference is so harsh. But for my purposes I
+  have enough information to update my beliefs to make a decision for now
+  that satisfies my accuracy-requirements for this decision.</p>
+<p>{{ discussion() }}</p>
