@@ -1,17 +1,15 @@
 <html lang="en">{{ partial "head-part" . }}
   <body class="m-1 mw-std">
-    {{ block "header" . }}
-    <header class="m-1">
-      <div class="">
-        <h1 class="blocked">
-          <a href="{{.Permalink}}" class="page-link simple-link">{{.Title}}</a>
-        </h1>
-      </div>
-    </header>
-    {{ end }}
-    {{ block "main" . }} {{ end }}
-    {{ block "footer" . }}
-    {{ partial "footer-simple" . }}
-    {{ end }}
+    <article class="h-entry m-1 m-b-3">
+      {{ block "header" . }}
+	<header class="m-1">
+	  <h1 class="blocked p-name">
+	    <a href="{{.Permalink}}" class="page-link simple-link">{{.Title}}</a>
+	    </h1>
+	</header>
+	{{ end }}
+	{{ block "main" . }} {{ end }}
+    </article>
+    {{ block "footer" . }} {{ partial "footer-simple" . }} {{ end }}
   </body>
 </html>

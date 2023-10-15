@@ -20,25 +20,25 @@ The internet of that era held a special place in my heart; it offered solace and
 
 As time marched on, many of the cherished online spaces I once loved fell by the wayside, while others morphed into monstrous entities, becoming tools of ostracization. Although I personally may not have been the target of such mistreatment, I could discern the toxic environment that fostered and emboldened bullies.
 
-Even the search engines, once a source of discovery and connection, began to falter. Each passing day brought forth an ever-increasing deluge of hyper-SEO-optimized, meaningless content and tech-centric sites merely driven by profit, overtaking the slots that were once reserved for passionate individuals with independent blogs.
+Even the search engines, once a source of discovery and connection, began to falter. Each passing day brought forth an ever-increasing deluge of hyper-<abbr title="Search Engine Optimization">SEO</abbr>-optimized, meaningless content and tech-centric sites merely driven by profit, overtaking the slots that were once reserved for passionate individuals with independent blogs.
 
 As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.
 
-The sense of desperation that had gripped me started to crumble when Elon Musk's actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
+The sense of desperation that had gripped me started to crumble when <span class="person">Elon Musk</span>'s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
 
 But a part of me questioned this fortunate discovery. Could it merely be a chance occurrence, a fluke in the otherwise distorted realm of human-generated nonsense? I grappled with doubts.
 
 Then, as if destiny had a hand in it, the second revelation struck-a website called Kagi, delivering yet another blow to the illusion I had held onto. The cracks in my previous beliefs widened, challenging me to confront the harsh realities of the digital landscape.
 
-Kagi, an unconventional paid search engine, piqued my curiosity, prompting me to give it a try. What unfolded before my eyes left me astounded-a screen brimming with blog posts dedicated to the concept of "permacomputing" occupied the very first page of results. In that moment, it dawned on me that the beloved world of independent blogging, which I had presumed to be on life support, had not faded away as I had believed. Instead, it thrived, resilient and as potent as ever. It was the so-called social media platforms and search engines, the very entities I had placed my trust in, that had ultimately let me down, betraying the internet I held dear.
+Kagi, an unconventional paid search engine, piqued my curiosity, prompting me to give it a try. What unfolded before my eyes left me astounded-a screen brimming with blog posts dedicated to the concept of _PermaComputing_ occupied the very first page of results. In that moment, it dawned on me that the beloved world of independent blogging, which I had presumed to be on life support, had not faded away as I had believed. Instead, it thrived, resilient and as potent as ever. It was the so-called social media platforms and search engines, the very entities I had placed my trust in, that had ultimately let me down, betraying the internet I held dear.
 
 The illusion that once clouded my perception had dissipated into thin air.
 
-Determined to instigate a change, I embarked on a journey of transformation. I am currently in the midst of that process, but I have successfully identified the type of experience I desire. I have pinpointed a few readily available opportunities and have taken proactive measures to secure them for myself.
+Determined to instigate a change, I took my first footsteps in the path full of transformations. I am currently in the midst of that process, but I have successfully identified the type of experience I desire. I have pinpointed a few readily available opportunities and have taken proactive measures to secure them for myself.
 
 Foremost, I yearn for an authentic perspective of the internet-a genuine representation of the collective human experience rather than a mere showcase of the glossiest and most superficial elements. To fulfill this aspiration, I sought out a suitable search engine, and as I mentioned earlier, I found my answer in Kagi-it aligns perfectly with my vision.
 
-Furthermore, I crave a steady stream of thoughtful and sincere content. To achieve this, I turned to an RSS aggregator to curate and deliver such material to me consistently. Feedbin emerged as the ideal choice, serving as the conduit for fulfilling my appetite for meaningful discourse.
+Furthermore, I crave a steady stream of thoughtful and sincere content. To achieve this, I turned to an <abbr title="Really Simple Syndication">RSS</abbr> aggregator to curate and deliver such material to me consistently. Feedbin emerged as the ideal choice, serving as the conduit for fulfilling my appetite for meaningful discourse.
 
 I discovered another low-hanging fruit on my path towards a more fulfilling online experience-a social website optimized for community rather than being driven solely by journalists. This gem came in the form of Mastodon.
 

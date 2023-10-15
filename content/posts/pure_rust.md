@@ -7,18 +7,21 @@ categories = ["guide"]
 draft = false
 +++
 
-If you are not familiar with Functional Programming (FP), you are in for a ride.
-I will try to explain Functional Programming (FP) in more practical terms.
+## Intro {#intro}
 
-\## A definition to work with
+If you are not familiar with Functional Programming <abbr title=" Functional Programming">FP</abbr>, you are in for a ride.
+I will try to explain <abbr title=" Functional Programming">FP</abbr> in more practical terms.
 
-FP is a _declarative_ way of writing a program that consists mostly of _pure functions_ that operate on and produce _immutable data_.
+
+## A definition to work with {#a-definition-to-work-with}
+
+ <abbr title=" Functional Programming">FP</abbr> is a _declarative_ way of writing a program that consists mostly of _pure functions_ that operate on and produce _immutable data_.
 That was many other unfamiliar words. Let's make it concrete.
 
 
 ## Making it more concrete {#making-it-more-concrete}
 
-Here is a function in Rust that we will work on:
+Here is a function in <span class="language">Rust</span> that we will work on:
 
 ```rust
 fn main() {
@@ -41,7 +44,7 @@ fn calculate_my_lateness(status: &mut bool) {
 }
 ```
 
-Now, let's make it _pure_ and while we are at it, we introduce pure functions and some principles as well.
+Now, let's make it _pure_ and while we are at it, we introduce _pure functions_ and some principles as well.
 
 
 ### Pure functions return at least one output {#pure-functions-return-at-least-one-output}
@@ -91,7 +94,7 @@ fn calculate_my_lateness(status: &mut bool) -> bool {
 ### Pure functions don't mutate state {#pure-functions-don-t-mutate-state}
 
 As I mentioned before, a function does something when it returns something and changes the state of something outside itself.
-We call that _a side effect_.
+We call that a <dfn>side effect</dfn>.
 You may have noticed that our function takes a mutable variable of type `bool` and changes it.
 In our first iteration of the function, we needed it. But now, we grew out of it. So let's just delete it.
 
@@ -223,12 +226,9 @@ Imagine doing this with the first function!
 OK, I lied... Somewhat. Have you noticed the one glaring, lack of transparency and control here?
 It's the `<=`. You may need to read the function here, if you have this simple question:
 
-> If I call the function exactly, at the precise moment that I specified to be \`late_as_of\`, will return true, or false?
+> If I call the function exactly, at the precise moment that I specified to be `late_as_of`, will return true, or false?
 
-Now, not answering this question using the function signature,
-won't make my function less pure,
-but still, it is a much nicer experience for the caller to be able to rely on their IDE's autocomplete to tell them what happens.
-But how the hell should we do that? Easy! We take a comparator function as input!
+Now, not answering this question using the function signature,won't make my function less pure,but still, it is a much nicer experience for the caller to be able to rely on their IDE's autocomplete to tell them what happens.But how the hell should we do that? Easy! We take a comparator function as input!
 
 ```rust
 fn main() {
@@ -264,10 +264,10 @@ It may seem unnecessary for this simple function, but imagine much more complex 
 ## Making things nicer: A spicy problem {#making-things-nicer-a-spicy-problem}
 
 So we have all this power and transparency.
-But the elephant is in it room: We have a very shitty API.
-Let's make it nicer using a technique called currying (hence the "spicy" pun).
+But the elephant is in it room: We have a very shitty <abbr title=" Application Programming Interface">API</abbr>.
+Let's make it nicer using a technique called <dfn>currying</dfn> (hence the "spicy" pun).
 What it means is: as well as taking functions as argument, we can return functions.
-That way, our \`calculate_my_lateness\` function can become a function-maker.
+That way, our `calculate_my_lateness` function can become a function-maker.
 Let me make it more concrete.
 
 
@@ -319,27 +319,22 @@ fn calculate_my_lateness(
 
 You might ask, "well, how does this help?"
 
-\#+begin_src rust
+```rust
 // we are in  main
 
-_/ now our late_before_time_x is not of type bool,
-/_ rather it is of type Fn(SystemTime) -&gt; bool
+// now our late_before_time_x is not of type bool,
+// rather it is of type Fn(SystemTime) -> bool
 let late_before_time_x = calculate_my_lateness(
     SystemTime::from(SOME_SPECIFIED_TIME),
-
-|              |                   |
-|--------------|-------------------|
-| late, target | target &gt; late, |
-
+    |late, target| target > late,
 );
 
-_/ So we can just:
+// So we can just:
 let first_result = late_before_time_x(FIRST_TIME);
 let second_result = late_before_time_x(SECOND_TIME);
 let third_result = late_before_time_x(THIRD_TIME);
-/_ ...much less boilerplate
-
-\#+end_srcust
+// ...much less boilerplate
+```
 
 
 ### Why `const` just won't do {#why-const-just-won-t-do}
@@ -350,22 +345,23 @@ In fact, I regularly use `clippy::missing_const_for_fn` lint and suggest you to 
 But that does not guarantee that our functions are pure, or that every pure function can be `const`.
 Here are my reasons:
 
-1.  `const` functions can take \`&amp;mut something\` as their arguments. Taking mutable references is definitely not very pure-function-y.
-2.  You cannot `const` trait methods in stable rust, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
+1.  `const` functions can take `&mut something` as their arguments. Taking mutable references is definitely not very pure-function-y.
+2.  You cannot `const` trait methods in stable <span class="language">Rust</span>, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
 3.  Many libraries don't to use `const` on the functions that are `const`. Again, limitation without pureness reasons.
 
 
 ## Making things declarative {#making-things-declarative}
 
-There is this often repeated old joke from Phil Karlton that says:
+There is this often repeated old joke that says:
 
 > There two hard problems in programming
 >
 > 1.  Cache invalidation
 > 2.  Naming things
-> 3.
 >
-> And here we are concerned with the second one.
+> -- <span class="person">Phil Karlton</span>
+
+And here we are concerned with the second one.
 
 -   In the **imperative** universe, we usually name our functions using _verbs_. Think `calculate_my_lateness`.
 -   In the **declarative** universe we are concerned with our output, we use _nouns_. Think `lateness_calculator`.
@@ -378,8 +374,8 @@ We don't need to rely on our function name anymore to tell use how the function 
 We only need to know what it's intention is.
 
 
-## Bye without iterators? {#bye-without-iterators}
+## Dear Reader {#dear-reader}
 
-In this post, I just preferred to focus on the heart of functional programming: pure declarative functions.
-However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are iterators, maps, folds, filters and....
+In this post, I just preferred to focus on the heart of <abbr title="Functional Programming">FP</abbr>: _pure declarative functions_.
+However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are _iterators_, _maps_, _folds_, _filters_, etc.
 Honestly, they are well explained in other resources. My only suggestion would be to check out [itertools](https://docs.rs/itertools/latest/itertools/) crate.

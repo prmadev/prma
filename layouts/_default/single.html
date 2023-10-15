@@ -1,19 +1,13 @@
 {{ define "main" }}
-<article class="m-1 m-b-3">
-  <hr class="hr-bold-black" />
-  <div class="flexer">
-    {{ partial "time" .}}
-    <div class="tags flexer m-l-1">
+<hr class="hr-bold-black" />
+
+<div class="flexer">
+  {{ partial "time" . }}
+  <div class="tags flexer m-l-1">
       {{ range $tag := .Params.tags }}
       <div class="tag blocked m-r-1 ph1">{{.}}</div>
-      {{end}}
-    </div>
-  </div>
-  <main>{{.Content}}</main>
-  <aside>
-    <p>
-      Comment section? I Have none! But I like emails: <a href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a>
-    </p>
-  </aside>
-</article>
-{{end}}
+      {{ end }}
+</div> </div>
+<main class="e-content">{{ .Content }}</main>
+<aside> <p>Comment section? I Have none! But I like emails: <a class="u-email" href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a></p></aside>
+{{ end }}

@@ -19,11 +19,11 @@ Their argument revolves around the idea that developers' time is more valuable a
 
 ## My Antithesis {#my-antithesis}
 
-However, if this were genuinely the case, more substantial effort would have been invested in refactoring or choosing a more rigorous language than JavaScript, for example, a language that can significantly boost performance in the long run.
+However, if this were genuinely the case, more substantial effort would have been invested in refactoring or choosing a more rigorous language than <span class="language">JavaScript</span>, for example, a language that can significantly boost performance in the long run.
 
-Fixing bugs in backends written in JavaScript, PHP, or Python is certainly feasible, but adding performance improvements can become challenging, if not improbable. More meticulous programming tools automate the process of finding and fixing even the most elusive bugs and come with significant performance optimizations. The ability to make well-founded assumptions about the program allows for better optimization.
+Fixing bugs in backends written in <span class="language">JavaScript</span>, PHP, or Python is certainly feasible, but adding performance improvements can become challenging, if not improbable. More meticulous programming tools automate the process of finding and fixing even the most elusive bugs and come with significant performance optimizations. The ability to make well-founded assumptions about the program allows for better optimization.
 
-This approach often leads to a situation where future engineers, tasked with rewriting the "MVP" program in a more scalable language, face an archeological rediscovery process.
+This approach often leads to a situation where future engineers, tasked with rewriting the "<abbr title=" Minimal Viable Product">MVP</abbr>" program in a more scalable language, face an archeological rediscovery process.
 
 So, if they are not genuinely optimizing for shorter development time, what are they doing?
 
@@ -32,17 +32,17 @@ So, if they are not genuinely optimizing for shorter development time, what are 
 
 It appears that they prioritize short-term gains over achieving greater long-term goals.
 
-A language like Rust, while providing benefits like enhanced safety and reliability, requires significantly more time to produce a binary or APIs. The manual labor of finding bugs is taken over by the compiler and the language's semantics. If the focus is on developer productivity, then this automation is naturally desirable. However, what one truly desires to convey is "I have this feature, even though it may have some bugs and performance issues, I have it nonetheless."
+A language like <span class="language">Rust</span>, while providing benefits like enhanced safety and reliability, requires significantly more time to produce a binary or APIs. The manual labor of finding bugs is taken over by the compiler and the language's semantics. If the focus is on developer productivity, then this automation is naturally desirable. However, what one truly desires to convey is "I have this feature, even though it may have some bugs and performance issues, I have it nonetheless."
 
 
 ## The Synthesis {#the-synthesis}
 
 That may be a positively good idea for trying the market to see if there is any for that specific idea, for most software developements though, the actual intention is not experimentation, as the novelty of product and bussiness plan do not warrant a need for experimentaion. rather, having something to sell, as fast as possible. That's for start ups. Where there is both legitimate and illegitimate short-termism. But more established enterprises may have this pairing as well. While there are A/B experimentaions going on, trying different approaches to see which works, middle management might also like the addition of another achievement in their yearly reports.
 
-A rapid way to discern whether it falls under the category of experimentation/prototyping or an MVP/achievement-oriented project is to examine whether there is a notably extended period allocated for the program's rewrite compared to its initial development phase.
+A rapid way to discern whether it falls under the category of experimentation/prototyping or an <abbr title="Minimum Viable Product">MVP</abbr>/achievement-oriented project is to examine whether there is a notably extended period allocated for the program's rewrite compared to its initial development phase.
 
 
-## Dear reader {#dear-reader}
+## Dear Reader {#dear-reader}
 
 Similar to many phenomena, short-termism can indeed have legitimate applications. The reluctance of many to embrace this term is rooted in its improper and illegitimate uses.
 

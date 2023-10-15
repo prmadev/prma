@@ -9,14 +9,14 @@ draft = false
 
 ## Intro {#intro}
 
-The act of moving arguments within Rust's functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
+The act of moving arguments within <span class="language">Rust</span>'s functions serves as a compelling means to uphold the _purity_ of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and _immutability_ of data, which are fundamental tenets of _functional programming_.
 
 
-## Moving a Variable to a Function in Rust Doesn't Make It Impure {#moving-a-variable-to-a-function-in-rust-doesn-t-make-it-impure}
+## Moving a Variable to a Function in <span class="language">Rust</span> Doesn't Make It Impure {#moving-a-variable-to-a-function-in-doesn-t-make-it-impure}
 
-So as an introduction, if you don't know Rust.
+So as an introduction, if you don't know <span class="language">Rust</span>.
 
-In Rust, we have this concept of moving variables. It is like this:
+In <span class="language">Rust</span>, we have this concept of _moving_ variables. It is like this:
 
 ```rust
 //  A variable is made.
@@ -29,7 +29,7 @@ _ = a_function_that_takes_ownership(a_variable);
 let b_variable = a_variable;
 ```
 
-Now I consider a_function_that_takes_ownership to be a pure function. However, it raises a possible confusion:
+Now I consider `a_function_that_takes_ownership` to be a _pure function_. However, it raises a possible confusion:
 
 > Doesn't a_function_that_takes_ownership change the state of the outer function? Isn't that a side effect?
 
@@ -48,12 +48,12 @@ So we have two functions. One outer, and one inner.
 -   Each function should have inputs and an output.
 -   Other than their outputs, they should not change anything outside their function space.
 
-If these conditions are not met, our function is not pure.
+If these conditions are not met, our function is not _pure_.
 
 
 ### Step 1 {#step-1}
 
-Now consider a variable [V].
+Now consider a variable `[V]`.
 
 ```text
       _____________________________
@@ -79,7 +79,7 @@ With our outer function, we create a function call for the inner function.
 
 ### Step 3 {#step-3}
 
-It is no longer in the state space of the outer function. The inner function takes ownership of it.
+It is no longer in the state space of the outer function. The inner function takes _ownership_ of it.
 
 ```text
       _____________________________
@@ -89,13 +89,13 @@ It is no longer in the state space of the outer function. The inner function tak
       -----------------------------
 ```
 
-Semantically, for the outer function [v] was used in the function call and then dropped. Which does not violate our rules. For the inner function, it just got an input and returns an output. So it makes sematic sense.
+Semantically, for the outer function `[v]` was used in the function call and then dropped. Which does not violate our rules. For the inner function, it just got an input and returns an output. So it makes sematic sense.
 
-In practice, it also makes the same guarantees as any other pure function: - No null pointers. - No mutable state. - No side effects.
+In practice, it also makes the same guarantees as any other _pure function_: - No null pointers. - No _mutable state_. - No _side effects_.
 
 If the caller `.clone()` our value and make a copy of it and pass that to the inner function, it provides us with no other guarantees, other than more memory usage and slightly longer code.
 
 
 ## Why does it matter? {#why-does-it-matter}
 
-Well, Honestly, it doesn't. I just had to decide if in a pure function I can consume a self, if I want to make it a pure function, considering that I cannot make it const. This was my thinking output. Now you are the outer function.
+Well, Honestly, it doesn't. I just had to decide if in a _pure function_ I can consume a self, if I want to make it a _pure function_, considering that I cannot make it _const_. This was my thinking output. Now you are the outer function.

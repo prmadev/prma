@@ -36,7 +36,7 @@ But, alas, as time went by, the very incentives that drove these Social Media co
 
 The driving force behind these shifts? The ever-persistent quest for revenue from advertisers, pushing them to create content that captures maximum engagement. The more captivating, the more lucrative.
 
-Regrettably, the landscape has birthed what I would call the "four horsemen of reactionary engagement": the doomsday, super political reporter; the enraging, populist racist politician; the trolling, impulsive CEO; and the drama-driven, vacuous celebrity.
+Regrettably, the landscape has birthed what I would call the "four horsemen of reactionary engagement": the doomsday, super political reporter; the enraging, populist racist politician; the trolling, impulsive <abbr title="Chief Executive Officer">CEO</abbr>; and the drama-driven, vacuous celebrity.
 
 In a nutshell, it appears you've been played for a fool. Social media's purported aim of empowering you is nothing but a delusion.
 

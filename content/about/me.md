@@ -12,14 +12,14 @@ Through my intellectual journey, I have delved into the realms of architecture a
 
 ## Name-wise {#name-wise}
 
-You can call me Perma. My legal name is AmirHossein Alesheikh. I don't mind either, but I prefer Perma. Read [Call Me Perma](../../posts/call_me_perma) for more information.
+You can call me <span class="person p-nickname">Perma</span>. My legal name is <span class="person p-name">AmirHossein Alesheikh</span>. I don't mind either, but I prefer <span class="person p-nickname">Perma</span>. Read [Call Me Perma](../../posts/call_me_perma) for more information.
 
 You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways. But it will be nice if you could make it clear to me which one you have chosen.
 
 
 ## Job-wise {#job-wise}
 
-As a back-end developer, my expertise lies in utilizing languages like _Go_ and _Rust_ to build the foundational components of software systems.
+As a back-end developer, my expertise lies in utilizing languages like <span class="language">Go</span> and <span class="language">Rust</span> to build the foundational components of software systems.
 
 I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
 
@@ -28,7 +28,7 @@ Additionally, I also engage in system programming, working with low-level compon
 
 ## Tech-wise {#tech-wise}
 
-Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant. The hours I've devoted to sitting behind desktop computers far exceed the time I've dedicated to restful slumber. Throughout my life, I proudly embrace the label of a bona fide textbook nerd, finding immense joy and fascination in the pages of educational literature. In fact, my favorite genre of books happens to be none other than textbooks themselves.
+Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant. The hours I've devoted to sitting behind desktop computers far exceed the time I've dedicated to restful slumber. Throughout my life, I proudly embrace the label of a _bona fide_ textbook nerd, finding immense joy and fascination in the pages of educational literature. In fact, my favorite genre of books happens to be none other than textbooks themselves.
 
 
 ## Advocacy {#advocacy}
