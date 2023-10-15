@@ -2,7 +2,7 @@
 <html lang="en">
   {{ partial "head-part" . }}
   <body class="m-1 m-t-3 mw-std">
-    <ul class="ul-unbullet m-0 p-0">
+    <ul class="ul-unbullet m-0 p-0 p-feed">
       {{ range $section := .Pages }}
       {{ if eq $section.Title "Posts" }}
       {{ range $page := $section.Pages }}
