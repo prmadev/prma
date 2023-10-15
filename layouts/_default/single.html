@@ -5,9 +5,11 @@
   {{ partial "time" . }}
   <div class="tags flexer m-l-1">
       {{ range $tag := .Params.tags }}
-      <div class="tag blocked m-r-1 ph1">{{.}}</div>
+      <div class="tag blocked m-r-1 ph1 p-category">{{.}}</div>
       {{ end }}
-</div> </div>
+  </div>
+  <label> Auther: <a rel="author" class="p-author h-card person" href="/about/me">Perma</a></label>
+</div>
 <main class="e-content">{{ .Content }}</main>
 <aside> <p>Comment section? I Have none! But I like emails: <a class="u-email" href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a></p></aside>
 {{ end }}
