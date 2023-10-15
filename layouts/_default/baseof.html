@@ -5,11 +5,11 @@
 	<header class="m-1">
 	  <h1 class="blocked p-name">
 	    <a href="{{.Permalink}}" class="page-link simple-link u-url">{{.Title}}</a>
-	    </h1>
+	  </h1>
 	</header>
 	{{ end }}
 	{{ block "main" . }} {{ end }}
-    </article>
     {{ block "footer" . }} {{ partial "footer-simple" . }} {{ end }}
+    </article>
   </body>
 </html>
