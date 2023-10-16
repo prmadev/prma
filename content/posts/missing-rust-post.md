@@ -8,7 +8,7 @@ draft = false
 +++
 
 There is a blog post missing in the Rust sphere:
-_How to not obssess over performance gain and improve changeability of Rust applications._
+_How to not obssess over performance gain and improve changeability of <span class="language">Rust</span> applications._
 
 In other words, imagin that you want move a function used in one file to another.
 How would you do that in under ten minutes?
