@@ -1262,6 +1262,26 @@ There is a blog post missing in the Rust sphere:
 In other words, imagin that you want move a function used in one file to another.
 How would you do that in under ten minutes?
 
+*** DONE ADHD not Being Real                                         :ADHD:
+CLOSED: [2023-10-16 Mon 19:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: adhd-not-real
+:END:
+
+#+begin_quote
+{{{abbr(ADHD,Attention-Deficit/Hyperactivity-Disorder)}}} is not real.
+It is just unmotivated kids needing more structure.
+-- Some lady today
+#+end_quote
+
+
+Therefore:
+#+begin_quote
+Cancer is not real.
+It is just overly horny cells needing to chill the fuck down.
+-- Probably the same lady, assuming no double standards
+#+end_quote
+
 * About
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: about
