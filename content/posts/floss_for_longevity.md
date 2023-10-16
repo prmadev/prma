@@ -2,8 +2,8 @@
 title = "FLOSS For Software Longevity"
 author = ["Perma"]
 date = 2023-06-14T11:26:00+03:30
-tags = ["floss", "permacomputing", "programming"]
-categories = ["opinion"]
+tags = ["opinion", "floss", "permacomputing", "programming"]
+categories = ["long"]
 draft = false
 +++
 

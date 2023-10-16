@@ -2,8 +2,8 @@
 title = "Power Structure of Social Networks"
 author = ["Perma"]
 date = 2022-11-16T00:08:00+03:30
-tags = ["fediverse"]
-categories = ["opinion"]
+tags = ["fediverse", "opinion"]
+categories = ["long"]
 draft = false
 +++
 
@@ -139,4 +139,4 @@ Mastodon, Pixelfed and other federated, open-sourced social networks, operate in
 
 ## Credit {#credit}
 
-This work is highly inspired and heavily reliant on <span class="person">Daron Acemoglu</span>'s fantastic book, _Why Nations Fail_. A must read.
+This work is highly inspired and heavily reliant on <span class="person p-name">Daron Acemoglu</span>'s fantastic book, _Why Nations Fail_. A must read.

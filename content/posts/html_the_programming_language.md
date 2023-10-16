@@ -2,8 +2,8 @@
 title = "HTML, The Programming Language"
 author = ["Perma"]
 date = 2023-06-24T11:50:00+03:30
-tags = ["language", "HTML"]
-categories = ["opinion"]
+tags = ["opinion", "language", "HTML"]
+categories = ["long"]
 draft = false
 +++
 

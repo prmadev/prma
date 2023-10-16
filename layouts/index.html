@@ -3,14 +3,11 @@
   {{ partial "head-part" . }}
   <body class="m-1 m-t-3 mw-std">
     <ul class="ul-unbullet m-0 p-0 p-feed">
-      {{ range $section := .Pages }}
-      {{ if eq $section.Title "Posts" }}
-      {{ range $page := $section.Pages }}
-      {{ partial "post-listing" . }}
-      {{ end }}
-      {{ else }}
-      {{ end }}
-      {{ end }}
+      <h2> Long </h2>
+      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
+      <h2> Daily </h2>
+      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
+
     </ul>
     {{ block "footer" . }}
     {{ partial "footer-simple" . }}

@@ -2,8 +2,8 @@
 title = "Consider Developer's Snack"
 author = ["Perma"]
 date = 2023-06-21T11:43:00+03:30
-tags = ["permacomputing", "programming"]
-categories = ["opinion"]
+tags = ["opinion", "permacomputing", "programming"]
+categories = ["long"]
 draft = false
 +++
 

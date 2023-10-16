@@ -2,8 +2,8 @@
 title = "Hachyderm or Fosstodon"
 author = ["Perma"]
 date = 2022-11-25T22:17:00+03:30
-tags = ["fediverse"]
-categories = ["opinion"]
+tags = ["opinion", "fediverse"]
+categories = ["long"]
 draft = false
 +++
 

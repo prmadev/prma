@@ -2,8 +2,8 @@
 title = "Call Me Perma"
 author = ["Perma"]
 date = 2023-08-09T12:31:00+03:30
-tags = ["perma", "names"]
-categories = ["updates"]
+tags = ["update", "perma", "names"]
+categories = ["long"]
 draft = false
 +++
 
@@ -13,7 +13,7 @@ The psychologist initiates our session by administering a series of aptitude and
 
 Oh, but this wasn't the first round of this comical saga. You see, on previous occasions, my dear mother would strategically place a glass of water right between us, like a cosmic prop. And what was the grand purpose behind this visual spectacle, you might ask? Well, it was her way of nudging me into a philosophical monologue about that very glass. In simple terms: <q cite="my mother">Hey, kiddo, you've got a shortage of optimism; you're the sort who tends to spot the half-empty glass in life.</q>
 
-And then we have my dear old dad, the master of responsibility training. He had this grand plan to shape my character, using internships as his secret weapon. <q cite="my father">Off you go, my young apprentice!</q> he'd exclaim, nudging me into one vocational adventure after another. His hidden message? <q cite="my father">Kid</q> Ah, the age-old dance of parental strategy.
+And then we have my dear old dad, the master of responsibility training. He had this grand plan to shape my character, using internships as his secret weapon. <q cite="my father">Off you go, my young apprentice!</q> he'd exclaim, nudging me into one vocational adventure after another. His hidden message? <q cite="my father">Kid, I'm passing down the sacred skill of handling responsibilities!</q> Ah, the age-old dance of parental strategy.
 
 And there you have it, my childhood summed up, right from the time those kindergarten teachers began their chorus of complaints about my apparent "refusal" to embrace the songs that my peers had effortlessly committed to memory months before.
 
@@ -36,20 +36,20 @@ I won't delve into the specifics of these misfortunes, although those in my soci
 
 However, I can share that I've achieved several noteworthy milestones during this time span: acquiring programming skills, entering the workforce, entering marriage, and most recently, opting to unofficially change my name.
 
-Formally, I remain <span class="person">Amirhossein</span>, and I'm content should anyone choose to continue addressing me as such-I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.
+Formally, I remain <span class="person p-name">Amirhossein</span>, and I'm content should anyone choose to continue addressing me as such-I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.
 
 
-## <span class="person">Amirhossein</span> and <span class="person">Perma</span> {#37a5b4}
+## <span class="person p-name">Amirhossein</span> and <span class="person p-name">Perma</span> {#bb76b9}
 
 The name Amirhossein is a composite of two Arabic names, Amir and Hossein, both of which carry two meanings. As for the firsts of these meanings, Amir translates to "prince," while Hossein signifies "Good-junior." The amalgamation results in the interpretation of "Junior Good Prince."
 
 However, I find myself at a loss when attempting to establish a personal connection with any aspect of this interpretation of this name. This brings us to its secondary and perhaps more intended connotation.
 
-In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "<dfn>Imam</dfn>". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "<span class="person">Amir-al-momenin</span>," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named <span class="person">Hossein</span>. Both individuals deviate significantly from pacifism.
+In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "<dfn>Imam</dfn>". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "<span class="person p-name">Amir-al-momenin</span>," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named <span class="person p-name">Hossein</span>. Both individuals deviate significantly from pacifism.
 
 While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.
 
-I find "<span class="person">Perma</span>" to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life. It closely aligns with the ethos underpinning this blog. I'm captivated by the philosophy of the _PermaCulture_ and _PermaComputing_ movements-albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence. Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in _utilitarian_ aspirations.
+I find "<span class="person p-name">Perma</span>" to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life. It closely aligns with the ethos underpinning this blog. I'm captivated by the philosophy of the _PermaCulture_ and _PermaComputing_ movements-albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence. Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in _utilitarian_ aspirations.
 
 
 ## Dear Reader {#dear-reader}
@@ -58,4 +58,4 @@ If you've known me previously, you might have observed my recent shifts in usern
 
 However, this change isn't indicative of a complete unveiling of my authentic self. Thus, referring to me by my previous name isn't as insensitive as the act of deadnaming. Rather, this transition signifies the inception of a renewed chapter, one marked by heightened purpose and intention.
 
-While I do prefer and hope for the usage of "<span class="person">Perma</span>" moving forward, I'm entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.
+While I do prefer and hope for the usage of "<span class="person p-name">Perma</span>" moving forward, I'm entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.

@@ -2,8 +2,8 @@
 title = "Moving in Rust is Pure"
 author = ["Perma"]
 date = 2023-04-09T10:44:00+03:30
-tags = ["rust", "programming", "functional-programming"]
-categories = ["opinion"]
+tags = ["opinion", "rust", "programming", "functional-programming"]
+categories = ["long"]
 draft = false
 +++
 

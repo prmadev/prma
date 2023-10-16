@@ -2,8 +2,8 @@
 title = "Criteria For Choosing Tools"
 author = ["Perma"]
 date = 2023-07-29T12:14:00+03:30
-tags = ["tools", "software"]
-categories = ["opinion"]
+tags = ["opinion", "tools", "software"]
+categories = ["long"]
 draft = false
 +++
 
@@ -79,7 +79,7 @@ For too long, I depended on subpar sources to meet these needs. For the first tw
 
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. But I have not mentioned what constitutes an effective solution.
 
-In [my previous post](../web_experience_makeover), I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
+In [my previous post](../web-experience-makeover), I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
 
 Allow me to outline the criteria and guiding principles for an empowering tool:
 

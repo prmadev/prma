@@ -3,7 +3,7 @@
 #+macro: dfn @@html:<dfn>$1</dfn>@@
 #+macro: var @@html:<var>$1</var>@@
 #+macro: q @@html:<q cite="$1">$2</q>@@
-#+macro: person @@html:<span class="person">$1</span>@@
+#+macro: person @@html:<span class="person p-name">$1</span>@@
 #+macro: lang @@html:<span class="language">$1</span>@@
 
 * Blog Ideas
@@ -36,67 +36,19 @@ The product manager would later on notice, and add a bug report. Speaking out of
 Why is that? Simply, bugs are accounted for. But delay on the {{{abbr(ETA,Estimated Time Announced)}}} is not something that someone in managerial position is comforatble with, even when disclaimers are given.
 
 You can see why having a buggy featureful product is more desireable than a less buggy, but delayed product. In the first case, you still have a least of orders. There are some information there that is not correct. But no worries, we fix them later on.
+
 But a delayed feature means that the whole list of orders is not delivered, or at least part of it is not delivered. We can ship only the working parts of the order, but in such case, the client application also should only expect partial information.
 
+Yet, even though it might be good for bussiness, we are selling users a broken product, knowingly. Which might fall under stealing and fraud, and at least, dishonesty.
 
-
-
-
-* About
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: about
-:END:
-** DONE ME
-CLOSED: [2023-10-09 Mon 16:43]
-:PROPERTIES:
-:EXPORT_FILE_NAME: me
-:END:
-In this vast world, teeming with approximately 8 billion human beings, I, too, find myself among their ranks, a singular entity in the tapestry of humanity.
-
-Through my intellectual journey, I have delved into the realms of architecture and cognitive science, exploring the intricate connections between our built environment and the workings of the human mind. However, amidst this exploration, my fascination with computing remained unwavering, beckoning me towards a path where I finally discovered my true calling as a developer.
-
-*** Name-wise
-You can call me @@html:<span class="person p-nickname">Perma</span>@@. My legal name is @@html:<span class="person p-name">AmirHossein Alesheikh</span>@@. I don't mind either, but I prefer @@html:<span class="person p-nickname">Perma</span>@@. Read [[../../posts/call_me_perma][Call Me Perma]] for more information.
-
-You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways. But it will be nice if you could make it clear to me which one you have chosen.
-
-*** Job-wise
-As a back-end developer, my expertise lies in utilizing languages like {{{lang(Go)}}} and {{{lang(Rust)}}} to build the foundational components of software systems.
-
-I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
-
-Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.
-
-*** Tech-wise
-Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant. The hours I've devoted to sitting behind desktop computers far exceed the time I've dedicated to restful slumber. Throughout my life, I proudly embrace the label of a /bona fide/ textbook nerd, finding immense joy and fascination in the pages of educational literature. In fact, my favorite genre of books happens to be none other than textbooks themselves.
-
-*** Advocacy
-For over 15 years, I have actively engaged in the realm of free software advocacy, passionately advocating for the principles of openness and accessibility. It's safe to say that I find myself firmly planted in the far-left corner of political stereotypes, unapologetically embracing a feminist perspective, advocating for veganism and animal rights, and actively participating in environmentalism. While there are other aspects of my beliefs, such as my alignment with [[https://www.lesswrong.com/tag/rationalist-movement][rationalism]], utilitarianism, and consciousness idealism, I won't delve into those topics and burden you with excessive details.
-
-*** Me, in the wild
-- [[https:fosstodon.org/@prma][Fosstodon]]
-- [[https:codeberg.org/prma][Codeberg]]
-- [[https:github.com/prmadev][GitHub]]
-- [[https:linkedin.com/in/prmadev][Linkedin]]
-
-*** FAQ
-- What time is it?
-- What's your dogs name?
-- Is your dog friendly?
-- Is it your turn to cook lunch or mine?
-
-Yeah, I hear these questions quit frequently!
-
-
-
-
+Yet, agile manifesto's basterd take has made us believe that it is alright.
 
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** Opinions                                                       :@opinion:
-*** DONE Power Structure of Social Networks :fediverse:
+** Long                                                              :@long:
+*** DONE Power Structure of Social Networks :fediverse:opinion:
 CLOSED: [2022-11-16 00:08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: power-structure-of-social-networks
@@ -212,7 +164,7 @@ Mastodon, Pixelfed and other federated, open-sourced social networks, operate in
 **** Credit
 This work is highly inspired and heavily reliant on {{{person(Daron Acemoglu)}}}'s fantastic book, /Why Nations Fail/. A must read.
 
-*** DONE Hachyderm or Fosstodon                                 :fediverse:
+*** DONE Hachyderm or Fosstodon                                 :opinion:fediverse:
 CLOSED: [2022-11-25 Sun 22:17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: hachyderm_or_fosstodon
@@ -356,7 +308,7 @@ That seems like an staggering differece. [fn:staggering:Staggering differences a
 **** Dear Reader
 I have no idea why this difference is so harsh. But for my purposes I have enough information to update my beliefs to make a decision for now that satisfies my accuracy-requirements for this decision.
 
-*** DONE Go Vs Rust readability                       :rust:programming:go:
+*** DONE Go Vs Rust readability                       :rust:programming:go:opinion:
 CLOSED: [2023-04-14 Sun 23:49]
 :PROPERTIES:
 :EXPORT_FILE_NAME: go_vs_rust_readability
@@ -390,7 +342,7 @@ These are all noble pursuits. And in all these cases, readability is vital in pr
 {{{lang(Go)}}}'s readability is probably one of its best features. At my current and previous jobs, I have had to jump into different code bases with different levels of legacy and problematic codebases where junior developers with no-idea of idiomatic ways of coding {{{lang(Go)}}} left their projects without any context for the next developer.
 Such low quality codes should take forever for one to decode. However, because of the beautifully simple syntax of {{{lang(Go)}}}, I could start to be productive and sending PRs in less than a day. Have you seen a codebase where all the back-end code was coded by a narcissistic lone-wolf meth-addict? Well, I have, and it's an absolute shit-show. Yet, I committed my first edits in 3 hours. {{{lang(Go)}}} is excellent at that. And I can understand how a huge tech company with very quick employee turn-over can give rise to such language. Kudos to the {{{lang(Go)}}} team.
 
-*** DONE Moving in Rust is Pure     :rust:programming:functional_programming:
+*** DONE Moving in Rust is Pure     :opinion:rust:programming:functional_programming:
 CLOSED: [2023-04-09 Mon 10:44]
 :PROPERTIES:
 :EXPORT_FILE_NAME: moving_is_pure
@@ -480,7 +432,7 @@ If the caller =.clone()= our value and make a copy of it and pass that to the in
 
 **** Why does it matter?
 Well, Honestly, it doesn't. I just had to decide if in a /pure function/ I can consume a self, if I want to make it a /pure function/, considering that I cannot make it /const/. This was my thinking output. Now you are the outer function.
-*** DONE FLOSS For Software Longevity :floss:permacomputing:programming:
+*** DONE FLOSS For Software Longevity :opinion:floss:permacomputing:programming:
 CLOSED: [2023-06-14 Mon 11:26]
 :PROPERTIES:
 :EXPORT_FILE_NAME: floss_for_longevity
@@ -551,7 +503,7 @@ Thanks to this collective effort and attention to robustness, many foundational 
 **** Dear Reader
 Now, esteemed reader, I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions find the realm of {{{abbr(FLOSS, Free\/Libre and Open Source Software)}}} far more fertile than its alternatives.
 
-*** DONE Consider Developer's Snack            :permacomputing:programming:
+*** DONE Consider Developer's Snack            :opinion:permacomputing:programming:
 CLOSED: [2023-06-21 Mon 11:43]
 :PROPERTIES:
 :EXPORT_FILE_NAME: consider_developers_snack
@@ -605,7 +557,7 @@ The crux of the matter is that complexity pervades these considerations, demandi
 
 It is important to note that I have deliberately omitted discussions about post-harm mitigation. Our focus has been on reducing harm itself. Exploring the costs associated with bootstrapping and averting catastrophic scenarios would expand beyond the scope of this essay.
 
-*** DONE HTML, The Programming Language                     :language:HTML:
+*** DONE HTML, The Programming Language                     :opinion:language:HTML:
 CLOSED: [2023-06-24 11:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: html_the_programming_language
@@ -630,10 +582,10 @@ Now, let me be clear, my intention here is not to rally behind {{{abbr(HTML,Hype
 
 Let us cherish our roles as creators and refrain from placing undue emphasis on the definition of our jobs, but rather, let us focus on the outcomes we produce. After all, we are all creators and problem-solvers at heart.
 
-*** DONE Giving My Exprience of Web a Makeover :rss:feedbin:kagi:search_engine:
+*** DONE Giving My Exprience of Web a Makeover :opinion:rss:feedbin:kagi:search_engine:
 CLOSED: [2023-07-19 12:04]
 :PROPERTIES:
-:EXPORT_FILE_NAME: web_experience_makeover
+:EXPORT_FILE_NAME: web-experience-makeover
 :END:
 **** Intro
 Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me, people I admired, or at least aspired to emulate. The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.
@@ -671,14 +623,14 @@ In my quest for a trustworthy email service that respects my privacy and shields
 
 You may have noticed that out of the four aforementioned solutions, three are paid services. Additionally, two of them are closed-sourced, while one-the email service-poses the risk of vendor lock-in. Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established. In the end, these choices emerged as the better alternatives, despite their limitations.
 
-However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [[../criteria_for_choosing_tools][more thorough elaboration]]. Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
+However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [[../criteria-for-choosing-tools][more thorough elaboration]]. Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
 **** Dear Reader
 At present, I find immense joy in my renewed online experience-a sense of tranquility and refuge washes over me whenever I delve into the internet. I wholeheartedly urge you, dear reader, who may be experiencing similar frustrations to those of my past self, to take a moment and reevaluate your internet usage. There is a strong possibility that the internet can be a much more pleasant and gratifying space than what you might be feeling at this moment. I know this to be true because I am living it right now. Embrace the journey of exploring better alternatives and reclaim the joy in your online interactions.
 
-*** DONE Criteria For Choosing Tools :tools:software:
+*** DONE Criteria For Choosing Tools :opinion:tools:software:
 CLOSED: [2023-07-29 12:14]
 :PROPERTIES:
-:EXPORT_FILE_NAME: criteria_for_choosing_tools
+:EXPORT_FILE_NAME: criteria-for-choosing-tools
 :END:
 **** Intro
 The web is utterly fucked. But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
@@ -738,7 +690,7 @@ For too long, I depended on subpar sources to meet these needs. For the first tw
 ***** Step Two: Find Effective Replacements
 In my earlier post I have mentioned that I already have replaced most of these services with better ones. But I have not mentioned what constitutes an effective solution.
 
-In [[../web_experience_makeover][my previous post]], I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
+In [[../web-experience-makeover][my previous post]], I alluded to having replaced many of these services with superior alternatives. However, I haven't delved into what exactly makes a solution effective.
 
 Allow me to outline the criteria and guiding principles for an empowering tool:
 
@@ -777,7 +729,7 @@ If safeguarding your privacy to the utmost extreme is your goal, then by all mea
 **** Dear Reader
 You are on the right path, and I believe in you wholeheartedly! Trust me, I've been through this journey myself, and it turned out to be a delightful and straightforward experience. Take heart, for you can certainly achieve it too! Keep going, and you'll soon realize how much better and easier life becomes. You've got this!
 
-*** DONE Dishonesty of Optimizing for Developer Time :longivity:permacomputing:
+*** DONE Dishonesty of Optimizing for Developer Time :opinion:longivity:permacomputing:
 CLOSED: [2023-07-31 12:24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: dishonesty_of_optimizing_for_developers_time
@@ -811,7 +763,7 @@ A rapid way to discern whether it falls under the category of experimentation/pr
 Similar to many phenomena, short-termism can indeed have legitimate applications. The reluctance of many to embrace this term is rooted in its improper and illegitimate uses.
 
 Certainly, there are well-intentioned individuals who advocate for developer productivity. However, those with ample experience will acknowledge that long-term developer productivity is not synonymous with low-overhead development, and, more often than not, these two objectives are incompatible.
-*** DONE The Tragedy of The Tech-Stacks              :software:programming:
+*** DONE The Tragedy of The Tech-Stacks              :opinion:software:programming:
 CLOSED: [2023-08-11  12:38]
 :PROPERTIES:
 :EXPORT_FILE_NAME: tragedy_of_the_tech_stacks
@@ -883,12 +835,10 @@ of ritualistic maneuvers. It's a more daunting challenge. Just as
 **** Dear Reader
 I know! The gastly claim of {{{q(me,to improve developer experience we first should grow an ethical sense)}}}, seems absurd. Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it.
 
-
-** Updates :@updates:
-*** DONE Call Me Perma                                        :perma:names:
+*** DONE Call Me Perma                                 :update:perma:names:
 CLOSED: [2023-08-09 12:31]
 :PROPERTIES:
-:EXPORT_FILE_NAME: call_me_perma
+:EXPORT_FILE_NAME: call-me-perma
 :END:
 I find myself seated in the passenger's seat of my mother's car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother's sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist's office without exchanging a word, leaving me still uncertain about the purpose of our visit.
 
@@ -896,7 +846,7 @@ The psychologist initiates our session by administering a series of aptitude and
 
 Oh, but this wasn't the first round of this comical saga. You see, on previous occasions, my dear mother would strategically place a glass of water right between us, like a cosmic prop. And what was the grand purpose behind this visual spectacle, you might ask? Well, it was her way of nudging me into a philosophical monologue about that very glass. In simple terms: {{{q(my mother,Hey\, kiddo\, you've got a shortage of optimism; you're the sort who tends to spot the half-empty glass in life.)}}}
 
-And then we have my dear old dad, the master of responsibility training. He had this grand plan to shape my character, using internships as his secret weapon. {{{q(my father,Off you go\, my young apprentice!)}}} he'd exclaim, nudging me into one vocational adventure after another. His hidden message? {{{q(my father,Kid, I'm passing down the sacred skill of handling responsibilities!)}}} Ah, the age-old dance of parental strategy.
+And then we have my dear old dad, the master of responsibility training. He had this grand plan to shape my character, using internships as his secret weapon. {{{q(my father,Off you go\, my young apprentice!)}}} he'd exclaim, nudging me into one vocational adventure after another. His hidden message? {{{q(my father,Kid\, I'm passing down the sacred skill of handling responsibilities!)}}} Ah, the age-old dance of parental strategy.
 
 And there you have it, my childhood summed up, right from the time those kindergarten teachers began their chorus of complaints about my apparent "refusal" to embrace the songs that my peers had effortlessly committed to memory months before.
 
@@ -937,9 +887,7 @@ However, this change isn't indicative of a complete unveiling of my authentic se
 
 While I do prefer and hope for the usage of "{{{person(Perma)}}}" moving forward, I'm entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.
 
-
-** Guides                                                           :@guide:
-*** DONE Pure Rust    :rust:programming:functional_programming:type_system:
+*** DONE Pure Rust    :guide:rust:programming:functional_programming:type_system:
 CLOSED: [2023-03-25 Sun 22:36]
 :PROPERTIES:
 :EXPORT_FILE_NAME: pure_rust
@@ -1302,3 +1250,59 @@ We only need to know what it's intention is.
 In this post, I just preferred to focus on the heart of {{{abbr(FP,Functional Programming)}}}: /pure declarative functions/.
 However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are /iterators/, /maps/, /folds/, /filters/, etc.
 Honestly, they are well explained in other resources. My only suggestion would be to check out [[https://docs.rs/itertools/latest/itertools/][itertools]] crate.
+** Daily                                                          :@daily:
+*** DONE Missing Rust Blogpost                                       :rust:
+CLOSED: [2023-10-16 Mon 18:57]
+:PROPERTIES:
+:EXPORT_FILE_NAME: missing-rust-post
+:END:
+There is a blog post missing in the Rust sphere:
+/How to not obssess over performance gain and improve changeability of Rust applications./
+
+In other words, imagin that you want move a function used in one file to another.
+How would you do that in under ten minutes?
+
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: about
+:END:
+** DONE ME
+CLOSED: [2023-10-09 Mon 16:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: me
+:END:
+In this vast world, teeming with approximately 8 billion human beings, I, too, find myself among their ranks, a singular entity in the tapestry of humanity.
+
+Through my intellectual journey, I have delved into the realms of architecture and cognitive science, exploring the intricate connections between our built environment and the workings of the human mind. However, amidst this exploration, my fascination with computing remained unwavering, beckoning me towards a path where I finally discovered my true calling as a developer.
+
+*** Name-wise
+You can call me @@html:<span class="person p-nickname">Perma</span>@@. My legal name is @@html:<span class="person p-name p-given-name">AmirHossein Alesheikh</span>@@. I don't mind either, but I prefer @@html:<span class="person p-nickname">Perma</span>@@. Read [[../../posts/call-me-perma][Call Me Perma]] for more information.
+
+You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways. But it will be nice if you could make it clear to me which one you have chosen.
+
+*** Job-wise
+As a back-end developer, my expertise lies in utilizing languages like {{{lang(Go)}}} and {{{lang(Rust)}}} to build the foundational components of software systems.
+
+I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
+
+Additionally, I also engage in system programming, working with low-level components and infrastructure to ensure optimal performance and reliability.
+
+*** Tech-wise
+Since the tender age of 5, my eyes have been fixated on computer screens, even during those moments when they lay dormant. The hours I've devoted to sitting behind desktop computers far exceed the time I've dedicated to restful slumber. Throughout my life, I proudly embrace the label of a /bona fide/ textbook nerd, finding immense joy and fascination in the pages of educational literature. In fact, my favorite genre of books happens to be none other than textbooks themselves.
+
+*** Advocacy
+For over 15 years, I have actively engaged in the realm of free software advocacy, passionately advocating for the principles of openness and accessibility. It's safe to say that I find myself firmly planted in the far-left corner of political stereotypes, unapologetically embracing a feminist perspective, advocating for veganism and animal rights, and actively participating in environmentalism. While there are other aspects of my beliefs, such as my alignment with [[https://www.lesswrong.com/tag/rationalist-movement][rationalism]], utilitarianism, and consciousness idealism, I won't delve into those topics and burden you with excessive details.
+
+*** Me, in the wild
+- [[https:fosstodon.org/@prma][Fosstodon]]
+- [[https:codeberg.org/prma][Codeberg]]
+- [[https:github.com/prmadev][GitHub]]
+- [[https:linkedin.com/in/prmadev][Linkedin]]
+
+*** FAQ
+- What time is it?
+- What's your dogs name?
+- Is your dog friendly?
+- Is it your turn to cook lunch or mine?
+
+Yeah, I hear these questions quit frequently!

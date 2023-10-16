@@ -12,7 +12,7 @@ Through my intellectual journey, I have delved into the realms of architecture a
 
 ## Name-wise {#name-wise}
 
-You can call me <span class="person p-nickname">Perma</span>. My legal name is <span class="person p-name">AmirHossein Alesheikh</span>. I don't mind either, but I prefer <span class="person p-nickname">Perma</span>. Read [Call Me Perma](../../posts/call_me_perma) for more information.
+You can call me <span class="person p-nickname">Perma</span>. My legal name is <span class="person p-name p-given-name">AmirHossein Alesheikh</span>. I don't mind either, but I prefer <span class="person p-nickname">Perma</span>. Read [Call Me Perma](../../posts/call-me-perma) for more information.
 
 You can use any pronouns, I don't mind any of them, I don't identify with any of genders, anyways. But it will be nice if you could make it clear to me which one you have chosen.
 

@@ -2,8 +2,8 @@
 title = "Pure Rust"
 author = ["Perma"]
 date = 2023-03-25T22:36:00+03:30
-tags = ["rust", "programming", "functional-programming", "type-system"]
-categories = ["guide"]
+tags = ["guide", "rust", "programming", "functional-programming", "type-system"]
+categories = ["long"]
 draft = false
 +++
 
@@ -359,7 +359,7 @@ There is this often repeated old joke that says:
 > 1.  Cache invalidation
 > 2.  Naming things
 >
-> -- <span class="person">Phil Karlton</span>
+> -- <span class="person p-name">Phil Karlton</span>
 
 And here we are concerned with the second one.
 

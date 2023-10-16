@@ -7,7 +7,7 @@ draft = true
 There is a famous quote in software development scene.
 
 > Make it work, Make it right, Make it fast.
-> -- <span class="person">Kent Beck</span>
+> -- <span class="person p-name">Kent Beck</span>
 
 I'm not sure what the original auther has meant by saying this.
 I am, however, worried that some software engineers take this to be: "Ship what works. Ship what is right. Ship what is fast."
@@ -28,4 +28,9 @@ The product manager would later on notice, and add a bug report. Speaking out of
 Why is that? Simply, bugs are accounted for. But delay on the <abbr title="Estimated Time Announced">ETA</abbr> is not something that someone in managerial position is comforatble with, even when disclaimers are given.
 
 You can see why having a buggy featureful product is more desireable than a less buggy, but delayed product. In the first case, you still have a least of orders. There are some information there that is not correct. But no worries, we fix them later on.
+
 But a delayed feature means that the whole list of orders is not delivered, or at least part of it is not delivered. We can ship only the working parts of the order, but in such case, the client application also should only expect partial information.
+
+Yet, even though it might be good for bussiness, we are selling users a broken product, knowingly. Which might fall under stealing and fraud, and at least, dishonesty.
+
+Yet, agile manifesto's basterd take has made us believe that it is alright.

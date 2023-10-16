@@ -501,3 +501,26 @@ main  li {
     content:"⨟ ";
 }
 
+
+ul.pagination {
+    display: inline-block;
+    align-self: center;
+    a {
+	
+	color: grey;
+    }
+    li.page-item.disabled {
+	display:none;
+    }
+    li.page-item.active{
+	a{
+	    color:black;
+	}
+	
+
+    }
+    li{
+	display:inline;
+	padding:1em;
+    }
+}

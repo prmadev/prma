@@ -2,8 +2,8 @@
 title = "Go Vs Rust readability"
 author = ["Perma"]
 date = 2023-04-14T23:49:00+03:30
-tags = ["rust", "programming", "go"]
-categories = ["opinion"]
+tags = ["rust", "programming", "go", "opinion"]
+categories = ["long"]
 draft = false
 +++
 

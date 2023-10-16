@@ -2,8 +2,8 @@
 title = "Dishonesty of Optimizing for Developer Time"
 author = ["Perma"]
 date = 2023-07-31T12:24:00+03:30
-tags = ["longivity", "permacomputing"]
-categories = ["opinion"]
+tags = ["opinion", "longivity", "permacomputing"]
+categories = ["long"]
 draft = false
 +++
 

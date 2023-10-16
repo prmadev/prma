@@ -2,8 +2,8 @@
 title = "Giving My Exprience of Web a Makeover"
 author = ["Perma"]
 date = 2023-07-19T12:04:00+03:30
-tags = ["rss", "feedbin", "kagi", "search-engine"]
-categories = ["opinion"]
+tags = ["opinion", "rss", "feedbin", "kagi", "search-engine"]
+categories = ["long"]
 draft = false
 +++
 
@@ -24,7 +24,7 @@ Even the search engines, once a source of discovery and connection, began to fal
 
 As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.
 
-The sense of desperation that had gripped me started to crumble when <span class="person">Elon Musk</span>'s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
+The sense of desperation that had gripped me started to crumble when <span class="person p-name">Elon Musk</span>'s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
 
 But a part of me questioned this fortunate discovery. Could it merely be a chance occurrence, a fluke in the otherwise distorted realm of human-generated nonsense? I grappled with doubts.
 
@@ -46,7 +46,7 @@ In my quest for a trustworthy email service that respects my privacy and shields
 
 You may have noticed that out of the four aforementioned solutions, three are paid services. Additionally, two of them are closed-sourced, while one-the email service-poses the risk of vendor lock-in. Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established. In the end, these choices emerged as the better alternatives, despite their limitations.
 
-However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [more thorough elaboration](../criteria_for_choosing_tools). Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
+However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [more thorough elaboration](../criteria-for-choosing-tools). Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
 
 
 ## Dear Reader {#dear-reader}

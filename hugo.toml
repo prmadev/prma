@@ -6,7 +6,7 @@ copyright = "CC v.4"
 enableGitInfo = true
 enableInlineShortcodes = true
 enableRobotsTXT = true
-paginate = 30
+paginate = 3
 timeZone = 'Europe/Berlin'
 [author]
 email = 'prma.dev@protonmail.com'
