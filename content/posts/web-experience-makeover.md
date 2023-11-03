@@ -3,6 +3,7 @@ title = "Giving My Exprience of Web a Makeover"
 author = ["Perma"]
 date = 2023-07-19T12:04:00+03:30
 tags = ["opinion", "rss", "feedbin", "kagi", "search-engine"]
+slug = "web-experience-makeover"
 categories = ["long"]
 draft = false
 +++
@@ -10,7 +11,6 @@ draft = false
 ## Intro {#intro}
 
 Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me, people I admired, or at least aspired to emulate. The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.
-
 
 ## More of Those Days {#more-of-those-days}
 
@@ -47,7 +47,6 @@ In my quest for a trustworthy email service that respects my privacy and shields
 You may have noticed that out of the four aforementioned solutions, three are paid services. Additionally, two of them are closed-sourced, while one-the email service-poses the risk of vendor lock-in. Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established. In the end, these choices emerged as the better alternatives, despite their limitations.
 
 However, I realize that this post has already grown quite lengthy, and the criteria I employed deserve a [more thorough elaboration](../criteria-for-choosing-tools). Therefore, I will save their exploration for a future post, where I can delve deeper into these ideas deserving of greater attention.
-
 
 ## Dear Reader {#dear-reader}
 

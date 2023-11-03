@@ -5,6 +5,7 @@ date = 2023-08-11T12:38:00+03:30
 tags = ["opinion", "software", "programming"]
 categories = ["long"]
 draft = false
+slug = "tragedy_of_the_tech_stacks"
 +++
 
 ## Intro {#intro}
@@ -20,7 +21,6 @@ Now, picture this famous analogy. Imagine a stretch of grassland, claimed by thr
 He coins it as the "tragedy of the commons." I prefer to see it as a powerful representation of what often dampens the enjoyment across the software terrain for every key player involved: the user, the developer, the {{<abbr `CEO`>}}, and the investor.
 
 How meta!
-
 
 ## The Clever One, The Frustrated One and The Scared One {#the-clever-one-the-frustrated-one-and-the-scared-one}
 
@@ -54,13 +54,11 @@ The {{<lang `CEO`>}} returns with a strategy to shift from {{<lang `JavsScript`>
 
 Arash, the {{<abbr `CEO`>}}, {{<abbr `CTO`>}}, {{<abbr `CFO`>}}, Product Manager, and the visionary founder of a fledgling startup, confronts the very same imaginative quandary of selecting a technology stack. Given the inherent high-stakes nature of startups, Arash adopts a prudent approach by examining the practices of more established corporations, such as those overseen by individuals like Tom in his role as {{<abbr `CTO`>}}, in order to identify a tried-and-true trajectory.
 
-
 ## The Lose-Lose-Lose situation {#the-lose-lose-lose-situation}
 
 At every juncture, every individual optimized their decisions for personal gain. At each instance, a superior option was presented, and they acknowledged the benefits it offered. Nevertheless, they settled for the inferior alternative (for the sake of avoiding any unnecessary debate, let's refrain from mentioning that the hypothetical lesser choice was {{<abbr `JavaScript`>}}, naturally). As a result, each person finds themselves in a less advantageous position than if they had collectively embraced the superior alternative. This impact ripples beyond individuals, extending to the entire ecosystem, hindered by the precarious edifice of abstractions left behind by the swiftly growing number of predecessors.
 
 So, why did they all fall short of enhancing their own lives and the lives of others? Was it the technology's flaw? Or did the ecosystem falter? You're astute enough to deduce the answer; after all, you had the wit to discern the languages I implicitly referred to in my hypothetical scenarios.
-
 
 ## The Solution {#the-solution}
 
@@ -75,7 +73,6 @@ of ritualistic maneuvers. It's a more daunting challenge. Just as
 <span class="person p-name">Garrett Hardin</span> titled his article, the solution remains much the same:
 
 > The population problem has no technical solution; it requires a fundamental extension of in morality.
-
 
 ## Dear Reader {#dear-reader}
 

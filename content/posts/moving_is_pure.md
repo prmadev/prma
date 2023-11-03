@@ -5,12 +5,12 @@ date = 2023-04-09T10:44:00+03:30
 tags = ["opinion", "rust", "programming", "functional-programming"]
 categories = ["long"]
 draft = false
+slug = "moving_is_pure"
 +++
 
 ## Intro {#intro}
 
 The act of moving arguments within {{<lang `Rust`>}}'s functions serves as a compelling means to uphold the _purity_ of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and _immutability_ of data, which are fundamental tenets of _functional programming_.
-
 
 ## Moving a Variable to a Function in {{<lang `Rust`>}} Doesn't Make It Impure {#moving-a-variable-to-a-function-in-doesn-t-make-it-impure}
 
@@ -45,11 +45,10 @@ I argue that it doesn't. Here is why: a function is not a function call. Ok. let
 
 So we have two functions. One outer, and one inner.
 
--   Each function should have inputs and an output.
--   Other than their outputs, they should not change anything outside their function space.
+- Each function should have inputs and an output.
+- Other than their outputs, they should not change anything outside their function space.
 
 If these conditions are not met, our function is not _pure_.
-
 
 ### Step 1 {#step-1}
 
@@ -63,7 +62,6 @@ Now consider a variable `[V]`.
       -----------------------------
 ```
 
-
 ### Step 2 {#step-2}
 
 With our outer function, we create a function call for the inner function.
@@ -75,7 +73,6 @@ With our outer function, we create a function call for the inner function.
       |       ------------        |
       -----------------------------
 ```
-
 
 ### Step 3 {#step-3}
 
@@ -94,7 +91,6 @@ Semantically, for the outer function `[v]` was used in the function call and the
 In practice, it also makes the same guarantees as any other _pure function_: - No null pointers. - No _mutable state_. - No _side effects_.
 
 If the caller `.clone()` our value and make a copy of it and pass that to the inner function, it provides us with no other guarantees, other than more memory usage and slightly longer code.
-
 
 ## Why does it matter? {#why-does-it-matter}
 

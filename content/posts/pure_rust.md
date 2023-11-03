@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-03-25T22:36:00+03:30
 tags = ["guide", "rust", "programming", "functional-programming", "type-system"]
 categories = ["long"]
+slug = "pure_rust"
 draft = false
 +++
 
@@ -12,12 +13,10 @@ draft = false
 If you are not familiar with Functional Programming {{<abbr `FP`>}}, you are in for a ride.
 I will try to explain {{<abbr `FP`>}} in more practical terms.
 
-
 ## A definition to work with {#a-definition-to-work-with}
 
 {{<abbr `FP`>}} is a {{<dfn `declarative`>}} way of writing a program that consists mostly of _pure functions_ that operate on and produce _immutable data_.
 That was many other unfamiliar words. Let's make it concrete.
-
 
 ## Making it more concrete {#making-it-more-concrete}
 
@@ -46,7 +45,6 @@ fn calculate_my_lateness(status: &mut bool) {
 
 Now, let's make it _pure_ and while we are at it, we introduce _pure functions_ and some principles as well.
 
-
 ### Pure functions return at least one output {#pure-functions-return-at-least-one-output}
 
 That means that if you have a function named `some_function`, you will have at least one argument `some_input` and it will return at least one output `some_output`.
@@ -59,8 +57,8 @@ Why do we do this? When we are calling a function, we are expecting <span class=
 In {{<abbr `FP`>}} world, the only acceptable _something_ is an output argument.
 A lack of output is _symptomatic_ of one of these two unacceptable situations:
 
-1.  **Our function does nothing**. In which case, why are we even bothering to write it at all?
-2.  **Our function is doing a side effect**. Which means that it is changing something other than what is inside the function.
+1. **Our function does nothing**. In which case, why are we even bothering to write it at all?
+2. **Our function is doing a side effect**. Which means that it is changing something other than what is inside the function.
     These functions don't let us know or control what they are doing inside, without making us look at the source code.
     We will get back to this throughout this post.
 
@@ -89,7 +87,6 @@ fn calculate_my_lateness(status: &mut bool) -> bool {
     status // <- what we are returning
 }
 ```
-
 
 ### Pure functions don't mutate state {#pure-functions-don-t-mutate-state}
 
@@ -122,17 +119,15 @@ Now isn't this better? When I call `calculate_my_lateness()`
 I'm not worried about the function changing anything it's not supposed to anymore.
 Let's move on.
 
-
 ### Pure functions return output only based on their argument {#pure-functions-return-output-only-based-on-their-argument}
 
 Which means that when I call `calculate_my_lateness()`, I should not expect it to do something different each time I run it.
 Why is that? There are two reasons:
 
-1.  **Transparency**: You should know what parameters change the output of a function, without needing to reading the function body.
-2.  **Testing**: It is hell of a lot easier to test a function that you can just control without needing to change the time of your computer. Won't you say?
+1. **Transparency**: You should know what parameters change the output of a function, without needing to reading the function body.
+2. **Testing**: It is hell of a lot easier to test a function that you can just control without needing to change the time of your computer. Won't you say?
 
 Let's do it in two steps this time.
-
 
 #### Step one: Don't use global variables {#step-one-don-t-use-global-variables}
 
@@ -140,8 +135,8 @@ you may have noticed `SOME_SPECIFIED_TIME`.
 This is a variable we use to make a `SystemTime` which we compare current time with to know if we are late or not.
 The problem here is these two:
 
-1.  We need to write a new function, each time we have a new meeting.
-2.  We also don't know what time current time is being compared to, unless we first read the function, and then find out what it uses as `SOME_SPECIFIED_TIME`.
+1. We need to write a new function, each time we have a new meeting.
+2. We also don't know what time current time is being compared to, unless we first read the function, and then find out what it uses as `SOME_SPECIFIED_TIME`.
 
 <!--listend-->
 
@@ -162,7 +157,6 @@ fn calculate_my_lateness(late_as_of: SystemTime) -> bool {
     current_time <= late_as_of
 }
 ```
-
 
 #### Step Two: don't use functions with side effects inside your function {#step-two-don-t-use-functions-with-side-effects-inside-your-function}
 
@@ -220,7 +214,6 @@ mod tests {
 
 Imagine doing this with the first function!
 
-
 #### One more step {#one-more-step}
 
 OK, I lied... Somewhat. Have you noticed the one glaring, lack of transparency and control here?
@@ -253,13 +246,11 @@ fn calculate_my_lateness(
 
 Now the caller is providing us we have everything we need. We did not hide one single thing.
 
-
 ### Isn't this just more work for caller? {#isn-t-this-just-more-work-for-caller}
 
 Well, yes. Yes, it is... if calling functions without understanding them is the only work that the caller of our function is doing.
 Otherwise, our caller knows everything they need using their language server, can change everything they need, have the assurance of our tests and don't need to crawl through our source code, and they will face much fewer bugs where they don't know where it came from.
 It may seem unnecessary for this simple function, but imagine much more complex functions.
-
 
 ## Making things nicer: A spicy problem {#making-things-nicer-a-spicy-problem}
 
@@ -269,7 +260,6 @@ Let's make it nicer using a technique called {{<dfn currying>}} (hence the "spic
 What it means is: as well as taking functions as argument, we can return functions.
 That way, our `calculate_my_lateness` function can become a function-maker.
 Let me make it more concrete.
-
 
 ### Consider the use case {#consider-the-use-case}
 
@@ -336,7 +326,6 @@ let third_result = late_before_time_x(THIRD_TIME);
 // ...much less boilerplate
 ```
 
-
 ### Why `const` just won't do {#why-const-just-won-t-do}
 
 Veteran rustaceans among the readers of this blog might ask: "why not just use `const` to mark that functions are pure?"
@@ -345,10 +334,9 @@ In fact, I regularly use `clippy::missing_const_for_fn` lint and suggest you to 
 But that does not guarantee that our functions are pure, or that every pure function can be `const`.
 Here are my reasons:
 
-1.  `const` functions can take `&mut something` as their arguments. Taking mutable references is definitely not very pure-function-y.
-2.  You cannot `const` trait methods in stable {{<lang Rust>}}, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
-3.  Many libraries don't to use `const` on the functions that are `const`. Again, limitation without pureness reasons.
-
+1. `const` functions can take `&mut something` as their arguments. Taking mutable references is definitely not very pure-function-y.
+2. You cannot `const` trait methods in stable {{<lang Rust>}}, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
+3. Many libraries don't to use `const` on the functions that are `const`. Again, limitation without pureness reasons.
 
 ## Making things declarative {#making-things-declarative}
 
@@ -356,15 +344,15 @@ There is this often repeated old joke that says:
 
 > There two hard problems in programming
 >
-> 1.  Cache invalidation
-> 2.  Naming things
+> 1. Cache invalidation
+> 2. Naming things
 >
 > -- <span class="person p-name">Phil Karlton</span>
 
 And here we are concerned with the second one.
 
--   In the **imperative** universe, we usually name our functions using _verbs_. Think `calculate_my_lateness`.
--   In the **declarative** universe we are concerned with our output, we use _nouns_. Think `lateness_calculator`.
+- In the **imperative** universe, we usually name our functions using _verbs_. Think `calculate_my_lateness`.
+- In the **declarative** universe we are concerned with our output, we use _nouns_. Think `lateness_calculator`.
 
 This makes the intent of our function clear.
 How it is implemented under-the-hood is not what matters to the caller.
@@ -372,7 +360,6 @@ They only care about what they get out of it.
 If you now are thinking that you cared about that part before, consider the things that we just can answer by seeing the arguments that our function takes.
 We don't need to rely on our function name anymore to tell use how the function is calculating lateness.
 We only need to know what it's intention is.
-
 
 ## Dear Reader {#dear-reader}
 

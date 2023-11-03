@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-06-14T11:26:00+03:30
 tags = ["opinion", "floss", "permacomputing", "programming"]
 categories = ["long"]
+slug = "floss_for_longevity"
 draft = false
 +++
 
@@ -11,11 +12,9 @@ draft = false
 
 Free/Libre and Open Source Software ({{<abbr `FLOSS`>}}) is a captivating realm within software development. What makes {{<abbr `FLOSS`>}} particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
 
-
 ## Reasons {#reasons}
 
 Let us delve into the unique qualities of {{<abbr `FLOSS`>}} and the factors that contribute to its better suitability for longevity.
-
 
 ### The longevity of the {{<abbr `FLOSS`>}} business model serves it well {#the-longevity-of-the-business-model-serves-it-well}
 
@@ -30,7 +29,6 @@ In contrast, companies adopting a pay-for-enterprise-support model for open-sour
 Although these companies may impose charges for bug fixes, their underlying offering revolves around selling stability and longevity (think _Ubuntu Pro_). This approach is not driven solely by inherent benevolence but rather stems from a lack of alternatives. They are unable to monopolize a product that can be cloned, forked, and utilized to initiate independent ventures. Nor can they vend software that others can fork, enhance, and sell at higher prices or even distribute for free. Their sole viable course of action entails creating a product that strikes a balance, avoiding both excessive limitations that render it futile and excessive complexity that complicates support.
 
 However, business is just one piece of the puzzle.
-
 
 ### {{<abbr `FLOSS`>}} engineers prioritize quality over quantity {#engineers-prioritize-quality-over-quantity}
 
@@ -50,11 +48,10 @@ Furthermore, transparency is a vital aspect of open-source projects. Engaging in
 
 In summary, there are four main reasons:
 
-1.  The cost of maintainability
-2.  The positive impact on one's resume
-3.  Counteracting the lack of satisfaction caused by lower quality software in daily work
-4.  Embracing transparency
-
+1. The cost of maintainability
+2. The positive impact on one's resume
+3. Counteracting the lack of satisfaction caused by lower quality software in daily work
+4. Embracing transparency
 
 ### {{<abbr `FLOSS`>}} exhibits a greater degree of diversity. {#exhibits-a-greater-degree-of-diversity-dot}
 
@@ -72,7 +69,6 @@ Given this remarkable diversity, it comes as little astonishment that Microsoft'
 
 To the proprietary realm, an ecosystem characterized by the development, redesign, and forking of diverse products, yielding a multitude of solutions, may appear inherently inefficient. Yet, from the perspective of permaculture and PermaComputing, such an ecosystem manifests as nothing short of utopia.
 
-
 ### {{<abbr `FLOSS`>}} demonstrates a higher level of robustness {#demonstrates-a-higher-level-of-robustness}
 
 {{<abbr `FLOSS`>}} transcends being a mere generator of independent variations that begin anew each time. It represents a system where progress builds upon existing foundations, with each subsequent layer amplifying the importance of the underlying ones. Irrespective of how many stories above the ground one ascends, the ground level remains a paramount concern if its integrity is jeopardized. Prominent examples of this phenomenon can be observed in projects like curl, the kernel, and OpenSSL. Although these initiatives were initially initiated by individuals, they have evolved into integral components of numerous other undertakings. The driving force compelling many individuals to contribute to these projects stems from the realization that the cost of abstaining from participation would be significantly greater.
@@ -82,7 +78,6 @@ However, it is important to recognize that this process is not always pleasant. 
 Yet, when such challenges arise (and they do), we all become aware of them. We sense the danger and collectively strive to find solutions. This is in stark contrast to the situation when a proprietary software developer abandons a company. Until a replacement is found, users are left unaware and vulnerable to potential security threats posed by malicious hackers.
 
 Thanks to this collective effort and attention to robustness, many foundational open-source software programs have remained the best tools for the job even after decades of use.
-
 
 ## Dear Reader {#dear-reader}
 

@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-06-21T11:43:00+03:30
 tags = ["opinion", "permacomputing", "programming"]
 categories = ["long"]
+slug = "consider_developers_snack"
 draft = false
 +++
 
@@ -18,7 +19,6 @@ Reflecting on a more recent occurrence, a certain paper began circulating, compa
 
 It is essential to recognize that the energy usage of a programming language extends beyond a mere snapshot analysis. To truly grasp the overall impact, we must consider the entire lifecycle of the application, accounting for factors such as development, deployment, maintenance, and eventual retirement. Only then can we gain a comprehensive understanding of the energy implications associated with different programming languages.
 
-
 ## The Paper, As The Thread We Pull {#the-paper-as-the-thread-we-pull}
 
 The paper, titled "Energy Efficiency Across Programming Languages," delves into the exploration of various problems and their corresponding solutions, which are implemented across multiple programming languages. The researchers conducted an analysis of the electricity consumption associated with each implementation. In essence, the primary focus of the study revolves around determining the relative energy efficiency of different programming languages, with {{< lang "C" >}} emerging as the most efficient and serving as the benchmark for measurement.
@@ -32,7 +32,6 @@ Perl   | 79.58 | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
 These results carry considerable weight, although it is essential to address a common misconception surrounding their implications. Contrary to popular belief, these findings do not unequivocally assert that a {{<lang `C`>}} program is inherently more environmentally sustainable than its {{<dfn `Java`>}} counterpart.
-
 
 ## Consider The Snack {#consider-the-snack}
 
@@ -57,7 +56,6 @@ Moreover, the variability in usage patterns must be taken into account. While la
 Finally, we must consider the energy expended in the development, maintenance, and support of programming languages. Languages like {{<lang `Rust`>}} offer remarkable expressive capabilities, not merely due to better timing or superior thinking but also as a result of extensive collaborative efforts. Conversely, languages like {{<lang `Elm`>}} undergo minimal changes over time.
 
 It is worth emphasizing that the energy required to learn a language, the environmental consequences of mistakes made during coding (e.g., unintentionally sending a million requests to thousands to different servers), variations in energy usage among developers from different countries, and the decreasing lifespan of hardware are all factors that contribute to the overall consideration.
-
 
 ## Dear Reader {#dear-reader}
 

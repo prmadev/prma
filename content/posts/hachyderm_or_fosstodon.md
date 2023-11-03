@@ -3,6 +3,7 @@ title = "Hachyderm or Fosstodon"
 author = ["Perma"]
 date = 2022-11-25T22:17:00+03:30
 tags = ["opinion", "fediverse"]
+slug = "hachyderm_or_fosstodon"
 categories = ["long"]
 draft = false
 +++
@@ -14,7 +15,6 @@ One being [Fosstodon](https://fosstodon.org), an instance oriented around  {{<ab
 
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
 But I couldn't put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.
-
 
 ## Initial Theories {#initial-theories}
 
@@ -28,7 +28,6 @@ Until last night that I realized that maybe what I was seeing was the difference
 
 So I set to examine my assumptions.
 Like a good [Bayesian](https://www.lesswrong.com/tag/bayes-theorem).
-
 
 ## APIs, Searches and Methods {#apis-searches-and-methods}
 
@@ -130,9 +129,9 @@ curl 'https://hachyderm.io/api/v1/timelines/tag/debuggin?&limit=1000' | jq '.[].
 awk '/fosstodon|hachyderm/ {print $0}' hash.json | sort > res-develop &&
 rm hash.json
 ```
+
 </div>
 </details>
-
 
 ## The Result {#the-result}
 
@@ -155,7 +154,6 @@ Hachyderm ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓�
 ```
 
 That seems like an staggering differece.&nbsp;[^fn:1]
-
 
 ## Dear Reader {#dear-reader}
 

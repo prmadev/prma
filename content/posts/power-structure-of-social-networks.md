@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2022-11-16T00:08:00+03:30
 tags = ["fediverse", "opinion"]
 categories = ["long"]
+slug = "power-structure-of-social-networks"
 draft = false
 +++
 
@@ -12,16 +13,15 @@ draft = false
 Why do some nations fail and rise so quickly?
 The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon.
 
-
 ## Power Centrality {#power-centrality}
 
 Basically the idea is that:
 
-1.  In any system of governance the authority is constrained to the resources it has available.
-2.  And for the authority to make a change, it has to answer to the resource providers.
-3.  Given a set interdependent institutions one could form check-and-balance system.
-4.  If the dependence is not formed in a way that is biased towards zero-sum relationships the authority thrives.
-5.  For the society to thrive it should be considered an institution on it's own.
+1. In any system of governance the authority is constrained to the resources it has available.
+2. And for the authority to make a change, it has to answer to the resource providers.
+3. Given a set interdependent institutions one could form check-and-balance system.
+4. If the dependence is not formed in a way that is biased towards zero-sum relationships the authority thrives.
+5. For the society to thrive it should be considered an institution on it's own.
 
 Let's make a few different forms of government considering the rule's I just discussed.
 
@@ -30,7 +30,6 @@ Let's make a few different forms of government considering the rule's I just dis
 As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, High Natural-Resources and High People-involvement tend to be mutually.
 
 </div>
-
 
 ## High Centrality, High Natural-Resources, Low People-involvement {#high-centrality-high-natural-resources-low-people-involvement}
 
@@ -44,7 +43,6 @@ The government does not need people uniting, form a danger to the government. Su
 Think of: Middle-east with it's rich natural oil.
 ```
 
-
 ## High Centrality, Low Natural-Resources, Low People-involvement {#high-centrality-low-natural-resources-low-people-involvement}
 
 Now, let's imagine a dictatorship on a land with no natural resources, and no inclination to involve people.
@@ -57,7 +55,6 @@ It has no validity among its people. As such it is unsuccessful in enforcing any
 Think of: Central African nations.
 ```
 
-
 ## High centrality, Low Natural-Resources, High People-involvement {#high-centrality-low-natural-resources-high-people-involvement}
 
 Such a dictatorship, is a highly populist government. The dictator threats people as the main form of resource. Such nations can rise quickly. But before too long, the authority will figure out that he only needs society's approval, but not its growth. And if you need approval, there is no quicker and better way than a common enemy. As such, such nations become too hostile to other nations. And may end-up using genocide as a means of keeping the country united.
@@ -65,7 +62,6 @@ Such a dictatorship, is a highly populist government. The dictator threats peopl
 ```text
 Think of: Germany during the Hitler era.
 ```
-
 
 ## Low Centrality, High Natural-Resources, Low People-involvement {#low-centrality-high-natural-resources-low-people-involvement}
 
@@ -79,7 +75,6 @@ Such governments nations are subject to low progression in the civic laws, are e
 Think of: USA during recent years, as it managed to put a huge people's involvement.
 ```
 
-
 ## Low Centrality, Low Natural-Resources, Low People-involvement {#low-centrality-low-natural-resources-low-people-involvement}
 
 These governments are stable, but irrelevant. They fail to bring order, or protection for their people. And they don't provide any infrastructural benefits the society.
@@ -87,7 +82,6 @@ These governments are stable, but irrelevant. They fail to bring order, or prote
 ```text
 Think of: Afghanistan Right after USA army left it.
 ```
-
 
 ## Low Centrality, Low Natural-Resources, High People-involvement {#low-centrality-low-natural-resources-high-people-involvement}
 
@@ -98,7 +92,6 @@ However, such governments are only weak to adapt to any radical changes, as the 
 ```text
 Think of: Germany, today.
 ```
-
 
 ## How does it relate to the Twitter and Fediverse and ...? {#how-does-it-relate-to-the-twitter-and-fediverse-and-dot-dot-dot}
 
@@ -111,7 +104,6 @@ In that regard we can think of Twitter, Facebook as highly concentrated. Conside
 but in actuality, people do not need to be actually participating in governing such a system. As they are the product, and the value comes from external means. That means that the users ended up being the natural resource of the land that is being sold for resources to the external actors.
 
 As such we end up with both exploitation of the users and their lack of ownership of their own data.
-
 
 ## So, what can be the solution? {#so-what-can-be-the-solution}
 
@@ -135,7 +127,6 @@ Which makes us resort to our last option. Low centrality and High involvement of
 Such a model has ended up being extended into forms of social governance. Where users fund their instances, help development and do volunteer moderations. And indeed, again, the parallel is not surprising: These systems tend not to have the greatest of the starts, but they end up enduring, and becoming more resilient.
 
 Mastodon, Pixelfed and other federated, open-sourced social networks, operate in such a model. And I like to think of people moving from Twitter to Mastodon as realizing that they matter and can should be more.
-
 
 ## Credit {#credit}
 

@@ -3,9 +3,11 @@ title = "{{ replace .File.ContentBaseName "-" " " | title }}"
 author = ["Perma"]
 date = {{ .Date }} 
 tags = []
-categories = ["daily"]
-draft = false
+categories = ["long"]
+draft = true
 description = ""
 slug = "{{ .File.ContentBaseName }}"
 +++
+
+## Intro {#intro}
 

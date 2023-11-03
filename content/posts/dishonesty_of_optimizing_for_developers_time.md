@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-07-31T12:24:00+03:30
 tags = ["opinion", "longivity", "permacomputing"]
 categories = ["long"]
+slug = "dishonesty_of_optimizing_for_developers_time"
 draft = false
 +++
 
@@ -11,11 +12,9 @@ draft = false
 
 Based on some individuals' viewpoints, they emphasize optimizing for developer time or productivity as their main priority, rather than giving top precedence to aspects such as performance, robustness, or correctness.
 
-
 ## The Thesis {#the-thesis}
 
 Their argument revolves around the idea that developers' time is more valuable and expensive than server resources. They often use phrases like "You can always refactor," "You can always optimize for performance," or "We will fix bugs later on" to support their viewpoint. While this perspective may be considered ingenious, it is contingent on proper planning, weighing the trade-offs, and actually acting upon those decisions.
-
 
 ## My Antithesis {#my-antithesis}
 
@@ -27,13 +26,11 @@ This approach often leads to a situation where future engineers, tasked with rew
 
 So, if they are not genuinely optimizing for shorter development time, what are they doing?
 
-
 ## Lifting The Veil: The Actual Thesis {#lifting-the-veil-the-actual-thesis}
 
 It appears that they prioritize short-term gains over achieving greater long-term goals.
 
 A language like {{<lang `Rust`>}}, while providing benefits like enhanced safety and reliability, requires significantly more time to produce a binary or {{<abbr `API`>}}s. The manual labor of finding bugs is taken over by the compiler and the language's semantics. If the focus is on developer productivity, then this automation is naturally desirable. However, what one truly desires to convey is "I have this feature, even though it may have some bugs and performance issues, I have it nonetheless."
-
 
 ## The Synthesis {#the-synthesis}
 

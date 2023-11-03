@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-07-29T12:14:00+03:30
 tags = ["opinion", "tools", "software"]
 categories = ["long"]
+slug = "criteria-for-choosing-tools"
 draft = false
 +++
 
@@ -11,18 +12,16 @@ draft = false
 
 The web is utterly fucked. But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
 
-
 ## The Reasons {#the-reasons}
 
 The web's lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:
 
--   Bloated beyond reason.
--   Plagued with incessant ads.
--   Prioritizing feature over bug fixes, if addressed at all.
--   Designed to cater to journalists and advertisers, neglecting your needs.
--   Imposing confinement and isolation upon you.
--   Failing to empower users like yourself.
-
+- Bloated beyond reason.
+- Plagued with incessant ads.
+- Prioritizing feature over bug fixes, if addressed at all.
+- Designed to cater to journalists and advertisers, neglecting your needs.
+- Imposing confinement and isolation upon you.
+- Failing to empower users like yourself.
 
 ### A Brief Digression {#a-brief-digression}
 
@@ -40,7 +39,6 @@ Regrettably, the landscape has birthed what I would call the "four horsemen of r
 
 In a nutshell, it appears you've been played for a fool. Social media's purported aim of empowering you is nothing but a delusion.
 
-
 ## Go Empower yourself {#go-empower-yourself}
 
 Before you proceed, there's a prerequisite to address: overcoming the fear of missing out. Now, how one achieves this is not within my scope to divulge, but I can assist you in understanding why these fears are unfounded.
@@ -57,9 +55,7 @@ But don't be fooled by their deceiving ways. They mangle your interactions, forc
 
 It's time to break free from this toxic cycle. I know it's daunting, and fear may grip your heart initially, but liberate yourself from their clutches. You will discover a life far better than you ever imagined. You deserve more than this relentless manipulation. Embrace the freedom that awaits, my dear friend.
 
-
 ## How to find a good tool {#how-to-find-a-good-tool}
-
 
 ### Step One: Find The Low Hanging Fruits {#step-one-find-the-low-hanging-fruits}
 
@@ -67,13 +63,12 @@ You stand at the precipice of transformation, ready to change your life for the 
 
 In my case, I sought:
 
-1.  A steady flow of lightweight information.
-2.  Daily interactions with fellow enthusiasts akin to myself.
-3.  A means to uncover specific data.
-4.  A reliable way to send emails.
+1. A steady flow of lightweight information.
+2. Daily interactions with fellow enthusiasts akin to myself.
+3. A means to uncover specific data.
+4. A reliable way to send emails.
 
 For too long, I depended on subpar sources to meet these needs. For the first two, I found myself reliant on Twitter, Instagram, Reddit, and Google News. As for the third and fourth requirements, I resorted to Google's services. However, all of these platforms consistently fell short and inflicted undue stress upon me.
-
 
 ### Step Two: Find Effective Replacements {#step-two-find-effective-replacements}
 
@@ -83,12 +78,11 @@ In [my previous post](../web-experience-makeover), I alluded to having replaced 
 
 Allow me to outline the criteria and guiding principles for an empowering tool:
 
-1.  It should not cause you any harm.
-2.  It should not lock you in.
-3.  It should not feel frugal.
+1. It should not cause you any harm.
+2. It should not lock you in.
+3. It should not feel frugal.
 
 Now, let me delve into the rationale behind these criteria:
-
 
 #### 1. It should not cause you more harm than good {#1-dot-it-should-not-cause-you-more-harm-than-good}
 
@@ -97,7 +91,6 @@ If a tool causes more harm than good, why persist in using it at all?
 To safeguard your interests, ensure that the tool operates with transparency. Platforms that intentionally harm users are less inclined to be forthcoming about their inner workings. Opt for open-source and audited software, provided you trust the incentives and capabilities of the auditors, as this fosters transparency.
 
 Moreover, it is crucial to align the incentives of the tool's creators with your own. While there will always be some degree of misalignment, not all cases are equal. Selling or renting software may incentivize developers to plan for obsolescence, sell incomplete products, or enforce lock-ins. Yet, these misalignments are overshadowed by the egregious discrepancies inherent in ad-driven models.
-
 
 #### 2. It should not lock you in {#2-dot-it-should-not-lock-you-in}
 
@@ -111,7 +104,6 @@ To avoid such a predicament, one essential question should be posed:
 
 If the service retains your data and only offers it back in a non-standard format, it becomes significantly more challenging to transition to a competitor after investing your notes into the first service. Be vigilant and consider the implications before getting entangled in such situations.
 
-
 #### 3. It should not feel frugal. {#3-dot-it-should-not-feel-frugal-dot}
 
 Let us keep in mind the essence of this endeavor: to enhance the quality of our lives. Undoubtedly, there are noble causes that may necessitate adopting a certain level of frugality, as was the case for me with animal rights, which amusingly led me to embrace veganism.
@@ -119,7 +111,6 @@ Let us keep in mind the essence of this endeavor: to enhance the quality of our 
 However, advocating for these causes demands energy, and it might inadvertently lead to isolation. We must acknowledge that not everything can or should be a constant battle. The purpose of utilizing these tools is to improve our lives, not to make them more arduous.
 
 If safeguarding your privacy to the utmost extreme is your goal, then by all means, employ complex passwords for each site and commit them to memory. Nevertheless, we must be mindful that our fighting energy is finite. Thus, it becomes essential to prioritize and channel our limited energy toward the most urgent and meaningful issues that truly resonate with our hearts.
-
 
 ## Dear Reader {#dear-reader}
 

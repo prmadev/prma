@@ -4,6 +4,7 @@ author = ["Perma"]
 date = 2023-08-09T12:31:00+03:30
 tags = ["update", "perma", "names"]
 categories = ["long"]
+slug = "call-me-perma"
 draft = false
 +++
 
@@ -27,7 +28,6 @@ Let me tell you, this realization was liberating, to put it mildly. Suddenly, I 
 
 My existence had been defined by reactivity, with a noticeable absence of honed decision-making skills. I found myself in a state of passivity, or even worse, mere reactivity. Nonetheless, I consistently strived to reclaim it.
 
-
 ## Recent Victories {#recent-victories}
 
 Over the past few years, I've encountered an almost comically disproportionate share of misfortune and have found myself under substantial duress. Yet, I've navigated my way through these challenges.
@@ -37,7 +37,6 @@ I won't delve into the specifics of these misfortunes, although those in my soci
 However, I can share that I've achieved several noteworthy milestones during this time span: acquiring programming skills, entering the workforce, entering marriage, and most recently, opting to unofficially change my name.
 
 Formally, I remain <span class="person p-name">Amirhossein</span>, and I'm content should anyone choose to continue addressing me as such-I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.
-
 
 ## <span class="person p-name">Amirhossein</span> and <span class="person p-name">Perma</span> {#bb76b9}
 
@@ -50,7 +49,6 @@ In Shia Islam, there exists a concept akin to Christianity's sainthood, known as
 While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.
 
 I find "<span class="person p-name">Perma</span>" to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life. It closely aligns with the ethos underpinning this blog. I'm captivated by the philosophy of the _PermaCulture_ and _PermaComputing_ movements-albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence. Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in _utilitarian_ aspirations.
-
 
 ## Dear Reader {#dear-reader}
 
