@@ -8,11 +8,12 @@
     <language>en-us</language>
     <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
     <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
-    <copyright>CC v.4</copyright><atom:link href="https://prma.dev/about/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 09 Oct 2023 16:43:00 +0330</lastBuildDate><atom:link href="https://prma.dev/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ME</title>
       <link>https://prma.dev/about/me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Oct 2023 16:43:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/about/me/</guid>
       <description>In this vast world, teeming with approximately 8 billion human beings, I, too, find myself among their ranks, a singular entity in the tapestry of humanity.

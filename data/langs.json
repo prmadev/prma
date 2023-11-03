@@ -1,0 +1,170 @@
+{
+  "Rust": {
+    "URL": "https://www.rust-lang.org/",
+    "Abbr": ""
+  },
+  "Fortran": {
+    "URL": "https://fortran-lang.org/",
+    "Abbr": ""
+  },
+  "JavaScript": {
+    "URL": "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+    "Abbr": "JS"
+  },
+  "HTML": {
+    "URL": "https://html.spec.whatwg.org/",
+    "Abbr": "Hyper-Text Markup Language"
+  },
+  "CSS": {
+    "URL": "https://www.w3.org/TR/CSS/#css",
+    "Abbr": "Casscading Style Sheet"
+  },
+  "SCSS": {
+    "URL": "https://sass-lang.com/",
+    "Abbr": "Sass"
+  },
+  "PHP": {
+    "URL": "https://www.php.net/",
+    "Abbr": "PHP: Hypertext Preprocessor"
+  },
+  "Perl": {
+    "URL": "https://www.perl.org",
+    "Abbr": ""
+  },
+  "C": {
+    "URL": "https://www.iso.org/standard/74528.html",
+    "Abbr": ""
+  },
+  "C++": {
+    "URL": "about:blank",
+    "Abbr": ""
+  },
+  "C#": {
+    "URL": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "Abbr": ""
+  },
+  "Go": {
+    "URL": "https://go.dev/",
+    "Abbr": ""
+  },
+  "Zig": {
+    "URL": "https://ziglang.org/",
+    "Abbr": ""
+  },
+  "Java": {
+    "URL": "https://www.java.com",
+    "Abbr": ""
+  },
+  "Python": {
+    "URL": "https://www.python.org/",
+    "Abbr": ""
+  },
+  "Bash": {
+    "URL": "https://www.gnu.org/software/bash/",
+    "Abbr": ""
+  },
+  "Zsh": {
+    "URL": "https://www.zsh.org/",
+    "Abbr": ""
+  },
+  "Fish": {
+    "URL": "https://fishshell.com/",
+    "Abbr": ""
+  },
+  "Nu": {
+    "URL": "https://www.nushell.sh/",
+    "Abbr": ""
+  },
+  "MarkDown": {
+    "URL": "https://daringfireball.net/projects/markdown/",
+    "Abbr": "MD"
+  },
+  "OrgMode": {
+    "URL": "https://orgmode.org/",
+    "Abbr": "Org"
+  },
+  "AsciiDoc": {
+    "URL": "https://asciidoc.org/",
+    "Abbr": ""
+  },
+  "XML": {
+    "URL": "https://www.w3.org/XML/",
+    "Abbr": "Extensible Markup Language"
+  },
+  "Elixier": {
+    "URL": "https://elixir-lang.org/",
+    "Abbr": ""
+  },
+  "Erlang": {
+    "URL": "https://www.erlang.org/",
+    "Abbr": ""
+  },
+  "Gleam": {
+    "URL": "https://gleam.run/",
+    "Abbr": ""
+  },
+  "Typst": {
+    "URL": "https://typst.app/",
+    "Abbr": ""
+  },
+  "LaTeX": {
+    "URL": "https://www.latex-project.org/",
+    "Abbr": ""
+  },
+  "JSON": {
+    "URL": "https://www.json.org/json-en.html",
+    "Abbr": "JavaScript Object Notation"
+  },
+  "Nim": {
+    "URL": "https://nim-lang.org/",
+    "Abbr": ""
+  },
+  "Lisp": {
+    "URL": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+    "Abbr": ""
+  },
+  "CommonLisp": {
+    "URL": "https://lisp-lang.org/",
+    "Abbr": "CL"
+  },
+  "Scheme": {
+    "URL": "https://www.scheme.org/",
+    "Abbr": ""
+  },
+  "Nix": {
+    "URL": "https://nixos.org/manual/nix/unstable/language/index.html",
+    "Abbr": ""
+  },
+  "C--": {
+    "URL": "https://www.cs.tufts.edu/~nr/c--/index.html",
+    "Abbr": ""
+  },
+  "D": {
+    "URL": "https://dlang.org/",
+    "Abbr": ""
+  },
+  "V": {
+    "URL": "https://vlang.io/",
+    "Abbr": ""
+  },
+  "TypeScript": {
+    "URL": "https://www.typescriptlang.org/",
+    "Abbr": "TS"
+  },
+  "PureScript": {
+    "URL": "https://www.purescript.org/",
+    "Abbr": ""
+  },
+  "CoffeScript": {
+    "URL": "https://coffeescript.org/",
+    "Abbr": ""
+  },
+  "Lua": {
+    "URL": "https://lua.org/",
+    "Abbr": ""
+  },
+  "Elm": {
+    "URL": "https://elm-lang.org/",
+    "Abbr": ""
+  }
+}

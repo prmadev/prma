@@ -16,8 +16,8 @@
       <pubDate>Sun, 09 Apr 2023 10:44:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/moving_is_pure/</guid>
-      <description>Intro The act of moving arguments within Rust&amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
-Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust.</description>
+      <description>Intro The act of moving arguments within Rust &amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
+Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust .</description>
     </item>
     
     <item>
@@ -26,9 +26,8 @@ Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as a
       <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/pure_rust/</guid>
-      <description>If you are not familiar with Functional Programming (FP), you are in for a ride. I will try to explain Functional Programming (FP) in more practical terms.
-## A definition to work with
-FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
+      <description>Intro If you are not familiar with Functional Programming FP, you are in for a ride. I will try to explain FP in more practical terms.
+A definition to work with FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
 Making it more concrete Here is a function in Rust that we will work on:</description>
     </item>
     

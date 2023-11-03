@@ -9,7 +9,138 @@
     <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
     <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
     <copyright>CC v.4</copyright>
-    <lastBuildDate>Fri, 11 Aug 2023 12:38:00 +0330</lastBuildDate><atom:link href="https://prma.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Nov 2023 11:03:07 +0330</lastBuildDate><atom:link href="https://prma.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python And NixOS</title>
+      <link>https://prma.dev/posts/python_and_nixos/</link>
+      <pubDate>Thu, 02 Nov 2023 11:03:07 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/python_and_nixos/</guid>
+      <description>The problems surrounding Python programs on NixOS seem never-ending. I often have to refrain from installing most Python programs. On each update, another one of them breaks during installation – either their tests don&amp;rsquo;t pass, or their dependencies fail in some way.
+And to be honest, I give the benefit of the doubt to NixOS, seeing its result with other languages, and knowing what I know about pip.</description>
+    </item>
+    
+    <item>
+      <title>Test of 10x Developer</title>
+      <link>https://prma.dev/posts/test-of-10x-devleopers/</link>
+      <pubDate>Mon, 16 Oct 2023 23:10:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/test-of-10x-devleopers/</guid>
+      <description>The true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer. My guess would be that their population will reduce to less than that of unicorns&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Usage Restriction of Software Licenses</title>
+      <link>https://prma.dev/posts/usage-restriction-software-licenses/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/usage-restriction-software-licenses/</guid>
+      <description>Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.
+Like, you know that a poorly enforced license won&amp;rsquo;t deter a person in that situation from using your software, right?
+There are probably better arguments for including usage restrictions in a software license; this one is a terrible one.</description>
+    </item>
+    
+    <item>
+      <title>Centralization Around GitHub</title>
+      <link>https://prma.dev/posts/github-centralization/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/github-centralization/</guid>
+      <description>I find the situation around GitHub centralization distressing. And this extreme relience on GitHub is worrying. Maybe in time things change. But the moment I find a job and thus don&amp;rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge. Codeberg seems like the closest option. I will just simply mirror my commits to GitHub for the time being, slowly retiring them when I&amp;rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.</description>
+    </item>
+    
+    <item>
+      <title>I hate Jira</title>
+      <link>https://prma.dev/posts/i-hate-jira/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/i-hate-jira/</guid>
+      <description>I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.</description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly Book Covers</title>
+      <link>https://prma.dev/posts/oreilly-book-covers/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/oreilly-book-covers/</guid>
+      <description>There is a retired burned out offended wild life photographer out there responsible for the O&amp;rsquo;Reilly&amp;rsquo;s book covers, after they were told &amp;ldquo;Your a photographer, that&amp;rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Older, Better Technologies</title>
+      <link>https://prma.dev/posts/older-better-technologies/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/older-better-technologies/</guid>
+      <description>It is very illuminating to see that using older style technologies, may lead to better experience. This just goes to show that many of the features and complexity and progress are not for people, but for profit of a few. That, of course, is a wild speculation of the highest order.</description>
+    </item>
+    
+    <item>
+      <title>Prototyping in Software development</title>
+      <link>https://prma.dev/posts/prototying-software-development/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/prototying-software-development/</guid>
+      <description>I think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:
+What don&amp;rsquo;t we know that we hope to find out with this prototype?
+Why is this the best approach for finding the answer to that question.
+When is the prototype going to be deleted?
+If you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product.</description>
+    </item>
+    
+    <item>
+      <title>Rust Skills Transferability</title>
+      <link>https://prma.dev/posts/rust-skills-transferability/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/rust-skills-transferability/</guid>
+      <description>While the skills learned in Rust , like working with the borrow checker, may seem limited to Rust itself, the claim of their intransferability is somewhat overstated. Understanding the borrow checker is specific to languages using it, but the approaches it encourages are typically advanced and valued by experienced engineers. And often, it is evidenced by the patterns that are simplest to implement. The obvious exception to that is unwrap() and expect().</description>
+    </item>
+    
+    <item>
+      <title>Rust&#39;s Productivity</title>
+      <link>https://prma.dev/posts/rust-productivity/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/rust-productivity/</guid>
+      <description>I think the best way to characterize Rust &amp;rsquo;s productivity, is to put it on a quality axis.
+If you want low quality code (prototyping, etc) rust is much less productive than the alternative.
+For medium level of quality, Rust is similar to others.
+For high quality code, Rust is much more productive than any alternatives.
+Quality is intentionally vague, to encapsulate performance, leanness, documentation, and security.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Linking is the Wrong solution</title>
+      <link>https://prma.dev/posts/dynamic-linking-the-wrong-solution/</link>
+      <pubDate>Mon, 16 Oct 2023 23:03:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/dynamic-linking-the-wrong-solution/</guid>
+      <description>Dynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters. It is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology. Of course, down stream people also shouldn&amp;rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.</description>
+    </item>
+    
+    <item>
+      <title>ADHD not Being Real</title>
+      <link>https://prma.dev/posts/adhd-not-real/</link>
+      <pubDate>Mon, 16 Oct 2023 19:39:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/adhd-not-real/</guid>
+      <description>ADHD is not real. It is just unmotivated kids needing more structure. &amp;ndash; Some lady today
+Therefore:
+Cancer is not real. It is just overly horny cells needing to chill the fuck down. &amp;ndash; Probably the same lady, assuming no double standards</description>
+    </item>
+    
+    <item>
+      <title>Missing Rust Blogpost</title>
+      <link>https://prma.dev/posts/missing-rust-post/</link>
+      <pubDate>Mon, 16 Oct 2023 18:57:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/missing-rust-post/</guid>
+      <description>There is a blog post missing in the Rust sphere: How to not obssess over performance gain and improve changeability of Rust applications.
+In other words, imagin that you want move a function used in one file to another. How would you do that in under ten minutes?</description>
+    </item>
+    
     <item>
       <title>The Tragedy of The Tech-Stacks</title>
       <link>https://prma.dev/posts/tragedy_of_the_tech_stacks/</link>
@@ -22,11 +153,11 @@ At the end of a thoughtful article on the future of nuclear war, Weisner and Yor
     
     <item>
       <title>Call Me Perma</title>
-      <link>https://prma.dev/posts/call_me_perma/</link>
+      <link>https://prma.dev/posts/call-me-perma/</link>
       <pubDate>Wed, 09 Aug 2023 12:31:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
-      <guid>https://prma.dev/posts/call_me_perma/</guid>
-      <description>Intro I find myself seated in the passenger&amp;rsquo;s seat of my mother&amp;rsquo;s car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother&amp;rsquo;s sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist&amp;rsquo;s office without exchanging a word, leaving me still uncertain about the purpose of our visit.</description>
+      <guid>https://prma.dev/posts/call-me-perma/</guid>
+      <description>I find myself seated in the passenger&amp;rsquo;s seat of my mother&amp;rsquo;s car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother&amp;rsquo;s sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist&amp;rsquo;s office without exchanging a word, leaving me still uncertain about the purpose of our visit.</description>
     </item>
     
     <item>
@@ -41,10 +172,10 @@ The Thesis Their argument revolves around the idea that developers&amp;rsquo; ti
     
     <item>
       <title>Criteria For Choosing Tools</title>
-      <link>https://prma.dev/posts/criteria_for_choosing_tools/</link>
+      <link>https://prma.dev/posts/criteria-for-choosing-tools/</link>
       <pubDate>Sat, 29 Jul 2023 12:14:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
-      <guid>https://prma.dev/posts/criteria_for_choosing_tools/</guid>
+      <guid>https://prma.dev/posts/criteria-for-choosing-tools/</guid>
       <description>Intro The web is utterly fucked. But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
 The Reasons The web&amp;rsquo;s lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:
 Bloated beyond reason. Plagued with incessant ads. Prioritizing feature over bug fixes, if addressed at all. Designed to cater to journalists and advertisers, neglecting your needs.</description>
@@ -52,10 +183,10 @@ Bloated beyond reason. Plagued with incessant ads. Prioritizing feature over bug
     
     <item>
       <title>Giving My Exprience of Web a Makeover</title>
-      <link>https://prma.dev/posts/web_experience_makeover/</link>
+      <link>https://prma.dev/posts/web-experience-makeover/</link>
       <pubDate>Wed, 19 Jul 2023 12:04:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
-      <guid>https://prma.dev/posts/web_experience_makeover/</guid>
+      <guid>https://prma.dev/posts/web-experience-makeover/</guid>
       <description>Intro Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me, people I admired, or at least aspired to emulate. The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.
 More of Those Days In those youthful days, I&amp;rsquo;d eagerly scour the web for words that piqued the interests of my teenage self, and with a simple search, Google would present me with a treasure trove of blogs authored by kindred spirits.</description>
     </item>
@@ -84,8 +215,8 @@ More of Those Days In those youthful days, I&amp;rsquo;d eagerly scour the web f
       <pubDate>Wed, 14 Jun 2023 11:26:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/floss_for_longevity/</guid>
-      <description>Intro Free/Libre and Open Source Software (FlOSS) is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
-Reasons Let us delve into the unique qualities of FOSS and the factors that contribute to its better suitability for longevity.
+      <description>Intro Free/Libre and Open Source Software ( FLOSS) is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
+Reasons Let us delve into the unique qualities of FLOSS and the factors that contribute to its better suitability for longevity.
 The longevity of the FLOSS business model serves it well The common business models are better suited for short-term goals.</description>
     </item>
     
@@ -105,8 +236,8 @@ However, there are many overlaps in their use case. Think high-performance web-s
       <pubDate>Sun, 09 Apr 2023 10:44:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/moving_is_pure/</guid>
-      <description>Intro The act of moving arguments within Rust&amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
-Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust.</description>
+      <description>Intro The act of moving arguments within Rust &amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
+Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust .</description>
     </item>
     
     <item>
@@ -115,9 +246,8 @@ Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as a
       <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/pure_rust/</guid>
-      <description>If you are not familiar with Functional Programming (FP), you are in for a ride. I will try to explain Functional Programming (FP) in more practical terms.
-## A definition to work with
-FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
+      <description>Intro If you are not familiar with Functional Programming FP, you are in for a ride. I will try to explain FP in more practical terms.
+A definition to work with FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
 Making it more concrete Here is a function in Rust that we will work on:</description>
     </item>
     
@@ -127,8 +257,19 @@ Making it more concrete Here is a function in Rust that we will work on:</descri
       <pubDate>Fri, 25 Nov 2022 22:17:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/hachyderm_or_fosstodon/</guid>
-      <description>Intro Ever since I have moved to the mastodon platform after &amp;ldquo;the great twitter migration&amp;rdquo;. I was curious about two main instances. One being Fosstodon, an instance oriented around FOSS 1, another being Hachyderm, an instance that introduces itself as social media for technical professionals.
+      <description>Intro Ever since I have moved to the mastodon platform after the great twitter migration. I was curious about two main instances. One being Fosstodon, an instance oriented around FOSS, another being Hachyderm, an instance that introduces itself as social media for technical professionals.
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more. But I couldn&amp;rsquo;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.</description>
+    </item>
+    
+    <item>
+      <title>Power Structure of Social Networks</title>
+      <link>https://prma.dev/posts/power-structure-of-social-networks/</link>
+      <pubDate>Wed, 16 Nov 2022 00:08:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/power-structure-of-social-networks/</guid>
+      <description>Intro Why do some nations fail and rise so quickly? The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon.
+Power Centrality Basically the idea is that:
+In any system of governance the authority is constrained to the resources it has available. And for the authority to make a change, it has to answer to the resource providers. Given a set interdependent institutions one could form check-and-balance system.</description>
     </item>
     
   </channel>

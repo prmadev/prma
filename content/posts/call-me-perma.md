@@ -19,11 +19,11 @@ And there you have it, my childhood summed up, right from the time those kinderg
 
 As the days went by, I began to adopt a personal mantra: <q cite="me">I'm the poster child for laziness, the embodiment of irresponsibility, with motivation and vision nowhere to be found.</q> Oddly enough, despite knowing full well the significance of education and being genuinely captivated by the realms of science and math, my actions seemed to tell a different story altogether. It's as if I was presenting evidence that contradicted my own beliefs. Perhaps deep down, I questioned my care for my parents, struggled to find motivation, or maybe I secretly aspired to master the art of freeloadery.
 
-The haze of doubt began to lift when I embarked on an <abbr title="Attention-Deficit/Hyperactivity Disorder">ADHD</abbr> medication journey, and lo and behold, I experienced the novel sensation of being able to sit down and read a paragraph without my mind spiraling into chaos. It was like finally playing a video game where you no longer wonder if you're in control of that character's movements or not. My epiphany was quite the reverse: "Oh, wait a minute, I can indeed make decisions and stick with them?"
+The haze of doubt began to lift when I embarked on an {{<abbr `ADHD`>}} medication journey, and lo and behold, I experienced the novel sensation of being able to sit down and read a paragraph without my mind spiraling into chaos. It was like finally playing a video game where you no longer wonder if you're in control of that character's movements or not. My epiphany was quite the reverse: "Oh, wait a minute, I can indeed make decisions and stick with them?"
 
 Let me tell you, this realization was liberating, to put it mildly. Suddenly, I had the capacity to invest time in the very things that had ignited my curiosity.
 
-<abbr title="Attention-Deficit/Hyperactivity Disorder">ADHD</abbr> has had a profound impact on  my life since childhood. One revelation that became clear after seeking medication was the extent to which I had surrendered agency and intentionality.
+{{<abbr `ADHD`>}} has had a profound impact on  my life since childhood. One revelation that became clear after seeking medication was the extent to which I had surrendered agency and intentionality.
 
 My existence had been defined by reactivity, with a noticeable absence of honed decision-making skills. I found myself in a state of passivity, or even worse, mere reactivity. Nonetheless, I consistently strived to reclaim it.
 
@@ -45,7 +45,7 @@ The name Amirhossein is a composite of two Arabic names, Amir and Hossein, both 
 
 However, I find myself at a loss when attempting to establish a personal connection with any aspect of this interpretation of this name. This brings us to its secondary and perhaps more intended connotation.
 
-In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "<dfn>Imam</dfn>". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "<span class="person p-name">Amir-al-momenin</span>," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named <span class="person p-name">Hossein</span>. Both individuals deviate significantly from pacifism.
+In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "{{<dfn `Imam`>}}". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "<span class="person p-name">Amir-al-momenin</span>," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named <span class="person p-name">Hossein</span>. Both individuals deviate significantly from pacifism.
 
 While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.
 

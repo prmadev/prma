@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on prma</title>
+    <link>https://prma.dev/tags/development/</link>
+    <description>Recent content in development on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 23:10:00 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test of 10x Developer</title>
+      <link>https://prma.dev/posts/test-of-10x-devleopers/</link>
+      <pubDate>Mon, 16 Oct 2023 23:10:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/test-of-10x-devleopers/</guid>
+      <description>The true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer. My guess would be that their population will reduce to less than that of unicorns&#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,125 +3,209 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://prma.dev/categories/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/categories/opinion/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/categories/daily/</loc>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/posts/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/tags/programming/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/software/</loc>
-    <lastmod>2023-08-11T12:38:00+03:30</lastmod>
+    <loc>https://prma.dev/posts/python_and_nixos/</loc>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/tags/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-11-02T11:03:07+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/tragedy_of_the_tech_stacks/</loc>
-    <lastmod>2023-08-11T12:38:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/development/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/call_me_perma/</loc>
-    <lastmod>2023-08-09T12:31:00+03:30</lastmod>
+    <loc>https://prma.dev/posts/test-of-10x-devleopers/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/names/</loc>
-    <lastmod>2023-08-09T12:31:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/licenses/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/perma/</loc>
-    <lastmod>2023-08-09T12:31:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/open-source/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/categories/updates/</loc>
-    <lastmod>2023-08-09T12:31:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/software/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</loc>
-    <lastmod>2023-07-31T12:24:00+03:30</lastmod>
+    <loc>https://prma.dev/posts/usage-restriction-software-licenses/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/longivity/</loc>
-    <lastmod>2023-07-31T12:24:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/books/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/permacomputing/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/github-centralization/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/criteria_for_choosing_tools/</loc>
-    <lastmod>2023-07-29T12:14:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/codeberg/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/tools/</loc>
-    <lastmod>2023-07-29T12:14:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/enshitification/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/feedbin/</loc>
-    <lastmod>2023-07-19T12:04:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/github/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/web_experience_makeover/</loc>
-    <lastmod>2023-07-19T12:04:00+03:30</lastmod>
+    <loc>https://prma.dev/posts/i-hate-jira/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/kagi/</loc>
-    <lastmod>2023-07-19T12:04:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/jira/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/rss/</loc>
-    <lastmod>2023-07-19T12:04:00+03:30</lastmod>
+    <loc>https://prma.dev/tags/languages/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/search-engine/</loc>
-    <lastmod>2023-07-19T12:04:00+03:30</lastmod>
+    <loc>https://prma.dev/posts/oreilly-book-covers/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/html/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/older-better-technologies/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/html_the_programming_language/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/tags/language/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/posts/consider_developers_snack/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/tags/floss/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/posts/floss_for_longevity/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/tags/go/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/posts/go_vs_rust_readability/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/prototying-software-development/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/tags/rust/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/functional-programming/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/rust-skills-transferability/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/moving_is_pure/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/rust-productivity/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/categories/guide/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/tags/software-development/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/pure_rust/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/dynamic-linking-the-wrong-solution/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/type-system/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/tags/dynamic-linking/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/tags/fediverse/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/tags/adhd/</loc>
+    <lastmod>2023-10-16T19:47:57+03:30</lastmod>
   </url><url>
-    <loc>https://prma.dev/posts/hachyderm_or_fosstodon/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <loc>https://prma.dev/posts/adhd-not-real/</loc>
+    <lastmod>2023-10-16T19:47:57+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/missing-rust-post/</loc>
+    <lastmod>2023-10-16T23:11:50+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/about/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
-  </url><url>
-    <loc>https://prma.dev/audiences/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
   </url><url>
     <loc>https://prma.dev/about/me/</loc>
-    <lastmod>2023-10-09T11:52:33+03:30</lastmod>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/categories/long/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/opinion/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/tragedy_of_the_tech_stacks/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/call-me-perma/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/names/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/perma/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/update/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/longivity/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/permacomputing/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/criteria-for-choosing-tools/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/tools/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/feedbin/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/web-experience-makeover/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/kagi/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/rss/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/search-engine/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/html/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/html_the_programming_language/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/language/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/consider_developers_snack/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/floss/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/floss_for_longevity/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/go/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/go_vs_rust_readability/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/functional-programming/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/moving_is_pure/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/guide/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/pure_rust/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/type-system/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/tags/fediverse/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/hachyderm_or_fosstodon/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/posts/power-structure-of-social-networks/</loc>
+    <lastmod>2023-10-16T18:59:36+03:30</lastmod>
+  </url><url>
+    <loc>https://prma.dev/audiences/</loc>
   </url>
 </urlset>

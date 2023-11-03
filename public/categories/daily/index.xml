@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daily on prma</title>
+    <link>https://prma.dev/categories/daily/</link>
+    <description>Recent content in daily on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Thu, 02 Nov 2023 11:03:07 +0330</lastBuildDate><atom:link href="https://prma.dev/categories/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python And NixOS</title>
+      <link>https://prma.dev/posts/python_and_nixos/</link>
+      <pubDate>Thu, 02 Nov 2023 11:03:07 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/python_and_nixos/</guid>
+      <description>The problems surrounding Python programs on NixOS seem never-ending. I often have to refrain from installing most Python programs. On each update, another one of them breaks during installation – either their tests don&amp;rsquo;t pass, or their dependencies fail in some way.
+And to be honest, I give the benefit of the doubt to NixOS, seeing its result with other languages, and knowing what I know about pip.</description>
+    </item>
+    
+    <item>
+      <title>Test of 10x Developer</title>
+      <link>https://prma.dev/posts/test-of-10x-devleopers/</link>
+      <pubDate>Mon, 16 Oct 2023 23:10:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/test-of-10x-devleopers/</guid>
+      <description>The true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer. My guess would be that their population will reduce to less than that of unicorns&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Usage Restriction of Software Licenses</title>
+      <link>https://prma.dev/posts/usage-restriction-software-licenses/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/usage-restriction-software-licenses/</guid>
+      <description>Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.
+Like, you know that a poorly enforced license won&amp;rsquo;t deter a person in that situation from using your software, right?
+There are probably better arguments for including usage restrictions in a software license; this one is a terrible one.</description>
+    </item>
+    
+    <item>
+      <title>Centralization Around GitHub</title>
+      <link>https://prma.dev/posts/github-centralization/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/github-centralization/</guid>
+      <description>I find the situation around GitHub centralization distressing. And this extreme relience on GitHub is worrying. Maybe in time things change. But the moment I find a job and thus don&amp;rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge. Codeberg seems like the closest option. I will just simply mirror my commits to GitHub for the time being, slowly retiring them when I&amp;rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.</description>
+    </item>
+    
+    <item>
+      <title>I hate Jira</title>
+      <link>https://prma.dev/posts/i-hate-jira/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/i-hate-jira/</guid>
+      <description>I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.</description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly Book Covers</title>
+      <link>https://prma.dev/posts/oreilly-book-covers/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/oreilly-book-covers/</guid>
+      <description>There is a retired burned out offended wild life photographer out there responsible for the O&amp;rsquo;Reilly&amp;rsquo;s book covers, after they were told &amp;ldquo;Your a photographer, that&amp;rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Older, Better Technologies</title>
+      <link>https://prma.dev/posts/older-better-technologies/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/older-better-technologies/</guid>
+      <description>It is very illuminating to see that using older style technologies, may lead to better experience. This just goes to show that many of the features and complexity and progress are not for people, but for profit of a few. That, of course, is a wild speculation of the highest order.</description>
+    </item>
+    
+    <item>
+      <title>Prototyping in Software development</title>
+      <link>https://prma.dev/posts/prototying-software-development/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/prototying-software-development/</guid>
+      <description>I think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:
+What don&amp;rsquo;t we know that we hope to find out with this prototype?
+Why is this the best approach for finding the answer to that question.
+When is the prototype going to be deleted?
+If you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product.</description>
+    </item>
+    
+    <item>
+      <title>Rust Skills Transferability</title>
+      <link>https://prma.dev/posts/rust-skills-transferability/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/rust-skills-transferability/</guid>
+      <description>While the skills learned in Rust , like working with the borrow checker, may seem limited to Rust itself, the claim of their intransferability is somewhat overstated. Understanding the borrow checker is specific to languages using it, but the approaches it encourages are typically advanced and valued by experienced engineers. And often, it is evidenced by the patterns that are simplest to implement. The obvious exception to that is unwrap() and expect().</description>
+    </item>
+    
+    <item>
+      <title>Rust&#39;s Productivity</title>
+      <link>https://prma.dev/posts/rust-productivity/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/rust-productivity/</guid>
+      <description>I think the best way to characterize Rust &amp;rsquo;s productivity, is to put it on a quality axis.
+If you want low quality code (prototyping, etc) rust is much less productive than the alternative.
+For medium level of quality, Rust is similar to others.
+For high quality code, Rust is much more productive than any alternatives.
+Quality is intentionally vague, to encapsulate performance, leanness, documentation, and security.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Linking is the Wrong solution</title>
+      <link>https://prma.dev/posts/dynamic-linking-the-wrong-solution/</link>
+      <pubDate>Mon, 16 Oct 2023 23:03:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/dynamic-linking-the-wrong-solution/</guid>
+      <description>Dynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters. It is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology. Of course, down stream people also shouldn&amp;rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.</description>
+    </item>
+    
+    <item>
+      <title>ADHD not Being Real</title>
+      <link>https://prma.dev/posts/adhd-not-real/</link>
+      <pubDate>Mon, 16 Oct 2023 19:39:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/adhd-not-real/</guid>
+      <description>ADHD is not real. It is just unmotivated kids needing more structure. &amp;ndash; Some lady today
+Therefore:
+Cancer is not real. It is just overly horny cells needing to chill the fuck down. &amp;ndash; Probably the same lady, assuming no double standards</description>
+    </item>
+    
+    <item>
+      <title>Missing Rust Blogpost</title>
+      <link>https://prma.dev/posts/missing-rust-post/</link>
+      <pubDate>Mon, 16 Oct 2023 18:57:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/missing-rust-post/</guid>
+      <description>There is a blog post missing in the Rust sphere: How to not obssess over performance gain and improve changeability of Rust applications.
+In other words, imagin that you want move a function used in one file to another. How would you do that in under ten minutes?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "development on prma",
+    "home_page_url": "https://prma.dev/tags/development/",
+    "feed_url": "https://prma.dev/tags/development/feed.json",
+    "items": [ {
+            "title": "Test of 10x Developer",
+            "id": "https://prma.dev/posts/test-of-10x-devleopers/",
+            "url": "https://prma.dev/posts/test-of-10x-devleopers/",
+            "summary": "The true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer. My guess would be that their population will reduce to less than that of unicorns'.",
+            "content_html": "\u003cp\u003eThe true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer.\nMy guess would be that their population will reduce to less than that of unicorns'.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:10:00+03:30"
+        }
+    ]
+    
+}

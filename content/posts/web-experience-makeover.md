@@ -20,7 +20,7 @@ The internet of that era held a special place in my heart; it offered solace and
 
 As time marched on, many of the cherished online spaces I once loved fell by the wayside, while others morphed into monstrous entities, becoming tools of ostracization. Although I personally may not have been the target of such mistreatment, I could discern the toxic environment that fostered and emboldened bullies.
 
-Even the search engines, once a source of discovery and connection, began to falter. Each passing day brought forth an ever-increasing deluge of hyper-<abbr title="Search Engine Optimization">SEO</abbr>-optimized, meaningless content and tech-centric sites merely driven by profit, overtaking the slots that were once reserved for passionate individuals with independent blogs.
+Even the search engines, once a source of discovery and connection, began to falter. Each passing day brought forth an ever-increasing deluge of hyper-{{<abbr `SEO`>}}-optimized, meaningless content and tech-centric sites merely driven by profit, overtaking the slots that were once reserved for passionate individuals with independent blogs.
 
 As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.
 
@@ -38,7 +38,7 @@ Determined to instigate a change, I took my first footsteps in the path full of 
 
 Foremost, I yearn for an authentic perspective of the internet-a genuine representation of the collective human experience rather than a mere showcase of the glossiest and most superficial elements. To fulfill this aspiration, I sought out a suitable search engine, and as I mentioned earlier, I found my answer in Kagi-it aligns perfectly with my vision.
 
-Furthermore, I crave a steady stream of thoughtful and sincere content. To achieve this, I turned to an <abbr title="Really Simple Syndication">RSS</abbr> aggregator to curate and deliver such material to me consistently. Feedbin emerged as the ideal choice, serving as the conduit for fulfilling my appetite for meaningful discourse.
+Furthermore, I crave a steady stream of thoughtful and sincere content. To achieve this, I turned to an {{<abbr `RSS`>}} aggregator to curate and deliver such material to me consistently. Feedbin emerged as the ideal choice, serving as the conduit for fulfilling my appetite for meaningful discourse.
 
 I discovered another low-hanging fruit on my path towards a more fulfilling online experience-a social website optimized for community rather than being driven solely by journalists. This gem came in the form of Mastodon.
 

@@ -16,9 +16,8 @@
       <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/pure_rust/</guid>
-      <description>If you are not familiar with Functional Programming (FP), you are in for a ride. I will try to explain Functional Programming (FP) in more practical terms.
-## A definition to work with
-FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
+      <description>Intro If you are not familiar with Functional Programming FP, you are in for a ride. I will try to explain FP in more practical terms.
+A definition to work with FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
 Making it more concrete Here is a function in Rust that we will work on:</description>
     </item>
     

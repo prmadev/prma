@@ -65,4 +65,6 @@ showFullTextinJSONFeed = true
 [outputs]
 home = ['HTML', 'RSS', 'jsonfeed']
 section = ['HTML', 'RSS', 'jsonfeed']
+taxonomy = ['HTML', 'RSS', 'jsonfeed']
+term = ['HTML', 'RSS', 'jsonfeed']
 

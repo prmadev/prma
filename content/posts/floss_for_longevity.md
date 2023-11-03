@@ -9,15 +9,15 @@ draft = false
 
 ## Intro {#intro}
 
-Free/Libre and Open Source Software (<abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr>) is a captivating realm within software development. What makes <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
+Free/Libre and Open Source Software ({{<abbr `FLOSS`>}}) is a captivating realm within software development. What makes {{<abbr `FLOSS`>}} particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
 
 
 ## Reasons {#reasons}
 
-Let us delve into the unique qualities of <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> and the factors that contribute to its better suitability for longevity.
+Let us delve into the unique qualities of {{<abbr `FLOSS`>}} and the factors that contribute to its better suitability for longevity.
 
 
-### The longevity of the <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> business model serves it well {#the-longevity-of-the-business-model-serves-it-well}
+### The longevity of the {{<abbr `FLOSS`>}} business model serves it well {#the-longevity-of-the-business-model-serves-it-well}
 
 The common business models are better suited for short-term goals. There are two major approaches: selling or renting.
 
@@ -32,7 +32,7 @@ Although these companies may impose charges for bug fixes, their underlying offe
 However, business is just one piece of the puzzle.
 
 
-### <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> engineers prioritize quality over quantity {#engineers-prioritize-quality-over-quantity}
+### {{<abbr `FLOSS`>}} engineers prioritize quality over quantity {#engineers-prioritize-quality-over-quantity}
 
 As we discussed, most businesses prioritize product quality only until it reaches a level sufficient for selling.
 
@@ -56,7 +56,7 @@ In summary, there are four main reasons:
 4.  Embracing transparency
 
 
-### <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> exhibits a greater degree of diversity. {#exhibits-a-greater-degree-of-diversity-dot}
+### {{<abbr `FLOSS`>}} exhibits a greater degree of diversity. {#exhibits-a-greater-degree-of-diversity-dot}
 
 When it comes to a biological ecosystem, its resilience stems from the diversity of its members. Let's imagine a scenario involving a moth that feeds on maple tree branches. In a jungle filled with maple trees, the moth can feast and reproduce endlessly. However, there's a twist.
 
@@ -73,9 +73,9 @@ Given this remarkable diversity, it comes as little astonishment that Microsoft'
 To the proprietary realm, an ecosystem characterized by the development, redesign, and forking of diverse products, yielding a multitude of solutions, may appear inherently inefficient. Yet, from the perspective of permaculture and PermaComputing, such an ecosystem manifests as nothing short of utopia.
 
 
-### <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> demonstrates a higher level of robustness {#demonstrates-a-higher-level-of-robustness}
+### {{<abbr `FLOSS`>}} demonstrates a higher level of robustness {#demonstrates-a-higher-level-of-robustness}
 
-<abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> transcends being a mere generator of independent variations that begin anew each time. It represents a system where progress builds upon existing foundations, with each subsequent layer amplifying the importance of the underlying ones. Irrespective of how many stories above the ground one ascends, the ground level remains a paramount concern if its integrity is jeopardized. Prominent examples of this phenomenon can be observed in projects like curl, the kernel, and OpenSSL. Although these initiatives were initially initiated by individuals, they have evolved into integral components of numerous other undertakings. The driving force compelling many individuals to contribute to these projects stems from the realization that the cost of abstaining from participation would be significantly greater.
+{{<abbr `FLOSS`>}} transcends being a mere generator of independent variations that begin anew each time. It represents a system where progress builds upon existing foundations, with each subsequent layer amplifying the importance of the underlying ones. Irrespective of how many stories above the ground one ascends, the ground level remains a paramount concern if its integrity is jeopardized. Prominent examples of this phenomenon can be observed in projects like curl, the kernel, and OpenSSL. Although these initiatives were initially initiated by individuals, they have evolved into integral components of numerous other undertakings. The driving force compelling many individuals to contribute to these projects stems from the realization that the cost of abstaining from participation would be significantly greater.
 
 However, it is important to recognize that this process is not always pleasant. Consider the immense pressure on OpenSSL developers. If they were to become overwhelmed and exhausted like many other open-source maintainers, the consequences could be significant.
 
@@ -86,4 +86,4 @@ Thanks to this collective effort and attention to robustness, many foundational 
 
 ## Dear Reader {#dear-reader}
 
-Now, esteemed reader, I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions find the realm of <abbr title=" Free\/Libre and Open Source Software">FLOSS</abbr> far more fertile than its alternatives.
+Now, esteemed reader, I trust you comprehend the rationale behind why individuals with a penchant for enduring solutions find the realm of {{<abbr `FLOSS`>}} far more fertile than its alternatives.

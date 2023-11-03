@@ -1,0 +1,17 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "ADHD on prma",
+    "home_page_url": "https://prma.dev/tags/adhd/",
+    "feed_url": "https://prma.dev/tags/adhd/feed.json",
+    "items": [ {
+            "title": "ADHD not Being Real",
+            "id": "https://prma.dev/posts/adhd-not-real/",
+            "url": "https://prma.dev/posts/adhd-not-real/",
+            "summary": "ADHD is not real. It is just unmotivated kids needing more structure. \u0026ndash; Some lady today\nTherefore:\nCancer is not real. It is just overly horny cells needing to chill the fuck down. \u0026ndash; Probably the same lady, assuming no double standards",
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003cabbr title=\"Attention-Deficit/Hyperactivity Disorder\"\u003eADHD\u003c/abbr\u003e is not real.\nIt is just unmotivated kids needing more structure.\n\u0026ndash; Some lady today\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eTherefore:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eCancer is not real.\nIt is just overly horny cells needing to chill the fuck down.\n\u0026ndash; Probably the same lady, assuming no double standards\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+            "date_published": "2023-10-16T19:39:00+03:30"
+        }
+    ]
+    
+}

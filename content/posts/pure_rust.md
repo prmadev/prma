@@ -9,19 +9,19 @@ draft = false
 
 ## Intro {#intro}
 
-If you are not familiar with Functional Programming <abbr title=" Functional Programming">FP</abbr>, you are in for a ride.
-I will try to explain <abbr title=" Functional Programming">FP</abbr> in more practical terms.
+If you are not familiar with Functional Programming {{<abbr `FP`>}}, you are in for a ride.
+I will try to explain {{<abbr `FP`>}} in more practical terms.
 
 
 ## A definition to work with {#a-definition-to-work-with}
 
- <abbr title=" Functional Programming">FP</abbr> is a _declarative_ way of writing a program that consists mostly of _pure functions_ that operate on and produce _immutable data_.
+{{<abbr `FP`>}} is a {{<dfn `declarative`>}} way of writing a program that consists mostly of _pure functions_ that operate on and produce _immutable data_.
 That was many other unfamiliar words. Let's make it concrete.
 
 
 ## Making it more concrete {#making-it-more-concrete}
 
-Here is a function in <span class="language">Rust</span> that we will work on:
+Here is a function in {{<lang `Rust`>}} that we will work on:
 
 ```rust
 fn main() {
@@ -56,7 +56,7 @@ fn some_function(some_input) -> some_output
 ```
 
 Why do we do this? When we are calling a function, we are expecting <span class="underline">something</span> to happen.
-In FP world, the only acceptable _something_ is an output argument.
+In {{<abbr `FP`>}} world, the only acceptable _something_ is an output argument.
 A lack of output is _symptomatic_ of one of these two unacceptable situations:
 
 1.  **Our function does nothing**. In which case, why are we even bothering to write it at all?
@@ -94,7 +94,7 @@ fn calculate_my_lateness(status: &mut bool) -> bool {
 ### Pure functions don't mutate state {#pure-functions-don-t-mutate-state}
 
 As I mentioned before, a function does something when it returns something and changes the state of something outside itself.
-We call that a <dfn>side effect</dfn>.
+We call that a {{<dfn `side-effect`>}}.
 You may have noticed that our function takes a mutable variable of type `bool` and changes it.
 In our first iteration of the function, we needed it. But now, we grew out of it. So let's just delete it.
 
@@ -264,8 +264,8 @@ It may seem unnecessary for this simple function, but imagine much more complex 
 ## Making things nicer: A spicy problem {#making-things-nicer-a-spicy-problem}
 
 So we have all this power and transparency.
-But the elephant is in it room: We have a very shitty <abbr title=" Application Programming Interface">API</abbr>.
-Let's make it nicer using a technique called <dfn>currying</dfn> (hence the "spicy" pun).
+But the elephant is in it room: We have a very shitty {{<abbr API>}}.
+Let's make it nicer using a technique called {{<dfn currying>}} (hence the "spicy" pun).
 What it means is: as well as taking functions as argument, we can return functions.
 That way, our `calculate_my_lateness` function can become a function-maker.
 Let me make it more concrete.
@@ -346,7 +346,7 @@ But that does not guarantee that our functions are pure, or that every pure func
 Here are my reasons:
 
 1.  `const` functions can take `&mut something` as their arguments. Taking mutable references is definitely not very pure-function-y.
-2.  You cannot `const` trait methods in stable <span class="language">Rust</span>, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
+2.  You cannot `const` trait methods in stable {{<lang Rust>}}, as of now. And considering that every function call inside a `const` function should be `const` as well, you are extremely limited, without any reasons that have to do with pure functions.
 3.  Many libraries don't to use `const` on the functions that are `const`. Again, limitation without pureness reasons.
 
 
@@ -376,6 +376,6 @@ We only need to know what it's intention is.
 
 ## Dear Reader {#dear-reader}
 
-In this post, I just preferred to focus on the heart of <abbr title="Functional Programming">FP</abbr>: _pure declarative functions_.
+In this post, I just preferred to focus on the heart of {{<abbr `FP`>}}: _pure declarative functions_.
 However, functional programming brings with it a set of extremely useful tools, patterns, etc. most well known are _iterators_, _maps_, _folds_, _filters_, etc.
 Honestly, they are well explained in other resources. My only suggestion would be to check out [itertools](https://docs.rs/itertools/latest/itertools/) crate.

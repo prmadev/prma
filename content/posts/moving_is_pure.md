@@ -9,14 +9,14 @@ draft = false
 
 ## Intro {#intro}
 
-The act of moving arguments within <span class="language">Rust</span>'s functions serves as a compelling means to uphold the _purity_ of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and _immutability_ of data, which are fundamental tenets of _functional programming_.
+The act of moving arguments within {{<lang `Rust`>}}'s functions serves as a compelling means to uphold the _purity_ of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and _immutability_ of data, which are fundamental tenets of _functional programming_.
 
 
-## Moving a Variable to a Function in <span class="language">Rust</span> Doesn't Make It Impure {#moving-a-variable-to-a-function-in-doesn-t-make-it-impure}
+## Moving a Variable to a Function in {{<lang `Rust`>}} Doesn't Make It Impure {#moving-a-variable-to-a-function-in-doesn-t-make-it-impure}
 
-So as an introduction, if you don't know <span class="language">Rust</span>.
+So as an introduction, if you don't know {{<lang `Rust`>}}.
 
-In <span class="language">Rust</span>, we have this concept of _moving_ variables. It is like this:
+In {{<lang `Rust`>}}, we have this concept of _moving_ variables. It is like this:
 
 ```rust
 //  A variable is made.

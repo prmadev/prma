@@ -16,8 +16,19 @@
       <pubDate>Fri, 25 Nov 2022 22:17:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/posts/hachyderm_or_fosstodon/</guid>
-      <description>Intro Ever since I have moved to the mastodon platform after &amp;ldquo;the great twitter migration&amp;rdquo;. I was curious about two main instances. One being Fosstodon, an instance oriented around FOSS 1, another being Hachyderm, an instance that introduces itself as social media for technical professionals.
+      <description>Intro Ever since I have moved to the mastodon platform after the great twitter migration. I was curious about two main instances. One being Fosstodon, an instance oriented around FOSS, another being Hachyderm, an instance that introduces itself as social media for technical professionals.
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more. But I couldn&amp;rsquo;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.</description>
+    </item>
+    
+    <item>
+      <title>Power Structure of Social Networks</title>
+      <link>https://prma.dev/posts/power-structure-of-social-networks/</link>
+      <pubDate>Wed, 16 Nov 2022 00:08:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/power-structure-of-social-networks/</guid>
+      <description>Intro Why do some nations fail and rise so quickly? The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon.
+Power Centrality Basically the idea is that:
+In any system of governance the authority is constrained to the resources it has available. And for the authority to make a change, it has to answer to the resource providers. Given a set interdependent institutions one could form check-and-balance system.</description>
     </item>
     
   </channel>

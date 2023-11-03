@@ -1,0 +1,25 @@
+{{ $Lang := .Get 0 }}
+
+{{ range $K, $V :=.Site.Data.langs }}
+
+{{ if eq $K $Lang }}
+
+{{ if not (eq $V.URL "") }}
+
+{{ if not (eq $V.Abbr "") }}
+<abbr class="language" title="{{ $V.Abbr }}"><a href="{{ $V.URL }}">{{ $K }}</a></abbr>
+{{ else }}
+<a class="language" href="{{ $V.URL }}">{{ $K }}</a>
+{{ end }}
+
+{{ else }}
+
+{{ if not (eq $V.Abbr "") }}
+<abbr class="language" title="{{ $K }}">{{ $V.Abbr }}</abbr>
+{{ else }}
+<span class="language">{{ $K }}</span>
+{{ end }}
+
+{{ end }}
+{{ end }}
+{{ end }}

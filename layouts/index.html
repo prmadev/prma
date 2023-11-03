@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  {{ partial "head-part" . }}
-  <body class="m-1 m-t-3 mw-std">
-    <ul class="ul-unbullet m-0 p-0 p-feed">
-      <h2> Long </h2>
-      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
-      <h2> Daily </h2>
-      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
+{{ partial "head-part" . }}
 
-    </ul>
-    {{ block "footer" . }}
-    {{ partial "footer-simple" . }}
-    {{end}}
-  </body>
+<body class="m-1 m-t-3 mw-std">
+  <ul class="ul-unbullet m-0 p-0 p-feed">
+    <div class=" m-l-1 m-b-3 tx-1-5">
+      <h2> Long </h2>
+      <a class="fg-black" href="/categories/long/index.xml">atom</a>
+      <a class="fg-black" href="/categories/long/feed.json">JSONfeed</a>
+    </div>
+    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
+    <div class=" m-l-1 m-b-3 tx-1-5">
+      <h2> Daily </h2>
+      <a class="fg-black" href="/categories/daily/index.xml">atom</a>
+      <a class="fg-black" href="/categories/daily/feed.json">JSONfeed</a>
+    </div>
+    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
+
+  </ul>
+  {{ block "footer" . }}
+  {{ partial "footer-simple" . }}
+  {{end}}
+</body>
+
 </html>

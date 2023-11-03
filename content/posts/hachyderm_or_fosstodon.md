@@ -10,7 +10,7 @@ draft = false
 ## Intro {#intro}
 
 Ever since I have moved to the mastodon platform after _the great twitter migration_. I was curious about two main instances.
-One being [Fosstodon](https://fosstodon.org), an instance oriented around  <abbr title="Free and Open-Source Software">FOSS</abbr>, another being [Hachyderm](https://hachyderm.io), an instance that introduces itself as social media for technical professionals.
+One being [Fosstodon](https://fosstodon.org), an instance oriented around  {{<abbr `FOSS`>}}, another being [Hachyderm](https://hachyderm.io), an instance that introduces itself as social media for technical professionals.
 
 Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more.
 But I couldn't put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.
@@ -36,16 +36,16 @@ to start with, I looked into different websites that could help me search per-in
 That way I could search differnet keywords in each instance and compare the results.
 However I could not find such a thing. Every search engine I tried lacked the ability of filtering by instance.
 
-After that, I looked into the Mastodon <abbr title="Application Programming Interface">API</abbr>s myself.
+After that, I looked into the Mastodon {{<abbr `API`>}}s myself.
 Long-story short, I found [timeline API](https://docs.joinmastodon.org/methods/timelines/#tag) to be particularly useful:
 
 ```http
 GET /api/v1/timelines/tag/:hashtag HTTP/1.1
 ```
 
-Using this I could get a list of toots in <abbr title="Java Script Object Notation">JSON</abbr> format that had specific hashtags.
+Using this I could get a list of toots in {{<abbr `JSON`>}} format that had specific hashtags.
 And then filter those results to only get the actual url.
-I used `curl` to make <abbr title="Application Programming Interface">API</abbr> requests and `jq` to filter-out the keys I was not interested in.
+I used `curl` to make {{<abbr `API`>}} requests and `jq` to filter-out the keys I was not interested in.
 
 ```bash
 curl 'https://hachyderm.io/api/v1/timelines/tag/container?&limit=1000' | jq '.[].url' >> hash.json
@@ -83,7 +83,7 @@ I ended up with these words on differnt sides:
 | Server     | DesignPatterns                       |
 | _          | LSP                                  |
 | _          | <span class="language">NodeJS</span> |
-| _          | <span class="language">Rust</span>   |
+| _          | {{<lang `Rust`>}}                    |
 | _          | Auth                                 |
 
 The differnece in their numbers are not important to us, only the proportions of the results of each may be relevant.

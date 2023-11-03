@@ -7,7 +7,8 @@ categories = ["daily"]
 draft = false
 +++
 
-> <abbr title="Attention-Deficit/Hyperactivity-Disorder">ADHD</abbr> is not real.
+  
+> {{<abbr `ADHD`>}} is not real.
 > It is just unmotivated kids needing more structure.
 > -- Some lady today
 

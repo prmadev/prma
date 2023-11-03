@@ -20,12 +20,12 @@ One strategy that I have seen being internalize is to ship something, anything r
 
 Recently, I have been working on a service that gives the admins of our online service different privilaged statistics. This means a lot queries. One such query is a paginated list of all `orders`. Each `order` is linked to a row on `prices` prices table.
 As part of the data, I should provide a sum total of a field in the prices table, only for orders that meet the filters based on their connected row on orders.
-Now, using the current <abbr title="Object Relation Manager">ORM</abbr> we are using on our application, I thought making such an aggregate would be an easy task. However, we ended up figuring out that our <abbr title="Object Relation Manager">ORM</abbr> cannot handle this edge case. And we have to write manual queries for such data. All fine and good. But time it took for two engineers to figure out the bug and come up with solutions was two days.
+Now, using the current {{<abbr `ORM`>}} we are using on our application, I thought making such an aggregate would be an easy task. However, we ended up figuring out that our {{<abbr `ORM`>}} cannot handle this edge case. And we have to write manual queries for such data. All fine and good. But time it took for two engineers to figure out the bug and come up with solutions was two days.
 
 Now reflecting on this event, I was looking for ways that we could have accounted for, and mitigated such delay. One solution would have been to just deliver in time, only just adding the total of only one page of orders. Not all of the orders.
 The product manager would later on notice, and add a bug report. Speaking out of experience, fixing a bug comes with less time pressure than delaying the deliverence of the feature. And I would be on-time, delivering imperfect features.
 
-Why is that? Simply, bugs are accounted for. But delay on the <abbr title="Estimated Time Announced">ETA</abbr> is not something that someone in managerial position is comforatble with, even when disclaimers are given.
+Why is that? Simply, bugs are accounted for. But delay on the {{<abbr `ETA`>}} is not something that someone in managerial position is comforatble with, even when disclaimers are given.
 
 You can see why having a buggy featureful product is more desireable than a less buggy, but delayed product. In the first case, you still have a least of orders. There are some information there that is not correct. But no worries, we fix them later on.
 

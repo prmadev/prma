@@ -9,22 +9,148 @@
     <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
     <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
     <copyright>CC v.4</copyright>
-    <lastBuildDate>Fri, 11 Aug 2023 12:38:00 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Nov 2023 11:03:07 +0330</lastBuildDate><atom:link href="https://prma.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>programming</title>
       <link>https://prma.dev/tags/programming/</link>
-      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate>
+      <pubDate>Thu, 02 Nov 2023 11:03:07 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>development</title>
+      <link>https://prma.dev/tags/development/</link>
+      <pubDate>Mon, 16 Oct 2023 23:10:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>licenses</title>
+      <link>https://prma.dev/tags/licenses/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/licenses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>https://prma.dev/tags/open-source/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>software</title>
       <link>https://prma.dev/tags/software/</link>
-      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://prma.dev/tags/books/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>codeberg</title>
+      <link>https://prma.dev/tags/codeberg/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/codeberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enshitification</title>
+      <link>https://prma.dev/tags/enshitification/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/enshitification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://prma.dev/tags/github/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jira</title>
+      <link>https://prma.dev/tags/jira/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/jira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>languages</title>
+      <link>https://prma.dev/tags/languages/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://prma.dev/tags/rust/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-development</title>
+      <link>https://prma.dev/tags/software-development/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic-linking</title>
+      <link>https://prma.dev/tags/dynamic-linking/</link>
+      <pubDate>Mon, 16 Oct 2023 23:03:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/dynamic-linking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ADHD</title>
+      <link>https://prma.dev/tags/adhd/</link>
+      <pubDate>Mon, 16 Oct 2023 19:39:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/adhd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://prma.dev/tags/opinion/</link>
+      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/opinion/</guid>
       <description></description>
     </item>
     
@@ -43,6 +169,15 @@
       <pubDate>Wed, 09 Aug 2023 12:31:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/tags/perma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>update</title>
+      <link>https://prma.dev/tags/update/</link>
+      <pubDate>Wed, 09 Aug 2023 12:31:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/update/</guid>
       <description></description>
     </item>
     
@@ -146,20 +281,20 @@
     </item>
     
     <item>
-      <title>rust</title>
-      <link>https://prma.dev/tags/rust/</link>
-      <pubDate>Fri, 14 Apr 2023 23:49:00 +0330</pubDate>
-      <author>prma.dev@protonmail.com (Perma)</author>
-      <guid>https://prma.dev/tags/rust/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>functional-programming</title>
       <link>https://prma.dev/tags/functional-programming/</link>
       <pubDate>Sun, 09 Apr 2023 10:44:00 +0330</pubDate>
       <author>prma.dev@protonmail.com (Perma)</author>
       <guid>https://prma.dev/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guide</title>
+      <link>https://prma.dev/tags/guide/</link>
+      <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate>
+      <author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/tags/guide/</guid>
       <description></description>
     </item>
     

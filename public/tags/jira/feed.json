@@ -1,0 +1,17 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "jira on prma",
+    "home_page_url": "https://prma.dev/tags/jira/",
+    "feed_url": "https://prma.dev/tags/jira/feed.json",
+    "items": [ {
+            "title": "I hate Jira",
+            "id": "https://prma.dev/posts/i-hate-jira/",
+            "url": "https://prma.dev/posts/i-hate-jira/",
+            "summary": "I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.",
+            "content_html": "\u003cp\u003eI absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }
+    ]
+    
+}

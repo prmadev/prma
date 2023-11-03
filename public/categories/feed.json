@@ -1,0 +1,24 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "categories on prma",
+    "home_page_url": "https://prma.dev/categories/",
+    "feed_url": "https://prma.dev/categories/feed.json",
+    "items": [ {
+            "title": "daily",
+            "id": "https://prma.dev/categories/daily/",
+            "url": "https://prma.dev/categories/daily/",
+            "summary": "",
+            "content_html": "",
+            "date_published": "2023-11-02T11:03:07+03:30"
+        }, {
+            "title": "long",
+            "id": "https://prma.dev/categories/long/",
+            "url": "https://prma.dev/categories/long/",
+            "summary": "",
+            "content_html": "",
+            "date_published": "2023-08-11T12:38:00+03:30"
+        }
+    ]
+    
+}
