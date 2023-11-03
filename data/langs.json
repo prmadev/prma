@@ -35,9 +35,9 @@
     "URL": "https://www.iso.org/standard/74528.html",
     "Abbr": ""
   },
-  "C++": {
-    "URL": "about:blank",
-    "Abbr": ""
+  "Cpp": {
+    "URL": "https://isocpp.org/",
+    "Abbr": "C++"
   },
   "C#": {
     "URL": "https://learn.microsoft.com/en-us/dotnet/csharp/",
