@@ -1,0 +1,1 @@
+{{ $Found := true }}{{ $TITLE := .Get 0 }}{{ range $K, $V :=.Site.Data.people }}{{ if ( and (eq $K $TITLE) (not ( eq $V.URL "" ))) }} <a href="{{ $V.URL }}" class="person p-name">{{ $TITLE }}</a> {{ $Found = true }} {{ end }} {{ end }} {{ if not $Found }} <span class="person p-name">{{ $TITLE }}</span> {{ end }}

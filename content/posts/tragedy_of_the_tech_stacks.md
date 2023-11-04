@@ -10,11 +10,11 @@ slug = "tragedy_of_the_tech_stacks"
 
 ## Intro {#intro}
 
-Back in 1958, there was this thinker named <span class="person p-name">Garrett Hardin</span> who kicked off his well-known piece titled "The Tragedy of the Commons" in the following way:
+Back in 1958, there was this thinker named {{< pers `Garrett Hardin` >}} who kicked off his well-known piece titled "The Tragedy of the Commons" in the following way:
 
 > At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that "Both sides of the arms race are ... confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution. If the great powers continue to look for solutions in the area of science and technology only, the result will be to worsen the situation.
 
-Then, <span class="person p-name">Hardin</span> goes on to rattle the foundations by delving into a colossal issue - the challenge of population expansion. He breaks it down by saying that when you have a shared resource, and each individual aims to squeeze out the most benefit for themselves, the result is a harm inflicted upon everyone, even the very ones taking those actions.
+Then, {{< pers `Hardin` >}} goes on to rattle the foundations by delving into a colossal issue - the challenge of population expansion. He breaks it down by saying that when you have a shared resource, and each individual aims to squeeze out the most benefit for themselves, the result is a harm inflicted upon everyone, even the very ones taking those actions.
 
 Now, picture this famous analogy. Imagine a stretch of grassland, claimed by three farmers. Each of them brings their cow out to graze on it daily. Sounds reasonable, right? But then, one fortunate farmer's cow becomes pregnant. This stroke of luck leaves him with two cows, effectively doubling his profits. Observing this triumph, the other farmers follow suit, diving into a spree of buying and breeding cows, aiming to maximize their individual gains. However, this frenzy leads to a rampant grazing that leaves the grassland bare and barren. Ultimately, the once lush grass disappears, and the insatiable appetite of the voracious cows brings about their own starvation. In the end, all the farmers are left with no cows, their initial wealth transformed into a state even worse than before.
 
@@ -64,13 +64,13 @@ So, why did they all fall short of enhancing their own lives and the lives of ot
 
 I must admit, I'm uncertain. The nuclear arsenal continues to expand, even though the era of the Cold War has long passed. Thankfully, our world hasn't been ravaged by nuclear conflict. Rather, it's the interplay of mutually assured destruction and the realization by the leaders of those two nations that not embracing an alternative risk could lead to dire consequences. This, at least, has placed us in a relatively improved state.
 
-Simultaneously, we find ourselves grappling with <span class="person p-name">Garrett Hardin</span>'s preoccupation -- the persistent challenges of overpopulation and looming environmental catastrophes. Evidently, the far-reaching peril of not embracing an alternative is of such extended duration that it transcends the immediate concerns of the very generation opting against alternatives. The burden of their choices is instead borne by their descendants: <q cite="Current Generation">Fuck those brats.</q>
+Simultaneously, we find ourselves grappling with {{< pers `Garrett Hardin` >}}'s preoccupation -- the persistent challenges of overpopulation and looming environmental catastrophes. Evidently, the far-reaching peril of not embracing an alternative is of such extended duration that it transcends the immediate concerns of the very generation opting against alternatives. The burden of their choices is instead borne by their descendants: <q cite="Current Generation">Fuck those brats.</q>
 
 In the world of software, the tempo is notably faster, the stakes less dire compared to earlier circumstances, and the individuals engaged are often more honest than politicians and notably smarter than the average voter.
 
 However, the remedy doesn't entail adhering to an oddly precise series
 of ritualistic maneuvers. It's a more daunting challenge. Just as
-<span class="person p-name">Garrett Hardin</span> titled his article, the solution remains much the same:
+{{< pers `Garrett Hardin` >}} titled his article, the solution remains much the same:
 
 > The population problem has no technical solution; it requires a fundamental extension of in morality.
 

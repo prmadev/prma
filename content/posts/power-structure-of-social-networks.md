@@ -130,4 +130,4 @@ Mastodon, Pixelfed and other federated, open-sourced social networks, operate in
 
 ## Credit {#credit}
 
-This work is highly inspired and heavily reliant on <span class="person p-name">Daron Acemoglu</span>'s fantastic book, _Why Nations Fail_. A must read.
+This work is highly inspired and heavily reliant on {{< pers `Daron Acemoglu` >}}'s fantastic book, _Why Nations Fail_. A must read.

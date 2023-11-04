@@ -19,7 +19,7 @@ You can use any pronouns, I don't mind any of them, I don't identify with any of
 
 ## Job-wise {#job-wise}
 
-As a back-end developer, my expertise lies in utilizing languages like <span class="language">Go</span> and <span class="language">Rust</span> to build the foundational components of software systems.
+As a back-end developer, my expertise lies in utilizing languages like {{<lang `Go`>}} and {{<lang `Rust`>}} to build the foundational components of software systems.
 
 I predominantly focus on developing the back-end of back-ends, ensuring the smooth functioning and interconnectivity of various subsystems.
 

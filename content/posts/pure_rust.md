@@ -347,7 +347,7 @@ There is this often repeated old joke that says:
 > 1. Cache invalidation
 > 2. Naming things
 >
-> -- <span class="person p-name">Phil Karlton</span>
+> -- {{< pers `Phil Karlton` >}}
 
 And here we are concerned with the second one.
 
