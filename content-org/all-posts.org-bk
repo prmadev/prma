@@ -17,7 +17,7 @@ Make it work, Make it right, Make it fast.
 -- {{{person(Kent Beck)}}}
 #+end_quote
 
-I'm not sure what the original auther has meant by saying this.
+I'm not sure what the original author has meant by saying this.
 I am, however, worried that some software engineers take this to be: "Ship what works. Ship what is right. Ship what is fast."
 If at each step we ship a product without disclosing the stage we are in, we might be doing a fraudulent activity.
 

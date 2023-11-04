@@ -10,7 +10,7 @@ There is a famous quote in software development scene.
 > Make it work, Make it right, Make it fast.
 > -- <span class="person p-name">Kent Beck</span>
 
-I'm not sure what the original auther has meant by saying this.
+I'm not sure what the original author has meant by saying this.
 I am, however, worried that some software engineers take this to be: "Ship what works. Ship what is right. Ship what is fast."
 If at each step we ship a product without disclosing the stage we are in, we might be doing a fraudulent activity.
 

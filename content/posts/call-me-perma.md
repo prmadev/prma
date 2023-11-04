@@ -1,7 +1,7 @@
 +++
 title = "Call Me Perma"
 author = ["Perma"]
-date = 2023-08-09T12:31:00+03:30
+date = "2023-08-09T12:31:00+03:30"
 tags = ["update", "perma", "names"]
 categories = ["long"]
 slug = "call-me-perma"

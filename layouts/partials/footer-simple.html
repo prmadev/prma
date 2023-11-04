@@ -4,41 +4,41 @@
       <a href="/" class="ntdl site-link">{{.Site.Title}}</a>
     </h1>
   </div>
-  <details class ="centered m-1">
+  <details class="centered m-1">
     <summary> Find me </summary>
     <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
-	{{ partial "link-button" ( dict "url" "https://fosstodon.org/@prma" "text" "Fosstodon" "rel" "me") }}
-	{{ partial "link-button" ( dict "url" "https://codeberg.org/prma" "text" "Codeberg" "rel" "me" ) }}
-	{{ partial "link-button" ( dict "url" "https://linkedin.com/in/prmadev" "text" "Linkedin" "rel" "me" ) }}
+      {{ partial "link-button" ( dict "url" "https://fosstodon.org/@prma" "text" "Fosstodon" "rel" "me") }}
+      {{ partial "link-button" ( dict "url" "https://codeberg.org/prma" "text" "Codeberg" "rel" "me" ) }}
+      {{ partial "link-button" ( dict "url" "https://linkedin.com/in/prmadev" "text" "Linkedin" "rel" "me" ) }}
     </div>
   </details>
-  <details class ="centered m-1" >
+  <details class="centered m-1">
     <summary> About </summary>
-    <div class="h-card p-auther">
-      <p>I'm <a class="p-name p-nickname p-author u-url" rel="auther" href="/about/me">Perma</a>. </p>
+    <div class="h-card p-author">
+      <p>I'm <a class="p-name p-nickname p-author u-url" rel="author" href="/about/me">Perma</a>. </p>
       <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
-	{{ partial "link-button" ( dict "url" "/about/me" "text" "Me" ) }}
-    </div>
+        {{ partial "link-button" ( dict "url" "/about/me" "text" "Me" ) }}
+      </div>
     </div>
   </details>
-  <details class ="centered m-1" >
+  <details class="centered m-1">
     <summary> Feed </summary>
     <p>Dailies + Regulars:</p>
     <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
-  	{{ partial "link-button" ( dict "url" "/index.xml" "text" "Atom" ) }}
-  	{{ partial "link-button" ( dict "url" "/feed.json" "text" "JsonFeed" ) }}
+      {{ partial "link-button" ( dict "url" "/index.xml" "text" "Atom" ) }}
+      {{ partial "link-button" ( dict "url" "/feed.json" "text" "JsonFeed" ) }}
     </div>
 
     <p>Regulars:</p>
     <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
-  	{{ partial "link-button" ( dict "url" "/posts/index.xml" "text" "Atom" ) }}
-  	{{ partial "link-button" ( dict "url" "/posts/feed.json" "text" "JsonFeed" ) }}
+      {{ partial "link-button" ( dict "url" "/posts/index.xml" "text" "Atom" ) }}
+      {{ partial "link-button" ( dict "url" "/posts/feed.json" "text" "JsonFeed" ) }}
     </div>
 
     <p>Dailies:</p>
     <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
-  	{{ partial "link-button" ( dict "url" "/daily/index.xml" "text" "Atom" ) }}
-  	{{ partial "link-button" ( dict "url" "/daily/feed.json" "text" "JsonFeed" ) }}
+      {{ partial "link-button" ( dict "url" "/daily/index.xml" "text" "Atom" ) }}
+      {{ partial "link-button" ( dict "url" "/daily/feed.json" "text" "JsonFeed" ) }}
     </div>
 
   </details>
