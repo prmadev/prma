@@ -1,0 +1,10 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "audiences on prma",
+    "home_page_url": "https://prma.dev/audiences/",
+    "feed_url": "https://prma.dev/audiences/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+}

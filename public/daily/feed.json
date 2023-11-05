@@ -1,0 +1,111 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Dailies on prma",
+    "home_page_url": "https://prma.dev/daily/",
+    "feed_url": "https://prma.dev/daily/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "Diversity Quotas",
+            "id": "https://prma.dev/daily/diversity-quotas/",
+            "url": "https://prma.dev/daily/diversity-quotas/",
+            "summary": "Honestly, I cannot say that diversity quotas are radical feminism; or in any terms extreme. Especially since they are implemented in societies that have endured thousands of years of cultural, institutional, and governmental oppression of women and minorities, which, we have yet to witness significant progress in achieving true equality for these oppressed groups.\nEqual opportunity does not entail placing the food on top of the trees and then asserting that the whale just didn\u0026rsquo;t take it while the chimp did.",
+            "content_html": "\u003cp\u003eHonestly, I cannot say that diversity quotas are \u003cem\u003eradical\u003c/em\u003e feminism; or in any terms extreme. Especially since they are implemented in societies that have endured thousands of years of cultural, institutional, and governmental oppression of women and minorities, which, we have yet to witness significant progress in achieving true equality for these oppressed groups.\u003c/p\u003e\n\u003cp\u003eEqual opportunity does not entail placing the food on top of the trees and then asserting that the whale just didn\u0026rsquo;t take it while the chimp did.\u003c/p\u003e\n",
+            "date_published": "2023-11-04T15:01:33+03:30"
+        }, {
+            "title": "Python And NixOS",
+            "id": "https://prma.dev/daily/python_and_nixos/",
+            "url": "https://prma.dev/daily/python_and_nixos/",
+            "summary": "Me, whining about Python on NixOS",
+            "content_html": "\u003cp\u003eThe problems surrounding \u003ca class=\"language\" href=\"https://www.python.org/\"\u003ePython\u003c/a\u003e\n programs on NixOS seem never-ending.\nI often have to refrain from installing most \u003ca class=\"language\" href=\"https://www.python.org/\"\u003ePython\u003c/a\u003e\n programs.\nOn each update, another one of them breaks during installation – either their tests don\u0026rsquo;t pass, or their dependencies fail in some way.\u003c/p\u003e\n\u003cp\u003eAnd to be honest, I give the benefit of the doubt to NixOS, seeing its result with other languages, and knowing what I know about pip.\u003c/p\u003e\n",
+            "date_published": "2023-11-02T11:03:07+03:30"
+        }, {
+            "title": "Test of 10x Developer",
+            "id": "https://prma.dev/daily/test-of-10x-developers/",
+            "url": "https://prma.dev/daily/test-of-10x-developers/",
+            "summary": "The true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer. My guess would be that their population will reduce to less than that of unicorns'.",
+            "content_html": "\u003cp\u003eThe true test of 10x developer is that you put two of them together, each debugging each others code, then you if they kept their 10x status, they are the true 10x developer.\nMy guess would be that their population will reduce to less than that of unicorns'.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:10:00+03:30"
+        }, {
+            "title": "Usage Restriction of Software Licenses",
+            "id": "https://prma.dev/daily/usage-restriction-software-licences/",
+            "url": "https://prma.dev/daily/usage-restriction-software-licences/",
+            "summary": "Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.\nLike, you know that a poorly enforced license won\u0026rsquo;t deter a person in that situation from using your software, right?\nThere are probably better arguments for including usage restrictions in a software license; this one is a terrible one.",
+            "content_html": "\u003cp\u003ePlease think twice before saying, \u003cq cite=\"people\"\u003eusage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.\u003c/q\u003e\u003c/p\u003e\n\u003cp\u003eLike, you know that a poorly enforced license won\u0026rsquo;t deter a person in that situation from using your software, right?\u003c/p\u003e\n\u003cp\u003eThere are probably better arguments for including usage restrictions in a software license; this one is a terrible one.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:05:00+03:30"
+        }, {
+            "title": "Centralization Around GitHub",
+            "id": "https://prma.dev/daily/github-centralization/",
+            "url": "https://prma.dev/daily/github-centralization/",
+            "summary": "I find the situation around GitHub centralization distressing. And this extreme relience on GitHub is worrying. Maybe in time things change. But the moment I find a job and thus don\u0026rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge. Codeberg seems like the closest option. I will just simply mirror my commits to GitHub for the time being, slowly retiring them when I\u0026rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.",
+            "content_html": "\u003cp\u003eI find the situation around GitHub centralization distressing.\nAnd this extreme relience on GitHub is worrying.\nMaybe in time things change.\nBut the moment I find a job and thus don\u0026rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge.\nCodeberg seems like the closest option.\nI will just simply mirror my commits to GitHub for the time being, slowly retiring them when I\u0026rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.\nI don\u0026rsquo;t think i can retire my account though. Every place I worked or want to work, are using GitHub.\nI cannot but worry about the same amount of enshitification that twitter and reddit has taken, to also come for GitHub.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "I hate Jira",
+            "id": "https://prma.dev/daily/i-hate-jira/",
+            "url": "https://prma.dev/daily/i-hate-jira/",
+            "summary": "I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.",
+            "content_html": "\u003cp\u003eI absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "O'Reilly Book Covers",
+            "id": "https://prma.dev/daily/oreilly-book-covers/",
+            "url": "https://prma.dev/daily/oreilly-book-covers/",
+            "summary": "There is a retired burned out offended wild life photographer out there responsible for the O\u0026rsquo;Reilly\u0026rsquo;s book covers, after they were told \u0026ldquo;Your a photographer, that\u0026rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.\u0026rdquo;",
+            "content_html": "\u003cp\u003eThere is a retired burned out offended wild life photographer out there responsible for the O\u0026rsquo;Reilly\u0026rsquo;s book covers, after they were told \u0026ldquo;Your a photographer, that\u0026rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.\u0026rdquo;\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Older, Better Technologies",
+            "id": "https://prma.dev/daily/older-better-technologies/",
+            "url": "https://prma.dev/daily/older-better-technologies/",
+            "summary": "It is very illuminating to see that using older style technologies, may lead to better experience. This just goes to show that many of the features and complexity and progress are not for people, but for profit of a few. That, of course, is a wild speculation of the highest order.",
+            "content_html": "\u003cp\u003eIt is very illuminating to see that using older style technologies, may lead to better experience.\nThis just goes to show that many of the features and complexity and progress are not \u003cem\u003efor people\u003c/em\u003e, but for profit of a few.\nThat, of course, is a wild speculation of the highest order.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Prototyping in Software development",
+            "id": "https://prma.dev/daily/prototyping-software-development/",
+            "url": "https://prma.dev/daily/prototyping-software-development/",
+            "summary": "I think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:\nWhat don\u0026rsquo;t we know that we hope to find out with this prototype?\nWhy is this the best approach for finding the answer to that question.\nWhen is the prototype going to be deleted?\nIf you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product.",
+            "content_html": "\u003cp\u003eI think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eWhat don\u0026rsquo;t we know that we hope to find out with this prototype?\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eWhy is this the best approach for finding the answer to that question.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eWhen is the prototype going to be deleted?\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eIf you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product. A knock off, if you will. A bad practice distilled.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Rust Skills Transferability",
+            "id": "https://prma.dev/daily/rust-skills-transferability/",
+            "url": "https://prma.dev/daily/rust-skills-transferability/",
+            "summary": "While the skills learned in Rust , like working with the borrow checker, may seem limited to Rust itself, the claim of their intransferability is somewhat overstated. Understanding the borrow checker is specific to languages using it, but the approaches it encourages are typically advanced and valued by experienced engineers. And often, it is evidenced by the patterns that are simplest to implement. The obvious exception to that is unwrap() and expect().",
+            "content_html": "\u003cp\u003eWhile the skills learned in \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n, like working with the \u003cem\u003eborrow checker\u003c/em\u003e, may seem limited to \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n itself, the claim of their intransferability is somewhat overstated. Understanding the borrow checker is specific to languages using it, but the approaches it encourages are typically advanced and valued by experienced engineers.\nAnd often, it is evidenced by the patterns that are simplest to implement.\nThe obvious exception to that is \u003ccode\u003eunwrap()\u003c/code\u003e and \u003ccode\u003eexpect()\u003c/code\u003e. Even though the ? operator is an step towards simplifying that process, it is undeniable that the hassel of creating and managing errors is not simpler than the extra 8 characters introduced by the \u003ccode\u003e.unwrap()\u003c/code\u003e\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Rust's Productivity",
+            "id": "https://prma.dev/daily/rust-productivity/",
+            "url": "https://prma.dev/daily/rust-productivity/",
+            "summary": "I think the best way to characterize Rust \u0026rsquo;s productivity, is to put it on a quality axis.\nIf you want low quality code (prototyping, etc) rust is much less productive than the alternative.\nFor medium level of quality, Rust is similar to others.\nFor high quality code, Rust is much more productive than any alternatives.\nQuality is intentionally vague, to encapsulate performance, leanness, documentation, and security.",
+            "content_html": "\u003cp\u003eI think the best way to characterize \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n\u0026rsquo;s productivity, is to put it on a quality axis.\u003c/p\u003e\n\u003cp\u003eIf you want low quality code (prototyping, etc) rust is much less productive than the alternative.\u003c/p\u003e\n\u003cp\u003eFor medium level of quality, \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n is similar to others.\u003c/p\u003e\n\u003cp\u003eFor high quality code, \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n is much more productive than any alternatives.\u003c/p\u003e\n\u003cp\u003eQuality is intentionally vague, to encapsulate performance, leanness, documentation, and security.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Dynamic Linking is the Wrong solution",
+            "id": "https://prma.dev/daily/dynamic-linking-the-wrong-solution/",
+            "url": "https://prma.dev/daily/dynamic-linking-the-wrong-solution/",
+            "summary": "Dynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters. It is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology. Of course, down stream people also shouldn\u0026rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.",
+            "content_html": "\u003cp\u003eDynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters.\nIt is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology.\nOf course, down stream people also shouldn\u0026rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:03:00+03:30"
+        }, {
+            "title": "ADHD not Being Real",
+            "id": "https://prma.dev/daily/adhd-not-real/",
+            "url": "https://prma.dev/daily/adhd-not-real/",
+            "summary": "ADHD is not real. It is just unmotivated kids needing more structure. \u0026ndash; Some lady today\nTherefore:\nCancer is not real. It is just overly horny cells needing to chill the fuck down. \u0026ndash; Probably the same lady, assuming no double standards",
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e\u003cabbr title=\"Attention-Deficit/Hyperactivity Disorder\"\u003eADHD\u003c/abbr\u003e\n is not real.\nIt is just unmotivated kids needing more structure.\n\u0026ndash; Some lady today\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eTherefore:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eCancer is not real.\nIt is just overly horny cells needing to chill the fuck down.\n\u0026ndash; Probably the same lady, assuming no double standards\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+            "date_published": "2023-10-16T19:39:00+03:30"
+        }, {
+            "title": "Missing Rust Blogpost",
+            "id": "https://prma.dev/daily/missing-rust-post/",
+            "url": "https://prma.dev/daily/missing-rust-post/",
+            "summary": "There is a blog post missing in the Rust sphere: How to not obssess over performance gain and improve changeability of Rust applications.\nIn other words, imagin that you want move a function used in one file to another. How would you do that in under ten minutes?",
+            "content_html": "\u003cp\u003eThere is a blog post missing in the Rust sphere:\n\u003cem\u003eHow to not obssess over performance gain and improve changeability of \u003ca class=\"language\" href=\"https://www.rust-lang.org/\"\u003eRust\u003c/a\u003e\n applications.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eIn other words, imagin that you want move a function used in one file to another.\nHow would you do that in under ten minutes?\u003c/p\u003e\n",
+            "date_published": "2023-10-16T18:57:00+03:30"
+        }
+    ]
+    
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on prma</title>
+    <link>https://prma.dev/posts/</link>
+    <description>Recent content in Posts on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Fri, 11 Aug 2023 12:38:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Tragedy of The Tech-Stacks</title>
+      <link>https://prma.dev/posts/tragedy_of_the_tech_stacks/</link>
+      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/tragedy_of_the_tech_stacks/</guid>
+      <description>Intro Back in 1958, there was this thinker named Garrett Hardin who kicked off his well-known piece titled &amp;ldquo;The Tragedy of the Commons&amp;rdquo; in the following way:
+At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that &amp;ldquo;Both sides of the arms race are &amp;hellip; confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution.</description>
+    </item>
+    <item>
+      <title>Call Me Perma</title>
+      <link>https://prma.dev/posts/call-me-perma/</link>
+      <pubDate>Wed, 09 Aug 2023 12:31:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/call-me-perma/</guid>
+      <description>I find myself seated in the passenger&amp;rsquo;s seat of my mother&amp;rsquo;s car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother&amp;rsquo;s sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist&amp;rsquo;s office without exchanging a word, leaving me still uncertain about the purpose of our visit.</description>
+    </item>
+    <item>
+      <title>Dishonesty of Optimizing for Developer Time</title>
+      <link>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</link>
+      <pubDate>Mon, 31 Jul 2023 12:24:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/dishonesty_of_optimizing_for_developers_time/</guid>
+      <description>Intro Based on some individuals&amp;rsquo; viewpoints, they emphasize optimizing for developer time or productivity as their main priority, rather than giving top precedence to aspects such as performance, robustness, or correctness.
+The Thesis Their argument revolves around the idea that developers&amp;rsquo; time is more valuable and expensive than server resources. They often use phrases like &amp;ldquo;You can always refactor,&amp;rdquo; &amp;ldquo;You can always optimize for performance,&amp;rdquo; or &amp;ldquo;We will fix bugs later on&amp;rdquo; to support their viewpoint.</description>
+    </item>
+    <item>
+      <title>Criteria For Choosing Tools</title>
+      <link>https://prma.dev/posts/criteria-for-choosing-tools/</link>
+      <pubDate>Sat, 29 Jul 2023 12:14:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/criteria-for-choosing-tools/</guid>
+      <description>Intro The web is utterly fucked. But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
+The Reasons The web&amp;rsquo;s lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:
+Bloated beyond reason. Plagued with incessant ads. Prioritizing feature over bug fixes, if addressed at all. Designed to cater to journalists and advertisers, neglecting your needs.</description>
+    </item>
+    <item>
+      <title>Giving My Exprience of Web a Makeover</title>
+      <link>https://prma.dev/posts/web-experience-makeover/</link>
+      <pubDate>Wed, 19 Jul 2023 12:04:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/web-experience-makeover/</guid>
+      <description>Intro Back in the good old days, I found myself drawn to the wonders of the internet, captivated by its virtual world, teeming with individuals who resonated with me, people I admired, or at least aspired to emulate. The communication channels of that era felt more personal, more akin to a lively conversation passed on through word of mouth.
+More of Those Days In those youthful days, I&amp;rsquo;d eagerly scour the web for words that piqued the interests of my teenage self, and with a simple search, Google would present me with a treasure trove of blogs authored by kindred spirits.</description>
+    </item>
+    <item>
+      <title>HTML, The Programming Language</title>
+      <link>https://prma.dev/posts/html_the_programming_language/</link>
+      <pubDate>Sat, 24 Jun 2023 11:50:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/html_the_programming_language/</guid>
+      <description>Intro Ah yes, the eternal dispute over whether HTML counts as a proper programming language seems to bring out the best and worst of our community&amp;rsquo;s collective rational faculties. A veritable feast of half-baked attempts to define away the problem by appealing to whatever convenient characteristics the speaker happens upon, combined with a sprinkling of more serious thinkers seeking some grand philosophical theory to explain it all. But don&amp;rsquo;t get your hopes up - you won&amp;rsquo;t find any silver bullet solutions here folks.</description>
+    </item>
+    <item>
+      <title>Consider Developer&#39;s Snack</title>
+      <link>https://prma.dev/posts/consider_developers_snack/</link>
+      <pubDate>Wed, 21 Jun 2023 11:43:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/consider_developers_snack/</guid>
+      <description>Intro During my early 20s, I found myself immersed in the world of sustainable architecture as an architecture student. Engaging in various workshops centered around this field, one particular experience stands out as a monumental turning point in my life. It was a workshop conducted by a renowned professor in Iran, where I gained valuable insights. Within this workshop, we collectively brainstormed strategies to harness heat sources for a four-member family&amp;rsquo;s house, aiming to optimize its thermal efficiency.</description>
+    </item>
+    <item>
+      <title>FLOSS For Software Longevity</title>
+      <link>https://prma.dev/posts/floss_for_longevity/</link>
+      <pubDate>Wed, 14 Jun 2023 11:26:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/floss_for_longevity/</guid>
+      <description>Intro Free/Libre and Open Source Software (FLOSS ) is a captivating realm within software development. What makes FLOSS particularly intriguing is its deviation from conventional business goals, leading to planned longevity and a distinct approach to sustainability.
+Reasons Let us delve into the unique qualities of FLOSS and the factors that contribute to its better suitability for longevity.
+The longevity of the FLOSS business model serves it well The common business models are better suited for short-term goals.</description>
+    </item>
+    <item>
+      <title>Go Vs Rust readability</title>
+      <link>https://prma.dev/posts/go_vs_rust_readability/</link>
+      <pubDate>Fri, 14 Apr 2023 23:49:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/go_vs_rust_readability/</guid>
+      <description>Intro Traditionally speaking, Go and Rust are not direct competitors on many fronts. Each take different trade-offs. But more often than not, you might need to choose one over the other. It is compared in the niche the other fails. Like low-level system development, which Rust easily rules. Or maybe dev-ops tooling which Go is easily good at it.
+However, there are many overlaps in their use case. Think high-performance web-servers.</description>
+    </item>
+    <item>
+      <title>Moving in Rust is Pure</title>
+      <link>https://prma.dev/posts/moving_is_pure/</link>
+      <pubDate>Sun, 09 Apr 2023 10:44:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/moving_is_pure/</guid>
+      <description>Intro The act of moving arguments within Rust &amp;rsquo;s functions serves as a compelling means to uphold the purity of the function. By embracing this practice, we ensure that the function operates on unique ownership of its inputs, preserving the integrity and immutability of data, which are fundamental tenets of functional programming.
+Moving a Variable to a Function in Rust Doesn&amp;rsquo;t Make It Impure So as an introduction, if you don&amp;rsquo;t know Rust .</description>
+    </item>
+    <item>
+      <title>Pure Rust</title>
+      <link>https://prma.dev/posts/pure_rust/</link>
+      <pubDate>Sat, 25 Mar 2023 22:36:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/pure_rust/</guid>
+      <description>Intro If you are not familiar with Functional Programming FP , you are in for a ride. I will try to explain FP in more practical terms.
+A definition to work with FP is a declarative way of writing a program that consists mostly of pure functions that operate on and produce immutable data. That was many other unfamiliar words. Let&amp;rsquo;s make it concrete.
+Making it more concrete Here is a function in Rust that we will work on:</description>
+    </item>
+    <item>
+      <title>Hachyderm or Fosstodon</title>
+      <link>https://prma.dev/posts/hachyderm_or_fosstodon/</link>
+      <pubDate>Fri, 25 Nov 2022 22:17:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/hachyderm_or_fosstodon/</guid>
+      <description>Intro Ever since I have moved to the mastodon platform after the great twitter migration. I was curious about two main instances. One being Fosstodon, an instance oriented around FOSS , another being Hachyderm, an instance that introduces itself as social media for technical professionals.
+Eventualy, I decided to go with Fosstodon, as I liked what I was seeing there more. But I couldn&amp;rsquo;t put my finger on what it was that I liked more about Fosstodon, even though many of my favorite people resided on Hachyderm, the instance owner of the Hachyderm herself, being one examples.</description>
+    </item>
+    <item>
+      <title>Power Structure of Social Networks</title>
+      <link>https://prma.dev/posts/power-structure-of-social-networks/</link>
+      <pubDate>Wed, 16 Nov 2022 00:08:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/power-structure-of-social-networks/</guid>
+      <description>Intro Why do some nations fail and rise so quickly? The answer to this questions has a surprisingly relevant answer to the recent migrations from a Twitter to Mastodon.
+Power Centrality Basically the idea is that:
+In any system of governance the authority is constrained to the resources it has available. And for the authority to make a change, it has to answer to the resource providers. Given a set interdependent institutions one could form check-and-balance system.</description>
+    </item>
+  </channel>
+</rss>

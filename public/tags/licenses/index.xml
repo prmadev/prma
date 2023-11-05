@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>licenses on prma</title>
+    <link>https://prma.dev/tags/licenses/</link>
+    <description>Recent content in licenses on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 23:05:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/licenses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usage Restriction of Software Licenses</title>
+      <link>https://prma.dev/daily/usage-restriction-software-licences/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/daily/usage-restriction-software-licences/</guid>
+      <description>Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.
+Like, you know that a poorly enforced license won&amp;rsquo;t deter a person in that situation from using your software, right?
+There are probably better arguments for including usage restrictions in a software license; this one is a terrible one.</description>
+    </item>
+  </channel>
+</rss>

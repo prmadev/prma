@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on prma</title>
+    <link>https://prma.dev/tags/go/</link>
+    <description>Recent content in go on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Fri, 14 Apr 2023 23:49:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Vs Rust readability</title>
+      <link>https://prma.dev/posts/go_vs_rust_readability/</link>
+      <pubDate>Fri, 14 Apr 2023 23:49:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/go_vs_rust_readability/</guid>
+      <description>Intro Traditionally speaking, Go and Rust are not direct competitors on many fronts. Each take different trade-offs. But more often than not, you might need to choose one over the other. It is compared in the niche the other fails. Like low-level system development, which Rust easily rules. Or maybe dev-ops tooling which Go is easily good at it.
+However, there are many overlaps in their use case. Think high-performance web-servers.</description>
+    </item>
+  </channel>
+</rss>

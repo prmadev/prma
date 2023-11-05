@@ -1,0 +1,20 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "licenses on prma",
+    "home_page_url": "https://prma.dev/tags/licenses/",
+    "feed_url": "https://prma.dev/tags/licenses/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "Usage Restriction of Software Licenses",
+            "id": "https://prma.dev/daily/usage-restriction-software-licences/",
+            "url": "https://prma.dev/daily/usage-restriction-software-licences/",
+            "summary": "Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.\nLike, you know that a poorly enforced license won\u0026rsquo;t deter a person in that situation from using your software, right?\nThere are probably better arguments for including usage restrictions in a software license; this one is a terrible one.",
+            "content_html": "\u003cp\u003ePlease think twice before saying, \u003cq cite=\"people\"\u003eusage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.\u003c/q\u003e\u003c/p\u003e\n\u003cp\u003eLike, you know that a poorly enforced license won\u0026rsquo;t deter a person in that situation from using your software, right?\u003c/p\u003e\n\u003cp\u003eThere are probably better arguments for including usage restrictions in a software license; this one is a terrible one.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:05:00+03:30"
+        }
+    ]
+    
+}

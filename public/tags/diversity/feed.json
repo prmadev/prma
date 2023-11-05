@@ -1,0 +1,20 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "diversity on prma",
+    "home_page_url": "https://prma.dev/tags/diversity/",
+    "feed_url": "https://prma.dev/tags/diversity/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "Diversity Quotas",
+            "id": "https://prma.dev/daily/diversity-quotas/",
+            "url": "https://prma.dev/daily/diversity-quotas/",
+            "summary": "Honestly, I cannot say that diversity quotas are radical feminism; or in any terms extreme. Especially since they are implemented in societies that have endured thousands of years of cultural, institutional, and governmental oppression of women and minorities, which, we have yet to witness significant progress in achieving true equality for these oppressed groups.\nEqual opportunity does not entail placing the food on top of the trees and then asserting that the whale just didn\u0026rsquo;t take it while the chimp did.",
+            "content_html": "\u003cp\u003eHonestly, I cannot say that diversity quotas are \u003cem\u003eradical\u003c/em\u003e feminism; or in any terms extreme. Especially since they are implemented in societies that have endured thousands of years of cultural, institutional, and governmental oppression of women and minorities, which, we have yet to witness significant progress in achieving true equality for these oppressed groups.\u003c/p\u003e\n\u003cp\u003eEqual opportunity does not entail placing the food on top of the trees and then asserting that the whale just didn\u0026rsquo;t take it while the chimp did.\u003c/p\u003e\n",
+            "date_published": "2023-11-04T15:01:33+03:30"
+        }
+    ]
+    
+}

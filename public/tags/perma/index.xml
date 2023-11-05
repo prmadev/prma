@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>perma on prma</title>
+    <link>https://prma.dev/tags/perma/</link>
+    <description>Recent content in perma on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 12:31:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/perma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call Me Perma</title>
+      <link>https://prma.dev/posts/call-me-perma/</link>
+      <pubDate>Wed, 09 Aug 2023 12:31:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/call-me-perma/</guid>
+      <description>I find myself seated in the passenger&amp;rsquo;s seat of my mother&amp;rsquo;s car, as we make our way to an appointment with an educational psychologist. A sense of confusion and concern lingers within me, stemming from my mother&amp;rsquo;s sudden and puzzling reaction to my C-graded report card. The journey passes quietly, and we arrive at the specialist&amp;rsquo;s office without exchanging a word, leaving me still uncertain about the purpose of our visit.</description>
+    </item>
+  </channel>
+</rss>

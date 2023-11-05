@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jira on prma</title>
+    <link>https://prma.dev/tags/jira/</link>
+    <description>Recent content in jira on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 23:04:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/jira/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I hate Jira</title>
+      <link>https://prma.dev/daily/i-hate-jira/</link>
+      <pubDate>Mon, 16 Oct 2023 23:04:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/daily/i-hate-jira/</guid>
+      <description>I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.</description>
+    </item>
+  </channel>
+</rss>

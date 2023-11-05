@@ -1,0 +1,152 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Go Vs Rust readability - prma
+
+</title>
+  
+  
+  
+    <link rel="stylesheet" href="/css/style.min.5c621b03b95c4c88a662e93943c06da52d2ff098cd753b564190718d30ec52bc.css" integrity="sha256-XGIbA7lcTIimYuk5Q8BtpS0v8JjNdTtWQZBxjTDsUrw=" crossorigin="anonymous" /> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> <link rel="manifest" href="/site.webmanifest">
+</head>
+
+  <body class="m-1 mw-std">
+    <article class="h-entry m-1 m-b-3">
+      
+	<header class="">
+	  <h1 class="blocked p-name">
+	    <a href="https://prma.dev/posts/go_vs_rust_readability/" class="page-link simple-link u-url">Go Vs Rust readability</a>
+	  </h1>
+	</header>
+	
+	
+<hr class="hr-bold-black" />
+
+<div class="flexer">
+  
+<time class="dt-published">2023-04-14</time>
+
+  <div class="tags flexer m-l-1">
+    
+    <a href="/tags/rust" class="tag blocked m-r-1 ph1 p-category">rust</a>
+    
+    <a href="/tags/programming" class="tag blocked m-r-1 ph1 p-category">programming</a>
+    
+    <a href="/tags/go" class="tag blocked m-r-1 ph1 p-category">go</a>
+    
+    <a href="/tags/opinion" class="tag blocked m-r-1 ph1 p-category">opinion</a>
+    
+    
+    <a href="/categories/long" class="category blocked m-r-1 pc1 p-category">long</a>
+    
+  </div>
+  <label> Author: <a rel="author" class="p-author h-card person" href="/about/me">Perma</a></label>
+</div>
+<main class="e-content"><h2 id="intro">Intro</h2>
+<p>Traditionally speaking, <a class="language" href="https://go.dev/">Go</a>
+ and <a class="language" href="https://www.rust-lang.org/">Rust</a>
+ are not direct competitors on many fronts. Each take different trade-offs. But more often than not, you might need to choose one over the other. It is compared in the niche the other fails. Like low-level system development, which <a class="language" href="https://www.rust-lang.org/">Rust</a>
+ easily rules. Or maybe dev-ops tooling which <a class="language" href="https://go.dev/">Go</a>
+ is easily good at it.</p>
+<p>However, there are many overlaps in their use case. Think high-performance web-servers. In those spaces, we should compare other things. Like readability and maintainability of language. In this post, I want to share my thoughts on readability.</p>
+<h2 id="tl-dr">Tl;DR</h2>
+<p><a class="language" href="https://www.rust-lang.org/">Rust</a>
+ is not less maintainable than <a class="language" href="https://go.dev/">Go</a>
+ because <a class="language" href="https://www.rust-lang.org/">Rust</a>
+ is less readable.</p>
+<h2 id="what-i-do-not-disagree-with">What I do not disagree with</h2>
+<p>Just to be clear, although I&rsquo;m making a case for <a class="language" href="https://www.rust-lang.org/">Rust</a>
+ and arguing that readability should not be as much concern, I would like to make clear that I&rsquo;m not arguing against these common-sense statements:</p>
+<ol>
+<li><a class="language" href="https://go.dev/">Go</a>
+ is more readable.</li>
+<li><a class="language" href="https://go.dev/">Go</a>
+ has less overhead for people with no previous experience with language.</li>
+<li>Readability is generally what you want.</li>
+</ol>
+<h2 id="why-readability-is-good">Why readability is good</h2>
+<p>English is more readable than any programming language. However, readability is not the only measure that we are using for chosing a language.</p>
+<p>Readability and clearity are not inherently good, rather it is a proxy for something else we value: A readable code helps us understand the flow of information in order to <strong>understand its logic</strong>, <strong>capture its bugs</strong> and <strong>extend it</strong>, easier. A line of code is read in many situations:</p>
+<ol>
+<li>I want to find out how a piece of code can give rise to a specific runtime bug.</li>
+<li>I want to audit it to see if it exposes any specific vulnerability, data-race, etc.</li>
+<li>I want to add features to it, and I want to know where and how I should plug the new functionality to.</li>
+<li>I want to make a code more robust, document it and make it more available for other people by refactoring it.</li>
+<li>I want to review the code of my colleague to see if a set of fresh eyes could capture a new bug, or an inconsistent styling with the rest of the codebase.</li>
+<li>I want to understand what a code base does. Maybe I&rsquo;m trying to see if a  software is spying on me, or maybe I&rsquo;m trying to understand the way it calculated my taxes.</li>
+</ol>
+<p>These are all noble pursuits. And in all these cases, readability is vital in preventing disasters and better experience in onboarding others.
+<a class="language" href="https://go.dev/">Go</a>
+&rsquo;s readability is probably one of its best features. At my current and previous jobs, I have had to jump into different code bases with different levels of legacy and problematic codebases where junior developers with no-idea of idiomatic ways of coding <a class="language" href="https://go.dev/">Go</a>
+ left their projects without any context for the next developer.
+Such low quality codes should take forever for one to decode. However, because of the beautifully simple syntax of <a class="language" href="https://go.dev/">Go</a>
+, I could start to be productive and sending PRs in less than a day. Have you seen a codebase where all the back-end code was coded by a narcissistic lone-wolf meth-addict? Well, I have, and it&rsquo;s an absolute shit-show. Yet, I committed my first edits in 3 hours. <a class="language" href="https://go.dev/">Go</a>
+ is excellent at that. And I can understand how a huge tech company with very quick employee turn-over can give rise to such language. Kudos to the <a class="language" href="https://go.dev/">Go</a>
+ team.</p>
+</main>
+<aside>
+  <p>Comment section? I Have none! But I like emails: <a class="u-email"
+      href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a></p>
+</aside>
+
+    </article>
+     <footer class="m-1">
+  <div class="blocked centered">
+    <h1 class="site-title blocked p-1">
+      <a href="/" class="ntdl site-link">prma</a>
+    </h1>
+  </div>
+  <details class="centered m-1">
+    <summary> Find me </summary>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+      <a href="https://fosstodon.org/@prma"  rel ="me"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Fosstodon</a>
+
+      <a href="https://codeberg.org/prma"  rel ="me"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Codeberg</a>
+
+      <a href="https://linkedin.com/in/prmadev"  rel ="me"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Linkedin</a>
+
+    </div>
+  </details>
+  <details class="centered m-1">
+    <summary> About </summary>
+    <div class="h-card p-author">
+      <p>I'm <a class="p-name p-nickname p-author u-url" rel="author" href="/about/me">Perma</a>. </p>
+      <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+        <a href="/about/me"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Me</a>
+
+      </div>
+    </div>
+  </details>
+  <details class="centered m-1">
+    <summary> Feed </summary>
+    <p>Dailies + Regulars:</p>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+      <a href="/index.xml"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Atom</a>
+
+      <a href="/feed.json"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> JsonFeed</a>
+
+    </div>
+
+    <p>Regulars:</p>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+      <a href="/posts/index.xml"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Atom</a>
+
+      <a href="/posts/feed.json"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> JsonFeed</a>
+
+    </div>
+
+    <p>Dailies:</p>
+    <div class="blocked flexer item-align-center fl-row-wrap gap-c-1 gap-r-1">
+      <a href="/daily/index.xml"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> Atom</a>
+
+      <a href="/daily/feed.json"  class="blocked .w-20  fl-basis-40  p-1 centered  fl-grow-1 b-black b-0-2 fg-black"> JsonFeed</a>
+
+    </div>
+
+  </details>
+</footer> 
+  </body>
+</html>

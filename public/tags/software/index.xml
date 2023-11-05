@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on prma</title>
+    <link>https://prma.dev/tags/software/</link>
+    <description>Recent content in software on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 23:05:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usage Restriction of Software Licenses</title>
+      <link>https://prma.dev/daily/usage-restriction-software-licences/</link>
+      <pubDate>Mon, 16 Oct 2023 23:05:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/daily/usage-restriction-software-licences/</guid>
+      <description>Please think twice before saying, usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.
+Like, you know that a poorly enforced license won&amp;rsquo;t deter a person in that situation from using your software, right?
+There are probably better arguments for including usage restrictions in a software license; this one is a terrible one.</description>
+    </item>
+    <item>
+      <title>Dynamic Linking is the Wrong solution</title>
+      <link>https://prma.dev/daily/dynamic-linking-the-wrong-solution/</link>
+      <pubDate>Mon, 16 Oct 2023 23:03:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/daily/dynamic-linking-the-wrong-solution/</guid>
+      <description>Dynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters. It is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology. Of course, down stream people also shouldn&amp;rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.</description>
+    </item>
+    <item>
+      <title>The Tragedy of The Tech-Stacks</title>
+      <link>https://prma.dev/posts/tragedy_of_the_tech_stacks/</link>
+      <pubDate>Fri, 11 Aug 2023 12:38:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/tragedy_of_the_tech_stacks/</guid>
+      <description>Intro Back in 1958, there was this thinker named Garrett Hardin who kicked off his well-known piece titled &amp;ldquo;The Tragedy of the Commons&amp;rdquo; in the following way:
+At the end of a thoughtful article on the future of nuclear war, Weisner and York concluded that &amp;ldquo;Both sides of the arms race are &amp;hellip; confronted by the dillema of steadily increasing military power and steadily decreasing natonal security. It is our considered our professional judgment that this delimma has not professional technical solution.</description>
+    </item>
+    <item>
+      <title>Criteria For Choosing Tools</title>
+      <link>https://prma.dev/posts/criteria-for-choosing-tools/</link>
+      <pubDate>Sat, 29 Jul 2023 12:14:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/posts/criteria-for-choosing-tools/</guid>
+      <description>Intro The web is utterly fucked. But anyone with some resources resources at hand and curiosity at heart and intentional tool selection can have a decent experience.
+The Reasons The web&amp;rsquo;s lamentable state can be attributed to several factors. Allow me to enumerate them concisely for clarity:
+Bloated beyond reason. Plagued with incessant ads. Prioritizing feature over bug fixes, if addressed at all. Designed to cater to journalists and advertisers, neglecting your needs.</description>
+    </item>
+  </channel>
+</rss>

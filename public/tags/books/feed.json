@@ -1,0 +1,20 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "books on prma",
+    "home_page_url": "https://prma.dev/tags/books/",
+    "feed_url": "https://prma.dev/tags/books/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "O'Reilly Book Covers",
+            "id": "https://prma.dev/daily/oreilly-book-covers/",
+            "url": "https://prma.dev/daily/oreilly-book-covers/",
+            "summary": "There is a retired burned out offended wild life photographer out there responsible for the O\u0026rsquo;Reilly\u0026rsquo;s book covers, after they were told \u0026ldquo;Your a photographer, that\u0026rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.\u0026rdquo;",
+            "content_html": "\u003cp\u003eThere is a retired burned out offended wild life photographer out there responsible for the O\u0026rsquo;Reilly\u0026rsquo;s book covers, after they were told \u0026ldquo;Your a photographer, that\u0026rsquo;s the same thing as graphic designer, give us 500 book covers, here is $1.\u0026rdquo;\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }
+    ]
+    
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dynamic-linking on prma</title>
+    <link>https://prma.dev/tags/dynamic-linking/</link>
+    <description>Recent content in dynamic-linking on prma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>prma.dev@protonmail.com (Perma)</managingEditor>
+    <webMaster>prma.dev@protonmail.com (Perma)</webMaster>
+    <copyright>CC v.4</copyright>
+    <lastBuildDate>Mon, 16 Oct 2023 23:03:00 +0330</lastBuildDate>
+    <atom:link href="https://prma.dev/tags/dynamic-linking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Linking is the Wrong solution</title>
+      <link>https://prma.dev/daily/dynamic-linking-the-wrong-solution/</link>
+      <pubDate>Mon, 16 Oct 2023 23:03:00 +0330</pubDate><author>prma.dev@protonmail.com (Perma)</author>
+      <guid>https://prma.dev/daily/dynamic-linking-the-wrong-solution/</guid>
+      <description>Dynamic linking for the reason of security is the wrong solution, only propagating the problem of language and application developers to the downstream package distrobuters. It is basically saying, yeah, I wrote this package with this language and dependencies, but you will be the one paying for my choice of technology. Of course, down stream people also shouldn&amp;rsquo;t have accommodated these softwares. Except they did and now, there are multitudes of ecosystems operating this way.</description>
+    </item>
+  </channel>
+</rss>

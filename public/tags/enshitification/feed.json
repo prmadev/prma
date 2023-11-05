@@ -1,0 +1,27 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "enshitification on prma",
+    "home_page_url": "https://prma.dev/tags/enshitification/",
+    "feed_url": "https://prma.dev/tags/enshitification/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "Centralization Around GitHub",
+            "id": "https://prma.dev/daily/github-centralization/",
+            "url": "https://prma.dev/daily/github-centralization/",
+            "summary": "I find the situation around GitHub centralization distressing. And this extreme relience on GitHub is worrying. Maybe in time things change. But the moment I find a job and thus don\u0026rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge. Codeberg seems like the closest option. I will just simply mirror my commits to GitHub for the time being, slowly retiring them when I\u0026rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.",
+            "content_html": "\u003cp\u003eI find the situation around GitHub centralization distressing.\nAnd this extreme relience on GitHub is worrying.\nMaybe in time things change.\nBut the moment I find a job and thus don\u0026rsquo;t need to keep my repos on GitHub anymore, I would like to move to a more federated forge.\nCodeberg seems like the closest option.\nI will just simply mirror my commits to GitHub for the time being, slowly retiring them when I\u0026rsquo;m sure that codeberg remotes have the necessary configurations and flows that are needed.\nI don\u0026rsquo;t think i can retire my account though. Every place I worked or want to work, are using GitHub.\nI cannot but worry about the same amount of enshitification that twitter and reddit has taken, to also come for GitHub.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Older, Better Technologies",
+            "id": "https://prma.dev/daily/older-better-technologies/",
+            "url": "https://prma.dev/daily/older-better-technologies/",
+            "summary": "It is very illuminating to see that using older style technologies, may lead to better experience. This just goes to show that many of the features and complexity and progress are not for people, but for profit of a few. That, of course, is a wild speculation of the highest order.",
+            "content_html": "\u003cp\u003eIt is very illuminating to see that using older style technologies, may lead to better experience.\nThis just goes to show that many of the features and complexity and progress are not \u003cem\u003efor people\u003c/em\u003e, but for profit of a few.\nThat, of course, is a wild speculation of the highest order.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }
+    ]
+    
+}

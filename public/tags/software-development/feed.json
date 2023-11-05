@@ -1,0 +1,27 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "software-development on prma",
+    "home_page_url": "https://prma.dev/tags/software-development/",
+    "feed_url": "https://prma.dev/tags/software-development/feed.json",
+    "authors": [{
+        "name": {"email":"prma.dev@protonmail.com","name":"Perma"},
+    }],
+    "items": [ {
+            "title": "I hate Jira",
+            "id": "https://prma.dev/daily/i-hate-jira/",
+            "url": "https://prma.dev/daily/i-hate-jira/",
+            "summary": "I absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.",
+            "content_html": "\u003cp\u003eI absolutely hate Jira. It is when you spend hours of valuable time, prioritizing tasks that take less time doing than setting them on Jira.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }, {
+            "title": "Prototyping in Software development",
+            "id": "https://prma.dev/daily/prototyping-software-development/",
+            "url": "https://prma.dev/daily/prototyping-software-development/",
+            "summary": "I think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:\nWhat don\u0026rsquo;t we know that we hope to find out with this prototype?\nWhy is this the best approach for finding the answer to that question.\nWhen is the prototype going to be deleted?\nIf you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product.",
+            "content_html": "\u003cp\u003eI think when you are proposing a fast prototyping phase in programming, you should he able to answer these questions:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eWhat don\u0026rsquo;t we know that we hope to find out with this prototype?\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eWhy is this the best approach for finding the answer to that question.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eWhen is the prototype going to be deleted?\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eIf you are cannot answer to these questions, what you are proposing is not a prototype, it is prototype quality end product. A knock off, if you will. A bad practice distilled.\u003c/p\u003e\n",
+            "date_published": "2023-10-16T23:04:00+03:30"
+        }
+    ]
+    
+}
