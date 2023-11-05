@@ -8,9 +8,6 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 paginate = 3
 timeZone = 'Europe/Berlin'
-[author]
-email = 'prma.dev@protonmail.com'
-name = 'Perma'
 [taxonomies]
 tag = "tags"
 category = "categories"
@@ -20,6 +17,8 @@ AuthorName = 'Perma'
 GitHubUser = 'prmadev'
 Subtitle = 'something good'
 showFullTextinJSONFeed = true
+author.email = 'prma.dev@protonmail.com'
+author.name = 'Perma'
 [menu]
 [[menu.main]]
   name = 'Home'

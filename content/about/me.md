@@ -38,17 +38,17 @@ For over 15 years, I have actively engaged in the realm of free software advocac
 
 ## Me, in the wild {#me-in-the-wild}
 
--   [Fosstodon](https:fosstodon.org/@prma)
--   [Codeberg](https:codeberg.org/prma)
--   [GitHub](https:github.com/prmadev)
--   [Linkedin](https:linkedin.com/in/prmadev)
+- [Fosstodon](https:fosstodon.org/@prma)
+- [Codeberg](https:codeberg.org/prma)
+- [GitHub](https:github.com/prmadev)
+- [Linkedin](https:linkedin.com/in/prmadev)
 
 
 ## FAQ {#faq}
 
--   What time is it?
--   What's your dogs name?
--   Is your dog friendly?
--   Is it your turn to cook lunch or mine?
+- What time is it?
+- What's your dogs name?
+- Is your dog friendly?
+- Is it your turn to cook lunch or mine?
 
 Yeah, I hear these questions quit frequently!
