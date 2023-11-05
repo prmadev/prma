@@ -5,10 +5,10 @@
   {{ partial "time" . }}
   <div class="tags flexer m-l-1">
     {{ range $tag := .Params.tags }}
-    <a href="/tags/{{.}}" class="tag blocked m-r-1 ph1 p-category">{{.}}</a>
+    <a href="/tags/{{. | strings.ToLower}}" class="tag blocked m-r-1 ph1 p-category">{{.}}</a>
     {{ end }}
     {{ range $cat := .Params.Categories }}
-    <a href="/categories/{{.}}" class="category blocked m-r-1 pc1 p-category">{{.}}</a>
+    <a href="/categories/{{. | strings.ToLower}}" class="category blocked m-r-1 pc1 p-category">{{.}}</a>
     {{ end }}
   </div>
   <label> Author: <a rel="author" class="p-author h-card person" href="/about/me">Perma</a></label>
