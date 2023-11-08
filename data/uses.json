@@ -303,7 +303,7 @@
     },
     {
       "name": "Perma",
-      "url": "https://prma.dev/posts/call_me_perma/",
+      "url": "https://prma.dev/posts/call-me-perma/",
       "application": "Name",
       "as_fall_back": false,
       "notes": "Not given, nor legal. But I strongly prefer it."
