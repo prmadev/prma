@@ -1,5 +1,7 @@
 * {
   font-family: monospace;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 
@@ -224,32 +226,48 @@ h1 {
 }
 
 .b-r-1 {
-  border-right: 1rem;
+  border-right-width: 1rem;
 }
 
 .b-t-0 {
-  border-top: 0rem;
+  border-top-width: 0rem;
 }
 
 .b-r-0 {
-  border-right: 0rem;
+  border-right-width: 0rem;
 }
 
 .b-b-0 {
-  border-bottom: 0rem;
+  border-bottom-width: 0rem;
 }
 
 .b-l-0 {
-  border-left: 0rem;
+  border-left-width: 0rem;
 }
 
 .b-l-1 {
-  border-left: 1rem;
+  border-left-width: 1rem;
+}
+
+.b-l-0-2-5 {
+  border-left-width: 0.25rem;
+}
+
+.opa-50 {
+  opacity: 50%;
+}
+
+hgroup p {
+  font-weight: bold;
+  padding-left: 4rem;
+  color: gray;
+  margin-top: -1rem;
 }
 
 .pb1::before {
   display: contents;
   content: "▒";
+  margin-right: 1rem;
 }
 
 .ph1::before {
@@ -365,31 +383,31 @@ a {
 article h2::before {
   display: contents;
   content: "▒▒";
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 article h3::before {
   display: contents;
   content: "▒▒▒";
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 article h4::before {
   display: contents;
   content: "▒▒▒▒";
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 article h5::before {
   display: contents;
   content: "▒▒▒▒▒";
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 article h6::before {
   display: contents;
   content: "▒▒▒▒▒▒";
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 code,

@@ -1,9 +1,9 @@
 {{ define "main" }}
 <hr class="hr-bold-black" />
 
-<div class="flexer">
-  {{ partial "time" . }}
-  <div class="tags flexer m-l-1">
+<div class="flexer fl-row-wrap">
+  <div class="m-r-1">{{ partial "time" . }}</div>
+  <div class="tags flexer  fl-row-wrap">
     {{ range $tag := .Params.tags }}
     <a href="/tags/{{. | strings.ToLower}}" class="tag blocked m-r-1 ph1 p-category">{{.}}</a>
     {{ end }}

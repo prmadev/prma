@@ -1,0 +1,354 @@
+{
+  "Software": [
+    {
+      "name": "NixOS",
+      "url": "https://nixos.org",
+      "application": "OS",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Foot",
+      "url": "https://codeberg.org/dnkl/foot",
+      "application": "Terminal",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Wezterm",
+      "url": "https://wezfurlong.org/wezterm/",
+      "application": "Terminal",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "Much heavier than foot. Uses a lot of ram and is not as stable. But works well as a fall back."
+    },
+    {
+      "name": "Helix",
+      "url": "https://github.com/helix-editor/helix",
+      "application": "Text Editor",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Neovim",
+      "url": "https://github.com/neovim/neovim",
+      "application": "Text Editor",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Fuzzel",
+      "url": "https://codeberg.org/dnkl/fuzzel",
+      "application": "Application Launcher",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Waybar",
+      "url": "https://github.com/Alexays/Waybar",
+      "application": "Status Bar",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "RiverWM",
+      "url": "https://github.com/riverwm/river",
+      "application": "Window Manager",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Firefox",
+      "url": "https://www.mozilla.org/en-US/firefox/new/",
+      "application": "Browser",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": ""
+    },
+    {
+      "name": "Tmux",
+      "url": "https://github.com/tmux/tmux/wiki",
+      "application": "Terminal Session Manager",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": "It works really great. But I cannot say that I love the UX."
+    },
+    {
+      "name": "Zellij",
+      "url": "https://zellij.dev/",
+      "application": "Terminal Session Manager",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "It is much less mature than Tmux. But it is getting there. Offers much better defaults."
+    },
+    {
+      "name": "Yazi",
+      "url": "https://yazi-rs.github.io/",
+      "application": "File Manager",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": "New and immature. But I like it."
+    },
+    {
+      "name": "nnn",
+      "url": "https://github.com/jarun/nnn",
+      "application": "File Manager",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "Reliable, fast and sane. However, there are some condecention in the tone of its maintainers."
+    },
+    {
+      "name": "lf",
+      "url": "https://github.com/gokcehan/lf",
+      "application": "File Manager",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "Delightfully good. Which uses a client-server model. However, it will need a lot of configurations."
+    },
+    {
+      "name": "Fish",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "application": "Interactive Shell",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": "For interactive use. It is also getting faster and faster everyday."
+    },
+    {
+      "name": "Nushell",
+      "url": "https://www.nushell.sh/",
+      "application": "Interactive Shell",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "I have high hopes for this one, but it still has a lot missing."
+    },
+    {
+      "name": "Zsh",
+      "url": "https://www.zsh.org/",
+      "application": "Interactive Shell",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "Works well. But it takes a lot of work to be usable for me."
+    },
+    {
+      "name": "Android",
+      "url": "https://www.android.com/",
+      "application": "OS",
+      "as_fall_back": false,
+      "platform": "SmartPhone",
+      "notes": "I absolutely hate both android and iOS."
+    },
+    {
+      "name": "Kiwi",
+      "url": "https://kiwibrowser.com/",
+      "application": "Browser",
+      "as_fall_back": false,
+      "platform": "SmartPhone",
+      "notes": ""
+    },
+    {
+      "name": "Codeberg",
+      "url": "https://codeberg.org/",
+      "application": "Code Forge",
+      "as_fall_back": false,
+      "platform": "Web",
+      "notes": ""
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/",
+      "application": "Code Forge",
+      "as_fall_back": true,
+      "platform": "Web",
+      "notes": "Mostly because everyone assumes it."
+    },
+    {
+      "name": "Kagi",
+      "url": "https://kagi.com/",
+      "application": "Search Engine",
+      "as_fall_back": false,
+      "platform": "Web",
+      "notes": ""
+    },
+    {
+      "name": "Feedbin",
+      "url": "https://feedbin.com/",
+      "application": "Feed Reader",
+      "as_fall_back": false,
+      "platform": "Web",
+      "notes": ""
+    },
+    {
+      "name": "Hugo",
+      "url": "https://gohugo.io/",
+      "application": "Static Site Generator",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": "This blog is made powered by Hugo."
+    },
+    {
+      "name": "ProtonMail",
+      "url": "https://proton.me/",
+      "application": "Email",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": ""
+    },
+    {
+      "name": "Proton Pass",
+      "url": "https://proton.me/pass",
+      "application": "Password Manager",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": "I started with Bitwarden, but it UX was absolutely horrible."
+    },
+    {
+      "name": "Fosstodon",
+      "url": "https://fosstodon.org",
+      "application": "Micro-blogging",
+      "as_fall_back": false,
+      "platform": "web",
+      "notes": ""
+    },
+    {
+      "name": "Rust",
+      "url": "https://www.rust-lang.org/",
+      "application": "Programming Language",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": "I use it for everything, from back-ends, to quick scripts. Though the last one is counter intuitive."
+    },
+    {
+      "name": "Go",
+      "url": "https://go.dev/",
+      "application": "Programming Language",
+      "as_fall_back": true,
+      "platform": "*",
+      "notes": "My first programming language. Simple. But not as reliable as I like. A lot of calls because of nil pointers on my weekends."
+    },
+    {
+      "name": "Matrix",
+      "url": "https://matrix.org",
+      "application": "Chatting",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": ""
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.org/",
+      "application": "Chatting",
+      "as_fall_back": true,
+      "platform": "*",
+      "notes": "Centralized. But most of my friends are on it. Also, the applications are magnificent."
+    }
+  ],
+  "Hardware": [
+    {
+      "name": "Dell XPS 13 7390",
+      "url": "https://www.dell.com/en-us/shop/cty/pdp/spd/xps-13-7390-laptop",
+      "application": "Desktop",
+      "as_fall_back": false,
+      "notes": "I love this thing. I got it second hand. It is fast and it is light. The Full HD monitor is just beautiful and the keyboard is excellent. Also, I am not pained with proprietory drivers, at every corner."
+    },
+    {
+      "name": "qkz hbb khan",
+      "url": "https://www.head-fi.org/showcase/qkz-x-hbb-khan.26267/",
+      "application": "Earphone",
+      "as_fall_back": false,
+      "notes": ""
+    },
+    {
+      "name": "Redmi Note 10 Pro Max",
+      "url": "https://www.mi.com/in/redmi-note-10-pro-max/",
+      "application": "SmartPhone",
+      "as_fall_back": false,
+      "notes": "I hate it. Xiaomi has started enshitifying it, adding adds and removing options to remove their so called enhancements, at every update. I hate it."
+    }
+  ],
+  "Misc": [
+    {
+      "name": "Lotion",
+      "url": "https://font.nina.coffee/",
+      "application": "TypeFace",
+      "as_fall_back": false,
+      "notes": ""
+    },
+    {
+      "name": "Maple mono",
+      "url": "https://github.com/subframe7536/maple-font",
+      "application": "TypeFace",
+      "as_fall_back": true,
+      "notes": ""
+    },
+    {
+      "name": "Catppuccin",
+      "url": "https://github.com/catppuccin/",
+      "application": "ColorScheme",
+      "as_fall_back": false,
+      "notes": ""
+    },
+    {
+      "name": "RosePine",
+      "url": "https://rosepinetheme.com/",
+      "application": "ColorScheme",
+      "as_fall_back": true,
+      "notes": ""
+    },
+    {
+      "name": "Perma",
+      "url": "https://prma.dev/posts/call_me_perma/",
+      "application": "Name",
+      "as_fall_back": false,
+      "notes": "Not given, nor legal. But I strongly prefer it."
+    },
+    {
+      "name": "Amirhossein",
+      "url": "",
+      "application": "Name",
+      "as_fall_back": true,
+      "notes": "Legal. Given. Use it if you must. But I prefer Perma."
+    },
+    {
+      "name": "They/Them",
+      "url": "https://en.pronouns.page/are/they/them",
+      "application": "Pronouns",
+      "as_fall_back": false,
+      "notes": "I don't mind if you use any other pronouns. I will respect yours. But I wished language was gender-neutral."
+    },
+    {
+      "name": "English",
+      "url": "https://en.wikipedia.org/wiki/English_language",
+      "application": "Spoken Language",
+      "as_fall_back": false,
+      "notes": "I journal in it, I work with it, I read with it. I prefer it."
+    },
+    {
+      "name": "Farsi",
+      "url": "https://en.wikipedia.org/wiki/Persian_language",
+      "application": "Spoken Language",
+      "as_fall_back": true,
+      "notes": "My Mother Language. I am not crazy about it, though."
+    },
+    {
+      "name": "German",
+      "url": "https://en.wikipedia.org/wiki/German_language",
+      "application": "Spoken Language",
+      "as_fall_back": true,
+      "notes": "I am very begginer in it. A1. But I am actively learning it."
+    },
+    {
+      "name": "Metric",
+      "url": "https://en.wikipedia.org/wiki/Metric_system",
+      "application": "Measurement standard",
+      "as_fall_back": false,
+      "notes": "I mean, it makes sense."
+    }
+  ]
+}
