@@ -18,8 +18,8 @@ article a {
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 3rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 details {
@@ -142,6 +142,10 @@ a:hover {
 
 .tx-3-5 {
   font-size: 3.5rem;
+}
+
+.tx-4-5 {
+  font-size: 4.5rem;
 }
 
 .fl-wrap {
@@ -435,11 +439,18 @@ main ol {
 }
 
 h1 {
-  font-size: 2.5rem;
+
+  font-size: 3rem;
+}
+
+header h1 a {
+
+  line-height: 4rem;
 }
 
 h2 {
   font-size: 2rem;
+  line-height: 3rem;
 }
 
 h3 {
