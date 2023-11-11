@@ -2,20 +2,24 @@
 <html lang="en">
 {{ partial "head-part" . }}
 
-<body class="m-1 m-t-3 mw-std">
-  <ul class="ul-unbullet m-0 p-0 p-feed">
-    <div class=" m-l-1 m-b-3 tx-1-5">
-      <h2> Long </h2>
-      <a class="fg-black" href="/posts/index.xml">ATOM</a>
-      <a class="fg-black" href="/posts/feed.json">JSONFeed</a>
-    </div>
-    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
-    <div class=" m-l-1 m-b-3 tx-1-5">
-      <h2> Daily </h2>
-      <a class="fg-black" href="/daily/index.xml">ATOM</a>
-      <a class="fg-black" href="/daily/feed.json">JSONFeed</a>
-    </div>
-    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
+<body class=" container mx-auto  max-w-5xl shadow-2xl drop-shadow-2xl">
+  <ul class="ul-unbullet p-feed">
+    <section class="">
+      <div class="my-10">
+        <h2 class="text-6xl font-black my-6"> Long </h2>
+        <a class="font-bold text-3xl pr-6" href="/posts/index.xml">ATOM</a>
+        <a class="font-bold text-3xl" href="/posts/feed.json">JSONFeed</a>
+      </div>
+      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
+    </section>
+    <section class="">
+      <div class="my-10">
+        <h2 class="text-6xl font-black my-6"> Daily </h2>
+        <a class="font-bold text-3xl pr-6" href="/daily/index.xml">ATOM</a>
+        <a class="font-bold text-3xl" href="/daily/feed.json">JSONFeed</a>
+      </div>
+      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
+    </section>
   </ul>
   {{ block "footer" . }}
   {{ partial "footer-simple" . }}

@@ -1,5 +1,6 @@
-<li class="{{ .Params.audience  }} m-0 p-0 h-entry m-b-3 post-list-item blocked tx-1-5 m-l-1 m-r-1 item-align-center flexer container">
-    <a href="{{ .Permalink }}" class="ntdl u-url p-name fg-black">{{.Title}}</a>
-    <div class="fl-grow-1 m-r-1 m-l-1 blocked "><hr class="hr-bold-black" /></div>
-    <div class="tx-1 blocked ns-nowrap ">{{ partial "time" .}}</div>
+<li class="{{ .Params.audience  }}  flex h-entry my-5 text-3xl  ">
+  <a href="{{ .Permalink }}" class=" flex-none  u-url p-name ">{{.Title}}</a>
+  <hr class="mx-5 text-2xl flex-auto place-self-center border-dashed">
+  </hr>
+  <div class="">{{ partial "time" .}}</div>
 </li>

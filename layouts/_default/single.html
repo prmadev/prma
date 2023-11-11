@@ -1,21 +1,28 @@
 {{ define "main" }}
-<hr class="hr-bold-black" />
+<hr class="border-2 border-dashed mt-5" />
 
-<div class="flexer fl-row-wrap">
-  <div class="m-r-1">{{ partial "time" . }}</div>
-  <div class="tags flexer  fl-row-wrap">
+<div class="flex  align-baseline justify-between flex-wrap  a:font-black">
+  <div class="text-lg font-bold p-2">{{ partial "time" . }}</div>
+  <div class="tags text-lg p-2 align-baseline">
     {{ range $tag := .Params.tags }}
-    <a href="/tags/{{. | strings.ToLower}}" class="tag blocked m-r-1 ph1 p-category">{{.}}</a>
+    <a href="/tags/{{. | strings.ToLower}}"
+      class=" font-bold text-lg tag pr-4 p-category underline underline-offset-2 decoration-4 hover:underline-offset-4 hover:decoration-4 transition-all">{{.}}</a>
     {{ end }}
     {{ range $cat := .Params.Categories }}
-    <a href="/categories/{{. | strings.ToLower}}" class="category blocked m-r-1 pc1 p-category">{{.}}</a>
+    <a href="/categories/{{. | strings.ToLower}}"
+      class=" font-bold text-lg category  p-category underline underline-offset-2 decoration-4 hover:underline-offset-4 hover:decoration-4 transition-all">{{.}}</a>
     {{ end }}
   </div>
-  <label> Author: <a rel="author" class="p-author h-card person" href="/about/me">Perma</a></label>
+  <label class="font-bold text-lg p-2 ">
+    <a rel="author" class="p-author h-card person " href="/about/me">Perma</a>
+  </label>
 </div>
-<main class="e-content">{{ .Content }}</main>
-<aside>
-  <p>Comment section? I Have none! But I like emails: <a class="u-email"
+<main
+  class="e-content prose  prose-p:selection:bg-gray-300 prose-2xl  prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl  my-4 prose-a:underline-offset-2 hover:prose-a:underline-offset-4 prose-a:decoration-2 hover:prose-a:decoration-4 prose-a:transition-all">
+  {{ .Content }}</main>
+<aside
+  class="shadow shadow-2xl p-4 drop-shadow-2xl shadow-black e-content prose  prose-p:selection:bg-gray-300 prose-2xl  prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl  my-4 prose-a:underline-offset-2 hover:prose-a:underline-offset-4 prose-a:decoration-2 hover:prose-a:decoration-4 prose-a:transition-all">
+  <p>Comment section? I Have none! But I like emails: <a class=" u-email"
       href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a></p>
 </aside>
 {{ end }}

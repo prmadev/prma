@@ -4,14 +4,14 @@
 {{ partial "post-listing" . }}
 {{end}}
 {{end}}
-{{if ge (len  .Pages) $listsize }}
-<details class="blocked centered m-b-3">
-  <summary class="m-b-3">More</summary>
+{{if ge (len .Pages) $listsize }}
+<details class="  mb-6  ">
+  <summary class="mb-6 text-2xl text-center font-bold">More</summary>
 
   {{ range $i, $page := .Pages }}
   {{ if ge $i $listsize }}
   {{ partial "post-listing" . }}
   {{end}}
   {{end}}
-      </details>
+</details>
 {{end}}

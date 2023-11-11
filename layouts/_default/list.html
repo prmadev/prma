@@ -1,7 +1,7 @@
 {{ define "main" }} {{ $t := "2006-01-02 15:04" }}
 <p>{{.Content}}</p>
 
-<ul class="ul-unbullet m-0 p-0">
+<ul class=" ">
   {{ range $page := .Pages }}
   {{ partial "post-listing" . }}
   {{ end }}

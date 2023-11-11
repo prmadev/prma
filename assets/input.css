@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.suned::before {
+  display: contents;
+  content: "⍜ ";
+}
+
+.suned:hover::before {
+  display: contents;
+  content: "⍛ ";
+}
+
+.person::before {
+  display: contents;
+  content: "⚇ ";
+}
+
+.language::before {
+  display: contents;
+  content: "⨟ ";
+  font-weight: bold;
+}
+
+.person,
+.language {
+  text-decoration: underline dotted black 0.1rem;
+  text-underline-offset: 0.5rem;
+}
+
+.sunrise {
+  display: contents;
+  content: "⍜";
+}
