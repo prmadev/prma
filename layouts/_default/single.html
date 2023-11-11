@@ -1,28 +1,26 @@
 {{ define "main" }}
-<hr class="border-2 border-dashed mt-5" />
 
-<div class="flex  align-baseline justify-between flex-wrap  a:font-black">
-  <div class="text-lg font-bold p-2">{{ partial "time" . }}</div>
-  <div class="tags text-lg p-2 align-baseline">
+<div class="flex align-baseline justify-between opacity-70  container transition-all flex-wrap">
+  <div class="text-base font-bold p-2">{{ partial "time" . }}</div>
+  <div class="tags text-base p-2 align-baseline">
     {{ range $tag := .Params.tags }}
-    <a href="/tags/{{. | strings.ToLower}}"
-      class=" font-bold text-lg tag pr-4 p-category underline underline-offset-2 decoration-4 hover:underline-offset-4 hover:decoration-4 transition-all">{{.}}</a>
+    <a href="/tags/{{. | strings.ToLower}}" class=" font-bold tag pr-4 p-category">{{.}}</a>
     {{ end }}
     {{ range $cat := .Params.Categories }}
-    <a href="/categories/{{. | strings.ToLower}}"
-      class=" font-bold text-lg category  p-category underline underline-offset-2 decoration-4 hover:underline-offset-4 hover:decoration-4 transition-all">{{.}}</a>
+    <a href="/categories/{{. | strings.ToLower}}" class=" font-bold category  p-category">{{.}}</a>
     {{ end }}
   </div>
-  <label class="font-bold text-lg p-2 ">
+  <label class="font-bold text-base p-2 ">
     <a rel="author" class="p-author h-card person " href="/about/me">Perma</a>
   </label>
 </div>
+
 <main
-  class="e-content prose  prose-p:selection:bg-gray-300 prose-2xl  prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl  my-4 prose-a:underline-offset-2 hover:prose-a:underline-offset-4 prose-a:decoration-2 hover:prose-a:decoration-4 prose-a:transition-all">
+  class="e-content mt-10 prose selection:text-white  selection:bg-black  prose-2xl prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl prose-a:underlined my-4 max-sm:prose-h1:text-4xl max-sm:prose-h2:text-3xl max-sm:prose-h3:text-2xl max-sm:prose-h4:text-xl max-sm:prose-h5:text-lg max-sm:prose-h6:text-md">
   {{ .Content }}</main>
 <aside
-  class="shadow shadow-2xl p-4 drop-shadow-2xl shadow-black e-content prose  prose-p:selection:bg-gray-300 prose-2xl  prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl  my-4 prose-a:underline-offset-2 hover:prose-a:underline-offset-4 prose-a:decoration-2 hover:prose-a:decoration-4 prose-a:transition-all">
-  <p>Comment section? I Have none! But I like emails: <a class=" u-email"
+  class=" e-content prose prose-p:selection:bg-gray-300 prose-2xl prose:w-screen prose-stone prose-code:prose-pre:invert prose-code:text-2xl my-4  prose-a:no-underline">
+  <p>Comment section? I Have none! But I like emails: <a class="inline-block u-email"
       href="mailto:prma.dev@protonmail.com">prma.dev@protonmail.com</a></p>
 </aside>
 {{ end }}

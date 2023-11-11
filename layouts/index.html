@@ -2,25 +2,31 @@
 <html lang="en">
 {{ partial "head-part" . }}
 
-<body class=" container mx-auto  max-w-5xl shadow-2xl drop-shadow-2xl">
-  <ul class="ul-unbullet p-feed">
-    <section class="">
-      <div class="my-10">
-        <h2 class="text-6xl font-black my-6"> Long </h2>
-        <a class="font-bold text-3xl pr-6" href="/posts/index.xml">ATOM</a>
-        <a class="font-bold text-3xl" href="/posts/feed.json">JSONFeed</a>
+<body class="container mx-auto max-w-5xl">
+  <section class="p-feed my-20 mx-5">
+    <hgroup class="my-16 flex justify-between">
+      <h2 class="text-4xl font-black ">Long</h2>
+      <div class="place-self-center">
+        <a class="text-xl font-bold p-2" href="/posts/index.xml">ATOM</a>
+        <a class="text-xl font-bold p-2" href="/posts/feed.json">JSONFeed</a>
       </div>
+    </hgroup>
+    <ul>
       {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
-    </section>
-    <section class="">
-      <div class="my-10">
-        <h2 class="text-6xl font-black my-6"> Daily </h2>
-        <a class="font-bold text-3xl pr-6" href="/daily/index.xml">ATOM</a>
-        <a class="font-bold text-3xl" href="/daily/feed.json">JSONFeed</a>
+    </ul>
+  </section>
+  <section class="p-feed my-20 mx-5">
+    <hgroup class="my-16 flex justify-between">
+      <h2 class="text-4xl font-black ">Daily</h2>
+      <div class="place-self-center">
+        <a class="text-xl font-bold p-2" href="/daily/index.xml">ATOM</a>
+        <a class="text-xl font-bold p-2" href="/daily/feed.json">JSONFeed</a>
       </div>
+    </hgroup>
+    <ul>
       {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
-    </section>
-  </ul>
+    </ul>
+  </section>
   {{ block "footer" . }}
   {{ partial "footer-simple" . }}
   {{end}}

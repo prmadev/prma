@@ -1,54 +1,50 @@
-<footer class="flex align-center justify-center ">
+<footer class="flex align-center justify-center">
   <div class="my-24">
 
     <div>
-      <h1 class="site-title text-6xl flex  items-center justify-center font-black ">
-        <a href="/" class="site-link ">⍜</a>
+      <h1 class="site-title text-6xl flex items-center justify-center font-black">
+        <a href="/" class="site-link transition-gpu hover:rotate-12">⍜</a>
       </h1>
 
-      <h1 class="site-title text-6xl flex  items-center justify-center font-black  ">
+      <h1 class="site-title text-6xl flex items-center justify-center font-black">
         <a href="/" class="site-link ">{{.Site.Title}}</a>
       </h1>
     </div>
 
-    <div class="  p-10 my-10 min-w-fit">
-      <section class="shadow hover:shadow-xl transition-all drop-shadow-2xl my-5">
-        <h3 class="flex text-xl border-black p-10 justify-center align-middle font-extrabold mx-auto">
+    <div class="p-10 my-10 min-w-fit">
+      <section class="card drop-shadow-2xl p-10 my-5">
+        <h3 class="flex text-xl border-black m-5 justify-center align-middle font-extrabold mx-auto">
           Find me
         </h3>
-        <p class="prose prose-2xl transition-all p-10">
-          You can find publishing somethings at <a
-            class="underline underline-offset-4 decoration-2 hover:decoration-4 hover:underline-offset-8 transition-all"
-            href="https://fosstodon.org/@prma" rel="me">Fosstodon</a>,<br>
-          or working on things on <a class="fg-black" href="https://codeberg.org/prma" rel="me">Codeberg</a>,<br>
-          or connecting with people at <a class="fg-black" href="https://linkedin.com/in/prmadev" rel="me">Linkedin</a>.
+        <p class="prose prose-2xl transition-all">
+          You can find publishing somethings at <a class="underlined" href="https://fosstodon.org/@prma"
+            rel="me">Fosstodon</a>,<br>
+          or working on things on <a class="underlined" href="https://codeberg.org/prma" rel="me">Codeberg</a>,<br>
+          or connecting with people at <a class="underlined" href="https://linkedin.com/in/prmadev"
+            rel="me">Linkedin</a>.
         </p>
       </section>
 
-      <section class="shadow hover:shadow-xl transition-all my-5">
-        <h3 class="flex text-xl border-black p-10 justify-center align-middle font-extrabold mx-auto">About</h3>
-        <p class="prose prose-2xl transition-all p-10">I'm <a
-            class="h-card p-author p-name p-nickname p-author u-url fg-black" rel="author" href="/about/me">Perma</a>.
-          Read about <a class="fg-black" href="/about/uses">What I Use</a>.
+      <section class="card my-5 p-10">
+        <h3 class="flex text-xl border-black m-5 justify-center align-middle font-extrabold mx-auto">About</h3>
+        <p class="prose prose-2xl transition-all ">I'm <a
+            class="h-card p-author p-name p-nickname p-author u-url underlined" rel="author" href="/about/me">Perma</a>.
+          Read about <a class="underlined" href="/about/uses">What I Use</a>.
         </p>
       </section>
 
 
-      <section class="shadow hover:shadow-xl transition-all my-5">
-        <h3 class="flex text-xl border-black p-10 justify-center align-middle font-extrabold mx-auto">Feeds</h3>
-        <p class="prose prose-2xl transition-all p-10">Dailies + Regulars: <a class="fg-black"
-            href="/index.xml">ATOM</a>
-          </li> <a class="fg-black" href="/feed.json">JSONFeed</a></p>
-
-        <p class="prose prose-2xl transition-all p-10">Regulars: <a class="fg-black" href="/posts/index.xml">ATOM</a>
-          </li>
-          <a class="fg-black" href="/posts/feed.json">JSONFeed</a>
+      <section class="card my-5 p-10">
+        <h3 class="flex text-xl border-black m-5 justify-center align-middle font-extrabold mx-auto">Feeds</h3>
+        <p>Dailies + Regulars: <a class="underlined" href="/index.xml">ATOM</a>
+          <a class="underlined" href="/feed.json">JSONFeed</a>
         </p>
-
-
-        <p class="prose prose-2xl transition-all p-10">Dailies: <a class="fg-black" href="/daily/index.xml">ATOM</a>
-          </li>
-          <a class="fg-black" href="/daily/feed.json">JSONFeed</a>
+        <p>
+          Regulars: <a class="underlined" href="/posts/index.xml">ATOM</a>
+          <a class="underlined" href="/posts/feed.json">JSONFeed</a>
+        </p>
+        <p>Dailies: <a class="underlined" href="/daily/index.xml">ATOM</a>
+          <a class="underlined" href="/daily/feed.json">JSONFeed</a>
         </p>
 
       </section>

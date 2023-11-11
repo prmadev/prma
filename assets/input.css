@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.suned::before {
+.sunrise::before {
   display: contents;
-  content: "⍜ ";
+  content: "⍜";
 }
 
-.suned:hover::before {
+.sunrise:hover::before {
   display: contents;
-  content: "⍛ ";
+  content: "⍛";
 }
 
 .person::before {
@@ -29,7 +29,25 @@
   text-underline-offset: 0.5rem;
 }
 
-.sunrise {
+.sun:hover::before {
   display: contents;
-  content: "⍜";
+  content: "◉";
+  padding-right: 10px;
+}
+
+.sun::before {
+  display: contents;
+  content: "○";
+  padding-right: 10px;
+}
+
+@layer components {
+  .underlined {
+    @apply underline underline-offset-2 decoration-2 hover:decoration-4 hover:underline-offset-4 transition-all;
+  }
+
+  .card {
+    @apply shadow hover:shadow-xl transition-all;
+  }
+
 }

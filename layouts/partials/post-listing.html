@@ -1,6 +1,6 @@
-<li class="{{ .Params.audience  }}  flex h-entry my-5 text-3xl  ">
-  <a href="{{ .Permalink }}" class=" flex-none  u-url p-name ">{{.Title}}</a>
-  <hr class="mx-5 text-2xl flex-auto place-self-center border-dashed">
-  </hr>
-  <div class="">{{ partial "time" .}}</div>
+<li
+  class="{{ .Params.audience  }} md:flex md:flex-auto md:flex-grow h-entry md:flex-wrap my-5 text-2xl max-sm:text-2xl">
+  <a href="{{ .Permalink }}" class="u-url p-name">{{.Title}}</a>
+  <hr class="place-self-center sm:flex-grow max-sm:hidden border-black border-dashed" />
+  <div class="max-sm:opacity-60 max-sm:text-lg  ">{{ partial "time" .}}</div>
 </li>
