@@ -2,11 +2,11 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    // colors: {
+    colors: {
       // 'black': 'black',
       // 'white': 'white',
       // 'gray': 'gray',
-    // },
+    },
     extend: {},
     fontFamily: {
       sans: ['monospace'],

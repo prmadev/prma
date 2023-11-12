@@ -2,22 +2,23 @@
   <h2>Softwares</h2>
   <p>These are the softwares that I use.</p>
 </hgroup>
-<p> <span class="opa-50">Low Opacity</span> means that it is used as a fallback option. </p>
+<p> <span class="opacity-50">Low Opacity</span> means that it is used as a fallback option. </p>
 <dl>
   {{ range $Index, $Item := .Site.Data.uses.Software }}
 
   {{ $ID := (strings.ToLower (strings.Replace ( strings.Replace $Item.name " " "_" ) "/" "_")) }}
-  <dt id="{{ $ID }}" {{ if $Item.as_fall_back }} class="opa-50" {{end}}><a href="{{ $Item.url }}">{{ $Item.name
+  <dt id="{{ $ID }}" {{ if $Item.as_fall_back }} class="opacity-50 " {{end}}><a href="{{ $Item.url }}"
+      class="font-black">{{ $Item.name
       }}</a></dt>
-  <dd {{ if $Item.as_fall_back }} class="opa-50" {{end}}>
-    <dl class="boxed b-l-0-2-5 b-r-0 b-b-0 b-t-0 b-l b-black p-1">
+  <dd {{ if $Item.as_fall_back }} class="opacity-50" {{end}}>
+    <dl class="border-l-2 p-4">
       <dt>as</dt>
-      <dd>{{ $Item.application }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.application }}</dd>
       <dt>for</dt>
-      <dd>{{ if eq $Item.platform "*" }}Everything{{else}}{{ $Item.platform }}{{end}}</dd>
+      <dd class="ml-8 font-bold">{{ if eq $Item.platform "*" }}Everything{{else}}{{ $Item.platform }}{{end}}</dd>
       {{ if not ( eq $Item.notes "" )}}
       <dt>note</dt>
-      <dd>{{ $Item.notes }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.notes }}</dd>
       {{end}}
     </dl>
   </dd>
@@ -28,19 +29,21 @@
   <h2>Hardware</h2>
   <p>These are the Hardwares that I use.</p>
 </hgroup>
-<p> <span class="opa-50">Low Opacity</span> means that it is used as a fallback option. </p>
+<p> <span class="opacity-50">Low Opacity</span> means that it is used as a fallback option. </p>
 <dl>
   {{ range $Index, $Item := .Site.Data.uses.Hardware }}
   {{ $ID := (strings.ToLower (strings.Replace ( strings.Replace $Item.name " " "_" ) "/" "_")) }}
-  <dt id="{{ $ID }}" {{ if $Item.as_fall_back }} class="opa-50" {{end}}><a href="{{ $Item.url }}">{{ $Item.name }}</a>
+  <dt id="{{ $ID }}" {{ if $Item.as_fall_back }} class="opacity-50" {{end}}><a class="font-black"
+      href="{{ $Item.url }}">{{ $Item.name
+      }}</a>
   </dt>
-  <dd {{ if $Item.as_fall_back }} class="opa-50" {{end}}>
-    <dl class="boxed b-l-0-2-5 b-r-0 b-b-0 b-t-0 b-l b-black p-1">
+  <dd {{ if $Item.as_fall_back }} class="opacity-50" {{end}}>
+    <dl class="border-l-2 p-4">
       <dt>as</dt>
-      <dd>{{ $Item.application }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.application }}</dd>
       {{ if not ( eq $Item.notes "" )}}
       <dt>note</dt>
-      <dd>{{ $Item.notes }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.notes }}</dd>
       {{end}}
     </dl>
   </dd>
@@ -50,21 +53,21 @@
   <h2>Miscellaneous</h2>
   <p>The rest of things that I use.</p>
 </hgroup>
-<p> <span class="opa-50">Low Opacity</span> means that it is used as a fallback option. </p>
+<p> <span class="opacity-50">Low Opacity</span> means that it is used as a fallback option. </p>
 <dl>
   {{ range $Index, $Item := .Site.Data.uses.Misc }}
   {{ $ID := (strings.ToLower (strings.Replace ( strings.Replace $Item.name " " "_" ) "/" "_")) }}
-  <dt {{ if $Item.as_fall_back }} class="opa-50" {{end}} id="{{$ID}}" {{ if $Item.as_fall_back }} class="opa-50"
-    {{end}}><a href="{{ $Item.url }}">{{ $Item.name }}</a>
+  <dt {{ if $Item.as_fall_back }} class="opacity-50" {{end}} id="{{$ID}}" {{ if $Item.as_fall_back }} class="opacity-50"
+    {{end}}><a class="font-black" href="{{ $Item.url }}">{{ $Item.name }}</a>
   </dt>
 
-  <dd {{ if $Item.as_fall_back }} class="opa-50" {{end}}>
-    <dl class="boxed b-l-0-2-5 b-r-0 b-b-0 b-t-0 b-l b-black p-1">
+  <dd {{ if $Item.as_fall_back }} class="opacity-50" {{end}}>
+    <dl class="border-l-2 p-4">
       <dt>as</dt>
-      <dd>{{ $Item.application }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.application }}</dd>
       {{ if not ( eq $Item.notes "" )}}
       <dt>note</dt>
-      <dd>{{ $Item.notes }}</dd>
+      <dd class="ml-8 font-bold">{{ $Item.notes }}</dd>
       {{end}}
     </dl>
   </dd>
