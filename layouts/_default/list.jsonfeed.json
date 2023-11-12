@@ -19,20 +19,21 @@
 {{- end }}
 {{- $title = print $title .Site.Title }}
 {{- end }}
+{{- $siteurl := site.BaseURL -}}
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": {{ $title | jsonify }},
-    "home_page_url": {{ .Permalink | jsonify }},
+    "home_page_url": {{ .Permalink  | jsonify }},
     "description": {{ .Site.Params.description | jsonify }},
     "language": {{ "en"  | jsonify }},
     {{- with  .OutputFormats.Get "jsonfeed" }}
-    "feed_url": {{ .Permalink | jsonify  }},
+    "feed_url": {{ fmt.Printf "%s%s" .Permalink "/feed.json" | jsonify  }},
     {{- end }}
     {{- if .Site.Params.icon  }}
-    "icon": {{ fmt.Printf "%s%s" .Permalink .Site.Params.icon | jsonify }},
+    "icon": {{ fmt.Printf "%s%s" $siteurl .Site.Params.icon | jsonify }},
     {{- end }}
     {{- if .Site.Params.favicon  }}
-    "favicon": {{ fmt.Printf "%s%s" .Permalink .Site.Params.favicon | jsonify }},
+    "favicon": {{ fmt.Printf "%s%s" $siteurl .Site.Params.favicon | jsonify }},
     {{- end }}
 
     {{- if .Site.Params.author.name  }}
