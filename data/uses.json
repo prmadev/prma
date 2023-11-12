@@ -153,12 +153,20 @@
       "notes": ""
     },
     {
-      "name": "Codeberg",
-      "url": "https://codeberg.org/",
+      "name": "SourceHut",
+      "url": "https://sr.ht/",
       "application": "Code Forge",
       "as_fall_back": false,
       "platform": "Web",
-      "notes": ""
+      "notes": "Definitely much less bull-shit driven than others. It is well decentralized and uses git the way it was intended to. This blog is also hosted there."
+    },
+    {
+      "name": "Codeberg",
+      "url": "https://codeberg.org/",
+      "application": "Code Forge",
+      "as_fall_back": true,
+      "platform": "Web",
+      "notes": "Good enough. But not as still adheres to the GitHub-way of interaction."
     },
     {
       "name": "Github",
