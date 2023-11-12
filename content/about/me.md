@@ -40,6 +40,7 @@ For over 15 years, I have actively engaged in the realm of free software advocac
 
 - [Fosstodon](https:fosstodon.org/@prma)
 - [Codeberg](https:codeberg.org/prma)
+- [sr.ht](https:sr.ht/~prma)
 - [GitHub](https:github.com/prmadev)
 - [Linkedin](https:linkedin.com/in/prmadev)
 

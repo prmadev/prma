@@ -12,13 +12,20 @@ timeZone = 'Europe/Berlin'
 tag = "tags"
 category = "categories"
 audience = "audiences"
+
 [params]
 AuthorName = 'Perma'
 GitHubUser = 'prmadev'
 Subtitle = 'something good'
+icon = '/android-chrome-512x512.png'
+favicon = '/favicon.ico'
 showFullTextinJSONFeed = true
 author.email = 'prma.dev@protonmail.com'
 author.name = 'Perma'
+author.url = 'https://prma.dev/'
+author.avatar= '/images/me.png'
+description ='Personal Blog of Perma'  
+
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -26,7 +33,7 @@ author.name = 'Perma'
   weight = 10
 [[menu.main]]
   name = 'posts'
-  pageref = '/posts'
+  pageRef = '/posts'
   weight = 20
 
 
@@ -37,7 +44,7 @@ author.name = 'Perma'
     anchorLineNos = true
     codeFences = true
     guessSyntax = false
-    hl_Lines = ''
+    hl_lines = ''
     hl_inline = false
     lineAnchors = ''
     lineNoStart = 0

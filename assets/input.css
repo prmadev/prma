@@ -2,45 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.sunrise::before {
-  display: contents;
-  content: "⍜";
-}
-
-.sunrise:hover::before {
-  display: contents;
-  content: "⍛";
-}
-
-.person::before {
-  display: contents;
-  content: "⚇ ";
-}
-
-.language::before {
-  display: contents;
-  content: "⨟ ";
-  font-weight: bold;
-}
-
-.person,
-.language {
-  text-decoration: underline dotted black 0.1rem;
-  text-underline-offset: 0.5rem;
-}
-
-.sun:hover::before {
-  display: contents;
-  content: "◉";
-  padding-right: 10px;
-}
-
-.sun::before {
-  display: contents;
-  content: "○";
-  padding-right: 10px;
-}
-
 @layer components {
   .underlined {
     @apply underline underline-offset-2 decoration-2 hover:decoration-4 hover:underline-offset-4 transition-all;
@@ -48,6 +9,22 @@
 
   .card {
     @apply shadow hover:shadow-xl transition-all;
+  }
+
+  .hhp {
+    @apply break-words text-9xl max-sm:text-4xl bg-black text-white font-black;
+  }
+
+  .proser {
+    @apply prose prose-2xl prose-stone prose-code:prose-pre:invert prose-code:text-2xl prose-a:underlined max-sm:prose-h1:text-4xl max-sm:prose-h2:text-3xl max-sm:prose-h3:text-2xl max-sm:prose-h4:text-xl max-sm:prose-h5:text-lg;
+  }
+
+  .language {
+    @apply before:content-['⨟'] before:pr-1 underline decoration-dotted;
+  }
+
+  .person {
+    @apply before:content-['⚇'] before:pr-1 underline decoration-dotted;
   }
 
 }

@@ -11,6 +11,10 @@
     "URL": "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
     "Abbr": "JS"
   },
+  "NodeJS": {
+    "URL": "https://nodejs.org/en",
+    "Abbr": ""
+  },
   "HTML": {
     "URL": "https://html.spec.whatwg.org/",
     "Abbr": "Hyper-Text Markup Language"

@@ -3,9 +3,9 @@ module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
     colors: {
-      // 'black': 'black',
-      // 'white': 'white',
-      // 'gray': 'gray',
+      'black': 'black',
+      'white': 'white',
+      'gray': 'gray',
     },
     extend: {},
     fontFamily: {

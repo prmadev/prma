@@ -23,16 +23,28 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": {{ $title | jsonify }},
     "home_page_url": {{ .Permalink | jsonify }},
+    "description": {{ .Site.Params.description | jsonify }},
+    "language": {{ "en"  | jsonify }},
     {{- with  .OutputFormats.Get "jsonfeed" }}
     "feed_url": {{ .Permalink | jsonify  }},
     {{- end }}
-    {{- if (or .Site.Params.author .Site.Params.author_url) }}
+    {{- if .Site.Params.icon  }}
+    "icon": {{ fmt.Printf "%s%s" .Permalink .Site.Params.icon | jsonify }},
+    {{- end }}
+    {{- if .Site.Params.favicon  }}
+    "favicon": {{ fmt.Printf "%s%s" .Permalink .Site.Params.favicon | jsonify }},
+    {{- end }}
+
+    {{- if .Site.Params.author.name  }}
     "authors": [{
-      {{- if .Site.Params.author }}
-        "name": {{ .Site.Params.author | jsonify }},
+      {{- if .Site.Params.author.name }}
+        "name":{{.Site.Params.author.name | jsonify}}
       {{- end }}
-      {{- if .Site.Params.author_url }}
-        "url": {{ .Site.Params.author_url | jsonify }}
+      {{- if .Site.Params.author.url }}
+        ,"url":{{.Site.Params.author.url | jsonify}}
+      {{- end }}
+      {{- if .Site.Params.author.avatar }}
+        ,"avatar":{{ (fmt.Printf "%s%s" .Permalink .Site.Params.author.avatar) | jsonify }}
       {{- end }}
     }],
     {{- end }}

@@ -1,11 +1,11 @@
 <html lang="en">{{ partial "head-part" . }}
 
-<body class="mx-auto max-w-5xl text-black bg-white my-14">
+<body class="mx-auto max-w-5xl my-14">
   <article class="h-entry m-10">
     {{ block "header" . }}
     <header class="mt-40 mb-32">
-      <h1 t class=" p-name break-words text-9xl bg-black  text-white max-sm:text-4xl font-black hhp">
-        <a href="{{.Permalink}}" class="page-link  u-url">{{.Title}}</a>
+      <h1 t class="p-name hhp">
+        <a href="{{.Permalink}}" class="page-line u-url">{{ .Title }}</a>
       </h1>
     </header>
     {{ end }}

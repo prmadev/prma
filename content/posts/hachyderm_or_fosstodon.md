@@ -51,7 +51,7 @@ curl 'https://hachyderm.io/api/v1/timelines/tag/container?&limit=1000' | jq '.[]
 ```
 
 And then, I had to filter out results that were not from Hachyderm or Fosstodon. And Sort each
-For filtering `awk` was perfect, and then for sorting the `sort` command is good enough.
+For filtering {{<lang `awk`>}} was perfect, and then for sorting the `sort` command is good enough.
 
 ```shell
 awk '/fosstodon|hachyderm/ {print $0}' hash.json | sort > res-ops
@@ -81,7 +81,7 @@ I ended up with these words on differnt sides:
 | Admin      | Library                              |
 | Server     | DesignPatterns                       |
 | _          | LSP                                  |
-| _          | <span class="language">NodeJS</span> |
+| _          | {{<lang `NodeJS`>}} |
 | _          | {{<lang `Rust`>}}                    |
 | _          | Auth                                 |
 
@@ -152,6 +152,7 @@ On the development queries we have `49` results from Fosstodon and `24` results 
 Fosstodon ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 Hachyderm ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
+
 
 That seems like an staggering differece.&nbsp;[^fn:1]
 
