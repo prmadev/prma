@@ -282,11 +282,18 @@
   ],
   "Misc": [
     {
+      "name": "Monaspace",
+      "url": "https://monaspace.githubnext.com/",
+      "application": "TypeFace",
+      "as_fall_back": false,
+      "notes": "Excellent superfamily of fonts. I mainly use Argon for non-italic, and Radon for the italic text."
+    },
+    {
       "name": "Lotion",
       "url": "https://font.nina.coffee/",
       "application": "TypeFace",
-      "as_fall_back": false,
-      "notes": ""
+      "as_fall_back": true,
+      "notes": "Works great. But a bit limiting."
     },
     {
       "name": "Maple mono",
