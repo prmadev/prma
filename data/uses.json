@@ -201,10 +201,18 @@
       "notes": "This blog is made powered by Hugo."
     },
     {
+      "name": "Migadu",
+      "url": "https://migadu.com/",
+      "application": "Email",
+      "as_fall_back": false,
+      "platform": "*",
+      "notes": "This is probably the best service for email, if you have a domain name for it."
+    },
+    {
       "name": "ProtonMail",
       "url": "https://proton.me/",
       "application": "Email",
-      "as_fall_back": false,
+      "as_fall_back": true,
       "platform": "*",
       "notes": ""
     },

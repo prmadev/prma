@@ -43,6 +43,7 @@ Furthermore, I crave a steady stream of thoughtful and sincere content. To achie
 I discovered another low-hanging fruit on my path towards a more fulfilling online experience-a social website optimized for community rather than being driven solely by journalists. This gem came in the form of Mastodon.
 
 In my quest for a trustworthy email service that respects my privacy and shields me from the relentless influx of spammers, I received a recommendation for ProtonMail. Taking heed of the suggestion, I made the switch and, so far, I find it to be a satisfactory choice.
+{{<update "I am using Migadu these days." 2023-11-14>}}
 
 You may have noticed that out of the four aforementioned solutions, three are paid services. Additionally, two of them are closed-sourced, while one-the email service-poses the risk of vendor lock-in. Although this may not be the ideal scenario, I weighed my options against a set of criteria that I had established. In the end, these choices emerged as the better alternatives, despite their limitations.
 
