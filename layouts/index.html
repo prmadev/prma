@@ -11,9 +11,7 @@
         <a class="text-xl font-bold p-2" href="/posts/feed.json">JSONFeed</a>
       </div>
     </hgroup>
-    <ul>
-      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
-    </ul>
+    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
   </section>
   <section class="p-feed my-20 mx-5">
     <hgroup class="my-16 flex justify-between">
@@ -23,9 +21,7 @@
         <a class="text-xl font-bold p-2" href="/daily/feed.json">JSONFeed</a>
       </div>
     </hgroup>
-    <ul>
-      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
-    </ul>
+    {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
   </section>
   {{ block "footer" . }}
   {{ partial "footer-simple" . }}
