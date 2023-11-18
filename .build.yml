@@ -17,6 +17,6 @@ tasks:
         hugo
     - package: |
         cd prmadev
-        tar -cvz ./public > ../site.tar.gz
+        tar  -C public -cvz > ../site.tar.gz
     - upload: |
         hut pages publish -d $site site.tar.gz
