@@ -6,6 +6,7 @@ packages:
    - nixpkgs.hut
    - nixpkgs.hugo
    - nixpkgs.tailwindcss
+   - nixpkgs.gnumake
 environment:
   site: prma.dev
 tasks:
