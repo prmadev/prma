@@ -36,7 +36,7 @@ Seeking insight, she turns to Tom, an exceptional {{<lang `CTO`>}} she's acquain
 
 Sarah, now even more puzzled than before, directs her confusion towards Tom, questioning whether he's in the process of recruiting {{<lang `Elm`>}} developers. Once again, Tom's response is resolute: "Absolutely not! Where could I possibly locate a pool of {{<lang `Elm`>}}-savvy developers? However, we're actively seeking out {{<lang `JavaScript`>}} experts!" (once more, a language name sufficiently distanced from any existing real-world instances).
 
-After a brief moment of contemplation, Sarah bursts out, <q cite="sarah"> What about me?</q>
+After a brief moment of contemplation, Sarah bursts out, <q> What about me?</q>
 
 Tom responds with a shake of his head, stating, "Oh, that wouldn't work. You see, for any given application, we require a team of 20 individuals to consistently handle maintenance and bug fixes. Where on earth would we come across 20 {{<lang `Elm`>}} developers?"
 
@@ -64,7 +64,7 @@ So, why did they all fall short of enhancing their own lives and the lives of ot
 
 I must admit, I'm uncertain. The nuclear arsenal continues to expand, even though the era of the Cold War has long passed. Thankfully, our world hasn't been ravaged by nuclear conflict. Rather, it's the interplay of mutually assured destruction and the realization by the leaders of those two nations that not embracing an alternative risk could lead to dire consequences. This, at least, has placed us in a relatively improved state.
 
-Simultaneously, we find ourselves grappling with {{< pers `Garrett Hardin` >}}'s preoccupation -- the persistent challenges of overpopulation and looming environmental catastrophes. Evidently, the far-reaching peril of not embracing an alternative is of such extended duration that it transcends the immediate concerns of the very generation opting against alternatives. The burden of their choices is instead borne by their descendants: <q cite="Current Generation">Fuck those brats.</q>
+Simultaneously, we find ourselves grappling with {{< pers `Garrett Hardin` >}}'s preoccupation -- the persistent challenges of overpopulation and looming environmental catastrophes. Evidently, the far-reaching peril of not embracing an alternative is of such extended duration that it transcends the immediate concerns of the very generation opting against alternatives. The burden of their choices is instead borne by their descendants: <q>Fuck those brats.</q>
 
 In the world of software, the tempo is notably faster, the stakes less dire compared to earlier circumstances, and the individuals engaged are often more honest than politicians and notably smarter than the average voter.
 
@@ -76,4 +76,4 @@ of ritualistic maneuvers. It's a more daunting challenge. Just as
 
 ## Dear Reader {#dear-reader}
 
-I know! The gastly claim of <q cite="me">to improve developer experience we first should grow an ethical sense</q>, seems absurd. Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it.
+I know! The gastly claim of <q>to improve developer experience we first should grow an ethical sense</q>, seems absurd. Yet I see no specifically little amount of gradual change, where at least some one on the whole chain did not bite the bullet and risk it.

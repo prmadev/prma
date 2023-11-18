@@ -8,7 +8,7 @@ draft = false
 slug = "usage-restriction-software-licences"
 +++
 
-Please think twice before saying, <q cite="people">usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.</q>
+Please think twice before saying, <q>usage restriction is good because you might want to prevent someone from using your tool for war, crime, etc.</q>
 
 Like, you know that a poorly enforced license won't deter a person in that situation from using your software, right?
 
