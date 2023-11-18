@@ -7,9 +7,15 @@ packages:
    - nixpkgs.hugo
    - nixpkgs.tailwindcss
    - nixpkgs.gnumake
+   - nixpkgs.lychee
+   - nixpkgs.fd
 environment:
   site: prma.dev
 tasks:
+    - check-links: |
+        cd prmadev
+        hugo
+        lychee $(fd .html public/)
     - publish: |
         cd prmadev
         make publish
