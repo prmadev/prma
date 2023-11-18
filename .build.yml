@@ -9,15 +9,15 @@ packages:
 environment:
   site: prma.dev
 tasks:
-- tailwind-build:
-    cd prmadev
-    tailwindcss --input assets/input.css --output assets/output.css  --minify
-    hugo
-- hugo-build:
-    cd prmadev
-    hugo
-- package: |
-    cd prmadev
-    tar -cvz . > ../site.tar.gz
-- upload: |
-    hut pages publish -d $site site.tar.gz
+    - tailwind-build: |
+        cd prmadev
+        tailwindcss --input assets/input.css --output assets/output.css  --minify
+        hugo
+    - hugo-build: |
+        cd prmadev
+        hugo
+    - package: |
+        cd prmadev
+        tar -cvz . > ../site.tar.gz
+    - upload: |
+        hut pages publish -d $site site.tar.gz
