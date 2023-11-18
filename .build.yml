@@ -10,4 +10,5 @@ environment:
   site: prma.dev
 tasks:
     - publish: |
+        cd prmadev
         make publish
