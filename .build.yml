@@ -1,5 +1,9 @@
 image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
+triggers: 
+  - action: email
+    condition: failure
+    to: logins@prma.dev
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable 
 packages:
