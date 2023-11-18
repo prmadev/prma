@@ -19,7 +19,7 @@ tasks:
     - check-links: |
         cd prmadev
         hugo
-        lychee --accept '200,201,202,203,204,429,500' $(fd .html public/)
+        lychee --accept '200,201,202,203,204,429,500' --verbose --no-progress $(fd .html public/)
     - publish: |
         cd prmadev
         make publish
