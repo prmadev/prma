@@ -1,9 +1,11 @@
 image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
+repositories:
+  nixpkgs: https://nixos.org/channels/nixpkgs-unstable 
 packages:
-- nixpkgs.hut
-- nixpkgs.hugo
-- nixpkgs.tailwindcss
+   - nixpkgs.hut
+   - nixpkgs.hugo
+   - nixpkgs.tailwindcss
 environment:
   site: prma.dev
 tasks:
