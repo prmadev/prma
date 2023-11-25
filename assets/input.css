@@ -43,4 +43,12 @@
     @apply before:content-['EXMPL:'] before:pr-5 before:font-bold before:block flex card p-5;
   }
 
+  abbr {
+    @apply relative underlined cursor-help;
+  }
+
+  abbr[title]:hover::after,
+  abbr[title]:focus::after {
+    @apply content-[attr(title)] absolute left-0 -bottom-10 w-auto whitespace-nowrap bg-black text-white card;
+  }
 }

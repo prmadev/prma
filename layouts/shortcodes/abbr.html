@@ -1,1 +1,3 @@
-{{ $EXPANDED := "Sorry I have not defined this abbreviation. Can you please report this to me with my email?"}}{{ $TITLE := .Get 0 }}{{ range $K, $V :=.Site.Data.abbrevs }}{{ if eq $K $TITLE }}{{ $EXPANDED = $V }}{{ end }}{{ end }}<abbr title="{{ $EXPANDED }}">{{ .Get 0 }}</abbr>
+{{ $EXPANDED := "Sorry I have not defined this abbreviation. Can you please report this to me with my email?"}}{{ $TITLE
+:= .Get 0 }}{{ range $K, $V :=.Site.Data.abbrevs }}{{ if eq $K $TITLE }}{{ $EXPANDED = $V }}{{ end }}{{ end }}<abbr
+  title="{{ $EXPANDED }}" tabindex="0">{{ .Get 0 }}</abbr>
