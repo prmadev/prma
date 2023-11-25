@@ -49,9 +49,25 @@
       "notes": ""
     },
     {
+      "name": "i3status-rust",
+      "url": "https://github.com/greshake/i3status-rust",
+      "application": "Status Bar",
+      "as_fall_back": false,
+      "platform": "Desktop",
+      "notes": "For SwayWM"
+    },
+    {
       "name": "Waybar",
       "url": "https://github.com/Alexays/Waybar",
       "application": "Status Bar",
+      "as_fall_back": true,
+      "platform": "Desktop",
+      "notes": "for RiverWM"
+    },
+    {
+      "name": "SwayWM",
+      "url": "https://swaywm.org/",
+      "application": "Window Manager",
       "as_fall_back": false,
       "platform": "Desktop",
       "notes": ""
@@ -60,9 +76,9 @@
       "name": "RiverWM",
       "url": "https://github.com/riverwm/river",
       "application": "Window Manager",
-      "as_fall_back": false,
+      "as_fall_back": true,
       "platform": "Desktop",
-      "notes": ""
+      "notes": "I love river, but it lacks stability and documentation around working well with systemd."
     },
     {
       "name": "Firefox",
