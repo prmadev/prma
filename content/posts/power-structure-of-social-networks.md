@@ -25,11 +25,9 @@ Basically the idea is that:
 
 Let's make a few different forms of government considering the rule's I just discussed.
 
-<div class="note">
-
-As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, High Natural-Resources and High People-involvement tend to be mutually.
-
-</div>
+<p class="note">
+As dependence on involvement of people only comes when governments want more power and cannot retain the resources necessary from the land, High Natural-Resources and High People-involvement tend to be mutually exclusive.
+</p>
 
 ## High Centrality, High Natural-Resources, Low People-involvement {#high-centrality-high-natural-resources-low-people-involvement}
 
@@ -38,10 +36,9 @@ Let's imagine a dictatorship on a land with rich natural resources. Dictatorship
 The dictator does not have to answer to anyone, and they have all the means necessary to make rapid changes, good or bad. The whole of the nation rise and fall quickly. The civic progression does not accumulate in time and only will be there while the dictator let it to be.
 
 The government does not need people uniting, form a danger to the government. Such authorities are highly motivated to bring social conflict, such as racism. Which may even lead to genocide by members of the society.
-
-```text
-Think of: Middle-east with it's rich natural oil.
-```
+<p class="example">
+Think of Middle-east with it's rich natural oil.
+</p>
 
 ## High Centrality, Low Natural-Resources, Low People-involvement {#high-centrality-low-natural-resources-low-people-involvement}
 
@@ -51,17 +48,17 @@ Such a nation will not flourish. The dictator is extremely constrained in its po
 
 It has no validity among its people. As such it is unsuccessful in enforcing any law, good or bad. Such a nation sees lots and lots of _coup d'états_. The authority is more alike a warlord.
 
-```text
-Think of: Central African nations.
-```
+<p class="example">
+Think of Central African nations.
+</p>
 
 ## High centrality, Low Natural-Resources, High People-involvement {#high-centrality-low-natural-resources-high-people-involvement}
 
 Such a dictatorship, is a highly populist government. The dictator threats people as the main form of resource. Such nations can rise quickly. But before too long, the authority will figure out that he only needs society's approval, but not its growth. And if you need approval, there is no quicker and better way than a common enemy. As such, such nations become too hostile to other nations. And may end-up using genocide as a means of keeping the country united.
 
-```text
-Think of: Germany during the Hitler era.
-```
+<p class="example">
+Think of Germany during the Hitler era.
+</p>
 
 ## Low Centrality, High Natural-Resources, Low People-involvement {#low-centrality-high-natural-resources-low-people-involvement}
 
@@ -71,17 +68,17 @@ Such governments end up becoming extremely rich. But because people are not requ
 
 Such governments nations are subject to low progression in the civic laws, are extremely hard to change, and form strong bonds with few entities. As people are seen as a barrier, government's like this tend to have a lot of controversial and theatrical surfaces, but end-up deciding things behind closed doors.
 
-```text
-Think of: USA during recent years, as it managed to put a huge people's involvement.
-```
+<p class="example">
+Think of USA during recent years, as it managed to put a huge people's involvement.
+</p>
 
 ## Low Centrality, Low Natural-Resources, Low People-involvement {#low-centrality-low-natural-resources-low-people-involvement}
 
 These governments are stable, but irrelevant. They fail to bring order, or protection for their people. And they don't provide any infrastructural benefits the society.
 
-```text
-Think of: Afghanistan Right after USA army left it.
-```
+<p class="example">
+Think of Afghanistan Right after USA army left it.
+</p>
 
 ## Low Centrality, Low Natural-Resources, High People-involvement {#low-centrality-low-natural-resources-high-people-involvement}
 
@@ -89,9 +86,9 @@ This, at least for now, seems to be some what the better of them all, but with s
 
 However, such governments are only weak to adapt to any radical changes, as the changes only happen when the people will it to happen. That means that these societies tend not to be the leaders or experimenters of different sorts of progress. However, they may end up reaching the top of the leader board in time.
 
-```text
-Think of: Germany, today.
-```
+<p class="example">
+Think of Germany, today.
+</p>
 
 ## How does it relate to the Twitter and Fediverse and ...? {#how-does-it-relate-to-the-twitter-and-fediverse-and-dot-dot-dot}
 

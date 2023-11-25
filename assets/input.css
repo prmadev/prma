@@ -27,4 +27,20 @@
     @apply before:content-['⚇'] before:pr-1 underline decoration-dotted;
   }
 
+  .note {
+    @apply before:content-['NOTE:'] before:pr-5 before:font-bold before:block flex card p-5;
+  }
+
+  .warning {
+    @apply before:content-['WARN:'] before:pr-5 before:font-bold before:block flex card p-5;
+  }
+
+  .info {
+    @apply before:content-['INFO:'] before:pr-5 before:font-bold before:block flex card p-5;
+  }
+
+  .example {
+    @apply before:content-['EXMPL:'] before:pr-5 before:font-bold before:block flex card p-5;
+  }
+
 }
