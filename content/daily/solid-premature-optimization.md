@@ -1,5 +1,5 @@
 +++
-title = "solid premature optimization"
+title = "SOLID is a premature optimization"
 author = ["Perma"]
 date = 2023-12-04T14:04:34+03:30 
 tags = ["programming"]
