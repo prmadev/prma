@@ -27,5 +27,7 @@
   "ProtoBuf": "Protocol Buffer",
   "REST": "Representational State Transfer",
   "SOAP": "Simple Object Access Protocol",
+  "SOLID": "Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion",
+  "CUPID": "Composable, Unix philosophy, Predictable, Idiomatic, Domain-based",
   "CD": "Continues Delivery"
 }
