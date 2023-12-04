@@ -23,5 +23,9 @@
   "CFO": "Chief Financial Officer",
   "Lo-Fi": "Low-Fidelty",
   "CI": "Continues Integration",
+  "gRPC": "gRPC Remote Procedure Call",
+  "ProtoBuf": "Protocol Buffer",
+  "REST": "Representational State Transfer",
+  "SOAP": "Simple Object Access Protocol",
   "CD": "Continues Delivery"
 }

@@ -2641,6 +2641,14 @@ abbr[title]:hover::after,
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -2680,6 +2688,11 @@ abbr[title]:hover::after,
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-black {
