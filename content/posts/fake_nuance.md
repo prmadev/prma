@@ -17,10 +17,3 @@ Taking the fool-forever-road is so ingrained in our polite and technical manner 
 
 Be a fool once in a while; it is much better than being one all the time.
 
-On daily basis, I say an aggregious opinion about technology. <q class="text-italic">Apple should abandon Swift altogether and use Rust instead of just dancing around this move.</q> I once said. To the best of my knowledge, that is a fair opinion. If I am fool for thinking this way, I am a fool. If I instead state that all the languages have a good reason for being there and express that Swift is something amazing, just out of the fear of sounding like a fool, I will be a silent fool. But a fool non-the-less. 
-
-At least when my foolishness is expressed, some good samaritan or an offended opposer might give my oppinions some nuance and make me a wiser person than I am. In five years I will be a wiser person, while the person that chooses to sound wise, when they are not, will still be a fool.
-
-Taking the fool-for-ever-road is so in-grained in our polite and technical manner, that it we don't think about it much. A rather obvious example of that is when we say "It depends" as an answer to any technical question. My friend, If you don't know, how to answer the question of "what it depends on" clearly, you are not being nuanced. You are just a fool like the inquirer of the question, and hope that you intuition comes to your rescue, when you are held at gun point for a decision.
-
-Be a fool, once in a while. It is much better than being one, all the time.
