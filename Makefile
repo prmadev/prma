@@ -1,6 +1,5 @@
 twin := assets/input.css
 twout := assets/output.css
-twbuild := tailwindcss --input $(twin) --output $(twout) --minify
 hugobuild := hugo
 public := public
 tarf := site.tar.gz
@@ -19,7 +18,7 @@ rmpublic:
 clean: rmzip rmpublic
 
 twbuild:
-	tailwindcss --input {{twin}} --output $(twout) --minify
+	tailwindcss --input $(twin) --output $(twout) --minify
 
 hugobuild:
 	$(hugobuild)
