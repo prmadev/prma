@@ -21,8 +21,6 @@ Don’t get me wrong. I have a strong sense of guilt. I am a vegan. I help other
 
 I figured that my sense of guilt probably sucks every ounce of pleasure from different activities. That theory seemed shaky, at best.
 
-I figured that my sense of guilt probably suck every ounce of pleasure from different activities. That theory seemed shakey, at best.
-
 
 Then, just an hour ago, it hit me. I have been looking in the wrong place. My two guilty pleasures? Fine coffee and fine audio equipment. It might sound quite strange to feel guilty about these. But consider this: My ethical stance in life is firmly rooted in [Hedonistic Utilitarianism](https://www.utilitarianism.com/hedutil.htm), which basically means to do whatever it takes to bring the most amount of pleasure and the least amount of suffering to the world. For example, the pleasure I take in eating meat does not surpass the suffering it brings to the animals from which the meat came.
 
