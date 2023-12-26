@@ -3,7 +3,7 @@
 {{ partial "head-part" . }}
 
 <body class="container mx-auto max-w-5xl bg-white text-black">
-  <section class="p-feed my-20 mx-5">
+  <section class="p-feed my-40 mx-5">
     <hgroup class="my-16 flex justify-between">
       <h2 class="text-4xl font-black">Long</h2>
       <div class="place-self-center">
@@ -13,7 +13,7 @@
     </hgroup>
     {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "long") }}
   </section>
-  <section class="p-feed my-20 mx-5">
+  <section class="p-feed my-40 mx-5">
     <hgroup class="my-16 flex justify-between">
       <h2 class="text-4xl font-black ">Daily</h2>
       <div class="place-self-center">

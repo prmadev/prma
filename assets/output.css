@@ -2523,6 +2523,11 @@ abbr[title]:hover::after,
   margin-bottom: 1.25rem;
 }
 
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
