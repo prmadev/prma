@@ -1,8 +1,8 @@
 twin := assets/input.css
 twout := assets/output.css
-twbuild := tailwindcss --input $(twin) --output $(twout) --minify 
+twbuild := tailwindcss --input $(twin) --output $(twout) --minify
 hugobuild := hugo
-public := public 
+public := public
 tarf := site.tar.gz
 domain := prma.dev
 browser:= firefox
@@ -19,7 +19,7 @@ rmpublic:
 clean: rmzip rmpublic
 
 twbuild:
-	tailwindcss --input $(twin) --output $(twout) --minify
+	tailwindcss --input {{twin}} --output $(twout) --minify
 
 hugobuild:
 	$(hugobuild)
@@ -30,7 +30,6 @@ hutpublish:
 build: clean twbuild hugobuild
 
 publish: build zip hutpublish clean    
-
 
 runtw: 
 	tailwindcss --input $(twin) --output $(twout) --watch
