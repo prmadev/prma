@@ -31,7 +31,7 @@ build: clean twbuild hugobuild
 publish: build zip hutpublish clean
 
 runtw:
-    tailwindcss --input {{ twin }} --output {{ twout }} --watch
+    tailwindcss --input {{ twin }} --output {{ twout }} --watch --minify
 
 runhugo:
     hugo serve -D --disableFastRender --navigateToChanged
