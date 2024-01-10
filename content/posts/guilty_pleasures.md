@@ -16,7 +16,7 @@ For a long time, I have been wondering about my guilty pleasures, trying to figu
 He argued that the quality of pleasures is much more important than their quantity.
 Listening to [Bach](/person/bach), even if it brings little joy to someone, would always trump the manic joy of attending a [Britney Spears](/person/britney_spears) concert.
 
-However, as it happens, I am not a Millian. I find that argument bogus. I don’t feel any shame about listening to the cheesiest ’80s music and then complimenting that with {{<pers `Mozart`>}}’s Requiem.
+However, as it happens, I am not a Millian. I find that argument bogus. I don’t feel any shame about listening to the cheesiest ’80s music and then complimenting that with [Mozart](/person/mozart)’s Requiem.
 
 Don’t get me wrong. I have a strong sense of guilt. I am a vegan. I help others when I can. And I regularly make life-changing decisions that may not favor my well-being but end up benefiting others. I just have not found many places in my life where guilt and pleasure co-exist.
 
