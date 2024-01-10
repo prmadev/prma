@@ -36,19 +36,19 @@ I won't delve into the specifics of these misfortunes, although those in my soci
 
 However, I can share that I've achieved several noteworthy milestones during this time span: acquiring programming skills, entering the workforce, entering marriage, and most recently, opting to unofficially change my name.
 
-Formally, I remain {{< pers `Amirhossein` >}}, and I'm content should anyone choose to continue addressing me as such-I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.
+Formally, I remain _Amirhossein_, and I'm content should anyone choose to continue addressing me as such-I hold no animosity toward it. Nevertheless, it inadequately captures the depth of my identity.
 
-## {{< pers `Amirhossein` >}} and {{< pers `Perma` >}} {#bb76b9}
+## Amirhossein and Perma {#bb76b9}
 
 The name Amirhossein is a composite of two Arabic names, Amir and Hossein, both of which carry two meanings. As for the firsts of these meanings, Amir translates to "prince," while Hossein signifies "Good-junior." The amalgamation results in the interpretation of "Junior Good Prince."
 
 However, I find myself at a loss when attempting to establish a personal connection with any aspect of this interpretation of this name. This brings us to its secondary and perhaps more intended connotation.
 
-In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "{{<dfn `Imam`>}}". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title "{{< pers `Amir-al-momenin` >}}," or the "prince of the faithful," commonly abbreviated as Amir. The third Imam, the second son of the first, was named {{< pers `Hossein` >}}. Both individuals deviate significantly from pacifism.
+In Shia Islam, there exists a concept akin to Christianity's sainthood, known as "{{<dfn `Imam`>}}". However, these Imams are asserted to be leaders of the Islamic community. The first of these figures holds the title _Amir-al-momenin_, or the "prince of the faithful", commonly abbreviated as Amir. The third Imam, the second son of the first, was named _Hossein_ . Both individuals deviate significantly from pacifism.
 
 While these historical and linguistic connections hold merit, I must underscore a significant twist: since the age of 15, I have consciously disavowed Islam and theism in their entirety.
 
-I find "{{< pers `Perma` >}}" to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life. It closely aligns with the ethos underpinning this blog. I'm captivated by the philosophy of the _PermaCulture_ and _PermaComputing_ movements-albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence. Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in _utilitarian_ aspirations.
+I find "[Perma](/about)" to be a more fitting option, resonating more harmoniously with my ears. Moreover, it aligns with certain themes and passions that hold significance in my life. It closely aligns with the ethos underpinning this blog. I'm captivated by the philosophy of the _PermaCulture_ and _PermaComputing_ movements-albeit not necessarily their current implementations. My fascination lies in harmonizing with the world rather than coercing it to conform to my presence. Moreover, the notion of leaving a lasting imprint on the world holds a special allure for me. However, this yearning leans more toward the aesthetic realm rather than being rooted in _utilitarian_ aspirations.
 
 ## Dear Reader {#dear-reader}
 
@@ -56,4 +56,4 @@ If you've known me previously, you might have observed my recent shifts in usern
 
 However, this change isn't indicative of a complete unveiling of my authentic self. Thus, referring to me by my previous name isn't as insensitive as the act of deadnaming. Rather, this transition signifies the inception of a renewed chapter, one marked by heightened purpose and intention.
 
-While I do prefer and hope for the usage of "{{< pers `Perma` >}}" moving forward, I'm entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.
+While I do prefer and hope for the usage of _Perma_ moving forward, I'm entirely at ease if you choose otherwise. Your decision in this regard is genuinely respected.
