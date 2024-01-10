@@ -8,7 +8,7 @@ slug = "only-ship-correct-software"
 There is a famous quote in software development scene.
 
 > Make it work, Make it right, Make it fast.
-> -- {{< pers `Kent Beck` >}}
+> -- [Kent Beck](/person/kent_beck)
 
 I'm not sure what the original author has meant by saying this.
 I am, however, worried that some software engineers take this to be: "Ship what works. Ship what is right. Ship what is fast."
