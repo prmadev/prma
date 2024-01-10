@@ -9,7 +9,7 @@ description = ""
 slug = "guilty_pleasures"
 +++
 
-For a long time, I have been wondering about my guilty pleasures, trying to figure out which pleasure, in particular, I feel guilty about. I think about other people’s answers, looking for things one does not need much practice to enjoy—‘satisfactions of pigs,’ as {{<pers `John Stuart Mill`>}} would have put it. He famously wrote:
+For a long time, I have been wondering about my guilty pleasures, trying to figure out which pleasure, in particular, I feel guilty about. I think about other people’s answers, looking for things one does not need much practice to enjoy—‘satisfactions of pigs’, as [John Stuart Mill](/person/john_stuart_mill) would have put it. He famously wrote:
 
 > It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.
 
