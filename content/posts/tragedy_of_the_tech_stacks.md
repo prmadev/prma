@@ -8,7 +8,6 @@ draft = false
 slug = "tragedy_of_the_tech_stacks"
 +++
 
-## Intro {#intro}
 
 Back in 1958, there was this thinker named {{< pers `Garrett Hardin` >}} who kicked off his well-known piece titled "The Tragedy of the Commons" in the following way:
 
