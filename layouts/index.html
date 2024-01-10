@@ -22,10 +22,19 @@
       </div>
     </hgroup>
     {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "daily") }}
-  </section>
-  {{ block "footer" . }}
-  {{ partial "footer-simple" . }}
-  {{end}}
+    <section class="p-feed my-40 mx-5">
+      <hgroup class="my-16 flex justify-between">
+        <h2 class="text-4xl font-black ">Recommendations</h2>
+        <div class="place-self-center">
+          <a class="text-xl font-bold p-2" href="/recommendations/index.xml">ATOM</a>
+          <a class="text-xl font-bold p-2" href="/recommendations/feed.json">JSONFeed</a>
+        </div>
+      </hgroup>
+      {{ partial "categorylisting" (.Site.Taxonomies.categories.Get "recommendations") }}
+    </section>
+    {{ block "footer" . }}
+    {{ partial "footer-simple" . }}
+    {{end}}
 </body>
 
 </html>
