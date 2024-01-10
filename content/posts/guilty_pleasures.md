@@ -13,7 +13,8 @@ For a long time, I have been wondering about my guilty pleasures, trying to figu
 
 > It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.
 
-He argued that the quality of pleasures is much more important than their quantity. Listening to {{<pers `Bach`>}}, even if it brings little joy to someone, would always trump the manic joy of attending a [Britney Spears](/person/britney_spears) concert.
+He argued that the quality of pleasures is much more important than their quantity.
+Listening to [Bach](/person/bach), even if it brings little joy to someone, would always trump the manic joy of attending a [Britney Spears](/person/britney_spears) concert.
 
 However, as it happens, I am not a Millian. I find that argument bogus. I don’t feel any shame about listening to the cheesiest ’80s music and then complimenting that with {{<pers `Mozart`>}}’s Requiem.
 
