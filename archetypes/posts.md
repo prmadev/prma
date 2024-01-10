@@ -9,5 +9,3 @@ description = ""
 slug = "{{ .File.ContentBaseName }}"
 +++
 
-## Intro {#intro}
-
