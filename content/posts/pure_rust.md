@@ -347,7 +347,7 @@ There is this often repeated old joke that says:
 > 1. Cache invalidation
 > 2. Naming things
 >
-> -- {{< pers `Phil Karlton` >}}
+> -- [Phil Karlton](/person/phil_karlton)
 
 And here we are concerned with the second one.
 
