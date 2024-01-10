@@ -24,7 +24,7 @@ Even the search engines, once a source of discovery and connection, began to fal
 
 As the landscape transformed, I gradually came to terms with the nostalgic allure of those bygone days, realizing that it had become a remnant of the lost innocence of the early internet or clouded by my own flawed perception of what truly transpired.
 
-The sense of desperation that had gripped me started to crumble when {{< pers `Elon Musk` >}}'s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
+The sense of desperation that had gripped me started to crumble when [Elon Musk](/person/elon_musk)'s actions on Twitter triggered a disillusionment, pushing me to reconsider Fosstodon-an open-source social platform. And oh, what a fortuitous decision that turned out to be. It was as if I had stumbled upon the early days of FriendFeed, where genuine exchange of information thrived, embodying the very essence of the social web I yearned for.
 
 But a part of me questioned this fortunate discovery. Could it merely be a chance occurrence, a fluke in the otherwise distorted realm of human-generated nonsense? I grappled with doubts.
 
